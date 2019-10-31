@@ -1,0 +1,436 @@
+body {
+		margin: 0;	
+		color: #3D4849;
+}
+
+
+.section-break-5 {
+  background-color: transparent;
+  border: 0;
+  border-top: 1px solid lightgrey;
+  display: block;
+  height: 0;
+  margin: 3rem auto 3rem;
+  text-align: center;
+  width: 50%;
+}
+
+header {
+	
+	background-color: black;
+	color: white;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom: solid 4px #718E5A;
+}
+
+header h2 {
+	font-family: 'Source Serif Pro', serif;
+	font-weight: 700;
+	font-size: 30px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	color: #EDE9C7;
+	margin:0;
+}
+
+header nav {
+	margin-top: 10px;
+}
+
+header ul li {
+	display: inline-block;
+	padding-left: 5px;
+	padding-right:5px;
+	font-size: 15px;
+	color: #EDE9C7;
+}
+
+
+header ul li:nth-child(1), 
+header ul li:nth-child(2) {
+font-family: 'Source Serif Pro', serif;
+}
+
+header ul li:nth-child(3) {
+font-family: 'Source Serif Pro', serif;
+font-weight: 700;
+}
+
+
+a {
+	text-decoration: none;
+	color: black;
+	background-color: beige;
+	font-weight: 400i;
+
+}
+
+
+
+
+a:hover {
+	text-decoration: none;
+	color: white;
+	background: #718E5A;
+	
+}
+
+a:active {
+	text-decoration: none;
+	color: white;
+	background: #3D200F;
+	
+}
+
+a:vistited {
+	text-decoration: none;
+	color: #3D200F;
+	/*background: 718E5A;*/
+	
+}
+
+.main-header h1 {
+	font-family: 'Source Serif Pro', serif;
+	font-weight: 700;
+	font-size: 50px;
+	padding-top: 150px;
+	padding-bottom: 50px;
+	
+}
+
+.main-header p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	padding-bottom: 50px;
+	/*font-style: 'light;*/
+	padding-top: 25px;
+	padding-bottom: 25px;
+	
+	
+}
+
+.byLine p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	padding-bottom: 50px;
+	padding-top: 15px;
+	padding-bottom: 50px;
+	
+	
+}
+	
+	
+
+
+h2  {
+	font-family: 'Source Serif Pro', serif;
+	font-weight: 400;
+	padding-top: 50px;
+	padding-bottom: 25px;
+	
+}
+#section1  p  {
+
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	padding-bottom: 50px;
+	/*font-style: 'light;*/
+	padding-top: 25px;
+	padding-bottom: 25px;
+	
+}
+
+#cookDefaced  p  {
+
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	padding-bottom: 50px;
+	/*font-style: 'light;*/
+	padding-top: 25px;
+	padding-bottom: 25px;
+	
+}
+
+
+.instructions  {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	/*padding-bottom: 50px;*/
+	font-style: italic;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	
+	
+}
+
+
+.overlay_image    {
+	object-fit: cover; /* Do not scale the image */
+	object-position: center; /* Center the image within the element */
+	width: 100%;
+	max-height: 340px;
+	/*margin-bottom: 1rem;*/
+	
+}
+
+/*.overlay {
+  position: relative;
+  width: 50%;
+}*/
+
+.overlay {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  background-color: #3D200F;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.overlay:hover .overlay_image {
+  opacity: 0.3;
+  background-color: #718E5A;
+
+}
+
+.overlay:hover .middle {
+  opacity: 1;
+  /*background-color: #718E5A;*/
+}
+
+.hovertext {
+  /*background-color: #4CAF50;*/
+  color: white;
+  font-size: 15px;
+  /*padding: 16px 32px;*/
+  font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+
+}
+
+ 
+
+#periodExplainer  p{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	padding-bottom: 50px;
+	/*font-style: 'light;*/
+	padding-top: 25px;
+	padding-bottom: 25px;
+
+}
+
+
+#hist {
+  display: flex;
+  flex-direction: row-reverse;
+  position: absolute;
+  width: 400px;
+  height: 200px;
+  
+  
+}
+
+.group {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  width: 100px;
+  margin: 20px;
+}
+
+.block {
+  width: 10px;
+  height:10px;
+  background-color: #fe4a49;
+  border: 1px solid white;
+}
+
+.label {
+  
+  text-align:  left;
+  padding-bottom: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+  /*font-size: 12px;*/
+
+}
+
+
+#periodDropDown {
+	padding-bottom: 20px;
+	
+}
+
+
+
+
+#periodDropDown select {
+  padding: 5px;
+  width: 250px;
+  border: none;
+  font-size: 15px;
+  -webkit-appearance: button;
+  appearance: button;
+  outline: none;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+#periodDropDown::before {
+  /*content: "\f13a";
+  font-family: FontAwesome;*/
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20%;
+  height: 100%;
+  text-align: center;
+  font-size: 28px;
+  line-height: 45px;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.1);
+  pointer-events: none;
+}
+
+#periodDropDown:hover::before {
+  color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+#periodDropDown select option {
+  padding: 30px;
+
+}
+
+#periodTable p {
+font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	padding-bottom: 50px;
+	/*font-style: 'light;*/
+	padding-top: 25px;
+	padding-bottom: 25px;
+
+}
+
+
+table {
+font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	padding-bottom: 50px;
+	/*font-style: 'light;*/
+	padding-top: 25px;
+	padding-bottom: 25px;
+
+}
+
+#monumentDotPlot p{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	padding-bottom: 50px;
+	/*font-style: 'light;*/
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+
+#ArcIntro p{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	padding-bottom: 50px;
+	/*font-style: 'light;*/
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+
+#barStackIntro p{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	padding-bottom: 50px;
+	/*font-style: 'light;*/
+	padding-top: 25px;
+	padding-bottom: 25px;
+
+}
+/*
+#arcPlot {
+	background-color: red;
+	position: absolute;
+	width:1500px;
+	height: 700px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	
+
+
+}
+*/
+
+.chartContainer {
+	position: relative;
+	height: 
+
+}
+
+.chartSVGConatiner {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width:100%;
+	height: 100%;
+
+}
+
+
+
+#stackedBar {
+
+position: absolute;
+/*width: 1500px;
+height: 700px;
+padding-top: 20px;*/
+padding-bottom: 200px;
+
+}
+
+
+
+
+/*/*#backgroundImage {
+	background-image: url(../img/colonialBack.jpg);
+	background-position: right;
+	object-fit: cover;  
+	object-position: left; 
+	width: 100%;
+	max-height: 340px;
+	opacity: .5;
+}*/
+
+
+
+
+
+
