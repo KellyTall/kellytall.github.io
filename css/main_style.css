@@ -1,0 +1,84 @@
+body {
+	font-family: 'Nunito Sans', sans-serif;
+	margin: 0;
+}
+
+
+
+header {
+	
+	background-color: black;
+	color: white;
+	padding-top: 5px;
+	/*padding-bottom: 5px;*/
+}
+
+
+h2 {
+	font-weight: 400;
+	font-size: 20px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+
+}
+
+ul {
+	margin: 0;
+}
+
+ul li {
+	display: inline-block;
+	font-weight: 300;
+	padding-left: 5px;
+	padding-right:5px;
+	font-size: 15px;
+	margin-bottom: 10px;
+
+}
+
+#HMTitle {
+	padding-top: 80px;
+	padding-bottom: 60px;
+}
+
+h1 {
+	font-weight: 700;
+}
+
+
+#navigation_section {
+	padding-top: 40px;
+	padding-bottom: 40px;
+
+}
+
+.storiesBox {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: black;
+	color: white;
+	width: 220px;
+	height: 220px;
+}
+
+
+#tempMessage {
+	padding-top: 40px;
+	padding-bottom: 40px;
+
+}
+
+h3 {
+	padding-top: 40px;
+}
+
+footer {
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+
+footer p {
+	font-weight: 300;
+	font-size: 12px; 
+	color: darkgrey;
+}
