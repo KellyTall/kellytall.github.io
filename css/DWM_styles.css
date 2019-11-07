@@ -15,6 +15,9 @@ body {
   width: 50%;
 }
 
+
+
+
 header {
 	
 	background-color: black;
@@ -32,6 +35,7 @@ header h2 {
 	padding-bottom: 7px;
 	color: #EDE9C7;
 	margin:0;
+	text-decoration: none;
 }
 
 header nav {
@@ -44,6 +48,7 @@ header ul li {
 	padding-right:5px;
 	font-size: 15px;
 	color: #EDE9C7;
+	text-decoration: none;
 }
 
 
