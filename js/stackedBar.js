@@ -21,7 +21,7 @@ var svg2 = d3.select("#stackedBar")
   // List of subgroups = header of the csv files = historical groups here
   
   var subgroups = data.columns.slice(1)
-    console.log(subgroups);
+    // console.log(subgroups);
   
   // List of groups 
   

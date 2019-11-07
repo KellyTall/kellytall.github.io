@@ -36,7 +36,7 @@ var nest = d3
   .key(d => d.group)
   .entries(data.links);
 
-console.log(nest);  
+// console.log(nest);  
 
 
 

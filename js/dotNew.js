@@ -15,8 +15,8 @@ var nest = d3
   .key(d => d.group)
   .entries(data);
 
-  console.log(data);
-  console.log(nest);
+  // console.log(data);
+  // console.log(nest);
 
 var scaleColor = d3.scaleOrdinal ()
       .range(['#319D89', '#CD9C05', '#3D200F'])  
