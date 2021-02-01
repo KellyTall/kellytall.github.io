@@ -654,6 +654,29 @@ border-bottom: solid 2px var(--dark_green);
     pointer-events: none;
 }
 
+/*wiki bar gender breakdown*/
+
+.wiki_bar_gender {
+  /*background-color: var(--gold); */
+    height: 658px;
+
+}
+
+.wiki_bar_gender rect.gender_wiki_bar {
+    fill: var(--dark_green);
+    opacity: 1;
+}
+
+
+rect.gender_wiki_bar:hover{
+  opacity:.8;
+}
+
+/*.wiki_bar_gender {
+  position: relative;
+}
+*/
+
 /*scatter chart*/
 
 .scatter_holder {

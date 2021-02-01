@@ -12,7 +12,7 @@ async function drawWikiBars () {
 
 	})
 
-	console.log(dataset_bar_wiki)
+	// console.log(dataset_bar_wiki)
 
 
 
