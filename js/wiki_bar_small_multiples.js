@@ -18,7 +18,7 @@ async function drawWikiBars () {
 
 	})
 
-	console.log(dataset_bar_wiki_gender)
+	// console.log(dataset_bar_wiki_gender)
 
 // 	const margin = ({top: 30, right: 0, bottom: 10, left: 30})
 
@@ -47,7 +47,7 @@ async function drawWikiBars () {
   		.key(d =>  d.honour)
   		.entries(dataset_bar_wiki_gender)
 
-  	console.log(nestData)	
+  	// console.log(nestData)	
 
 //getting key for headers  		
 
