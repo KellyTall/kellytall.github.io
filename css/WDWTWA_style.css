@@ -557,7 +557,7 @@ border-bottom: solid 2px var(--dark_green);
 
 
 
-.xAxis text, .yAxis text{
+.xAxis text, .yAxis text, .xAxis_small text{
   fill: var(--dark_green);
   font-family: 'Crimson Text';
   font-size: 12px;
@@ -567,6 +567,14 @@ border-bottom: solid 2px var(--dark_green);
   stroke:  var(--dark_green);
   
 } 
+
+
+.yAxis_small text{
+  fill: var(--dark_green);
+  font-family: 'Crimson Text';
+  font-size: 10px;
+}
+
 
 
 .gender_bar_wrapper rect{
@@ -670,6 +678,14 @@ border-bottom: solid 2px var(--dark_green);
 
 rect.gender_wiki_bar:hover{
   opacity:.8;
+}
+
+text.heading {
+  font-family: 'Rosario';
+  fill: var(--dark_green);
+  text-transform: uppercase;
+  font-size: 14px;
+
 }
 
 /*.wiki_bar_gender {

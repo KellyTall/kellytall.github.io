@@ -24,14 +24,16 @@ const yAccessor = d => d.prop
 //set dimensions
 
 let dimensions = {
-		width: window.innerWidth * 0.4,
-		height: 600,
+		width: 500,
+		height: 500,
 		margin: {
 				top: 20,
 				right: 20,
 				bottom: 40,
 				left: 80,},
 		}
+
+
 
 dimensions.boundedWidth = dimensions.width
      - dimensions.margin.left

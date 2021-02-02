@@ -54,7 +54,7 @@ async function drawWikiBars () {
   	const key = nestData.map(d => d.key)
 
 
-  	const margin = ({top: 30, right: 0, bottom: 10, left: 30})
+  	const margin = ({top: 30, right: 0, bottom: 5, left: 30})
 
 	const width = 250
 	const height = 250
@@ -81,7 +81,7 @@ const xScale = d3.scaleBand	()
 
 
 const yScale = d3.scaleLinear()
-	.domain(yAccessor)
+	.domain([0,1])
 	.range([height, margin.top])
 	
 
@@ -98,7 +98,7 @@ const xAxis = d3.axisBottom()
             svg	
             .append("g")
             .call(xAxis)
-            .attr("class", "xAxis")
+            .attr("class", "xAxis_small")
             .attr("transform", `translate(0,${height})`) 
 
 
@@ -108,7 +108,7 @@ const yAxis = d3.axisLeft()
 			
 	svg
           .append("g")
-          .attr("class", "yAxis")
+          .attr("class", "yAxis_small")
           .attr("transform", `translate(${margin.left},0)`)   
           .call(yAxis)	
            
