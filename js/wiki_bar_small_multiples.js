@@ -12,7 +12,8 @@ async function drawWikiBars () {
 		total_honour: +d.total,
 		total_gender: +d.gender_total,
 		prop_gender: +d.prop,
-		gender: d.gender
+		gender: d.gender,
+		page: +d.page
 
 }
 
@@ -54,10 +55,31 @@ async function drawWikiBars () {
   	const key = nestData.map(d => d.key)
 
 
-  	const margin = ({top: 30, right: 0, bottom: 5, left: 30})
+ //  	const margin = ({top: 30, right: 0, bottom: 5, left: 30})
 
-	const width = 250
-	const height = 250
+	// const width = 250
+	// const height = 250
+
+
+	let dimensions = {
+		width: window.innerWidth * 0.2,
+		height: 500/2,
+		margin: {
+				top: 20,
+				right: 20,
+				bottom: 30,
+				left: 40,},
+		}
+
+
+
+dimensions.boundedWidth = dimensions.width
+     - dimensions.margin.left
+     - dimensions.margin.right
+   dimensions.boundedHeight = dimensions.height
+     - dimensions.margin.top
+     - dimensions.margin.bottom
+
 
 
 	 const svg = d3.select(".wiki_bar_gender")
@@ -65,8 +87,8 @@ async function drawWikiBars () {
 		  	.data(nestData)
 		  		.enter()
 		  		.append("svg")
-		  		.attr("width", width + margin.left + margin.right)
-		  		.attr("height", height+ margin.top + margin.bottom)
+		  		.attr("width",dimensions.boundedWidth +  dimensions.margin.left + dimensions.margin.right)
+		  		.attr("height",dimensions.boundedHeight+ dimensions.margin.top + dimensions.margin.bottom)
 
 
 			
@@ -75,14 +97,14 @@ async function drawWikiBars () {
   	
 const xScale = d3.scaleBand	()
 	.domain(xAccessor)
-	 .range([margin.left, width - margin.right])
+	 .range([dimensions.margin.left, dimensions.boundedWidth - dimensions.margin.right])
 	 .padding([0.2])
 	
 
 
 const yScale = d3.scaleLinear()
 	.domain([0,1])
-	.range([height, margin.top])
+	.range([dimensions.boundedHeight,dimensions.margin.top])
 	
 
 
@@ -99,7 +121,7 @@ const xAxis = d3.axisBottom()
             .append("g")
             .call(xAxis)
             .attr("class", "xAxis_small")
-            .attr("transform", `translate(0,${height})`) 
+            .attr("transform", `translate(0,${dimensions.boundedHeight})`) 
 
 
 const yAxis = d3.axisLeft()
@@ -109,8 +131,45 @@ const yAxis = d3.axisLeft()
 	svg
           .append("g")
           .attr("class", "yAxis_small")
-          .attr("transform", `translate(${margin.left},0)`)   
+          .attr("transform", `translate(${dimensions.margin.left},0)`)   
           .call(yAxis)	
+
+
+//tooltip
+
+
+const tooltip = d3.select(".wiki_bar_gender_tooltip")
+
+var onMouseEnter = function(d) {
+
+	const formatPerecent = d3.format(".0%")
+	
+	
+	
+    tooltip.
+    	select("#honour_level")
+          .html( `<div>Of the ${d.total_gender} ${d.gender} honoured with ${d.honour}, <br>${d.page}, or ${(formatPerecent(d.prop_gender))} has a Wikipedia page</div>`)
+
+            //  
+            // )
+            // .style('visibility', 'visible');
+
+   
+ 	tooltip
+      .style("left", (d3.mouse(this)[0]) + "px") // It is important to put the +90: other wise the tooltip is exactly where the point is an it creates a weird effect
+      .style("top", (d3.mouse(this)[1])+ "px")
+
+        tooltip.style("opacity", 1)
+
+        
+
+}
+
+function onMouseLeave() {
+    tooltip.style("opacity", 0)
+  }
+
+
            
 
 // draw rects and labels
@@ -123,19 +182,19 @@ const yAxis = d3.axisLeft()
 		.attr("x", d => xScale(d.gender))
 		.attr("y", d => yScale(d.prop_gender))
 		.attr("width", xScale.bandwidth())
-		.attr("height", d => height - yScale(d.prop_gender))
+		.attr("height", d => dimensions.boundedHeight - yScale(d.prop_gender))
 		.attr("class", "gender_wiki_bar")
-		
+		.on("mouseenter", onMouseEnter)
+      .on("mouseleave", onMouseLeave)
+	
 
 
 
     svg
-
-      
       .append("text")
       .attr("text-anchor", "start")
-      .attr("x", margin.left)
-  		.attr("y", margin.top-margin.bottom)
+      .attr("x", dimensions.margin.left)
+  		.attr("y",  dimensions.margin.top - 5)
   		.attr("class", "heading")
       .text(d => d.key)       
 

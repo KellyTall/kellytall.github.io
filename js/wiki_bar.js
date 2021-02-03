@@ -24,7 +24,7 @@ const yAccessor = d => d.prop
 //set dimensions
 
 let dimensions = {
-		width: 500,
+		width: window.innerWidth * 0.45,
 		height: 500,
 		margin: {
 				top: 20,
@@ -49,8 +49,8 @@ dimensions.boundedWidth = dimensions.width
  
 const xScale = d3.scaleBand()
 	.domain(d3.range(dataset_bar_wiki.length))
-	.range([0, dimensions.boundedWidth])
-	.padding([0.2])
+	.range([0, dimensions.boundedWidth - dimensions.margin.left])
+	.padding([0.1])
 
 
 const yScale = d3.scaleLinear()
@@ -86,7 +86,7 @@ const xAxisGenerator = d3.axisBottom()
 
 const yAxisGenerator = 	d3.axisLeft()
 	.scale(yScale)
-	.ticks(null, '%')
+	.ticks(4, '%')
 
 
 

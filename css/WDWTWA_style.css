@@ -1,6 +1,3 @@
-
-
-
 :root {
   --light_gold: #eff7e1;
   --gold: #f8dc81;
@@ -368,7 +365,7 @@ h5.center_para {
 
 
 
-.heat_map, .announcement_spike_chart, .bar_plot {
+.announcement_spike_chart, .bar_plot {
      background-color: var(--gold); 
       height: 658px;
 }
@@ -432,7 +429,7 @@ padding-top: 68px;
 
 .about p {
 /* margin: 64 px; */
-	padding: 0 0 24px 64px;
+  padding: 0 0 24px 64px;
     line-height: 1.5;
     max-width: 800px;
 }
@@ -668,6 +665,25 @@ border-bottom: solid 2px var(--dark_green);
   /*background-color: var(--gold); */
     height: 658px;
 
+
+}
+
+.wiki_bar_gender_tooltip {
+  font-family: 'Rosario';
+    color:var(--gold);
+    opacity: 0;
+    position: absolute;
+    top: -14px;
+    left: 0;
+    padding: 0.6em 1em;
+    background: var(--dark_green);
+    text-align: center;
+    line-height: 1.4em;
+    font-size: 12px;
+    /*border: 1px solid #ddd;*/
+    z-index: 10;
+    transition: all 0.1s ease-out;
+    pointer-events: none;
 }
 
 .wiki_bar_gender rect.gender_wiki_bar {
@@ -684,14 +700,57 @@ text.heading {
   font-family: 'Rosario';
   fill: var(--dark_green);
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 12px;
 
 }
 
-/*.wiki_bar_gender {
+.wiki_bar_gender {
   position: relative;
 }
-*/
+
+
+/*heatmap*/
+
+.heat_map_wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex-direction: column;
+
+}
+
+
+.heat_map_wrapper h6{
+  text-align:left;
+}
+
+.heat_map{
+
+  position: relative;
+
+}
+
+
+.heat_map_tooltip {
+  font-family: 'Rosario';
+    color:var(--gold);
+    opacity: 0;
+    position: absolute;
+    top: -14px;
+    left: 0;
+    padding: 0.6em 1em;
+    background: var(--dark_green);
+    text-align: left;
+    line-height: 1.4em;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    z-index: 10;
+    transition: all 0.1s ease-out;
+    pointer-events: none;
+    width: 200px;
+}
+
 
 /*scatter chart*/
 
@@ -893,7 +952,7 @@ header nav {
     margin:0 ; 
   }  
 header nav a {
-	margin: 0 18px 0 0;
+  margin: 0 18px 0 0;
   }
 
 }
@@ -1143,6 +1202,7 @@ section.hero, section.about {
   left: 0;
   width: 100%;
   box-shadow: 0 5px 4px 0 rgb(51 51 51 / 20%);
+  z-index:1;
 
 }
 
@@ -1157,5 +1217,3 @@ section.hero, section.about {
   
 }
 }
-
-
