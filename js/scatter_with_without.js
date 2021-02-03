@@ -1,12 +1,12 @@
-async function drawScatter() {
+async function drawScatter2() {
 
 
 // access data
 
-const dataset = await d3.csv("data/scatter_pre_post.csv", function(d) {return {
+const dataset2 = await d3.csv("data/all_women_recipients_scatter.csv", function(d) {return {
   word: d.word,
-  after_honours: +d.after_honours,
-  before_honours: +d.before_honours ,
+  no: +d.No,
+  yes: +d.Yes ,
   jitter_one: +d.jitter_one,
   jitter_two: +d.jitter_two,
   label_type: d.label_class
@@ -14,12 +14,13 @@ const dataset = await d3.csv("data/scatter_pre_post.csv", function(d) {return {
 
 })
 
-const xAccessor = d => d.after_honours
-const yAccessor = d => d.before_honours
+const xAccessor = d => d.no
+const yAccessor = d => d.yes
 
 const textAccessor = d => d.word
-const jitter_x = d => d.jitter_one
-const jitter_y = d => d.jitter_two
+
+const jitter_y = d => d.jitter_one
+const jitter_x = d => d.jitter_two
 
 
 // console.log(dataset)
@@ -49,20 +50,20 @@ const jitter_y = d => d.jitter_two
   dimensions.boundedHeight = dimensions.height - dimensions.margin.top - dimensions.margin.bottom
 
 
-const yMax = d3.max(dataset, yAccessor)
-const yMin = d3.min(dataset, yAccessor) 
+const yMax = d3.max(dataset2, yAccessor)
+const yMin = d3.min(dataset2, yAccessor) 
 // const yMin = 0
 
 
 
-const xMax = d3.max(dataset, xAccessor) 
-const xMin = d3.min(dataset, xAccessor) 
+const xMax = d3.max(dataset2, xAccessor) 
+const xMin = d3.min(dataset2, xAccessor) 
 
 
 
 // draw canvas
 
-const wrapper = d3.select(".scatter_wrapper")
+const wrapper = d3.select(".scatter2_wrapper")
     .append("svg")
       .attr("width", dimensions.width)
       .attr("height", dimensions.height)
@@ -80,12 +81,12 @@ const bounds = wrapper.append("g")
 
 
 const xScale = d3.scaleLog()
-    .domain(d3.extent(dataset, xAccessor))
+    .domain(d3.extent(dataset2, xAccessor))
     .range([0, dimensions.boundedWidth])
     .nice()
 
   const yScale = d3.scaleLog()
-    .domain(d3.extent(dataset, yAccessor))
+    .domain(d3.extent(dataset2, yAccessor))
     .range([dimensions.boundedHeight, 0])
     .nice()
 
@@ -103,9 +104,9 @@ const line = ref_line.append("line")
     .attr('x2',xScale((drawScatter2, xMax)))
     .attr('y1',yScale((drawScatter2, yMin)))
     .attr('y2',yScale((drawScatter2, yMax)))
-        .attr("class", "scatter_ref_line")
+    .attr("class", "scatter_ref_line")
     // .style("transform", `translate(${dimensions.margin.bottom}px, ${dimensions.margin.top}px)`)
-    .style("transform", `translate(-20px, 54px)`)
+    .style("transform", `translate(30px, 80px)`)
 
 
 
@@ -115,20 +116,18 @@ const line = ref_line.append("line")
 //draw dots
 
 
- const drawDots = (dataset) => {
+ const drawDots = (dataset2) => {
 
 
     const dots = bounds.selectAll("circle")
-      .data(dataset, d => d[0])
+      .data(dataset2, d => d[0])
 
     const newDots = dots.enter().append("circle")
 
     const allDots = newDots.merge(dots)
       .attr("transform", d => `translate(${xScale(xAccessor(d))+jitter_x(d)},${yScale(yAccessor(d))+jitter_y(d)})`)
-      // .attr("transform", d => `translate(${xScale(xAccessor(d))},${yScale(yAccessor(d))})`)
-
         .attr("r", 4)
-        .attr("class", "circle")
+        .attr("class", "circle2")
 
     const oldDots = dots.exit()
         .remove()
@@ -136,14 +135,14 @@ const line = ref_line.append("line")
 
 
   }
-  drawDots(dataset)
+  drawDots(dataset2)
 
 
 
 
 
 const labels = bounds.selectAll('text')
-    .data(dataset)
+    .data(dataset2)
     .enter()
     .append("text")
       .attr("transform", d => `translate(${xScale(xAccessor(d))+jitter_x(d) - jitter_x(d) },${yScale(yAccessor(d))+jitter_y(d)})`)
@@ -170,7 +169,7 @@ const labels = bounds.selectAll('text')
       .attr("class", "x-axis-label")
       .attr("x", dimensions.boundedWidth / 2)
       .attr("y", dimensions.margin.bottom - 10)
-      .html("Page created after Honours received")
+      .html("All honour holders with no Wikipedia page")
 
   const yAxisGenerator = d3.axisLeft()
     .scale(yScale)
@@ -185,7 +184,7 @@ const labels = bounds.selectAll('text')
       .attr("class", "y-axis-label")
       .attr("x", -dimensions.boundedHeight / 2)
       .attr("y", -dimensions.margin.left + 15)
-      .text("Page created before Honours rceived")
+      .text("All honour holders with Wikipedia page")
       .attr("color", "transparent")
 
 
@@ -194,7 +193,7 @@ const labels = bounds.selectAll('text')
  // draw interactions 
  
  const delaunay = d3.Delaunay.from(
-  dataset,
+  dataset2,
   // d => `translate(${xScale(xAccessor(d))+jitter_one(d)},${yScale(yAccessor(d))+jitter_two(d)})`,
   d => xScale(xAccessor(d)) + jitter_x(d),
   d => yScale(yAccessor(d)) + jitter_y(d),
@@ -205,27 +204,26 @@ const voronoi = delaunay.voronoi()
   voronoi.ymax = dimensions.boundedHeight
 
 bounds.selectAll(".voronoi")
-  .data(dataset)
+  .data(dataset2)
    .enter()
    .append("path") 
    .attr("class", "voronoi")
-   .attr("d", (d,i) => voronoi.renderCell(i))
-   // .attr("stroke", "blue")
-   .on("mouseenter", onMouseEnter)
-  .on("mouseleave", onMouseLeave)
+    .attr("d", (d,i) => voronoi.renderCell(i))
+    .on("mouseenter", onMouseEnter)
+    .on("mouseleave", onMouseLeave)
 
 
-const tooltip = d3.select("#scatter_tooltip")
+const tooltip = d3.select("#scatter2_tooltip")
       function onMouseEnter(datum) {
 
         const dayDot = bounds.append("circle")
-      .attr("class", "tooltipDot")
+      .attr("class", "tooltipDot2")
       .attr("transform", d => `translate(${xScale(xAccessor(datum))+jitter_x(datum)},${yScale(yAccessor(datum))+jitter_y(datum)})`)
       .attr("r", 6)
       .style("pointer-events", "none")
 
 
-    tooltip.select("#word")
+    tooltip.select("#word2")
         .text(datum.word)
 
 
@@ -247,7 +245,7 @@ const tooltip = d3.select("#scatter_tooltip")
 
 
     function onMouseLeave() {
-      d3.selectAll(".tooltipDot")
+      d3.selectAll(".tooltipDot2")
         .remove()
 
         tooltip.style("opacity", 0)
@@ -255,4 +253,4 @@ const tooltip = d3.select("#scatter_tooltip")
 
 }
 
-drawScatter()
+drawScatter2()

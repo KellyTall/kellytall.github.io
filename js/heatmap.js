@@ -9,12 +9,12 @@ async function drawHeatmap() {
  }
 })
 
-console.log(dataset)
+// console.log(dataset)
 
 
  //set dimensions
 
- var margin = {top: 30, right: 100, bottom: 30, left: 30},
+ var margin = {top: 30, right: 100, bottom: 30, left: 150},
   width = 1000 - margin.left - margin.right,
   height = 450 - margin.top - margin.bottom;
 
@@ -39,8 +39,8 @@ const weeks = Array.from(d3.group(dataset, d => d.week_diff).keys()).sort(d3.asc
 
 
 
-console.log(weeks)
-console.log(honour_level)
+// console.log(weeks)
+// console.log(honour_level)
 
 
 // Build X scales and axis:
@@ -78,8 +78,12 @@ const yScale = d3.scaleBand()
   .padding(0.01)
 
 
-svg.append("g")
-  .call(d3.axisLeft(yScale))
+const yAxis = d3.axisLeft()
+  .scale(yScale)
+
+  svg
+    .append("g")
+      .call(yAxis)
 
 
 
@@ -110,8 +114,8 @@ var onMouseEnter = function(d) {
 
    
   tooltip
-      .style("left", (d3.mouse(this)[0] + 90) + "px") 
-      .style("top", (d3.mouse(this)[1])+ "px")
+      .style("left", (d3.mouse(this)[0] + 45) + "px") 
+      .style("top", (d3.mouse(this)[1] + 90)+ "px")
 
         tooltip.style("opacity", 1)
 
@@ -124,7 +128,7 @@ function onMouseLeave() {
   }
 
 
-
+//draw heatmap
   
 
 svg.selectAll()
@@ -141,6 +145,8 @@ svg.selectAll()
 
 
 //legend
+
+// TO DO
 
 }
 

@@ -711,6 +711,7 @@ text.heading {
 
 /*heatmap*/
 
+.lollipop_wrapper,
 .heat_map_wrapper{
   display: flex;
   align-items: center;
@@ -720,6 +721,9 @@ text.heading {
 
 }
 
+circle.lollipop_circle{
+  fill:yellow;
+}
 
 .heat_map_wrapper h6{
   text-align:left;
@@ -754,7 +758,8 @@ text.heading {
 
 /*scatter chart*/
 
-.scatter_holder {
+.scatter_holder,
+.scatter2_holder {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -772,20 +777,23 @@ text.heading {
 
 
 
-.scatter_wrapper {
+.scatter_wrapper,
+.scatter2_wrapper {
   position: relative;
 
 }
 
 
-.scatter_wrapper .x-axis-label {
+.scatter_wrapper .x-axis-label,
+.scatter2_wrapper .x-axis-label {
     fill: var(--dark_green);
     font-family: 'Rosario';
     font-size: 16px;
     
 }
 
-.scatter_wrapper .y-axis-label {
+.scatter_wrapper .y-axis-label, 
+.scatter2_wrapper .y-axis-label {
     text-anchor: middle;
     transform: rotate(-90deg);
     fill: var(--dark_green);
@@ -798,9 +806,19 @@ text.heading {
   fill: transparent;
 }
 
-.bounds .circle {
+.bounds circle.circle {
+  /*fill: transparent;*/
   fill: var(--gold);
-  opacity: .5;
+  /*stroke-width: 1;*/
+  opacity: .8;
+}
+
+
+.bounds circle.circle2 {
+  /*fill: transparent;*/
+  fill: var(--light_gold);
+  /*stroke-width: .5;*/
+  opacity: .4;
 }
 
 
@@ -809,8 +827,14 @@ text.heading {
 }
 
 
+.bounds .tooltipDot2 {
+  fill: var(--gold);
+}
 
-.scatter_tooltip {
+
+
+.scatter_tooltip,
+.scatter2_tooltip {
   font-family: 'Rosario';
     color:var(--gold);
     opacity: 0;
@@ -828,7 +852,8 @@ text.heading {
     pointer-events: none;
 }
 
-.scatter_tooltip:before {
+.scatter_tooltip:before,
+.scatter2_tooltip:before {
   font-family: 'Rosario';
     content: '';
     position: absolute;
