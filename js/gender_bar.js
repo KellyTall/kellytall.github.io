@@ -2,9 +2,6 @@
 async function drawBars () {
 
 
-
-
-
 //create date parser
 const date_parse = d3.timeParse("%Y")
 
@@ -17,10 +14,34 @@ const dataset_bar = await d3.csv("data/gender_bar.csv", function(d) { return {
 	date: +d.honours_year, 
 	key: d.gender, 
 	value: +d.number,
-	// total_year: +d.total_year,
-	// prop: +d.prop
+	
 }
 })
+
+function responsivefy(svg) {
+    
+    var container = d3.select(svg.node().parentNode),
+        width = parseInt(svg.style("width")),
+        height = parseInt(svg.style("height")),
+        aspect = width / height;
+
+    
+    svg.attr("viewBox", "0 0 " + width + " " + height)
+        .attr("perserveAspectRatio", "xMinYMid")
+        .call(resize);
+
+    
+    d3.select(window).on("resize." + container.attr("id"), resize);
+
+    
+    function resize() {
+        var targetWidth = parseInt(container.style("width"));
+        svg.attr("width", targetWidth);
+        svg.attr("height", Math.round(targetWidth / aspect));
+    }
+}
+
+
 
 
 // console.log(dataset_bar)
@@ -38,10 +59,6 @@ group = Array.from(d3.group(dataset_bar, d => +d.date, d => d.key))
 
 
 
-// console.log(group)
-
-// console.log(values)
-
 
 //stack data - gets the height of each of the keys stacked on top of one and other based on the values of the data
 
@@ -53,14 +70,11 @@ stacked_data = d3.stack()
 // console.log(stacked_data)
 
 
-
-
-
 // //set dimensions of chart
 
 let dimensions = {
-		width: window.innerWidth * 0.9,
-		height: 500,
+		width: 1200,
+		height: 400,
 		margin: {
 				top: 20,
 				right: 20,
@@ -77,7 +91,6 @@ dimensions.boundedWidth = dimensions.width
 
 
 
-
 //creating scales
 
 
@@ -85,12 +98,13 @@ dimensions.boundedWidth = dimensions.width
 const yScale = d3.scaleLinear()
 	.domain([0, d3.max(stacked_data, d => d3.max(d, d => d[1]))]).nice()
 	.range([dimensions.boundedHeight, 0])
+	
 
 
 const xScale = d3.scaleBand()
 	.domain(years)
 	.range([0, dimensions.boundedWidth])
-	.padding([0.2])
+	.padding([0.1])
 
 
 	
@@ -107,6 +121,7 @@ const wrapper = d3.select("#gender_bar_wrapper")
 		.append("svg")
 		.attr("width", dimensions.width)
 		.attr("height", dimensions.height)
+		.call(responsivefy)
 		
 
 const bounds = wrapper.append("g")
@@ -115,6 +130,7 @@ const bounds = wrapper.append("g")
 					}px, ${
 						dimensions.margin.top
 					}px)`)
+        // .call(responsivefy)
 //generate Axis
 
 
@@ -125,7 +141,7 @@ const yAxisGenerator = 	d3.axisLeft()
 
 const xAxisGenerator = d3.axisBottom()
 	.scale(xScale)
-	.ticks("%y")
+	// .ticks("%y")
 
 
 //call Axis

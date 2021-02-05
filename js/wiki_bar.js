@@ -1,37 +1,32 @@
-
-
 async function drawWikiBars () {
 
-	const dataset_bar_wiki = await d3.csv("data/wiki_prop.csv", function(d) { return{
-		honour: d.award_label,
-		total_honours: +d.total,
-		total_wiki: +d.page,
-		prop: +d.prop
+  const dataset_bar_wiki = await d3.csv("data/wiki_prop.csv", function(d) { return{
+    honour: d.award_label,
+    total_honours: +d.total,
+    total_wiki: +d.page,
+    prop: +d.prop
 
 }
 
-	})
+  })
 
-	// console.log(dataset_bar_wiki)
-
-
-
+ 
 
 const xAccessor = d => d.honour
 
-const yAccessor = d => d.prop	
+const yAccessor = d => d.prop 
 
 //set dimensions
 
 let dimensions = {
-		width: window.innerWidth * 0.45,
-		height: 500,
-		margin: {
-				top: 20,
-				right: 20,
-				bottom: 40,
-				left: 80,},
-		}
+    width: 900,
+    height: 500,
+    margin: {
+        top: 20,
+        right: 20,
+        bottom: 40,
+        left: 80,},
+    }
 
 
 
@@ -48,30 +43,31 @@ dimensions.boundedWidth = dimensions.width
  //create scales
  
 const xScale = d3.scaleBand()
-	.domain(d3.range(dataset_bar_wiki.length))
-	.range([0, dimensions.boundedWidth - dimensions.margin.left])
-	.padding([0.1])
+  .domain(d3.range(dataset_bar_wiki.length))
+  .range([0, dimensions.boundedWidth - dimensions.margin.left])
+  .padding([0.1])
 
 
 const yScale = d3.scaleLinear()
-	.domain([0, d3.max(dataset_bar_wiki, d => d.prop)]).nice()
-	.range([dimensions.boundedHeight, 0])
+  .domain([0, d3.max(dataset_bar_wiki, d => d.prop)]).nice()
+  .range([dimensions.boundedHeight, 0])
 
 
 //select canvas
 
-const wrapper = d3.select(".wiki_bar")
-		.append("svg")
-		.attr("width", dimensions.width)
-		.attr("height", dimensions.height)
+const wrapper = d3.select(".wikipedia_bar_wrapper")
+    .append("svg")
+    .attr("width", dimensions.width)
+    .attr("height", dimensions.height)
+    // .call(responsivefy)
 
 
 const bounds = wrapper.append("g")
-				.style("transform", `translate(${
-					dimensions.margin.left
-					}px, ${
-						dimensions.margin.top
-					}px)`)
+        .style("transform", `translate(${
+          dimensions.margin.left
+          }px, ${
+            dimensions.margin.top
+          }px)`)
 
 
 
@@ -79,14 +75,14 @@ const bounds = wrapper.append("g")
 
 
 const xAxisGenerator = d3.axisBottom()
-	.scale(xScale)
-	.tickFormat( i => dataset_bar_wiki[i].honour)
+  .scale(xScale)
+  .tickFormat( i => dataset_bar_wiki[i].honour)
 
 
 
-const yAxisGenerator = 	d3.axisLeft()
-	.scale(yScale)
-	.ticks(4, '%')
+const yAxisGenerator =  d3.axisLeft()
+  .scale(yScale)
+  .ticks(4, '%')
 
 
 
@@ -94,30 +90,30 @@ const yAxisGenerator = 	d3.axisLeft()
 //call Axis
 
 const yAxis = bounds.append("g")
-	.call(yAxisGenerator)
-	.attr("class", "yAxis")
+  .call(yAxisGenerator)
+  .attr("class", "yAxis")
 
 
-const xAxis = bounds.append("g")	
-	.call(xAxisGenerator)
-	.style("transform", `translateY(${
-		dimensions.boundedHeight
-	}px)`)
-	.attr("class", "xAxis")
+const xAxis = bounds.append("g")  
+  .call(xAxisGenerator)
+  .style("transform", `translateY(${
+    dimensions.boundedHeight
+  }px)`)
+  .attr("class", "xAxis")
 
 //tooltips
 
-const tooltip = d3.select(".wiki_bar_tooltip")
+const tooltip = d3.select(".wikipedia_bar_tooltip")
 
 
 var onMouseEnter = function(d) {
 
-	const formatPerecent = d3.format(".0%")
-	
-	
-	
+  const formatPerecent = d3.format(".0%")
+  
+  
+  
     tooltip.
-    	select("#honour_level")
+      select("#text")
           .html( `<div>Of the ${d.total_honours} people honoured with ${d.honour} <br>there are ${d.total_wiki}, or ${(formatPerecent(d.prop))} with a Wikipedia page</div>`)
 
             //  
@@ -125,7 +121,7 @@ var onMouseEnter = function(d) {
             // .style('visibility', 'visible');
 
    
- 	tooltip
+  tooltip
       .style("left", (d3.mouse(this)[0]) + "px") // It is important to put the +90: other wise the tooltip is exactly where the point is an it creates a weird effect
       .style("top", (d3.mouse(this)[1]-90)+ "px")
 
@@ -154,9 +150,9 @@ bars.append("g")
       .attr("width", xScale.bandwidth())
       .attr("class", "wiki_bar_rect")
       .on("mouseenter", onMouseEnter)
-      			// .on("mousemove", mousemove)
+            // .on("mousemove", mousemove)
       .on("mouseleave", onMouseLeave)
-		        
+            
 
 
 

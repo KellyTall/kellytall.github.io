@@ -14,6 +14,8 @@ const dataset2 = await d3.csv("data/all_women_recipients_scatter.csv", function(
 
 })
 
+
+
 const xAccessor = d => d.no
 const yAccessor = d => d.yes
 
@@ -26,13 +28,13 @@ const jitter_x = d => d.jitter_two
 // console.log(dataset)
 
 
- const width = d3.min([
-    window.innerWidth * 0.75,
-    window.innerHeight * 0.75,
-  ])
+ // const width = d3.min([
+ //    window.innerWidth * 0.75,
+ //    window.innerHeight * 0.75,
+ //  ])
 
 
-// let width = 600
+let width = 600
 
   let dimensions = {
     width: width,
@@ -69,6 +71,7 @@ const wrapper = d3.select(".scatter2_wrapper")
       .attr("height", dimensions.height)
       .attr("class" ,"wrapper")
       
+      
 
 const bounds = wrapper.append("g")
     .style("transform", `translate(${dimensions.margin.left}px, ${dimensions.margin.top}px)`)
@@ -100,10 +103,10 @@ const ref_line = bounds.append('g')
 
 const line = ref_line.append("line")
   // .attr("stroke", "red")
-    .attr('x1',xScale((drawScatter2, xMin)))
-    .attr('x2',xScale((drawScatter2, xMax)))
-    .attr('y1',yScale((drawScatter2, yMin)))
-    .attr('y2',yScale((drawScatter2, yMax)))
+    .attr('x1',xScale((dataset2, xMin)))
+    .attr('x2',xScale((dataset2, xMax)))
+    .attr('y1',yScale((dataset2, yMin)))
+    .attr('y2',yScale((dataset2, yMax)))
     .attr("class", "scatter_ref_line")
     // .style("transform", `translate(${dimensions.margin.bottom}px, ${dimensions.margin.top}px)`)
     .style("transform", `translate(30px, 80px)`)
@@ -164,12 +167,13 @@ const labels = bounds.selectAll('text')
   const xAxis = bounds.append("g")
     .call(xAxisGenerator)
       .style("transform", `translateY(${dimensions.boundedHeight}px)`)
+      .attr("class", "scatter_axis")
 
   const xAxisLabel = xAxis.append("text")
       .attr("class", "x-axis-label")
       .attr("x", dimensions.boundedWidth / 2)
       .attr("y", dimensions.margin.bottom - 10)
-      .html("All honour holders with no Wikipedia page")
+      .html("All honour holders without Wikipedia page")
 
   const yAxisGenerator = d3.axisLeft()
     .scale(yScale)
@@ -177,6 +181,7 @@ const labels = bounds.selectAll('text')
 
   const yAxis = bounds.append("g")
     .call(yAxisGenerator)
+    .attr("class", "scatter_axis")
 
 
   const yAxisLabel = yAxis.append("text")

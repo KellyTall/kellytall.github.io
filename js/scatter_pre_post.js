@@ -1,6 +1,8 @@
 async function drawScatter() {
 
 
+
+
 // access data
 
 const dataset = await d3.csv("data/scatter_pre_post.csv", function(d) {return {
@@ -25,13 +27,14 @@ const jitter_y = d => d.jitter_two
 // console.log(dataset)
 
 
- const width = d3.min([
-    window.innerWidth * 0.75,
-    window.innerHeight * 0.75,
-  ])
+
+ // const width = d3.min([
+ //    window.innerWidth * 0.75,
+ //    window.innerHeight * 0.75,
+ //  ])
 
 
-// let width = 600
+let width = 600
 
   let dimensions = {
     width: width,
@@ -68,6 +71,7 @@ const wrapper = d3.select(".scatter_wrapper")
       .attr("height", dimensions.height)
       .attr("class" ,"wrapper")
       
+      
 
 const bounds = wrapper.append("g")
     .style("transform", `translate(${dimensions.margin.left}px, ${dimensions.margin.top}px)`)
@@ -99,17 +103,13 @@ const ref_line = bounds.append('g')
 
 const line = ref_line.append("line")
   // .attr("stroke", "red")
-    .attr('x1',xScale((drawScatter2, xMin)))
-    .attr('x2',xScale((drawScatter2, xMax)))
-    .attr('y1',yScale((drawScatter2, yMin)))
-    .attr('y2',yScale((drawScatter2, yMax)))
+    .attr('x1',xScale((dataset, xMin)))
+    .attr('x2',xScale((dataset, xMax)))
+    .attr('y1',yScale((dataset, yMin)))
+    .attr('y2',yScale((dataset, yMax)))
         .attr("class", "scatter_ref_line")
     // .style("transform", `translate(${dimensions.margin.bottom}px, ${dimensions.margin.top}px)`)
     .style("transform", `translate(-20px, 54px)`)
-
-
-
-
 
 
 //draw dots
@@ -165,6 +165,7 @@ const labels = bounds.selectAll('text')
   const xAxis = bounds.append("g")
     .call(xAxisGenerator)
       .style("transform", `translateY(${dimensions.boundedHeight}px)`)
+      .attr("class", "scatter_axis")
 
   const xAxisLabel = xAxis.append("text")
       .attr("class", "x-axis-label")
@@ -178,6 +179,7 @@ const labels = bounds.selectAll('text')
 
   const yAxis = bounds.append("g")
     .call(yAxisGenerator)
+    .attr("class", "scatter_axis")
 
 
   const yAxisLabel = yAxis.append("text")

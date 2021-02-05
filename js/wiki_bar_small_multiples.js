@@ -19,15 +19,8 @@ async function drawWikiBars () {
 
 	})
 
-	// console.log(dataset_bar_wiki_gender)
+	
 
-// 	const margin = ({top: 30, right: 0, bottom: 10, left: 30})
-
-// 	const width = 200
-// 	const height = 200
-
-
-	// const data_group = d3.group(dataset_bar_wiki_gender, d )
 
 	
 	const yAccessor = Array.from(d3.extent(dataset_bar_wiki_gender, d => d.prop_gender))
@@ -55,19 +48,15 @@ async function drawWikiBars () {
   	const key = nestData.map(d => d.key)
 
 
- //  	const margin = ({top: 30, right: 0, bottom: 5, left: 30})
-
-	// const width = 250
-	// const height = 250
 
 
 	let dimensions = {
-		width: window.innerWidth * 0.2,
-		height: 500/2,
+		width: 300,
+		height: 250,
 		margin: {
-				top: 20,
-				right: 20,
-				bottom: 30,
+				top: 40,
+				right: 10,
+				bottom: 10,
 				left: 40,},
 		}
 
@@ -82,13 +71,14 @@ dimensions.boundedWidth = dimensions.width
 
 
 
-	 const svg = d3.select(".wiki_bar_gender")
+	 const svg = d3.select(".wikipedia_bar_gender_wrapper")
 		  	.selectAll("smallChart")
 		  	.data(nestData)
 		  		.enter()
 		  		.append("svg")
 		  		.attr("width",dimensions.boundedWidth +  dimensions.margin.left + dimensions.margin.right)
 		  		.attr("height",dimensions.boundedHeight+ dimensions.margin.top + dimensions.margin.bottom)
+		  		// .call(responsivefy)
 
 
 			
@@ -138,7 +128,7 @@ const yAxis = d3.axisLeft()
 //tooltip
 
 
-const tooltip = d3.select(".wiki_bar_gender_tooltip")
+const tooltip = d3.select(".wikipedia_bar_gender_tooltip")
 
 var onMouseEnter = function(d) {
 
@@ -147,12 +137,9 @@ var onMouseEnter = function(d) {
 	
 	
     tooltip.
-    	select("#honour_level")
+    	select("#text2")
           .html( `<div>Of the ${d.total_gender} ${d.gender} honoured with ${d.honour}, <br>${d.page}, or ${(formatPerecent(d.prop_gender))} has a Wikipedia page</div>`)
-
-            //  
-            // )
-            // .style('visibility', 'visible');
+            .style('visibility', 'visible')
 
    
  	tooltip

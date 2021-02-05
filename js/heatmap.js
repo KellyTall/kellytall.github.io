@@ -22,7 +22,7 @@ async function drawHeatmap() {
 
   //draw canvas
 
-  const svg = d3.select(".heat_map")
+  const svg = d3.select(".heatmap_wrapper")
 	.append("svg")
   	.attr("width", width + margin.left + margin.right)
   	.attr("height", height + margin.top + margin.bottom)
@@ -62,6 +62,7 @@ const xAxis = d3.axisBottom()
     .append("g")
      .call(xAxis) 
       .attr("transform", "translate(0," + height + ")")
+            .attr("class", "xAxis")
 
 
 
@@ -84,6 +85,7 @@ const yAxis = d3.axisLeft()
   svg
     .append("g")
       .call(yAxis)
+      .attr("class", "yAxis")
 
 
 
@@ -97,15 +99,16 @@ const myColor = d3.scaleLinear()
 //tooltip
 
 
-const tooltip = d3.select(".heat_map_tooltip")
+const tooltip = d3.select(".heatmap_tooltip")
 
 var onMouseEnter = function(d) {
 
   
   
     tooltip.
-      select("#pages")
+      select("#heatmap_text")
           .html( `
+            No. weeks between honour & page<br>
             Week Number:  ${d.week_diff}<br>
             Honour Level: ${d.honour}<br>
             Wikipedia pages created: ${d.n}`)

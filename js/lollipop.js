@@ -9,7 +9,7 @@ async function drawLollipop () {
 	}}
 )
 
-console.log(dataset_lolli)
+// console.log(dataset_lolli)
 
 var margin = {top: 10, right: 30, bottom: 90, left: 40},
     width = 1000 - margin.left - margin.right,
@@ -28,7 +28,7 @@ var margin = {top: 10, right: 30, bottom: 90, left: 40},
 const weeks = Array.from(d3.group(dataset_lolli, d => d.week_diff).keys()).sort(d3.ascending)	
 const pages = Array.from(d3.max(dataset_lolli, d => d.n))	
 
-console.log(weeks)
+// console.log(weeks)
 
 const xScale = d3.scaleBand()
 	.domain(weeks)
@@ -40,15 +40,16 @@ const xScale = d3.scaleBand()
 
 const xAxis = d3.axisBottom()
 	.scale(xScale)
-	.tickValues([-500, 0, 500, 1000])
+	  .tickValues([-935, 0, 1020])
+      
 	
 	
-
 
 svg
 	.append('g')
 	.call(xAxis)	
 	.attr("transform", "translate(0," + height + ")")
+	.attr("class", "xAxis")
 
 
 const yScale = d3.scaleLinear()
@@ -61,6 +62,39 @@ const yScale = d3.scaleLinear()
   
 svg.append("g")
   .call(yAxis)
+  .attr("class", "yAxis")
+
+
+const tooltip = d3.select(".lollipop_tooltip")
+
+var onMouseEnter = function(d) {
+
+  
+  
+    tooltip.
+      select("#lollipop_text")
+          .html( `
+            No. weeks between honour & page<br>
+            Week Number:  ${d.week_diff}<br>
+            Wikipedia pages created: ${d.n}`)
+
+           
+
+   
+  tooltip
+      .style("left", (d3.mouse(this)[0]-450) + "px") 
+      .style("top", (d3.mouse(this)[1]+45)+ "px")
+
+        tooltip.style("opacity", 1)
+
+        
+
+}
+
+function onMouseLeave() {
+    tooltip.style("opacity", 0)
+  }
+
 
 
 svg.selectAll("myline")
@@ -71,7 +105,9 @@ svg.selectAll("myline")
     .attr("x2", function(d) { return xScale(d.week_diff); })
     .attr("y1", function(d) { return yScale(d.n); })
     .attr("y2", yScale(0))
-    .attr("stroke", "grey")
+    // .attr("stroke", "grey")
+    .attr("class", "lollipop_line")
+
 
 
 svg.selectAll("mycircle")
@@ -82,8 +118,10 @@ svg.selectAll("mycircle")
     .attr("cy", function(d) { return yScale(d.n); })
     .attr("r", "4")
     .attr("class", "lollipop_circle")
-    .style("fill", "#69b3a2")
-    .attr("stroke", "black")
+    // .style("fill", "#69b3a2")
+    // .attr("stroke", "black")
+    .on("mouseenter", onMouseEnter)
+      .on("mouseleave", onMouseLeave)
 
 
 
