@@ -19,7 +19,7 @@ const nest = d.nest()
 .key((d,i) => {return d.honour})
 .entries(data)
 
-console.log(nest)
+// console.log(nest)
 
 
 const waffle = d3.select(."waffle")

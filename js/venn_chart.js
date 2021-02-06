@@ -12,6 +12,10 @@ var chart = venn.VennDiagram()
 
 
 const div = d3.select("#venn")
+  .append("svg")
+  .attr("viewBox", "0 0 600 350")
+
+
   .datum(dataset)
   .call(chart)
 

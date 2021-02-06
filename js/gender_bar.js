@@ -2,13 +2,7 @@
 async function drawBars () {
 
 
-//create date parser
-const date_parse = d3.timeParse("%Y")
-
-
 //accessing data and specifying each variable and the format
-
-
 
 const dataset_bar = await d3.csv("data/gender_bar.csv", function(d) { return {
 	date: +d.honours_year, 
@@ -18,28 +12,6 @@ const dataset_bar = await d3.csv("data/gender_bar.csv", function(d) { return {
 }
 })
 
-function responsivefy(svg) {
-    
-    var container = d3.select(svg.node().parentNode),
-        width = parseInt(svg.style("width")),
-        height = parseInt(svg.style("height")),
-        aspect = width / height;
-
-    
-    svg.attr("viewBox", "0 0 " + width + " " + height)
-        .attr("perserveAspectRatio", "xMinYMid")
-        .call(resize);
-
-    
-    d3.select(window).on("resize." + container.attr("id"), resize);
-
-    
-    function resize() {
-        var targetWidth = parseInt(container.style("width"));
-        svg.attr("width", targetWidth);
-        svg.attr("height", Math.round(targetWidth / aspect));
-    }
-}
 
 
 
@@ -72,6 +44,10 @@ stacked_data = d3.stack()
 
 // //set dimensions of chart
 
+const wrapper = d3.select("#gender_bar_wrapper")
+		.append("svg")
+		.attr("viewBox", "0 0 1200 400")
+
 let dimensions = {
 		width: 1200,
 		height: 400,
@@ -88,6 +64,19 @@ dimensions.boundedWidth = dimensions.width
    dimensions.boundedHeight = dimensions.height
      - dimensions.margin.top
      - dimensions.margin.bottom
+
+
+
+		
+		
+
+const bounds = wrapper.append("g")
+				.style("transform", `translate(${
+					dimensions.margin.left
+					}px, ${
+						dimensions.margin.top
+					}px)`)
+
 
 
 
@@ -117,20 +106,8 @@ color_scale = d3.scaleOrdinal()
 
 
 
-const wrapper = d3.select("#gender_bar_wrapper")
-		.append("svg")
-		.attr("width", dimensions.width)
-		.attr("height", dimensions.height)
-		.call(responsivefy)
-		
 
-const bounds = wrapper.append("g")
-				.style("transform", `translate(${
-					dimensions.margin.left
-					}px, ${
-						dimensions.margin.top
-					}px)`)
-        // .call(responsivefy)
+       
 //generate Axis
 
 

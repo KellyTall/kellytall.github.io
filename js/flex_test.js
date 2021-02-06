@@ -14,7 +14,7 @@ const dataset_waffle = await d3.csv("data/waffle.csv", function (d) {return{
 
 }})
 
-console.log(dataset_waffle)
+// console.log(dataset_waffle)
 
 scaleColor = d3.scaleOrdinal()
 .range(['#f8dc81','#D1A3A3',  '#A3B3D1', '#a2d0c1', '#C9D1A3'])

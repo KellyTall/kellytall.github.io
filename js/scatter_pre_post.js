@@ -34,22 +34,7 @@ const jitter_y = d => d.jitter_two
  //  ])
 
 
-let width = 600
 
-  let dimensions = {
-    width: width,
-    height: width,
-    margin: {
-      top: 10,
-      right: 10,
-      bottom: 50,
-      left: 50,
-    },
-  }
-
-
-  dimensions.boundedWidth = dimensions.width - dimensions.margin.left - dimensions.margin.right
-  dimensions.boundedHeight = dimensions.height - dimensions.margin.top - dimensions.margin.bottom
 
 
 const yMax = d3.max(dataset, yAccessor)
@@ -67,17 +52,30 @@ const xMin = d3.min(dataset, xAccessor)
 
 const wrapper = d3.select(".scatter_wrapper")
     .append("svg")
-      .attr("width", dimensions.width)
-      .attr("height", dimensions.height)
+    .attr("viewBox", "0 0 600 600")
+
       .attr("class" ,"wrapper")
       
+
+     
+  let dimensions = {
+    width: 600,
+    height: 600,
+    margin: {
+        top: 10,
+        right: 30,
+        bottom: 90,
+        left: 40,},
+    }
+
+
+  dimensions.boundedWidth = dimensions.width - dimensions.margin.left - dimensions.margin.right
+  dimensions.boundedHeight = dimensions.height - dimensions.margin.top - dimensions.margin.bottom
       
 
 const bounds = wrapper.append("g")
     .style("transform", `translate(${dimensions.margin.left}px, ${dimensions.margin.top}px)`)
     .attr("class", "bounds")
-
-
 
 
 // // create scales

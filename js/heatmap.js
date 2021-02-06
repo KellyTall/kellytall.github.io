@@ -14,22 +14,48 @@ async function drawHeatmap() {
 
  //set dimensions
 
- var margin = {top: 30, right: 100, bottom: 30, left: 150},
-  width = 1000 - margin.left - margin.right,
-  height = 450 - margin.top - margin.bottom;
+ 
 
 
 
   //draw canvas
 
-  const svg = d3.select(".heatmap_wrapper")
-	.append("svg")
-  	.attr("width", width + margin.left + margin.right)
-  	.attr("height", height + margin.top + margin.bottom)
-	.append("g")
-  	.attr("transform",
-        "translate(" + margin.left + "," + margin.top + ")");
+  const wrapper = d3.select(".heatmap_wrapper")
+      .append("svg")
+    	.attr("viewBox", "0 0 1000 450")
 
+
+let dimensions = {
+    width: 1000,
+    height: 450,
+    margin: {
+        top: 30,
+        right: 100,
+        bottom: 30,
+        left: 150,},
+    }
+
+
+
+dimensions.boundedWidth = dimensions.width
+     - dimensions.margin.left
+     - dimensions.margin.right
+   dimensions.boundedHeight = dimensions.height
+     - dimensions.margin.top
+     - dimensions.margin.bottom
+
+
+  const bounds = wrapper.append("g")
+        .style("transform", `translate(${
+          dimensions.margin.left
+          }px, ${
+            dimensions.margin.top
+          }px)`)
+
+
+var margin = {top: 30, right: 100, bottom: 30, left: 150},
+  width = 1000 - margin.left - margin.right,
+  height = 450 - margin.top - margin.bottom;
 
 // array of honour levels
 const honour_level = Array.from(d3.group(dataset, d => d.honour).keys())	
@@ -58,7 +84,7 @@ const xAxis = d3.axisBottom()
   .scale(xScale)
   .tickValues([-52, -25, 0, 25, 52]);
 
-  svg
+  bounds
     .append("g")
      .call(xAxis) 
       .attr("transform", "translate(0," + height + ")")
@@ -82,7 +108,7 @@ const yScale = d3.scaleBand()
 const yAxis = d3.axisLeft()
   .scale(yScale)
 
-  svg
+  bounds
     .append("g")
       .call(yAxis)
       .attr("class", "yAxis")
@@ -134,7 +160,7 @@ function onMouseLeave() {
 //draw heatmap
   
 
-svg.selectAll()
+bounds.selectAll()
       .data(dataset, function(d) {return d.honour+':'+d.week_diff;})
       .enter()
       .append("rect")

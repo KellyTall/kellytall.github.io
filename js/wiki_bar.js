@@ -18,6 +18,15 @@ const yAccessor = d => d.prop
 
 //set dimensions
 
+
+
+//select canvas
+
+const wrapper = d3.select(".wikipedia_bar_wrapper")
+    .append("svg")
+    .attr("viewBox", "0 0 900 500")
+
+
 let dimensions = {
     width: 900,
     height: 500,
@@ -39,8 +48,16 @@ dimensions.boundedWidth = dimensions.width
 
 
 
+const bounds = wrapper.append("g")
+        .style("transform", `translate(${
+          dimensions.margin.left
+          }px, ${
+            dimensions.margin.top
+          }px)`)
 
- //create scales
+
+
+//create scales
  
 const xScale = d3.scaleBand()
   .domain(d3.range(dataset_bar_wiki.length))
@@ -51,25 +68,6 @@ const xScale = d3.scaleBand()
 const yScale = d3.scaleLinear()
   .domain([0, d3.max(dataset_bar_wiki, d => d.prop)]).nice()
   .range([dimensions.boundedHeight, 0])
-
-
-//select canvas
-
-const wrapper = d3.select(".wikipedia_bar_wrapper")
-    .append("svg")
-    .attr("width", dimensions.width)
-    .attr("height", dimensions.height)
-    // .call(responsivefy)
-
-
-const bounds = wrapper.append("g")
-        .style("transform", `translate(${
-          dimensions.margin.left
-          }px, ${
-            dimensions.margin.top
-          }px)`)
-
-
 
 //create axis
 
