@@ -453,7 +453,6 @@ p.yellow_callout a:hover{
 .level_section {
     display: flex;
     flex-direction: row;
-    height: 700px;
     padding-left: 68px;
     padding-right: 68px;
     flex-grow: 1;
@@ -470,7 +469,6 @@ p.yellow_callout a:hover{
   padding-right: 16px;
   flex-basis: 50%;
   min-width: 50%;
-  /*background-color: yellow;*/
   height: 658px;
 }
 
@@ -532,14 +530,6 @@ p.uppercase_heading {
     line-height: 1.2;
 }
 
-.waffle_holder{
-    /*height: 658px;*/
-    flex-basis: 50%;
-    min-width:50%;
-    position: relative;
-
-    
-}
 
 .waffle_wrapper {
   /*height: 658px;*/
@@ -1126,5 +1116,126 @@ padding-left: 100px;
 }
 
 
+@media(max-width: 375px) {
 
+
+header {
+    padding-left: 18px;
+}
+
+h1 {
+  font-size:18px;
+}
+
+.hero {
+    padding: 18px;
+}
+
+
+.para{
+  padding: 32px 0;
+  flex-direction:column;
+}
+
+
+.para .first  {
+  padding-right: 0;
+}
+
+.para .second  {
+  padding-left: 0;
+  padding-top: 12px;
+}
+
+
+.intro, .announcement, .text, .conclusion, .citation, .venn, .exploring_header {
+    padding: 24px;
+
+  }
+  
+.intro h4, .venn_heading h4, .announcement h4, .conclusion h4 {
+    
+border-bottom: solid 1px var(--dark_green);
+    
+}  
+
+.divider{
+  display: none;
+}
+
+
+.chart_full_holder h6 {
+    font-family: 'Rosario';
+    font-size: 16px;
+    font-weight: 300;
+    padding-top: 24px;
+}
+
+
+.chart_full_holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 24px;
+    padding-top: 8px;
+}
+
+
+.level_section{
+  flex-direction: column;
+    display: flex;
+    padding-left: 24px;
+    padding-right: 24px;
+    flex-grow: 1;
+    flex-basis: 0;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    padding-bottom: 24px;
+}
+
+.waffle_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 250px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.order_wikipedia {
+    padding-top: 24px;
+}
+
+p.uppercase_heading{
+  padding: 24px 12px;
+}
+
+.wikipedia_bar_gender_wrapper {
+    padding-left: 60px;
+}
+
+
+
+.lollipop_holder h6, .heatmap_holder h6 {
+    padding-bottom: 12px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.green_border h6 {
+  paddng-top: 24px;
+  }
+
+
+.scatter_wrapper, .scatter2_wrapper {
+  padding-top: 24px;
+}
+
+}
 
