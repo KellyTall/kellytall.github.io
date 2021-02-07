@@ -163,10 +163,7 @@ header nav a.selected {
   line-height: 1.2;
 }
 
-/*
-section.citation{
-  padding:0;
-}*/
+
 
 section.citation h4{
   border-bottom: none;
@@ -670,26 +667,7 @@ p.uppercase_heading {
 }
 
 
-.order_wikipedia .para .annotation{
-  padding-top: 0;
-}
 
-
-
-.annotation
-{
-  display: flex;
-  align-items: flex-start;
-  flex-direction: row;
-  padding-top: 0;
-  padding-bottom: 48px;
-  /*max-width: 600px;*/
-  margin-right: auto;
-  margin-left: auto;
-  line-height: 1.2;
-  flex-grow: 1;
-  flex-basis: 0;
-}
 
 
 .green_border p
@@ -1133,7 +1111,7 @@ h1 {
 
 
 .para{
-  padding: 0;
+  padding:0 0 0 0;
   flex-direction:column;
 }
 
