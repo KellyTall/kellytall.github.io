@@ -671,7 +671,7 @@ p.uppercase_heading {
 
 
 .order_wikipedia .para .annotation{
-  padding-top: 12px
+  padding-top: 12px;
 }
 
 
@@ -1133,7 +1133,7 @@ h1 {
 
 
 .para{
-  padding: 12px 0;
+  padding: 0;
   flex-direction:column;
 }
 
