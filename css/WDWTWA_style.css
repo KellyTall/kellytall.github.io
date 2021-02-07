@@ -671,7 +671,7 @@ p.uppercase_heading {
 
 
 .order_wikipedia .para .annotation{
-  padding-top: 12px;
+  padding-top: 0;
 }
 
 
@@ -951,7 +951,7 @@ text#text_label.label {
 
 .para.wide {
   flex-direction: column;
-  padding-top: 48px;
+  padding-top: 0;
   
 }
 
