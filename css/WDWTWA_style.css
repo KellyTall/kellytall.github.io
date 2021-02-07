@@ -332,6 +332,7 @@ p.yellow_callout a:hover{
 .gender_bar_wrapper{
   position: relative;
   max-width: 1200px;
+  min-width: 320px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -458,7 +459,7 @@ p.yellow_callout a:hover{
     flex-grow: 1;
     flex-basis: 0;
     align-items: flex-start;
-    justify-content: flex-start;
+    justify-content: center;
     width: 100%;
     padding-bottom: 68px;
   }
@@ -469,7 +470,7 @@ p.yellow_callout a:hover{
   padding-right: 16px;
   flex-basis: 50%;
   min-width: 50%;
-  height: 658px;
+  
 }
 
 
@@ -532,9 +533,8 @@ p.uppercase_heading {
 
 
 .waffle_wrapper {
-  /*height: 658px;*/
-  justify-content: flex-end;
   align-content: flex-start;
+  justify-content: center;
   display: flex;
   flex-wrap: wrap;
   max-width: 470px;
@@ -1192,7 +1192,7 @@ border-bottom: solid 1px var(--dark_green);
     flex-grow: 1;
     flex-basis: 0;
     align-items: flex-start;
-    justify-content: flex-start;
+    justify-content: center;
     width: 100%;
     padding-bottom: 24px;
 }
@@ -1228,6 +1228,10 @@ p.uppercase_heading{
     text-align: center;
 }
 
+.para.wide p {
+  padding-top: 0;
+}
+
 .green_border h6 {
   paddng-top: 24px;
   }
@@ -1239,3 +1243,40 @@ p.uppercase_heading{
 
 }
 
+@media(max-width: 320px) {
+
+  h4 {
+    font-size:18px;
+
+  }
+
+  h6 {
+    font-size: 14px;
+    text-align: center;
+}
+
+.green_border h4 {
+    color: var(--light_gold);
+    padding-bottom: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+    text-align: center;
+    border-bottom: none;
+
+}
+
+.levels h6 {
+ 
+    font-size: 14px;
+}
+
+.levels p {
+    margin-left: 18px;
+    margin-right: 12px;
+    padding-top: 8px;
+    font-size: 12px;
+    line-height: 1.2;
+}
+
+}
