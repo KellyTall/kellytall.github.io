@@ -125,9 +125,9 @@ header nav a.selected {
 
 .intro,
 .announcement,
-.text,
+.venn,
 .conclusion,
-.ciation
+.citation
 {
   padding: 64px 64px;
 }
@@ -218,7 +218,7 @@ section.citation .green_border h5{
   max-width:600px;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 68px;
+  /*padding-bottom: 68px;*/
 
 
 }
@@ -947,29 +947,7 @@ text#text_label.label {
 
 
 
-@media(min-width: 860px) {
 
-.hero, .about {
-  margin-top: 50px;
-}
-  
-header {
-  
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  box-shadow: 0 5px 4px 0 rgb(51 51 51 / 20%);
-  z-index:1;
-}
-  
-  h5 a {
-
-margin-left: 0;
-
-}
-  
-}
 
 
 
@@ -1012,11 +990,11 @@ margin-left: 0;
     padding: 0 0;
   }
 
-
+/*
 .intro, .announcement, .text, .conclusion, .citation, .venn , .exploring_header{
     padding: 48px;
 }
-
+*/
 .divider{
       border-bottom: solid 1px var(--dark_green);
       padding-top: 32px;
@@ -1257,4 +1235,28 @@ p.uppercase_heading{
     line-height: 1.2;
 }
 
+}
+
+@media(min-width: 860px) {
+
+.hero, .about {
+  margin-top: 50px;
+}
+  
+header {
+  
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 5px 4px 0 rgb(51 51 51 / 20%);
+  z-index:1;
+}
+  
+  h5 a {
+
+margin-left: 0;
+
+}
+  
 }
