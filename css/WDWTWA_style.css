@@ -1216,7 +1216,7 @@ p.uppercase_heading{
 
 
 .scatter_wrapper, .scatter2_wrapper {
-  padding-top: 24px;
+  padding-top: 0;
 }
 
 }
