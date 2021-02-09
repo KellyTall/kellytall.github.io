@@ -155,7 +155,7 @@ header nav a.selected {
 .venn_heading h4,
 .announcement h4,
 .conclusion h4{
-  padding: 10px;
+  /*padding: 10px;*/
   text-align: center;
   margin-right: auto;
   margin-left: auto;
@@ -253,6 +253,8 @@ section.citation .green_border h5{
   align-items: center;
   padding-top: 64px;
   padding-bottom: 64px;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .green_border h6 {
@@ -261,9 +263,6 @@ section.citation .green_border h5{
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 800px;
   padding-top: 24px;
   /*padding-bottom: 68px;*/
 
@@ -277,23 +276,18 @@ section.citation .green_border h5{
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 600px;
   text-align:center;
-  /*padding-bottom: 68px;*/
 
 }
 
 p.yellow_callout {
     padding: 18px;
-    margin-right: 18px;
-    margin-left: 18px;
+    /*margin-right: 18px;
+    margin-left: 18px;*/
     color: var(--gold);
     font-family: 'Rosario';
     font-size: 18px;
-    /*font-weight: 300;*/
-    max-width:600px;
+    /*max-width:600px;*/
     text-align: center;
     line-height: 1.2;
 
@@ -331,7 +325,6 @@ p.yellow_callout a:hover{
 .gender_bar_wrapper{
   position: relative;
   max-width: 1200px;
-  min-width: 320px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -468,7 +461,7 @@ p.yellow_callout a:hover{
 .level_table {
   padding-right: 16px;
   flex-basis: 50%;
-  min-width: 50%;
+  /*min-width: 50%;*/
   
 }
 
@@ -610,7 +603,7 @@ p.uppercase_heading {
     max-height: 500px;
     margin-right: auto;
     margin-left: auto;
-    /*width: 100%;*/
+
 
 }
 
@@ -620,7 +613,7 @@ p.uppercase_heading {
     position: relative;
     max-width:1200px;
     margin-right: auto;
-    margin-left: auto;s
+    margin-left: auto;
 
 }
 
@@ -999,8 +992,7 @@ text#text_label.label {
 }
 
 .divider{
-      border-bottom: solid 1px var(--dark_green);
-      padding-top: 32px;
+      display: none;
 }
 
 
@@ -1064,9 +1056,6 @@ p.yellow_callout {
 }
 
 
-.wikipedia_bar_gender_wrapper {
-padding-left: 100px;
-}
 
 .lollipop_holder p, .heatmap_holder p {
     padding-bottom: 48px;
@@ -1188,13 +1177,8 @@ border-bottom: solid 1px var(--dark_green);
 }
 
 p.uppercase_heading{
-  padding: 24px 12px;
+  padding-top: 24px;
 }
-
-.wikipedia_bar_gender_wrapper {
-    padding-left: 60px;
-}
-
 
 
 .lollipop_holder h6, .heatmap_holder h6 {
@@ -1203,10 +1187,7 @@ p.uppercase_heading{
     text-align: center;
 }
 
-/*.para.wide p {
-  padding-top: 0;
-}
-*/
+
 .green_border h6 {
   paddng-top: 24px;
   }
