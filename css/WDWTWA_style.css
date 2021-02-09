@@ -988,10 +988,11 @@ text#text_label.label {
     font-size: 24px;
   }
 
-  /*.para {
-    padding: 0 0;
+  .para {
+  padding-top: 12px;
+  padding-bottom:12px;
   }
-*/
+
 /*
 .intro, .announcement, .text, .conclusion, .citation, .venn , .exploring_header{
     padding: 48px;
@@ -1109,7 +1110,6 @@ h1 {
 
 
 .para{
-  padding:0 0 0 0;
   flex-direction:column;
 }
 
@@ -1120,7 +1120,6 @@ h1 {
 
 .para .second  {
   padding-left: 0;
-  padding-top: 0;
 }
 
 
