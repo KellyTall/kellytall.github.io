@@ -264,6 +264,7 @@ section.citation .green_border h5{
   margin-left: auto;
   margin-right: auto;
   max-width: 800px;
+  padding-top: 24px;
   /*padding-bottom: 68px;*/
 
 
@@ -279,6 +280,7 @@ section.citation .green_border h5{
   margin-left: auto;
   margin-right: auto;
   max-width: 600px;
+  text-align:center;
   /*padding-bottom: 68px;*/
 
 }
@@ -387,11 +389,11 @@ p.yellow_callout a:hover{
 
 
 
-.tooltip-range {
+/*.tooltip-range {
     margin-bottom: 0.2em;
     font-weight: 600;
 }
-
+*/
 .gender_bar_wrapper .xAxis .tick:nth-child(2n) text {
     visibility: hidden;
 }
@@ -566,7 +568,7 @@ p.uppercase_heading {
     background: var(--dark_green);
     text-align: center;
     line-height: 1.4em;
-    font-size: 12px;
+    font-size: 14px;
 
     z-index: 10;
     transition: all 0.1s ease-out;
@@ -929,7 +931,7 @@ text#text_label.label {
 
 .para.wide {
   flex-direction: column;
-  padding-top: 0;
+  /*padding-top: 0;*/
   
 }
 
@@ -986,10 +988,10 @@ text#text_label.label {
     font-size: 24px;
   }
 
-  .para {
+  /*.para {
     padding: 0 0;
   }
-
+*/
 /*
 .intro, .announcement, .text, .conclusion, .citation, .venn , .exploring_header{
     padding: 48px;
@@ -1042,6 +1044,11 @@ p.uppercase_heading {
     margin: 2px;
 }
 
+.venntooltip {
+      font-size: 12px;
+    }
+
+
 .waffle_wrapper{
   max-width:250px;
 }
@@ -1072,7 +1079,20 @@ padding-left: 100px;
 }
 
 
+
+
+
 @media(max-width: 414px) {
+
+.waffle_tooltip, .gender_tooltip,
+.wikipedia_bar_tooltip,
+.wikipedia_bar_gender_tooltip,
+.heatmap_tooltip, .lollipop_tooltip,
+.scatter_tooltip, .scatter2_tooltip
+  {
+  display: none;
+
+}
 
 
 header {
@@ -1184,10 +1204,10 @@ p.uppercase_heading{
     text-align: center;
 }
 
-.para.wide p {
+/*.para.wide p {
   padding-top: 0;
 }
-
+*/
 .green_border h6 {
   paddng-top: 24px;
   }
