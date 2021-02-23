@@ -1,4 +1,5 @@
 pos,date_time,Time,country,annotation
+0, 2/11/2011 2:00:00 PM,16:00,Both,Extra padding
 0, 2/11/2011 4:00:00 PM,16:00,Both,Mubarak Resigns
 0, 2/11/2011 4:04:00 PM,16:04,Egypt,(Article) Lihaas makes update to reflect Mubarak's resignation in body of the article
 0, 2/11/2011 5:31:00 PM,17:31,Egypt,(Talk) J4V4 initiates move discussion
@@ -11,3 +12,4 @@ pos,date_time,Time,country,annotation
 0, 2/12/2011 3:57:00 PM,15:57,Tunisia,(Talk) Lihaas stops editing the article
 0, 2/12/2011 10:31:00 PM,22:31,Tunisia,(Talk) Knowledgekid87 announces the result of page move discussion to revolution
 0, 2/12/2011 00:00:01 AM,00:00,Both,February 12 2011
+0, 2/12/2011 11:45:00 PM,16:00,Both,Extra padding
