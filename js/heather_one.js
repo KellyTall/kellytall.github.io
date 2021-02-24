@@ -129,7 +129,7 @@ var annotations = [
     	endScale: 10
     },
 
-    color: ["grey"],
+    // color: ["grey"],
 
     data: {date: "2/11/2011 4:04:00 PM" , pos: 0},
     
@@ -343,6 +343,13 @@ var annotations = [
 
 
 
+bounds
+	.append('g')
+    .attr("transform", `translate(0,${dimensions.boundedHeight-dimensions.boundedHeight/2})`)
+    .call(xAxis)
+    .attr("class", "axis")
+
+
 var makeAnnotations = d3.annotation()
 				// .editMode(true)
                 .notePadding(15)
@@ -351,18 +358,10 @@ var makeAnnotations = d3.annotation()
         })
                 .annotations(annotations)
 
-
 bounds 
         .append("g")
         .attr("class", "annotation-group")
         .call(makeAnnotations)        
-
-
-bounds
-	.append('g')
-    .attr("transform", `translate(0,${dimensions.boundedHeight-dimensions.boundedHeight/2})`)
-    .call(xAxis)
-    .attr("class", "axis")
     
 
 

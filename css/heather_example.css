@@ -46,3 +46,7 @@ text.annotation-note-label {
 text.annotation-note-title {
 	font-size: 14px;
 }
+
+g.annotation.callout.xythreshold fill {
+	color: red;
+}
