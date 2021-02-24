@@ -97,6 +97,54 @@ var annotations = [
 
 },
 
+	{
+	note: {	
+  	  title: "February 11",
+  	  align: "right",
+  	  lineType:"none",
+  	  orientation:"bottom",
+  	  wrap: 100,
+  	  padding: 2
+
+    },
+    type:d3.annotationXYThreshold,
+    data: {date: "2/11/2011 2:00:00 PM" , pos: 1},
+    subject: {
+    	 x1: 0,
+         x2: 295,
+         
+
+    },
+    className: "day_line",
+	   
+
+},
+
+
+
+{
+    
+note: {	
+  	  title: "February 12",
+  	  align: "left",
+  	  lineType:"none",
+  	  orientation:"bottom",
+  	  wrap: 100,
+  	  padding: 2
+
+    },
+    type:d3.annotationXYThreshold,
+    data: {date: "2/12/2011 12:15:00 AM" , pos: 1},
+    subject: {
+    	 x1: 305,
+         x2: dimensions.boundedWidth,
+         
+
+    },
+    className: "day_line",
+	   
+
+},
 
 
 	{
@@ -112,7 +160,7 @@ var annotations = [
     },
     data: {date: "2/11/2011 3:55:00 PM" , pos: 0},
      subject: {
-    	 y1: 40,
+    	 y1: 50,
          y2: 620	 
 
     },
@@ -121,26 +169,26 @@ var annotations = [
 
 },
 
-{
-    type:d3.annotationXYThreshold,
-    note: {	
-  	  title: "February 12 2011",
-  	  align: "left",
-  	  lineType:"none",
-  	  orientation:"top",
-  	  wrap: 100,
-  	  padding: 2
-    },
-    data: {date: "2/12/2011 0:00:01 AM" , pos: 0},
-    subject: {
-    	 y1: 40,
-         y2: 620	
+	// {
+	//     type:d3.annotationXYThreshold,
+	//     note: {	
+	//   	  title: "February 12 2011",
+	//   	  align: "left",
+	//   	  lineType:"none",
+	//   	  orientation:"top",
+	//   	  wrap: 100,
+	//   	  padding: 2
+	//     },
+	//     data: {date: "2/12/2011 0:00:01 AM" , pos: 0},
+	//     subject: {
+	//     	 y1: 40,
+	//          y2: 620	
 
-    },
-    className: "event",
-	   
+	//     },
+	//     className: "event",
+		   
 
-},
+	// },
 
 
 
@@ -406,14 +454,14 @@ bounds
 	bounds
 .append("circle")
 .attr("cx",dimensions.boundedWidth-140)
-.attr("cy",40-(dimensions.margin.top / 2))
+.attr("cy",80-(dimensions.margin.top / 2))
 .attr("r", 10)
 .attr("class", "egypt")
 
 bounds
 .append("text")
 .attr("x",dimensions.boundedWidth-125)
-.attr("y",40 -(dimensions.margin.top / 2))
+.attr("y",80 -(dimensions.margin.top / 2))
 .text("Egyptian Wikipedia")
 // .style("font-size", "15px")
 .attr("alignment-baseline","middle")
@@ -421,14 +469,14 @@ bounds
 bounds
 .append("circle")
 .attr("cx",dimensions.boundedWidth-140)
-.attr("cy",70-(dimensions.margin.top / 2))
+.attr("cy",55-(dimensions.margin.top / 2))
 .attr("r", 10)
 .attr("class", "tunisia")
 
 bounds
 .append("text")
 .attr("x",dimensions.boundedWidth-125)
-.attr("y",70 -(dimensions.margin.top / 2))
+.attr("y",55 -(dimensions.margin.top / 2))
 .text("Tunisian Wikipedia")
 // .style("font-size", "15px")
 .attr("alignment-baseline","middle")
