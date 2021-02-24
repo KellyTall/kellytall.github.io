@@ -25,10 +25,10 @@ const color_key = Array.from(d3.group(dataset, d => d.country).keys())
 
   const wrapper = d3.select(".time_one")
 		.append("svg")
-		.attr("viewBox", "0 0 1200 900")
+		.attr("viewBox", "0 0 1000 900")
 
 let dimensions = {
-		width: 1200,
+		width: 1000,
 		height: 900,
 		margin: {
 				top: 120,

@@ -8,6 +8,12 @@ body {
 
 }
 
+svg {
+	max-width: 1000px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
 
 h1 {
   
@@ -43,8 +49,12 @@ h3 {
 
 }
 
-circle{
-	opacity: .8;
+
+text.chart_heading {
+    font-weight: 600;
+    font-family: 'Helvetica';
+    font-size: 18px;
+    fill: grey;
 }
 
 text.annotation-note-label {
