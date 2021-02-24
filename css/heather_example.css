@@ -1,5 +1,10 @@
 
 
+:root {
+	--egypt: #eb5e0b;
+	--tunisia: #5eaaa8;
+}
+
 body {
 	margin: 24px 68px 24px 68px;
 
@@ -9,7 +14,7 @@ body {
 }
 
 svg {
-	max-width: 1000px;
+	max-width: 1100px;
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
@@ -64,4 +69,49 @@ text.annotation-note-label {
 text.annotation-note-title {
 	font-size: 14px;
 }
+
+
+.event g.annotation-subject {
+    stroke-dasharray: 4,4;
+    
+
+}
+
+.event g.annotation-subject path{
+    stroke: var(--egypt);
+    opacity: 75%;
+    
+
+}
+
+.egypt path.connector-end.connector-dot {
+    fill: var(--egypt);
+    stroke: var(--egypt);
+    opacity: 75%;
+}
+
+.egypt text.annotation-note-title {
+    fill: var(--egypt);
+}
+
+.tunisia path.connector-end.connector-dot {
+    fill: var(--tunisia);
+    stroke: var(--tunisia);
+    opacity: 75%;
+}
+
+
+.tunisia text.annotation-note-title {
+    fill: var(--tunisia);
+}
+
+path.connector, path.note-line {
+    stroke: grey;
+}
+
+
+path.connector{
+    stroke-dasharray: 1,4;
+}
+
 

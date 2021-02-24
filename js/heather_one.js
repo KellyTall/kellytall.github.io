@@ -25,10 +25,10 @@ const color_key = Array.from(d3.group(dataset, d => d.country).keys())
 
   const wrapper = d3.select(".time_one")
 		.append("svg")
-		.attr("viewBox", "0 0 1000 900")
+		.attr("viewBox", "0 0 1100 900")
 
 let dimensions = {
-		width: 1000,
+		width: 1100,
 		height: 900,
 		margin: {
 				top: 120,
@@ -87,31 +87,46 @@ var annotations = [
     note: {	
   	  title: "16:00 Mubarak Resigns",
   	  align: "middle",
-  	  lineType:"horizontal",
+  	  lineType:"none",
+  	  orientation:"top",
   	  wrap: 100,
   	  padding: 2
+
     },
     data: {date: "2/11/2011 3:55:00 PM" , pos: 0},
-    dy:-360,
-    dx:0,
+    subject: {
+    	 y1: 1,
+         y2: 600,
+         
+
+    },
+    className: "event",
 	   
 
 },
 
 {
-    type:d3.annotationLabel,
+    type:d3.annotationXYThreshold,
     note: {	
   	  title: "February 12 2011",
   	  align: "middle",
-  	  lineType:"horizontal",
+  	  lineType:"none",
+  	  orientation:"top",
   	  wrap: 100,
   	  padding: 2
     },
     data: {date: "2/12/2011 0:00:01 AM" , pos: 0},
-    dy:-360,
-    dx:0,
-	    
+    subject: {
+    	 y1: 1,
+         y2: 600
+
+    },
+    className: "event",
+	   
+
 },
+
+
 
 {
     type:d3.annotationLabel,
@@ -135,7 +150,7 @@ var annotations = [
     dy:-280,
     dx:0,
     
-   
+   className: "egypt",
 
 },
 
@@ -158,6 +173,7 @@ var annotations = [
     data: {date: "2/11/2011 5:31:00 PM" , pos: 0},
     dy:-220,
     dx:0,
+    className: "egypt",
     
 
 },
@@ -179,7 +195,8 @@ var annotations = [
     },
     data: {date: "2/11/2011 6:44:00 PM" , pos: 0},
     dy:-100,
-    dx:0
+    dx:0,
+    className: "egypt",
 
 },
 
@@ -204,6 +221,7 @@ var annotations = [
     data: {date: "2/11/2011 8:15:00 PM" , pos: 0},
     dy:-20,
     dx:10,
+    className: "egypt",
     
     },
 
@@ -226,6 +244,7 @@ var annotations = [
     data: {date: "2/12/2011 1:08:00 AM" , pos: 0},
     dy:-100,
     dx:0,
+    className: "egypt",
 
 
 },
@@ -248,6 +267,7 @@ var annotations = [
     dy:-100,
     dx:0,
     
+    className: "egypt", 
 
 },
 
@@ -270,7 +290,7 @@ var annotations = [
     dy:100,
     dx:0,
 
-
+className: "tunisia",
 },
 
 
@@ -291,6 +311,7 @@ var annotations = [
     data: {date: "2/11/2011 10:54:00 PM" , pos: 0},
     dy:100,
     dx:0,
+    className: "tunisia",
 
  },   
 
@@ -311,6 +332,7 @@ var annotations = [
     data: {date: "2/12/2011 3:57:00 PM" , pos: 0},
     dy:100,
     dx:0,
+    className: "tunisia",
     
 
 },
@@ -332,6 +354,7 @@ var annotations = [
     data: {date: "2/12/2011 10:31:00 PM" , pos: 0},
     dy:100,
     dx:0,
+    className: "tunisia",
 
 
 }
