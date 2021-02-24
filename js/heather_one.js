@@ -23,7 +23,7 @@ const color_key = Array.from(d3.group(dataset, d => d.country).keys())
   
   console.log(dataset)
 
-  const wrapper = d3.select(".example_one")
+  const wrapper = d3.select(".time_one")
 		.append("svg")
 		.attr("viewBox", "0 0 1200 900")
 
@@ -31,7 +31,7 @@ let dimensions = {
 		width: 1200,
 		height: 900,
 		margin: {
-				top: 20,
+				top: 120,
 				right: 20,
 				bottom: 40,
 				left: 80,},
@@ -85,13 +85,13 @@ var annotations = [
 	{
     type:d3.annotationXYThreshold,
     note: {	
-  	  title: "Mubarak Resigns",
+  	  title: "16:00 Mubarak Resigns",
   	  align: "middle",
   	  lineType:"horizontal",
-  	  wrap: 30,
+  	  wrap: 100,
   	  padding: 2
     },
-    data: {date: "2/11/2011 4:00:00 PM" , pos: 0},
+    data: {date: "2/11/2011 3:55:00 PM" , pos: 0},
     dy:-360,
     dx:0,
 	   
@@ -116,7 +116,7 @@ var annotations = [
 {
     type:d3.annotationLabel,
     note: {	
-    	title:"(Article)",
+    	title:"16:04 (Article)",
   	  label: "Lihaas makes update to reflect Mubarak's resignation in body of the article",
   	  align: "left",
   	  lineType:"horizontal",
@@ -129,9 +129,8 @@ var annotations = [
     	endScale: 10
     },
 
-    // color: ["grey"],
 
-    data: {date: "2/11/2011 4:04:00 PM" , pos: 0},
+    data: {date: "2/11/2011 4:10:00 PM" , pos: 0},
     
     dy:-280,
     dx:0,
@@ -143,12 +142,12 @@ var annotations = [
 {
     type:d3.annotationLabel,
     note: {	
-    	title:"(Talk)",
+    	title:"17:31 (Talk)",
   	  label: "J4V4 initiates move discussion",
-  	  align: "middle",
+  	  align: "left",
   	  lineType:"horizontal",
   	  padding: 2,
-  	  wrap: 80,
+  	  wrap: 90,
     },
     connector: {
     	end: "dot",
@@ -157,7 +156,7 @@ var annotations = [
     },
 
     data: {date: "2/11/2011 5:31:00 PM" , pos: 0},
-    dy:-200,
+    dy:-220,
     dx:0,
     
 
@@ -167,7 +166,7 @@ var annotations = [
 	{
     type:d3.annotationLabel,
     note: {	
-    	title:"(Article)",
+    	title:"18:44 (Article)",
   	  	label: "Nev1 protects page (now only accessible by auto-confirmed users) because of 'persistent vandalism'",
   		align: "left",
   	  	lineType:"horizontal",
@@ -190,7 +189,7 @@ var annotations = [
 {
     type:d3.annotationLabel,
     note: {	
-    	title:"(Article)",
+    	title:"20:15 (Article)",
   	  label: "Tariqabjotu moves page to Egyptian revolution",
   	 
   	  align: "left",
@@ -213,7 +212,7 @@ var annotations = [
 {
     type:d3.annotationLabel,
     note: {	
-    	title:"(Article)",
+    	title:"01:08 (Article)",
   	  label: "Lihaas stops opposing changes and makes his last edit",
   	   align: "left",
   	  	lineType:"horizontal",
@@ -234,7 +233,7 @@ var annotations = [
 {
     type:d3.annotationLabel,
     note: {	
-    	title:"(Talk)",
+    	title:"21:41 (Talk)",
   	  label: "Labattblueboy announces that the result of the move request was a move by Tariqabjotou",
   	   align: "right",
   	  	lineType:"horizontal",
@@ -256,7 +255,7 @@ var annotations = [
 {
     type:d3.annotationLabel,
     note: {	
-    	title:"(Article)",
+    	title:"17:55 (Article)",
   	  label: "The Egyptian Liberal moves Tunisian protests to revolution (but is reverted)",
   	  align: "left",
   	  	lineType:"horizontal",
@@ -278,7 +277,7 @@ var annotations = [
 {
     type:d3.annotationLabel,
     note: {	
-    	title:"(Article)",
+    	title:"22:54 (Article)",
   	  label: "Knowledgekid8 moves Tunisian protests to revolution",
   	  align: "left",
   	  	lineType:"horizontal",
@@ -298,7 +297,7 @@ var annotations = [
     {
     type:d3.annotationLabel,
     note: {	
-    	title:"(Talk)",
+    	title:"15:57 (Talk)",
   	  label: "Lihaas stops editing the article",
   	  align: "right",
   	  	lineType:"horizontal",
@@ -319,7 +318,7 @@ var annotations = [
  {
     type:d3.annotationLabel,
     note: {	
-    	title:"(Talk)",
+    	title:"22:31 (Talk)",
   	  label: "Knowledgekid87 announces the result of page move discussion to revolution",
   	  align: "right",
   	  	lineType:"horizontal",
@@ -341,6 +340,15 @@ var annotations = [
 
 ]
 
+
+
+bounds
+	.append("text")
+	.attr("x", (0))	
+	.attr("y", 0 - (dimensions.margin.top /2))
+	.attr("text-anchor", "right")
+	.attr("class", "chart_heading")
+	.text("Timeline of changes to Wikipedia Over 48 Hours: Feb 11 and 12, 2011")	
 
 
 bounds
