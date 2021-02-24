@@ -23,7 +23,7 @@ const color_key = Array.from(d3.group(dataset, d => d.country).keys())
   
   console.log(dataset)
 
-  const wrapper = d3.select(".time_one")
+  const wrapper = d3.select(".time_two")
 		.append("svg")
 		.attr("viewBox", "0 0 1100 900")
 
@@ -31,7 +31,7 @@ let dimensions = {
 		width: 1100,
 		height: 900,
 		margin: {
-				top: 120,
+				top: 80,
 				right: 20,
 				bottom: 40,
 				left: 80,},
@@ -61,7 +61,7 @@ const x = d3.scaleTime()
 
 const  y = d3.scaleLinear()
 		.domain([0, 1])
-		.range([dimensions.boundedHeight/2, 0])
+		.range([dimensions.boundedHeight, 0])
 		
 
 
@@ -72,6 +72,7 @@ const color = d3.scaleOrdinal()
 
 const xAxis = d3.axisBottom()
 	.scale(x)
+	.tickSize(dimensions.boundedHeight - dimensions.margin.left - dimensions.margin.right)
 
 
 // const yAxis = d3.axisLeft()
@@ -81,6 +82,22 @@ const xAxis = d3.axisBottom()
 
 
 var annotations = [
+
+	{
+    type:d3.annotationXYThreshold,
+    data: {date: "2/11/2011 3:55:00 PM" , pos: .5},
+    subject: {
+    	 x1: 0,
+         x2: dimensions.boundedWidth,
+         
+
+    },
+    className: "egypt_line",
+	   
+
+},
+
+
 
 	{
     type:d3.annotationXYThreshold,
@@ -94,10 +111,9 @@ var annotations = [
 
     },
     data: {date: "2/11/2011 3:55:00 PM" , pos: 0},
-    subject: {
-    	 y1: 1,
-         y2: 600,
-         
+     subject: {
+    	 y1: 40,
+         y2: 620	 
 
     },
     className: "event",
@@ -109,7 +125,7 @@ var annotations = [
     type:d3.annotationXYThreshold,
     note: {	
   	  title: "February 12 2011",
-  	  align: "middle",
+  	  align: "left",
   	  lineType:"none",
   	  orientation:"top",
   	  wrap: 100,
@@ -117,8 +133,8 @@ var annotations = [
     },
     data: {date: "2/12/2011 0:00:01 AM" , pos: 0},
     subject: {
-    	 y1: 1,
-         y2: 600
+    	 y1: 40,
+         y2: 620	
 
     },
     className: "event",
@@ -145,7 +161,7 @@ var annotations = [
     },
 
 
-    data: {date: "2/11/2011 4:10:00 PM" , pos: 0},
+    data: {date: "2/11/2011 4:10:00 PM" , pos: .5},
     
     dy:-280,
     dx:0,
@@ -170,7 +186,7 @@ var annotations = [
     	endScale: 10
     },
 
-    data: {date: "2/11/2011 5:31:00 PM" , pos: 0},
+    data: {date: "2/11/2011 5:31:00 PM" , pos: .5},
     dy:-220,
     dx:0,
     className: "egypt",
@@ -193,7 +209,7 @@ var annotations = [
     	type: "line",
     	endScale: 10
     },
-    data: {date: "2/11/2011 6:44:00 PM" , pos: 0},
+    data: {date: "2/11/2011 6:44:00 PM" , pos: .5},
     dy:-100,
     dx:0,
     className: "egypt",
@@ -218,7 +234,7 @@ var annotations = [
     	type: "line",
     	endScale: 10
     },
-    data: {date: "2/11/2011 8:15:00 PM" , pos: 0},
+    data: {date: "2/11/2011 8:15:00 PM" , pos: .5},
     dy:-20,
     dx:10,
     className: "egypt",
@@ -241,7 +257,7 @@ var annotations = [
     	type: "line",
     	endScale: 10
     },
-    data: {date: "2/12/2011 1:08:00 AM" , pos: 0},
+    data: {date: "2/12/2011 1:08:00 AM" , pos: .5},
     dy:-100,
     dx:0,
     className: "egypt",
@@ -263,7 +279,7 @@ var annotations = [
     	type: "line",
     	endScale: 10
     },
-    data: {date: "2/12/2011 9:41:00 PM" , pos: 0},
+    data: {date: "2/12/2011 9:41:00 PM" , pos: .5},
     dy:-100,
     dx:0,
     
@@ -271,6 +287,20 @@ var annotations = [
 
 },
 
+
+{
+    type:d3.annotationXYThreshold,
+    data: {date: "2/11/2011 3:55:00 PM" , pos: .2},
+    subject: {
+    	 x1: 0,
+         x2: dimensions.boundedWidth,
+         
+
+    },
+    className: "tunisia_line",
+	   
+
+},
 
 {
     type:d3.annotationLabel,
@@ -286,8 +316,8 @@ var annotations = [
     	type: "line",
     	endScale: 10
     },
-    data: {date: "2/11/2011 5:55:00 PM" , pos: 0},
-    dy:100,
+    data: {date: "2/11/2011 5:55:00 PM" , pos: .2},
+    dy:-100,
     dx:0,
 
 className: "tunisia",
@@ -308,8 +338,8 @@ className: "tunisia",
     	type: "line",
     	endScale: 10
     },
-    data: {date: "2/11/2011 10:54:00 PM" , pos: 0},
-    dy:100,
+    data: {date: "2/11/2011 10:54:00 PM" , pos: .2},
+    dy:-100,
     dx:0,
     className: "tunisia",
 
@@ -329,8 +359,8 @@ className: "tunisia",
     	type: "line",
     	endScale: 10
     },
-    data: {date: "2/12/2011 3:57:00 PM" , pos: 0},
-    dy:100,
+    data: {date: "2/12/2011 3:57:00 PM" , pos: .2},
+    dy:-100,
     dx:0,
     className: "tunisia",
     
@@ -351,13 +381,13 @@ className: "tunisia",
     	type: "line",
     	endScale: 10
     },
-    data: {date: "2/12/2011 10:31:00 PM" , pos: 0},
-    dy:100,
+    data: {date: "2/12/2011 10:31:00 PM" , pos: .2},
+    dy:-100,
     dx:0,
     className: "tunisia",
 
 
-}
+}	
 
 
 
@@ -373,8 +403,7 @@ bounds
 	.attr("class", "chart_heading")
 	.text("Timeline of changes to Wikipedia Over 48 Hours: Feb 11 and 12, 2011")	
 
-
-bounds
+	bounds
 .append("circle")
 .attr("cx",dimensions.boundedWidth-140)
 .attr("cy",40-(dimensions.margin.top / 2))
@@ -407,12 +436,11 @@ bounds
 
 
 
-
-bounds
-	.append('g')
-    .attr("transform", `translate(0,${dimensions.boundedHeight-dimensions.boundedHeight/2})`)
-    .call(xAxis)
-    .attr("class", "axis")
+// bounds
+// 	.append('g')
+//     .attr("transform", `translate(0,${dimensions.boundedHeight-dimensions.boundedHeight})`)
+//     .call(xAxis)
+//     .attr("class", "axis")
 
 
 var makeAnnotations = d3.annotation()
