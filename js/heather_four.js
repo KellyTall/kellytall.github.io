@@ -278,8 +278,8 @@ note: {
       endScale: 10
     },
     data: {date: "2/11/2011 10:54:00 PM" , pos: 2.5},
-    dy:-170,
-    dx:50,
+    dy:-150,
+    dx:60,
     className: "tunisia",
 
  },   
