@@ -151,6 +151,11 @@ text {
 }
 
 
+text.type_heading {
+    fill: black;
+    font-weight: 600;
+    font-size: 16px;
 
+}
 
 

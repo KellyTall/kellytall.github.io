@@ -462,6 +462,12 @@ bounds
   .attr("class", "chart_heading")
   .text("resignation on February 11, 2011")
 
+
+
+
+
+
+
 	bounds
 .append("circle")
 .attr("cx",dimensions.boundedWidth-140)

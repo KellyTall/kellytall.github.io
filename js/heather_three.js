@@ -220,7 +220,7 @@ note: {
 {
     type:d3.annotationLabel,
     note: {	
-    	title:"16:04 (Article)",
+    	title:"16:04 ",
   	  label: "Lihaas makes update to reflect Mubarak's resignation in body of the article",
   	  align: "left",
   	  lineType:"horizontal",
@@ -246,7 +246,7 @@ note: {
 {
     type:d3.annotationLabel,
     note: {	
-    	title:"17:31 (Talk)",
+    	title:"17:31",
   	  label: "J4V4 initiates move discussion",
   	  align: "left",
   	  lineType:"horizontal",
@@ -271,7 +271,7 @@ note: {
 	{
     type:d3.annotationLabel,
     note: {	
-    	title:"18:44 (Article)",
+    	title:"18:44",
   	  	label: "Nev1 protects page (now only accessible by auto-confirmed users) because of 'persistent vandalism'",
   		align: "left",
   	  	lineType:"horizontal",
@@ -296,7 +296,7 @@ note: {
 {
     type:d3.annotationLabel,
     note: {	
-    	title:"20:15 (Article)",
+    	title:"20:15",
   	  label: "Tariqabjotu moves page to Egyptian revolution",
   	 
   	  align: "left",
@@ -320,7 +320,7 @@ note: {
 {
     type:d3.annotationLabel,
     note: {	
-    	title:"01:08 (Article)",
+    	title:"01:08",
   	  label: "Lihaas stops opposing changes and makes his last edit",
   	   align: "left",
   	  	lineType:"horizontal",
@@ -342,7 +342,7 @@ note: {
 {
     type:d3.annotationLabel,
     note: {	
-    	title:"21:41 (Talk)",
+    	title:"21:41",
   	  label: "Labattblueboy announces that the result of the move request was a move by Tariqabjotou",
   	   align: "right",
   	  	lineType:"horizontal",
@@ -355,7 +355,7 @@ note: {
     	endScale: 10
     },
     data: {date: "2/12/2011 9:41:00 PM" , pos: 3},
-    dy:-100,
+    dy:-95,
     dx:0,
     
     className: "egypt", 
@@ -368,7 +368,7 @@ note: {
 {
     type:d3.annotationLabel,
     note: {	
-    	title:"17:55 (Article)",
+    	title:"17:55 ",
   	  label: "The Egyptian Liberal moves Tunisian uprising to revolution (but is reverted)",
   	  align: "left",
   	  	lineType:"horizontal",
@@ -391,7 +391,7 @@ className: "tunisia",
 {
     type:d3.annotationLabel,
     note: {	
-    	title:"22:54 (Article)",
+    	title:"22:54 ",
   	  label: "Knowledgekid87 moves Tunisian uprising to revolution",
   	  align: "left",
   	  	lineType:"horizontal",
@@ -412,7 +412,7 @@ className: "tunisia",
     {
     type:d3.annotationLabel,
     note: {	
-    	title:"15:57 (Talk)",
+    	title:"15:57  ",
   	  label: "Lihaas stops editing the article",
   	  align: "right",
   	  	lineType:"horizontal",
@@ -424,7 +424,7 @@ className: "tunisia",
     	endScale: 10
     },
     data: {date: "2/12/2011 3:57:00 PM" , pos: 1},
-    dy:-60,
+    dy:-40,
     dx:0,
     className: "tunisia",
     
@@ -434,7 +434,7 @@ className: "tunisia",
  {
     type:d3.annotationLabel,
     note: {	
-    	title:"22:31 (Talk)",
+    	title:"22:31  ",
   	  label: "Knowledgekid87 announces the result of page move discussion to revolution",
   	  align: "right",
   	  	lineType:"horizontal",
@@ -447,7 +447,7 @@ className: "tunisia",
     	endScale: 10
     },
     data: {date: "2/12/2011 10:31:00 PM" , pos: 1},
-    dy:-120,
+    dy:-100,
     dx:0,
     className: "tunisia",
 
@@ -476,6 +476,43 @@ bounds
 	.attr("class", "chart_heading")
 	.text("resignation on February 11, 2011")
 	
+
+bounds
+  .append("text")
+  .attr("x",dimensions.boundedWidth-80)
+  .attr("y", 70 - (dimensions.margin.top /2))
+  .attr("text-anchor", "right")
+  .attr("class", "type_heading")
+  .text("Article")
+
+
+
+bounds
+  .append("text")
+  .attr("x",dimensions.boundedWidth-80)
+  .attr("y", 240 - (dimensions.margin.top /2))
+  .attr("text-anchor", "right")
+  .attr("class", "type_heading")
+  .text("Talk Page")
+
+  bounds
+  .append("text")
+  .attr("x",dimensions.boundedWidth-80)
+  .attr("y", 440 - (dimensions.margin.top /2))
+  .attr("text-anchor", "right")
+  .attr("class", "type_heading")
+  .text("Article")
+
+
+
+bounds
+  .append("text")
+  .attr("x",dimensions.boundedWidth-80)
+  .attr("y", 600 - (dimensions.margin.top /2))
+  .attr("text-anchor", "right")
+  .attr("class", "type_heading")
+  .text("Talk Page")
+
 
 // 	bounds
 // .append("circle")
