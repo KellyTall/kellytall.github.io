@@ -391,7 +391,7 @@ className: "tunisia",
     type:d3.annotationLabel,
     note: {	
     	title:"22:54 (Article)",
-  	  label: "Knowledgekid8 moves Tunisian uprising to revolution",
+  	  label: "Knowledgekid87 moves Tunisian uprising to revolution",
   	  align: "left",
   	  	lineType:"horizontal",
   	  	padding: 5
