@@ -72,16 +72,22 @@ text.annotation-note-title {
 }
 
 
-/*.event g.annotation-subject {
-    stroke-dasharray: 4,4;
+
+
+.event g.annotation-subject path{
+    stroke: var(--egypt);
+    stroke-width:6px;
+    opacity: 25%;
+    fill: red;
     
 
 }
-*/
-.event g.annotation-subject path{
-    stroke: var(--egypt);
-    stroke-width:5px;
+
+.date_event g.annotation-subject path{
+    stroke: var(--tunisia);
+    stroke-dasharray: 4 1;
     opacity: 25%;
+    fill: red;
     
 
 }
