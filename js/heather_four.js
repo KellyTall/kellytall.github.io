@@ -263,7 +263,7 @@ note: {
     type:d3.annotationLabel,
     note: { 
       title:"22:54 ",
-      label: "Knowledgekid87 moves Tunisian protests to revolution",
+      label: "Knowledgekid87 moves Tunisian uprising to revolution",
       align: "left",
         lineType:"horizontal",
         padding: 2,
@@ -359,7 +359,7 @@ note: {
     type:d3.annotationLabel,
     note: {	
     	title:"17:55 ",
-  	  label: "The Egyptian Liberal moves Tunisian protests to revolution (but is reverted)",
+  	  label: "The Egyptian Liberal moves Tunisian uprising to revolution (but is reverted)",
   	  align: "left",
   	  	lineType:"horizontal",
   	  	padding: 2,
