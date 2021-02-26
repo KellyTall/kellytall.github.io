@@ -97,12 +97,13 @@ var annotations = [
     data: {date: "2/11/2011 2:00:00 PM" , pos: 5},
     subject: {
     	 x1: 0,
-         x2: 295,
+         x2: 195,
          
 
     },
     className: "day_line",
 	   
+
 },
 
 
@@ -110,7 +111,7 @@ var annotations = [
 {
     
 note: {	
-  	  title: "February 12",
+  	  title: "  February 12",
   	  align: "left",
   	  lineType:"none",
   	  orientation:"bottom",
@@ -121,7 +122,7 @@ note: {
     type:d3.annotationXYThreshold,
     data: {date: "2/12/2011 12:15:00 AM" , pos: 5},
     subject: {
-    	 x1: 305,
+    	 x1: 210,
          x2: dimensions.boundedWidth,
          
 

@@ -25,11 +25,11 @@ const color_key = Array.from(d3.group(dataset, d => d.country).keys())
 
   const wrapper = d3.select(".time_two")
 		.append("svg")
-		.attr("viewBox", "0 0 1100 900")
+		.attr("viewBox", "0 0 768 1024")
 
 let dimensions = {
-		width: 1100,
-		height: 900,
+		width: 768,
+		height: 1024,
 		margin: {
 				top: 80,
 				right: 20,
@@ -111,7 +111,7 @@ var annotations = [
     data: {date: "2/11/2011 2:00:00 PM" , pos: 1},
     subject: {
     	 x1: 0,
-         x2: 295,
+         x2: 195,
          
 
     },
@@ -125,7 +125,7 @@ var annotations = [
 {
     
 note: {	
-  	  title: "February 12",
+  	  title: "  February 12",
   	  align: "left",
   	  lineType:"none",
   	  orientation:"bottom",
@@ -136,7 +136,7 @@ note: {
     type:d3.annotationXYThreshold,
     data: {date: "2/12/2011 12:15:00 AM" , pos: 1},
     subject: {
-    	 x1: 305,
+    	 x1: 210,
          x2: dimensions.boundedWidth,
          
 
@@ -149,7 +149,7 @@ note: {
 
 	{
     type:d3.annotationXYThreshold,
-    note: {	
+    note: {
   	  title: "16:00 Mubarak Resigns",
   	  align: "middle",
   	  lineType:"none",
@@ -161,7 +161,7 @@ note: {
     data: {date: "2/11/2011 3:55:00 PM" , pos: 0},
      subject: {
     	 y1: 50,
-         y2: 620	 
+         y2: 725	 
 
     },
     className: "event",
@@ -171,14 +171,14 @@ note: {
 
 	// {
 	//     type:d3.annotationXYThreshold,
-	//     note: {	
-	//   	  title: "February 12 2011",
-	//   	  align: "left",
-	//   	  lineType:"none",
-	//   	  orientation:"top",
-	//   	  wrap: 100,
-	//   	  padding: 2
-	//     },
+	//     // note: {	
+	//   	 //  title: "February 12 2011",
+	//   	 //  align: "left",
+	//   	 //  lineType:"none",
+	//   	 //  orientation:"top",
+	//   	 //  wrap: 100,
+	//   	 //  padding: 2
+	//     // },
 	//     data: {date: "2/12/2011 0:00:01 AM" , pos: 0},
 	//     subject: {
 	//     	 y1: 40,
@@ -211,7 +211,7 @@ note: {
 
     data: {date: "2/11/2011 4:10:00 PM" , pos: .5},
     
-    dy:-280,
+    dy:-310,
     dx:0,
     
    className: "egypt",
@@ -235,7 +235,7 @@ note: {
     },
 
     data: {date: "2/11/2011 5:31:00 PM" , pos: .5},
-    dy:-220,
+    dy:-250,
     dx:0,
     className: "egypt",
     
@@ -258,7 +258,7 @@ note: {
     	endScale: 10
     },
     data: {date: "2/11/2011 6:44:00 PM" , pos: .5},
-    dy:-100,
+    dy:-120,
     dx:0,
     className: "egypt",
 
@@ -275,7 +275,8 @@ note: {
   	 
   	  align: "left",
   	  	lineType:"horizontal",
-  	  	padding: 2
+  	  	padding: 2,
+        wrap: 100,
     },
     connector: {
     	end: "dot",
@@ -283,8 +284,8 @@ note: {
     	endScale: 10
     },
     data: {date: "2/11/2011 8:15:00 PM" , pos: .5},
-    dy:-20,
-    dx:10,
+    dy:-30,
+    dx:0,
     className: "egypt",
     
     },
@@ -307,7 +308,7 @@ note: {
     },
     data: {date: "2/12/2011 1:08:00 AM" , pos: .5},
     dy:-100,
-    dx:0,
+    dx:10,
     className: "egypt",
 
 
@@ -357,7 +358,8 @@ note: {
   	  label: "The Egyptian Liberal moves Tunisian protests to revolution (but is reverted)",
   	  align: "left",
   	  	lineType:"horizontal",
-  	  	padding: 5
+  	  	padding: 2,
+        wrap: 280,
     },
     connector: {
     	end: "dot",
@@ -365,7 +367,7 @@ note: {
     	endScale: 10
     },
     data: {date: "2/11/2011 5:55:00 PM" , pos: .2},
-    dy:-100,
+    dy:-190,
     dx:0,
 
 className: "tunisia",
@@ -379,7 +381,8 @@ className: "tunisia",
   	  label: "Knowledgekid8 moves Tunisian protests to revolution",
   	  align: "left",
   	  	lineType:"horizontal",
-  	  	padding: 5
+  	  	padding: 2,
+        wrap: 200,
     },
     connector: {
     	end: "dot",
@@ -400,7 +403,7 @@ className: "tunisia",
   	  label: "Lihaas stops editing the article",
   	  align: "right",
   	  	lineType:"horizontal",
-  	  	padding: 5
+  	  	padding: 2
     },
     connector: {
     	end: "dot",
@@ -422,7 +425,7 @@ className: "tunisia",
   	  label: "Knowledgekid87 announces the result of page move discussion to revolution",
   	  align: "right",
   	  	lineType:"horizontal",
-  	  	padding: 5
+  	  	padding: 2
     },
     connector: {
     	end: "dot",
@@ -444,24 +447,32 @@ className: "tunisia",
 
 
 bounds
-	.append("text")
-	.attr("x", (0))	
-	.attr("y", 0 - (dimensions.margin.top /2))
-	.attr("text-anchor", "right")
-	.attr("class", "chart_heading")
-	.text("Timeline of changes to Wikipedia Over 48 Hours: Feb 11 and 12, 2011")	
+  .append("text")
+  .attr("x", (0)) 
+  .attr("y", 0 - (dimensions.margin.top /2))
+  .attr("text-anchor", "right")
+  .attr("class", "chart_heading")
+  .text("Timeline of significant changes to Wikipedia 48 hours after Hosni Mubarak's")
+
+bounds
+  .append("text")
+  .attr("x", (0)) 
+  .attr("y", 20 - (dimensions.margin.top /2))
+  .attr("text-anchor", "right")
+  .attr("class", "chart_heading")
+  .text("resignation on February 11, 2011")
 
 	bounds
 .append("circle")
 .attr("cx",dimensions.boundedWidth-140)
-.attr("cy",80-(dimensions.margin.top / 2))
-.attr("r", 10)
+.attr("cy",65-(dimensions.margin.top / 2))
+.attr("r", 8)
 .attr("class", "egypt")
 
 bounds
 .append("text")
 .attr("x",dimensions.boundedWidth-125)
-.attr("y",80 -(dimensions.margin.top / 2))
+.attr("y",65 -(dimensions.margin.top / 2))
 .text("Egyptian Wikipedia")
 // .style("font-size", "15px")
 .attr("alignment-baseline","middle")
@@ -469,14 +480,14 @@ bounds
 bounds
 .append("circle")
 .attr("cx",dimensions.boundedWidth-140)
-.attr("cy",55-(dimensions.margin.top / 2))
-.attr("r", 10)
+.attr("cy",90-(dimensions.margin.top / 2))
+.attr("r", 8)
 .attr("class", "tunisia")
 
 bounds
 .append("text")
 .attr("x",dimensions.boundedWidth-125)
-.attr("y",55 -(dimensions.margin.top / 2))
+.attr("y",90 -(dimensions.margin.top / 2))
 .text("Tunisian Wikipedia")
 // .style("font-size", "15px")
 .attr("alignment-baseline","middle")
