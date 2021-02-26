@@ -1,8 +1,8 @@
 
 
 :root {
-	--egypt: #eb5e0b;
-	--tunisia: #5eaaa8;
+	--egypt: #A0A0A0;
+	--tunisia: #606060;
 }
 
 body {
@@ -14,7 +14,7 @@ body {
 }
 
 svg {
-	max-width: 1100px;
+	max-width: 768px;
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
@@ -60,7 +60,7 @@ text.chart_heading {
     font-weight: 600;
     font-family: 'Helvetica';
     font-size: 18px;
-    fill: grey;
+    fill: #000000;
 }
 
 text.annotation-note-label {
@@ -112,7 +112,7 @@ text.annotation-note-title {
 }
 
 .egypt text.annotation-note-title {
-    fill: var(--egypt);
+    fill: var(--tunisia);
 }
 
 .tunisia path.connector-end.connector-dot {
