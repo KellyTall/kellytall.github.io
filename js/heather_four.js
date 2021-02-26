@@ -147,15 +147,16 @@ note: {
 
     },
     type:d3.annotationXYThreshold,
-    data: {date: "2/12/2011 12:15:00 AM" , pos: 5},
+    data: {date: "2/12/2011 12:00:00 AM" , pos: 5},
     nx: 5,
     
     subject: {
-    	 x1: 210,
+    	 x1: 200,
       x2: dimensions.boundedWidth,
          
 
     },
+    disable: "connector",
     className: "day_line",
 	   
 
@@ -166,20 +167,22 @@ note: {
     type:d3.annotationXYThreshold,
     note: {
   	  title: "16:00 Mubarak Resigns",
-  	  align: "middle",
+  	  align: "left",
   	  lineType:"none",
   	  orientation:"top",
-  	  wrap: 100,
+  	  wrap: 400,
   	  padding: 2
 
     },
-    data: {date: "2/11/2011 3:55:00 PM" , pos: 0},
+    nx: -10,
+    data: {date: "2/11/2011 4:00:00 PM" , pos: 0},
      subject: {
     	 y1: 60,
          y2: 725	 
 
     },
-    className: "event",
+    className: "resign",
+    disable: "connector"
 	   
 
 },
@@ -204,7 +207,7 @@ note: {
     },
 
 
-    data: {date: "2/11/2011 4:20:00 PM" , pos: 2.5},
+    data: {date: "2/11/2011 4:04:00 PM" , pos: 2.5},
     
     dy:-310,
     dx:0,
@@ -385,7 +388,7 @@ className: "tunisia",
     note: {	
     	title:"15:57 ",
   	  label: "Lihaas stops editing the article",
-  	  align: "left",
+  	  align: "right",
   	  	lineType:"horizontal",
   	  	padding: 2
     },
@@ -449,21 +452,38 @@ bounds
 
 
 
+bounds
+  .append("text")
+  .attr("x", 0 - 580) 
+  .attr("y", 60 - (dimensions.margin.top /2))
+  .attr("text-anchor", "right")
+  .attr("class", "talk_heading")
+  .text("Talk Page")
+
+
+bounds
+  .append("text")
+  .attr("x", 0 - 280) 
+  .attr("y", 60 - (dimensions.margin.top /2))
+  .attr("text-anchor", "right")
+  .attr("class", "talk_heading")
+  .text("Article")
 
 
 
 
-	bounds
+
+bounds
 .append("circle")
 .attr("cx",dimensions.boundedWidth-140)
-.attr("cy",65-(dimensions.margin.top / 2))
+.attr("cy",90-(dimensions.margin.top / 2))
 .attr("r", 8)
 .attr("class", "egypt")
 
 bounds
 .append("text")
 .attr("x",dimensions.boundedWidth-125)
-.attr("y",65 -(dimensions.margin.top / 2))
+.attr("y",90 -(dimensions.margin.top / 2))
 .text("Egyptian Wikipedia")
 // .style("font-size", "15px")
 .attr("alignment-baseline","middle")
@@ -471,14 +491,14 @@ bounds
 bounds
 .append("circle")
 .attr("cx",dimensions.boundedWidth-140)
-.attr("cy",90-(dimensions.margin.top / 2))
+.attr("cy",115-(dimensions.margin.top / 2))
 .attr("r", 8)
 .attr("class", "tunisia")
 
 bounds
 .append("text")
 .attr("x",dimensions.boundedWidth-125)
-.attr("y",90 -(dimensions.margin.top / 2))
+.attr("y",115 -(dimensions.margin.top / 2))
 .text("Tunisian Wikipedia")
 // .style("font-size", "15px")
 .attr("alignment-baseline","middle")

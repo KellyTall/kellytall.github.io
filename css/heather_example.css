@@ -3,6 +3,9 @@
 :root {
 	--egypt: #A0A0A0;
 	--tunisia: #606060;
+	--resign: #E0E0E0;
+	--text: #909090	;
+	--connector: #D8D8D8;
 }
 
 body {
@@ -50,7 +53,7 @@ h3 {
 }
 
 .axis text {
-	color: lightgrey;	
+	color: var(--text);	
 	   font-size: 8px;
 
 }
@@ -60,7 +63,7 @@ text.chart_heading {
     font-weight: 600;
     font-family: 'Helvetica';
     font-size: 18px;
-    fill: #000000;
+    fill: var(--tunisia);
 }
 
 text.annotation-note-label {
@@ -74,11 +77,11 @@ text.annotation-note-title {
 
 
 
-.event g.annotation-subject path{
-    stroke: var(--egypt);
-    stroke-width:6px;
+.resign g.annotation-subject path{
+    stroke: var(--resign);
+    stroke-width:20px;
     opacity: 25%;
-    fill: red;
+    
     
 
 }
@@ -87,11 +90,25 @@ text.annotation-note-title {
     stroke: var(--tunisia);
     stroke-dasharray: 4 1;
     opacity: 25%;
-    fill: red;
+    
     
 
 }
 
+.reference_line g.annotation-subject path{
+    stroke: var(--tunisia);
+    /*stroke-dasharray: 4 1;*/
+    opacity: 25%;
+    
+    
+
+}
+
+
+.resign text.annotation-note-title {
+    /*font-size: 18px;*/
+    fill:var(--tunisia);
+}
 
 .egypt_line g.annotation-subject path{
     stroke: var(--egypt);
@@ -101,6 +118,11 @@ text.annotation-note-title {
 }
 
 
+.day_line text.annotation-note-title {
+    fill: var(--tunisia);
+    font-weight: 200;
+    font-size: 14px;
+}
 
 .tunisia_line g.annotation-subject path{
     stroke: var(--tunisia);
@@ -113,7 +135,7 @@ text.annotation-note-title {
 
 .egypt path.connector-end.connector-dot {
     fill: var(--egypt);
-    stroke: var(--egypt);
+    stroke: #fff;
     opacity: 75%;
 }
 
@@ -123,7 +145,7 @@ text.annotation-note-title {
 
 .tunisia path.connector-end.connector-dot {
     fill: var(--tunisia);
-    stroke: var(--tunisia);
+    stroke: #fff;
     opacity: 75%;
 }
 
@@ -132,28 +154,32 @@ text.annotation-note-title {
     fill: var(--tunisia);
 }
 
-path.connector, path.note-line {
-    stroke: grey;
+path.note-line {
+    stroke: var(--tunisia);
+    stroke-width: 1px;
 }
 
 
 path.connector{
-    stroke: lightgrey;
+    stroke: var(--connector);
+    stroke-width: 1px;
 }
 
 
 circle.egypt  {
 	fill: var(--egypt);
+	opacity: 75%;
 }
 
 
 circle.tunisia  {
 	fill: var(--tunisia);
+	opacity: 75%;
 }
 
 text {
 	font-size: 14px;
-	fill: darkgrey;
+	fill: var(--text);
 }
 
 
@@ -162,6 +188,17 @@ text.type_heading {
     font-weight: 600;
     font-size: 16px;
 
+
 }
+
+.talk_heading {
+	text-anchor: middle;
+    transform: rotate(-90deg);
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    fill:var(--tunisia);
+}
+
 
 
