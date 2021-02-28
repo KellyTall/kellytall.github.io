@@ -440,7 +440,7 @@ bounds
   .attr("y", 0 - (dimensions.margin.top /2))
   .attr("text-anchor", "right")
   .attr("class", "chart_heading")
-  .text("Timeline of significant changes to Wikipedia 48 hours after Hosni Mubarak's")
+  .text("Timeline of significant changes to English Wikipedia 48 hours after ")
 
 bounds
   .append("text")
@@ -448,7 +448,7 @@ bounds
   .attr("y", 20 - (dimensions.margin.top /2))
   .attr("text-anchor", "right")
   .attr("class", "chart_heading")
-  .text("resignation on February 11, 2011")
+  .text("Hosni Mubarak's resignation on February 11, 2011")
 
 
 
