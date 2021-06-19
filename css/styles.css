@@ -93,6 +93,12 @@ ul.week {
     margin-top: 0;
 }
 
+.week_wrap ul.week:last-child {
+    padding: 0 48px;
+    border-right:none;
+    margin-top: 0;
+}
+
 .week_wrap ul.week h2 {
     font-size: 24px;
     font-weight: 800;

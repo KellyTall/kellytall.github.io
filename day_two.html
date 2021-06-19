@@ -11,33 +11,50 @@
 </head>
 
 <body>
+
+    <ul class="top_nav">
+    <li><a href="100_days.html">
+                        <p>back to home page</p>
+                    </a></li>
+
+                </ul>
+
     <h1> Day Two</h1>
     <h2> 19th June 2021 </h2>
-    <h3>Chart Title</h3>
-    <h4>Date / Subtitle</h4>
+
+
+    <h3>Number of NDIS partcipants receiving SDA suppports in the Sydney Region<br>Sorted by number of participants</h3>
+    <h4>March 2021</h4>
+    <div class="bar_chart">
+    </div>
+    
     <div class="bar_chart">
     </div>
     <div class="description">
+    
         <h3>Log</h3>
-        <p>some chit chat</p>
+        <p>After bringing in my data (dataset), I sorted the bars based on number of partcipants using: </p>
+            <code>const sortedData = dataset.slice().sort((a, b) => d3.descending(a.number, b.number))</code>
+
+        <p>Found via this page on <a href= "https://observablehq.com/@d3/d3-ascending" target="_blank"> Observable</a> which is a great outline about how to use <code>d3.asending</code> and <code>d3.descending</code></p>
     </div>
     <footer>
 
         <div class="footer_nav">
             <ul class="list_container">
-                <li><a href="index.html">
-                        <p>back to home page</p>
+                <li><a href="day_one.html">
+                        <p>Go to Day 1</p>
                     </a></li>
 
-                <li><a href="day_two.html">
+                <li><a href="not_ready_yet.html">
                         <p>Go to Day 3</p>
                     </a></li>
 
             </ul>
         </div>
     </footer>
-    <!-- <script src="../js/d3.v6.js"></script>
-    <script src="../js/day_one.js"></script> -->
+    <script src="../js/d3.v6.js"></script>
+    <script src="../js/day_two.js"></script>
 </body>
 
 </html>
