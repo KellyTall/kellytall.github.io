@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles_day.css">
+    </link>
+    <link rel="stylesheet" href="https://use.typekit.net/qpl0nxr.css">
+    <title>Day Three</title>
+</head>
+
+<body>
+
+    <ul class="top_nav">
+    <li><a href="100_days.html">
+                        <p>back to home page</p>
+                    </a></li>
+
+                </ul>
+
+    <h1> Day Three</h1>
+    <h2> 20th June 2021 </h2>
+
+
+    <h3>Number of NDIS participants receiving SDA suppports in the Sydney Region<br>Ranked by number of participants...now with fancy animation ;-D</h3>
+
+    <h4>March 2021</h4>
+    
+    <div class="bar_chart">
+    </div>
+    
+    <div class="bar_chart">
+    </div>
+    <div class="description">
+    
+        <h3>Log</h3>
+    
+        <p>Today I added animation to the <code>rect</code> and <code>text</code> elements. With the bars, I used <code>d3.easeLinear</code> with a duration of 1000:</p>
+        <p>
+            <code>const bars = bounds
+        .selectAll("rect")<br>
+        .data(sortedData)<br>
+        .join("rect")<br>
+        .attr("x", xScale(0))<br>
+        .attr("y", (d, i) => yScale(i))<br>
+        .attr("height", yScale.bandwidth())<br>
+        .attr("width", 0)<br>
+        .transition()<br>
+        .duration(1000)<br>
+        .ease(d3.easeLinear)<br>
+        .attr("width", d => xScale(d.number) - xScale(0))<br>
+        .attr("height", yScale.bandwidth())<br>
+        .attr("class", "rect")</code>
+         </p>
+
+         <p>For the bar values to appear, I just changed the opacity from zero to one, and had a slower duration of 3000 to allow the bars to shift into place first. There's probably a way to do this staged, but this way will do for now:</p>
+         <p><code>
+             const text = bounds <br>
+        .selectAll("text")<br>
+        .data(sortedData)<br>
+        .join("text")<br>
+        .attr("x", d => xScale(d.number))<br>
+        .attr("y", (d, i) => yScale(i) + yScale.bandwidth() / 2)<br>
+        .attr("dy", "0.35em")<br>
+        .attr("dx", -30)<br>
+        .attr("class", "bar_label")<br>
+        .text(d => format(d.number))<br>
+        .attr("opacity", "0")<br>
+        .transition()<br>
+        .duration(3000)<br>
+        .attr("opacity", "1")<br>
+         </code>
+         </p>
+    </div>
+    <footer>
+
+        <div class="footer_nav">
+            <ul class="list_container">
+                <li><a href="day_two.html">
+                        <p>Go to Day 2</p>
+                    </a></li>
+
+                <li><a href="day_four.html">
+                        <p>Go to Day 4</p>
+                    </a></li>
+
+            </ul>
+        </div>
+    </footer>
+    <script src="../js/d3.v6.js"></script>
+    <script src="../js/day_three.js"></script>
+</body>
+
+</html>

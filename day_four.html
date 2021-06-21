@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles_day.css">
+    </link>
+    <link rel="stylesheet" href="https://use.typekit.net/qpl0nxr.css">
+    <title>Day Four</title>
+</head>
+
+<body>
+
+    <ul class="top_nav">
+    <li><a href="100_days.html">
+                        <p>back to home page</p>
+                    </a></li>
+
+                </ul>
+
+    <h1> Day Four</h1>
+    <h2> 21st June 2021 </h2>
+
+
+    <h3>Number of NDIS participants receiving SDA suppports in the Sydney Region<br>Ranked by number of participants...now with fancy animation AND accessible features</h3>
+
+    <h4>March 2021</h4>
+    
+    <div class="bar_chart">
+    </div>
+    
+    <div class="bar_chart">
+    </div>
+    <div class="description">
+    
+        <h3>Log</h3>
+    
+        <p>If you look at this chart compared to the previous day, there is no obvious change to the eye, but I have made a change that woudl mean a screen -reader could pass on some more info to someone who comes along to this page.  I need to do some more work on this though. I have appended a title to the wrapper like so: </p>
+        <p><code>
+            wrapper<br>
+        .attr("role", "figure")<br>
+        .attr("tabindex", "0")<br>
+        .append("title")<br>
+        .text("Bar chart that shows the ranked order of NDIS participants with SDA supports")<br>
+        </code></p> 
+        <p>This title can be read by a screen reader, but there is something in my formatting in another area that's making the values be understood as really high numbers - more work to do here! </p>
+    </div>
+    <footer>
+
+        <div class="footer_nav">
+            <ul class="list_container">
+                <li><a href="day_three.html">
+                        <p>Go to Day 3</p>
+                    </a></li>
+
+                <li><a href="not_ready_yet.html">
+                        <p>Go to Day 5</p>
+                    </a></li>
+
+            </ul>
+        </div>
+    </footer>
+    <script src="../js/d3.v6.js"></script>
+    <script src="../js/day_four.js"></script>
+</body>
+
+</html>
