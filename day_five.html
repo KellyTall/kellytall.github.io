@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles_day.css">
+    </link>
+    <link rel="stylesheet" href="https://use.typekit.net/qpl0nxr.css">
+    <title>Day Five</title>
+</head>
+
+<body>
+    <ul class="top_nav">
+        <li><a href="100_days.html">
+                <p>back to home page</p>
+            </a></li>
+    </ul>
+    <h1> Day Five</h1>
+    <h2> 22nd June 2021 </h2>
+    <h3>Sydney - Blacktown</h3>
+    <h4>The SA4 of Blacktown in Sydney, is made up of 19 smaller SA2 areas</h4>
+    <div class="blacktown_map"></div>
+
+    <div class="description">
+        <h3>Log</h3>
+        <p>I need to out the accessible visualisation aside for a day or so and work on creating maps! I've been working on some maps for a client, and I need to get a bit of a template going, so that's what I am working on today </p>
+        <p>Steps I took are:
+        <ol>
+            <li>Downladed files from <a href="https://www.abs.gov.au/AUSSTATS/abs@.nsf/DetailsPage/1270.0.55.001July%202016?OpenDocument" target="_blank">ABS here</a></li>
+
+            <li>I downloaded some files relating to SA2s for Australia, so download what you want, but make sure you have a *.shp and a *.dbf file. </li>
+            
+            <li>I used the <a href="https://medium.com/@mbostock/command-line-cartography-part-1-897aa8f8ca2c" target="_blank">"Command Line Cartography"</a> series by Mike Bostock to understand what to download, and modified it based on some info from Stack Overflow. Make sure you have shp2json installed. Run:<br> <code>npm install -g shapefile</code></li>
+            
+            <li>Create a geoJson file using<br><code> shp2json SA2_2016_AUST.shp -o SA2.json</code></li>
+            
+            <li>This file was huge - about 170mb so not very practical </li>
+            
+            <li>Then converted to topojson, which is what I really wanted to crack today - I played around last week with this, got the file nice and small, but I couldn;t draw the paths in D3...</li>
+            
+            <li>Run: <code>geo2topo SA2.json > SA2_topo.json</code>
+            
+            <li>This reduces file down to 122mb - still too big</li>
+            
+            <li> Nex ran: <code>toposimplify -p 1 SA2_topo.json > SA2_simple.json</code></li>
+            <li>This reduces to a very tiny 2mb! I'm not sure if I went too far, but this loads WAY faster than using the original geojson files that I was playng around with a few weeks ago. </li>
+
+
+        </ol></p>
+
+        <p>The main thing I didn't do when I tried this last week, is that once you convert your file to a topoJson, you need to convert it back into a geoJson! AND you also need to include a reference to topojson in your scripts: <br>
+            <ol>
+             <li>   <code>SA2_topo = topojson.feature(SA2_map, SA2_map.objects.tracts)</code></li><br>
+            <li><code>src="https://unpkg.com/topojson@3"</code> </li><br>
+        </ol>
+        </p>
+
+        <p>I also did some snazzy filtering. I'm only interested in looking at one particular SA4s so I filtered out the rest:<br>
+        <code>SA2_map.objects.tracts.geometries = SA2_map.objects.tracts.geometries.filter(d => d.properties.SA4_NAME16 == "Sydney - Blacktown")</code> </p>
+        <p>Tomorrow - highlighting / filling in one statistical area, and adding labels to the other ones. </p>
+
+
+    </div>
+
+    <footer>
+        <div class="footer_nav">
+            <ul class="list_container">
+                <li><a href="day_four.html">
+                        <p>Go to Day 4</p>
+                    </a></li>
+                <li><a href="not_ready_yet.html">
+                        <p>Go to Day 6</p>
+                    </a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="../js/d3.v6.js"></script>
+    <script src="../js/day_five.js"></script>
+    <script src="https://unpkg.com/topojson@3"></script>
+</body>
+
+</html>

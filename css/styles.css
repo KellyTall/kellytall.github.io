@@ -130,3 +130,4 @@ ul.week {
 .week_wrap ul.week a p.completed:hover{
     border-bottom: 1px solid var(--dark_blue);    
 }
+

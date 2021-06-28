@@ -116,11 +116,15 @@ h4 {
     margin-top: 12px;
 }
 
-.description p {
+.description p , ol {
     font-size: 14px;
     font-family: franklin-gothic-condensed, sans-serif;
 }
 
+
+.description ol{
+    line-height: 25px;
+}
 
 .description a {
     text-decoration: none;
@@ -201,4 +205,11 @@ text {
 
 text.bar_label {
     fill: var(--light_pink);
+}
+
+path.background{
+    fill: var(--pink);
+    opacity: 0.5;
+    stroke: var(--dark_blue);
+    stroke-width: .5px;
 }
