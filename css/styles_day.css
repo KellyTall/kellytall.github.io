@@ -213,3 +213,26 @@ path.background{
     stroke: var(--dark_blue);
     stroke-width: .5px;
 }
+
+path.SA4_background{
+    stroke: var(--dark_blue);
+    stroke-width: 2px;
+
+}
+
+path.SA2_background{
+    stroke: var(--dark_blue);
+    stroke-width: .25px;
+
+}
+
+.legendTitle {
+    fill: var(--dark_blue);
+    font-size: 14px;
+}
+
+.legendHeader {
+    fill: var(--dark_blue);
+    font-size: 14px;
+    font-weight: 700;
+}

@@ -3,12 +3,14 @@ async function drawMap_topo() {
 
     const SA2_map = await d3.json("./../geo/SA2_simple.json")
 
-    SA2_map.objects.tracts.geometries = SA2_map.objects.tracts.geometries.filter(d => d.properties.SA4_NAME16 == "Sydney - Blacktown")
+ 
 
-    console.log(SA2_map)
- //    console.log(SA2_map.objects.tracts)
+    SA2_map.objects.SA2.geometries = SA2_map.objects.SA2.geometries.filter(d => d.properties.SA4_NAME16 == "Sydney - Blacktown")
 
-    SA2_topo = topojson.feature(SA2_map, SA2_map.objects.tracts)
+
+        console.log(SA2_map)
+
+    SA2_topo = topojson.feature(SA2_map, SA2_map.objects.SA2)
 
 	console.log(SA2_topo)    
 

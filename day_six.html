@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles_day.css">
+    </link>
+    <link rel="stylesheet" href="https://use.typekit.net/qpl0nxr.css">
+    <title>Day Six</title>
+</head>
+
+<body>
+    <ul class="top_nav">
+        <li><a href="100_days.html">
+                <p>back to home page</p>
+            </a></li>
+    </ul>
+    <h1> Day Six</h1>
+    <h2> 23rd June 2021 </h2>
+    <h3>Focus on Toongabbie</h3>
+    <h4>Toongabbie straddles two SA4s; Blacktown and Parramatta</h4>
+    <div class="blacktown_map"></div>
+    <div class="description">
+        <h3>Log</h3>
+        <p>First off - I discovered that Toongabbie - the suburb I'm interested in, straddles two SA4s, so I extended my filter to include both the Blacktown and Parramatta SA4s: </p>
+        <p>
+            <code> SA2_map.objects.tracts.geometries = SA2_map.objects.tracts.geometries.filter(d => d.properties.SA4_NAME16 == "Sydney - Blacktown" || d.properties.SA4_NAME16 =="Sydney - Parramatta")
+            </code></p>
+        <p>I first drew the map using SA4 simplified topojson )see <a href="day_five.html" target="_blank">day five</a> to see how these files were made , gave each one a different grey fill, and a thicker stroke. With the SA2s, I gave a thinner stroke, and filled the SA4s that capture Toongabbie the same</p>
+        <p><code>const SA2_colour = ({<br>
+
+        "Toongabbie - Constitution Hill": '#FF96AD',<br>
+        "Seven Hills - Toongabbie": '#FF96AD', <br>
+
+    }) <br>
+    some more code...<br>
+    ...<br>
+    .attr("fill", (d) => SA2_colour[d.properties.SA2_NAME16] || 'none')
+</code></p>
+<p>And more as a reminder to myself...all of this is on <a href="https://github.com/KellyTall/kellytall.github.io" target="_blank">github here</a></p>
+    </div>
+    <footer>
+        <div class="footer_nav">
+            <ul class="list_container">
+                <li><a href="day_five.html">
+                        <p>Go to Day 5</p>
+                    </a></li>
+                <li><a href="day_seven.html">
+                        <p>Go to Day 7</p>
+                    </a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="../js/d3.v6.js"></script>
+    <script src="https://unpkg.com/topojson@3"></script>
+    <script src="../js/day_six.js"></script>
+</body>
+
+</html>

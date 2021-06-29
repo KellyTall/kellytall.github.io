@@ -21,63 +21,50 @@
     <h3>Sydney - Blacktown</h3>
     <h4>The SA4 of Blacktown in Sydney, is made up of 19 smaller SA2 areas</h4>
     <div class="blacktown_map"></div>
-
     <div class="description">
         <h3>Log</h3>
         <p>I need to out the accessible visualisation aside for a day or so and work on creating maps! I've been working on some maps for a client, and I need to get a bit of a template going, so that's what I am working on today </p>
         <p>Steps I took are:
-        <ol>
-            <li>Downladed files from <a href="https://www.abs.gov.au/AUSSTATS/abs@.nsf/DetailsPage/1270.0.55.001July%202016?OpenDocument" target="_blank">ABS here</a></li>
-
-            <li>I downloaded some files relating to SA2s for Australia, so download what you want, but make sure you have a *.shp and a *.dbf file. </li>
-            
-            <li>I used the <a href="https://medium.com/@mbostock/command-line-cartography-part-1-897aa8f8ca2c" target="_blank">"Command Line Cartography"</a> series by Mike Bostock to understand what to download, and modified it based on some info from Stack Overflow. Make sure you have shp2json installed. Run:<br> <code>npm install -g shapefile</code></li>
-            
-            <li>Create a geoJson file using<br><code> shp2json SA2_2016_AUST.shp -o SA2.json</code></li>
-            
-            <li>This file was huge - about 170mb so not very practical </li>
-            
-            <li>Then converted to topojson, which is what I really wanted to crack today - I played around last week with this, got the file nice and small, but I couldn;t draw the paths in D3...</li>
-            
-            <li>Run: <code>geo2topo SA2.json > SA2_topo.json</code>
-            
-            <li>This reduces file down to 122mb - still too big</li>
-            
-            <li> Nex ran: <code>toposimplify -p 1 SA2_topo.json > SA2_simple.json</code></li>
-            <li>This reduces to a very tiny 2mb! I'm not sure if I went too far, but this loads WAY faster than using the original geojson files that I was playng around with a few weeks ago. </li>
-
-
-        </ol></p>
-
+            <ol>
+                <li>Downladed files from <a href="https://www.abs.gov.au/AUSSTATS/abs@.nsf/DetailsPage/1270.0.55.001July%202016?OpenDocument" target="_blank">ABS here</a></li>
+                <li>I downloaded some files relating to SA2s for Australia, so download what you want, but make sure you have a *.shp and a *.dbf file. </li>
+                <li>I used the <a href="https://medium.com/@mbostock/command-line-cartography-part-1-897aa8f8ca2c" target="_blank">"Command Line Cartography"</a> series by Mike Bostock to understand what to download, and modified it based on some info from Stack Overflow. Make sure you have shp2json installed. Run:<br> <code>npm install -g shapefile</code></li>
+                <li>Create a geoJson file using<br><code> shp2json SA2_2016_AUST.shp -o SA2.json</code></li>
+                <li>This file was huge - about 170mb so not very practical </li>
+                <li>Then converted to topojson, which is what I really wanted to crack today - I played around last week with this, got the file nice and small, but I couldn;t draw the paths in D3...</li>
+                <li>Run: <code>geo2topo SA2.json > SA2_topo.json</code>
+                <li>This reduces file down to 122mb - still too big</li>
+                <li> <strike>Next ran: <code>toposimplify -p 1 SA2_topo.json > SA2_simple.json</code></li></strike>
+                <li><strike>This reduces to a very tiny 2mb! I'm not sure if I went too far, but this loads WAY faster than using the original geojson files that I was playng around with a few weeks ago.</strike> </li>
+                <li>This simply was way too small originally and while it was a super-smalll file, it knocked out a ot of detail - which became apparent when I was working on the next day's stuff, so i re-wored it, and had a little more of a look at toposimplfy - I also had an error, so the version to use is:<br>
+                    <code>toposimplify -P .25 SA2_topo.json > SA2_simple.json</code><br> Note the capital P instead of p, plus messing around with the value after can vary the size of the file. In future I can mess about with this - depending on the size and bounding box  </li>
+            </ol>
+        </p>
         <p>The main thing I didn't do when I tried this last week, is that once you convert your file to a topoJson, you need to convert it back into a geoJson! AND you also need to include a reference to topojson in your scripts: <br>
             <ol>
-             <li>   <code>SA2_topo = topojson.feature(SA2_map, SA2_map.objects.tracts)</code></li><br>
-            <li><code>src="https://unpkg.com/topojson@3"</code> </li><br>
-        </ol>
+                <li> <code>SA2_topo = topojson.feature(SA2_map, SA2_map.objects.tracts)</code></li><br>
+                <li><code>src="https://unpkg.com/topojson@3"</code> </li><br>
+            </ol>
         </p>
-
         <p>I also did some snazzy filtering. I'm only interested in looking at one particular SA4s so I filtered out the rest:<br>
-        <code>SA2_map.objects.tracts.geometries = SA2_map.objects.tracts.geometries.filter(d => d.properties.SA4_NAME16 == "Sydney - Blacktown")</code> </p>
+            <code>SA2_map.objects.tracts.geometries = SA2_map.objects.tracts.geometries.filter(d => d.properties.SA4_NAME16 == "Sydney - Blacktown")</code> </p>
         <p>Tomorrow - highlighting / filling in one statistical area, and adding labels to the other ones. </p>
-
-
     </div>
-
     <footer>
         <div class="footer_nav">
             <ul class="list_container">
                 <li><a href="day_four.html">
                         <p>Go to Day 4</p>
                     </a></li>
-                <li><a href="not_ready_yet.html">
+                <li><a href="day_six.html">
                         <p>Go to Day 6</p>
                     </a></li>
             </ul>
         </div>
     </footer>
     <script src="../js/d3.v6.js"></script>
-    <script src="../js/day_five.js"></script>
     <script src="https://unpkg.com/topojson@3"></script>
+    <script src="../js/day_five.js"></script>
 </body>
 
 </html>
