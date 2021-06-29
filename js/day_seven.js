@@ -112,7 +112,7 @@ async function drawMap_topo() {
         .attr("transform", `translate(${
          400
        },${
-         dimensions.width < 100
+         dimensions.width <500
          ? dimensions.boundedHeight -10
          : dimensions.boundedHeight - 10    
        })`)
