@@ -1,15 +1,20 @@
 location_name,latitude,longitude,address,access,train,ferry,lightrail,bus,taxi,regional_coach,regional_train,coach
+Abbotsford Wharf,-33.843674,151.128173,"Great North Rd, Abbotsford NSW 2046",wheelchair_access,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
 Aberdeen Station,-32.167104,150.892052,"Macqueen St, Aberdeen NSW 2336",wheelchair_access,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
 Adamstown Station,-32.93373,151.720081,"Park Ave, Adamstown NSW 2289",wheelchair_access,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
 Albion Park Station,-34.562647,150.7985,"Princes Hwy, Albion Park Rail NSW 2527",wheelchair_access,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
 Albury Station,-36.084068,146.924691,"Railway Pl, East Albury NSW 2640",wheelchair_access,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
 Allawah Station,-33.969584,151.11433,"Railway Pde, Allawah NSW 2218",wheelchair_access,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+Arlington Light Rail,-33.901841,151.138061,"Constitution Rd, Dulwich Hill NSW 2203",wheelchair_access,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
 Armidale Station,-30.515373,151.651753,"Brown St, Armidale NSW 2350",wheelchair_access,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
 Arncliffe Station,-33.936456,151.1473,"Firth St, Arncliffe NSW 2205",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 Artarmon Station,-33.808903,151.185294,"Hampden Rd, Artarmon NSW 2064",wheelchair_access,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
 Ashfield Station,-33.887551,151.125504,"Brown St, Ashfield NSW 2131",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 Auburn Station,-33.84927,151.032867,"Rawson St, Auburn NSW 2144",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+Balmain East Wharf,-33.856967,151.195976,"Darling St, Balmain East NSW 2041",wheelchair_access,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+Balmain Wharf,-33.854716,151.18636,"Thames St, Balmain NSW 2041",wheelchair_access,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
 Bankstown Station,-33.917865,151.034687,"North Tce, Bankstown NSW 2200",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+Barangaroo Wharf,-33.864377,151.200591,"Wulugul Walk, Barangaroo NSW 2000",wheelchair_access,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
 Bathurst Station,-33.425627,149.583216,"Havannah St, Bathurst NSW 2795",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE
 Belmore Station,-33.917218,151.088733,"Burwood Rd, Belmore NSW 2192",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 Beresfield Station,-32.798946,151.657863,"Addison St, Beresfield NSW 2322",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
@@ -23,14 +28,17 @@ Boggabri Station,-30.703834,150.039827,"Oakham St, Boggabri NSW 2382",wheelchair
 Bomaderry Station,-34.853777,150.609809,"Meroo St, Bomaderry NSW 2541",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 Bondi Junction Station,-33.891202,151.248384,"Grafton St, Bondi Junction NSW 2022",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 Bowral Station,-34.478123,150.416659,"Station St, Bowral NSW 2576",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE
+Bridge Street Light Rail,-33.864128,151.207465,"George St, Sydney NSW 2000",wheelchair_access,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
 Broken Hill Station,-31.959275,141.466665,"Crystal St, Broken Hill NSW 2880",wheelchair_access,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
 Bulli Station,-34.334481,150.914744,"Railway St, Bulli NSW 2516",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 Bungendore Station,-35.255778,149.446409,"Majara St, Bungendore NSW 2621",wheelchair_access,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
 Burwood Station,-33.877315,151.104762,"Railway Pde, Burwood NSW 2134",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+Cabarita Wharf,-33.840963,151.116485,"Cabarita Rd, Cabarita NSW 2137",wheelchair_access,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
 Cabramatta Station,-33.894867,150.938821,"Railway Pde, Cabramatta NSW 2166",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 Campbelltown Station,-34.063835,150.813929,"Hurley St, Campbelltown NSW 2560",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 Campsie Station,-33.910481,151.102631,"Beamish St, Campsie NSW 2194",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 Canberra Station,-35.319272,149.149396,"Burke Cres, Kingston ACT 2604",wheelchair_access,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+Capitol Square Light Rail,-33.879754,151.205656,"Hay St, Haymarket NSW 2000",wheelchair_access,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
 Cardiff Station,-32.941824,151.66298,"Main Rd, Cardiff NSW 2285",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 Caringbah Station,-34.04161,151.122748,"The Kingsway, Caringbah NSW 2229",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 Carlton Station,-33.968266,151.124337,"Railway Pde, Carlton NSW 2218",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
@@ -38,16 +46,28 @@ Casino Station,-28.860663,153.038275,"Canterbury St, Casino NSW 2470",wheelchair
 Casula Station,-33.949818,150.911946,"Rushton Pl, Casula NSW 2170",wheelchair_access,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
 Central Station,-33.883882,151.205829,"Eddy Ave, Haymarket NSW 2000",wheelchair_access,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE
 Chatswood Station,-33.797134,151.180821,"Cnr Railway St & Victoria Ave, Chatswood NSW 2067",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+Chinatown Light Rail,-33.878579,151.205567,"George St, Haymarket NSW 2000",wheelchair_access,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
+Chiswick Wharf,-33.845549,151.141781,"Bortfield Dr, Chiswick NSW 2046",wheelchair_access,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
 Circular Quay Station,-33.861324,151.21039,"Alfred St, Sydney NSW 2000",wheelchair_access,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE
+Civic Light Rail,-32.927024,151.77168699999999,"Hunter St, Newcastle NSW 2300",wheelchair_access,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+Cockatoo Island Wharf,-33.845595,151.173239,NSW,wheelchair_access,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
 Coffs Harbour Station,-30.3052,153.138175,"Angus McLeod Pl, Coffs Harbour NSW 2450",wheelchair_access,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+Collaroy B-Line,-33.731811,151.301239,"Pittwater Rd, Collaroy NSW 2097",wheelchair_access,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
 Concord West Station,-33.84874,151.085626,"Queen St, Concord West NSW 2138",wheelchair_access,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Convention Centre Light Rail,-33.872628,151.198123,"Darling Dr, Sydney NSW 2000",wheelchair_access,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
 Cootamundra Station,-34.641038,148.030649,"Hovell St, Cootamundra NSW 2590",wheelchair_access,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
 Corrimal Station,-34.375727,150.904972,"Murray Rd, Corrimal NSW 2518",wheelchair_access,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
 Cowan Station,-33.593108,151.171718,"Pacific Hwy, Cowan NSW 2081",wheelchair_access,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Cremorne Point Wharf,-33.847878,151.230858,"Milson Rd, Cremorne Point NSW 2090",wheelchair_access,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
 Cronulla Station,-34.056252,151.151542,"Cronulla St, Cronulla NSW 2230",wheelchair_access,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+Crown Street Light Rail,-32.926418,151.77715,"Hunter St, Newcastle NSW 2300",wheelchair_access,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
 Culcairn Station,-35.666107,147.038128,"Balfour St, Culcairn NSW 2660",wheelchair_access,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE
+Darling Harbour Wharf,-33.866876,151.200826,"Lime St, Sydney NSW 2000",wheelchair_access,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+Dee Why B-Line,-33.752971,151.286433,"Pittwater Rd, Dee Why NSW 2099",wheelchair_access,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 Domestic Airport Station,-33.93366,151.180786,"Keith Smith Ave, Domestic Ariport, Mascot NSW 2020",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+Drummoyne Wharf,-33.84549,151.157096,"Wolseley St, Drummoyne NSW 2047",wheelchair_access,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
 Dubbo Station,-32.245012,148.608182,"Talbragar St, Dubbo NSW 2830",wheelchair_access,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+Dulwich Grove Light Rail,-33.905037,151.139013,"New Canterbury Rd, Dulwich Hill NSW 2203",wheelchair_access,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
 Dulwich Hill Light Rail,-33.910305,151.140085,"Bedford Cres, Dulwich Hill NSW 2203",wheelchair_access,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
 Dungog Station,-32.40229,151.75954,"Brown St, Dungog NSW 2420",wheelchair_access,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
 East Richmond Station,-33.601796,150.759234,"Bourke St, Richmond NSW 2753",wheelchair_access,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
@@ -56,9 +76,14 @@ Edmondson Park Station,-33.9693,150.8587,"Soldiers Pde, Edmondson Park NSW 2174"
 Emu Plains Station,-33.745568,150.672287,"Station St, Emu Plains NSW 2750",wheelchair_access,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
 Engadine Station,-34.067899,151.014653,"Princes Hwy, Engadine NSW 2233",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 Epping Station,-33.772841,151.082177,"Beecroft Rd, Epping NSW 2121",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+ES Marks Light Rail,-33.905813,151.223925,"Anzac Pde, Moore Park NSW 2021",wheelchair_access,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+Exhibition Centre Light Rail,-33.877194,151.199703,"Darling Dr, Sydney NSW 2000",wheelchair_access,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
 Fairfield Station,-33.872331,150.957071,"The Crescent, Fairfield NSW 2165",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 Fassifern Station,-32.985788,151.581251,"Tucker Close, Fassifern NSW 2283",wheelchair_access,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+Fish Market Light Rail,-33.870917,151.192293,"Miller St, Pyrmont NSW 2009",wheelchair_access,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+Garden Island Wharf,-33.858136,151.229923,Potts Point NSW 2011,wheelchair_access,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
 Gerringong Station,-34.744886,150.817508,"Grey St, Gerringong NSW 2534",wheelchair_access,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+Glebe Light Rail Light Rail,-33.877156,151.187361,"Lower Avon St, Glebe NSW 2037",wheelchair_access,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
 Glenfield Station,-33.972368,150.892807,"Railway Pde, Glenfield NSW 2167",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 Gordon Station,-33.756009,151.154528,"St Johns Ave, Gordon NSW 2072",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 Gosford Station,-33.423883,151.341711,"Mann St, Gosford NSW 2250",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
@@ -71,26 +96,38 @@ Gunnedah Station,-30.979376,150.247996,"Railway Ave, Gunnedah NSW 2380",wheelcha
 Gunning Station,-34.779691,149.261031,"Grovenor St, Gunning NSW 2581",wheelchair_access,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
 Gymea Station,-34.034893,151.085477,"Gymea Bay Rd, Gymea NSW 2227",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 Hamilton Station,-32.918713,151.748872,"Beaumont St, Hamilton NSW 2303",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+Hawthorne Light Rail,-33.879725,151.147131,"Darley Rd, Leichhardt NSW 2040",wheelchair_access,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+Haymarket Light Rail,-33.881447,151.205334,"Eddy Ave, Haymarket NSW 2000",wheelchair_access,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE
 Helensburgh Station,-34.17687,150.994825,"Wilsons Creek Rd, Helensburgh NSW 2508",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 Holsworthy Station,-33.96321,150.956895,"Macarthur Dr, Holsworthy NSW 2173",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+Honeysuckle Light Rail,-32.92647,151.765765,"Kuwumi Pl, Newcastle NSW 2300",wheelchair_access,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
 Hornsby Station,-33.702801,151.098494,"Station St, Hornsby NSW 2077",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 Hurstville Station,-33.967454,151.102757,"Ormonde Pde, Hurstville NSW 2220",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 Ingleburn Station,-33.99708,150.864921,"Stanley Rd, Ingleburn NSW 2565",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 International Airport Station,-33.934988,151.165891,"Qantas Dr, International Airport, Mascot NSW 2020",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 Ivanhoe Station,-32.914304,144.311759,"Mitchell St, Ivanhoe NSW 2878",wheelchair_access,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+John Street Square Light Rail,-33.867229,151.19189,"Harris St, Pyrmont NSW 2009",wheelchair_access,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+Jubilee Park Light Rail,-33.875375,151.178763,"Chapman Rd, Glebe NSW 2037",wheelchair_access,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
 Junee Station,-34.87026,147.583766,"Railway Sq, Junee NSW 2663",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+Juniors Kingsford Light Rail,-33.925055,151.229181,"Anzac Pde, Kingsford NSW 2032",wheelchair_access,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
 Katoomba Station,-33.711573,150.31116,"Goldsmith Pl, Katoomba NSW 2780",wheelchair_access,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
 Kempsey Station,-31.076852,152.833041,"Kemp St, Kempsey NSW 2440",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE
 Kendall Station,-31.635404,152.706288,"Railway St, Kendall NSW 2439",wheelchair_access,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Kensington Light Rail,-33.909358,151.223357,"Anzac Pde, Kensington NSW 2033",wheelchair_access,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
 Kiama Station,-34.672518,150.854695,"Railway Pde, Kiama NSW 2533",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 Kings Cross Station,-33.874541,151.222334,"Victoria St, Potts Point NSW 2011",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+Kingsford Light Rail,-33.921856,151.226878,"Anzac Pde, Kingsford NSW 2032",wheelchair_access,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
 Kingsgrove Station,-33.940636,151.100484,"Mashman Ave, Kingsgrove NSW 2208",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 Kirrawee Station,-34.035015,151.071315,"Oak Rd, Kirrawee NSW 2232",wheelchair_access,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+Kissing Point Wharf,-33.831687,151.101983,"Waterview St, Putney NSW 2112",wheelchair_access,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
 Kogarah Station,-33.962149,151.132642,"Railway Pde, Kogarah NSW 2217",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 Lakemba Station,-33.920127,151.075956,"The Boulevarde, Lakemba NSW 2195",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+Leichhardt North Light Rail,-33.874982,151.153868,"Darley Rd, Lilyfield NSW 2040",wheelchair_access,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
 Leppington Station,-33.9544,150.8081,"Rickard Rd, Leppington NSW 2179",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 Leumeah Station,-34.051171,150.830051,"O'Sullivan Rd, Leumeah NSW 2560",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+Lewisham West Light Rail,-33.893989,151.143238,"Hudson St, Lewisham NSW 2049",wheelchair_access,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
 Lidcombe Station,-33.863889,151.04539,"Railway Pde, Lidcombe NSW 2141",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+Lilyfield Light Rail,-33.874081,151.165105,"Catherine St, Lilyfield NSW 2040",wheelchair_access,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
 Lindfield Station,-33.775185,151.169111,"Lindfield Ave, Lindfield NSW 2070",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 Lithgow Station,-33.480501,150.157449,"Main St, Lithgow NSW 2790",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE
 Liverpool Station,-33.92511,150.927054,"Bigge St, Liverpool NSW 2170",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
@@ -98,7 +135,10 @@ Lochinvar Station,-32.72072,151.449087,"Station Lane, Lochinvar NSW 2321",wheelc
 Macarthur Station,-34.072073,150.796737,"Menangle Rd, Campbelltown NSW 2560",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 Macksville Station,-30.709283,152.913135,"Station St, Macksville NSW 2447",wheelchair_access,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Maitland Station,-32.738035000000004,151.5521,"Church St, Maitland NSW 2320",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+Manly Vale B-Line,-33.787011,151.266626,"Condamine St, Manly Vale NSW 2093",wheelchair_access,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+Manly Wharf,-33.800483,151.283876,"East Esplanade, Manly NSW 2095",wheelchair_access,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 Marayong Station,-33.746451,150.900199,"Railway Pde, Marayong NSW 2148",wheelchair_access,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Marion Light Rail,-33.883847,151.14509,"Marion St, Leichhardt NSW 2040",wheelchair_access,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
 Marrickville Station,-33.91409,151.154033,"Illawarra Rd, Marrickville NSW 2204",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 Martin Place Station,-33.867871,151.211591,"Macquarie St, Sydney NSW 2000",wheelchair_access,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
 Martins Creek Station,-32.558687,151.618509,"Martins Creek Rd, Martins Creek NSW 2420",wheelchair_access,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
@@ -107,20 +147,28 @@ Meadowbank Station,-33.816238,151.090061,"Constitution Rd, Meadowbank NSW 2114",
 Meadowbank Wharf,-33.821148,151.089878,"Bowden St, Meadowbank NSW 2114",wheelchair_access,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
 Merrylands Station,-33.83635,150.992863,"Railway Tce, Merrylands NSW 2160",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 Metford Station,-32.764876,151.617868,"McCubbin Cl, Metford NSW 2323",wheelchair_access,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+Millthorpe Station,-33.448714,149.182802,"Station Pl, Millthorpe NSW 2798",wheelchair_access,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
 Milsons Point Station,-33.845893,151.211825,"Alfred St, Milsons Point NSW 2061",wheelchair_access,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 Milsons Point Wharf,-33.849399,151.210638,"Alfred St S, Milsons Point NSW 2061",wheelchair_access,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 Minnamurra Station,-34.6257,150.852258,"North St, Minnamurra NSW 2533",wheelchair_access,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
 Minto Station,-34.02715,150.842597,"Somerset St, Minto NSW 2566",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 Miranda Station,-34.036355,151.102854,"Kiora Rd, Miranda NSW 2228",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+Mona Vale B-Line,-33.677752,151.304356,"Barrenjoey Rd, Mona Vale NSW 2103",wheelchair_access,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+Moore Park Light Rail,-33.89376,151.22178,"Moore Park, Moore Park NSW 2021",wheelchair_access,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
 Moree Station,-29.473849,149.848164,"Gosport St, Moree NSW 2400",wheelchair_access,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Morisset Station,-33.109246,151.487734,"Dora St, Morisset NSW 2264",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 Mortdale Station,-33.970587,151.081288,"Cnr Morts Rd & Pitt St, Mortdale NSW 2223",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+Mosman Bay Wharf,-33.838476,151.232338,"Avenue Rd, Mosman NSW 2088",wheelchair_access,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
 Mount Druitt Station,-33.769542,150.819799,"North Pde, Mount Druitt NSW 2770",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 Murrurundi Station,-31.768429,150.839451,"Victoria St, Murrurundi NSW 2338",wheelchair_access,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
 Museum Station,-33.8757,151.210106,"Elizabeth St, Sydney NSW 2000",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 Muswellbrook Station,-32.267493,150.89032,"Market St, Muswellbrook NSW 2333",wheelchair_access,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Nambucca Heads Station,-30.629129,152.977472,"Railway Pde, Nambucca Heads NSW 2448",wheelchair_access,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
+Narrabeen B-Line,-33.713467,151.297416,"Pittwater Rd, Narrabeen NSW 2101",wheelchair_access,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 Narrabri Station,-30.325322,149.79202,"Bowen St, Narrabri NSW 2390",wheelchair_access,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+Neutral Bay Junction,-33.831653,151.22274,"Military Rd, Neutral Bay NSW 2089",wheelchair_access,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+Neutral Bay Wharf,-33.84232,151.219313,"Hayes St, Neutral Bay NSW 2089",wheelchair_access,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+Newcastle Beach Light Rail,-32.927465,151.786195,"Scott St, Newcastle NSW 2300",wheelchair_access,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
 Newcastle Interchange,-32.924308,151.75965,"Station Street, Wickham NSW 2293",wheelchair_access,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE
 Newtown Station,-33.897883,151.179925,"King St, Newtown NSW 2042",wheelchair_access,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
 North Sydney Station,-33.841209,151.20741,"Blue St, North Sydney NSW 2060",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
@@ -129,23 +177,34 @@ Oak Flats Station,-34.572231,150.820908,"Stanford Dr, Oak Flats NSW 2529",wheelc
 Oatley Station,-33.980845,151.078965,"Oatley Pde, Oatley NSW 2223",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 Olympic Park Station,-33.84652,151.069547,"Murray Rose Ave, Sydney Olympic Park NSW 2127",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 Orange Station,-33.286992,149.103703,"Peisley St, Orange NSW 2800",wheelchair_access,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+Paddy's Markets Light Rail,-33.879253,151.202741,"Quay St, Haymarket NSW 2000",wheelchair_access,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
 Padstow Station,-33.951892,151.032557,"Howard Rd, Padstow NSW 2211",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 Panania Station,-33.954311,150.997826,"Sherlock Ave, Panania NSW 2213",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 Parramatta Station,-33.817579,151.005535,"Argyle St, Parramatta NSW 2150",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+Parramatta Wharf,-33.813916,151.010585,"Cnr Phillip St & Charles St, Parramatta NSW 2150",wheelchair_access,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
 Pennant Hills Station,-33.737939,151.07253,"Railway St, Pennant Hills NSW 2120",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 Penrith Station,-33.750055,150.696135,"Jane St, Penrith NSW 2750",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 Penshurst Station,-33.96613,151.089387,"Bridge St, Penshurst NSW 2222",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 Picton Station,-34.179147,150.612602,"Station St, Picton NSW 2571",wheelchair_access,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
 Port Kembla Station,-34.477245,150.901922,"Old Port Kembla Rd, Port Kembla NSW 2505",wheelchair_access,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+Pyrmont Bay Light Rail,-33.869202,151.19755,"Murray St, Pyrmont NSW 2009",wheelchair_access,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+Pyrmont Bay Wharf,-33.868442,151.198729,"Murray St, Pyrmont NSW 2009",wheelchair_access,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
 Quakers Hill Station,-33.728025,150.886725,"Railway Pde, Quakers Hill NSW 2763",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 Queanbeyan Station,-35.34289,149.227651,"Henderson Rd, Queanbeyan NSW 2620",wheelchair_access,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE
+Queens Wharf Light Rail,-32.926347,151.781564,"Scott St, Newcastle NSW 2300",wheelchair_access,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
 Quirindi Station,-31.505399,150.681098,"Station St, Quirindi NSW 2343",wheelchair_access,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
+QVB Light Rail,-33.871579,151.206961,"QVB, George St, Sydney NSW 2000",wheelchair_access,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE
+Randwick Light Rail,-33.917128,151.240527,"High St, Randwick NSW 2031",wheelchair_access,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
 Regents Park Station,-33.882989,151.024188,"Park Rd, Regents Park NSW 2143",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 Revesby Station,-33.95246,151.014838,"Blamey St, Revesby NSW 2212",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 Rhodes Station,-33.83053,151.087032,"Walker St, Rhodes NSW 2138",wheelchair_access,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
 Richmond Station,-33.599112,150.753211,"Market St, Richmond NSW 2753",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 Riverwood Station,-33.951535,151.052035,"William Rd, Riverwood NSW 2210",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 Rockdale Station,-33.95188,151.136862,"Geeves Ave, Rockdale NSW 2216",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+Rose Bay Wharf,-33.870948,151.262122,"New South Head Rd, Rose Bay NSW 2029",wheelchair_access,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Royal Randwick Light Rail,-33.905183,151.22883,"Royal Randwick Racecourse, Randwick NSW 2031",wheelchair_access,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
+Rozelle Bay Light Rail,-33.871811,151.172702,"The Crescent, Annandale NSW 2038",wheelchair_access,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+Rydalmere Wharf,-33.81799,151.043754,"John St, Rydalmere NSW 2116",wheelchair_access,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
 Sawtell Station,-30.359429,153.097419,"Hulberts Rd, Toormina NSW 2452",wheelchair_access,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
 Schofields Station,-33.704477,150.873817,"Railway Tce, Schofields NSW 2762",wheelchair_access,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
 Scone Station,-32.046941,150.866902,"Susan St, Scone NSW 2337",wheelchair_access,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
@@ -154,6 +213,7 @@ Seven Hills Station,-34.658029,150.853976,"Princes Hwy, Bombo NSW 2533",wheelcha
 Seven Hills Station,-33.77443,150.936513,"The Centre, Terminus Rd, Seven Hills NSW 2147",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 Shellharbour Junction Station,-34.591283,150.844727,"Piper Dr, Dunmore NSW 2529",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 Singleton Station,-32.57177,151.165171,"Munro St, Singleton NSW 2330",wheelchair_access,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+Spit Junction B-Line,-33.824148,151.241656,"Spit Rd, Mosman NSW 2088",wheelchair_access,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
 Springwood Station,-33.698842,150.56398,"Jerseywold Ave, Springwood NSW 2777",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 St James Station,-33.870697,151.211837,"Elizabeth St, Sydney NSW 2000",wheelchair_access,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
 St Leonards Station,-33.822389,151.194127,"The Forum, Herbert St, St Leonards NSW 2065",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
@@ -161,28 +221,40 @@ St Marys Station,-33.762256,150.776029,"Cnr Station St & Queen St, St Marys NSW 
 Strathfield Station,-33.871811,151.094427,"Albert Rd, Strathfield NSW 2135",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 Stuart Town Station,-32.801192,149.07832,"Bell St, Stuart Town NSW 2820",wheelchair_access,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
 Summer Hill Station,-33.890561,151.139445,"Carlton Cres, Summer Hill NSW 2130",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+Surry Hills Light Rail,-33.888102,151.211879,"Eddie Ward Park, Devonshire St, Surry Hills NSW 2010",wheelchair_access,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
 Sutherland Station,-34.031787,151.05719,"Old Princes Hwy, Sutherland NSW 2232",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 Sydenham Station,-33.914373,151.166646,"Gleeson Ave, Sydenham NSW 2044",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+Sydney Olympic Park Wharf,-33.822207,151.079094,"Hill Rd, Sydney Olympic Park NSW 2127",wheelchair_access,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
 Tahmoor Station,-34.223677,150.589911,"George St, Tahmoor NSW 2573",wheelchair_access,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
 Tamworth Station,-31.087262,150.930848,"Marius St, Tamworth NSW 2340",wheelchair_access,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
 Tarana Station,-33.524107,149.907594,"Mutton Falls Rd, Tarana NSW 2787",wheelchair_access,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
 Taree Station,-31.906437,152.456963,"Olympia St, Taree NSW 2430",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE
+Taronga Zoo Wharf,-33.846343,151.239514,"Athol Wharf Rd, Mosman NSW 2088",wheelchair_access,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+Taverner's Hill Light Rail,-33.889301,151.145221,"Parramatta Rd, Leichhardt NSW 2040",wheelchair_access,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
 Telarah Station,-32.72391,151.539635,"Johnson St, Telarah NSW 2320",wheelchair_access,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+The Star Light Rail,-33.867349,151.195201,"Pirrama Rd, Pyrmont NSW 2009",wheelchair_access,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
 Thirroul Station,-34.318424,150.918652,"Railway Pde, Thirroul NSW 2515",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 Thornton Station,-32.783595,151.639831,"Karuah St, Thornton NSW 2322",wheelchair_access,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
 Town Hall Station,-33.873596,151.206899,"George St, Sydney NSW 2000",wheelchair_access,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE
 Tuggerah Station,-33.308086,151.420153,"Pacific Hwy, Tuggerah NSW 2259",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 Turramurra Station,-33.732182,151.128282,"Rohini St, Turramurra NSW 2074",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+UNSW Anzac Parade Light Rail,-33.916652,151.225903,"Anzac Pde, Kensington NSW 2033",wheelchair_access,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+UNSW High Street Light Rail,-33.91637,151.235534,"UNSW High St, Randwick NSW 2052",wheelchair_access,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
 Uralla Station,-30.644076,151.505202,"Duke St, Uralla NSW 2358",wheelchair_access,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
 Urunga Station,-30.499656,153.018678,"Orara St, Urunga NSW 2455",wheelchair_access,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
 Wagga Wagga Station,-35.120418,147.36845,"Station Pl, Turvey Park NSW 2650",wheelchair_access,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
 Wallarobba Station,-32.49614,151.69568,"Brookfield Rd, Wallarobba NSW 2420",wheelchair_access,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Wansey Road Light Rail,-33.910519,151.235208,"Wansey Rd, Randwick NSW 2031",wheelchair_access,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
 Warabrook Station,-32.887055,151.70989,"Warabrook Bvd, Warabrook NSW 2304",wheelchair_access,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Waratah Mills Light Rail,-33.898771000000004,151.140122,"Weston St, Dulwich Hill NSW 2203",wheelchair_access,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+Warriewood B-Line,-33.696788,151.301419,"Pittwater Rd, Warriewood NSW 2101",wheelchair_access,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+Warringah Mall,-33.767001,151.269114,"Pittwater Rd, Brookvale NSW 2100",wheelchair_access,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 Warwick Farm Station,-33.91345,150.935036,"Remembrance Ave, Warwick Farm NSW 2170",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 Waterfall Station,-34.134385,150.994512,"Kooraban St, Waterfall NSW 2233",wheelchair_access,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
 Wauchope Station,-31.455909,152.736526,"Randall St, Wauchope NSW 2446",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE
 Waverton Station,-33.838245,151.197856,"Bay Rd, Waverton NSW 2060",wheelchair_access,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
 Wellington Station,-32.554036,148.946832,"Swift St, Wellington NSW 2820",wheelchair_access,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE
+Wentworth Park Light Rail,-33.87436,151.193966,"Wattle St, Pyrmont NSW 2009",wheelchair_access,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
 Werrington Station,-33.759292,150.75834,"Railway St, Werrington NSW 2747",wheelchair_access,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
 Werris Creek Station,-31.350139,150.646464,"Single St, Werris Creek NSW 2341",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 West Ryde Station,-33.807172,151.090229,"Ryedale Rd, West Ryde NSW 2114",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
@@ -192,6 +264,7 @@ Windsor Station,-33.613928,150.811408,"George St, Windsor NSW 2756",wheelchair_a
 Wolli Creek Station,-33.928547,151.154113,"Brodie Sparks Dr, Wolli Creek NSW 2205",wheelchair_access,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
 Wollongong Station,-34.427016,150.888243,"Lowden Square, Wollongong NSW 2500",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE
 Woolooware Station,-34.047718,151.143995,"Swan St, Woolooware NSW 2230",wheelchair_access,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+Woolwich Wharf,-33.838756,151.176043,"Valentia St, Woolwich NSW 2110",wheelchair_access,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
 Woonona Station,-34.35023,150.914954,"Park Rd, Woonona NSW 2517",wheelchair_access,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 Woy Woy Station,-33.485112,151.323624,"Railway St, Woy Woy NSW 2256",wheelchair_access,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 Wynyard Station,-33.865898,151.205789,"George St, Sydney NSW 2000",wheelchair_access,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE
