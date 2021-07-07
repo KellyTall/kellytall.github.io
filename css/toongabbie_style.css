@@ -1,0 +1,94 @@
+body {
+	
+	font-family: 'Helvetica Neue';
+
+}
+
+
+.page {
+	width: 21cm;
+	min-height: 29.7cm;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 2cm;
+	padding-top: 2cm;
+	padding-right: 2cm;
+	padding-bottom: 2cm;
+
+}
+
+h1 {
+	font-size: 40px;
+	font-weight: 700;
+	margin-top: 8px;
+}
+
+
+h2 {
+	font-size: 24px;
+	font-weight: 500;
+
+}
+
+h3 {
+	font-size: 16px;
+	font-weight: 200;
+}
+
+p {
+	font-size: 12px;
+	font-weight: 400;
+
+}
+
+
+
+.page_header {
+	display: flex;
+	flex-direction: row;
+	border-bottom: 1px solid black;
+}
+
+
+.page_header h3 {
+	margin-left: auto;
+	margin-bottom: 8px;
+}
+
+
+.location_map {
+	width: 367px;
+	height: 367px;
+	background-color: grey;
+}
+
+.small_location_map {
+	width: 273px;
+	height: 249px;
+	background-color: grey;
+
+}
+
+.top_row {
+	display: flex;
+	flex-flow: row wrap;
+	align-content:  space-between;
+	height: 337px;
+
+}
+
+.text_box_holder {
+	width: 170px;
+}
+
+.text_column {
+	max-width: 179px;
+	margin-right: 5px;
+	flex-direction: column;
+	
+}
+
+.text_column  p{
+	margin-top: auto;
+
+}

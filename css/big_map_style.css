@@ -1,0 +1,92 @@
+body {
+	
+	font-family: 'Helvetica Neue';
+
+}
+
+
+.page {
+	min-height: 21.0cm;
+	min-width: 29.7cm;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 2cm;
+	padding-top: 2cm;
+	padding-right: 2cm;
+	padding-bottom: 2cm;
+
+}
+
+h1 {
+	font-size: 40px;
+	font-weight: 700;
+	margin-top: 8px;
+	margin-bottom: 16px;
+}
+
+
+h2 {
+	font-size: 24px;
+	font-weight: 500;
+
+}
+
+h3 {
+	font-size: 16px;
+	font-weight: 200;
+	margin-top: 0	;
+}
+
+p {
+	font-size: 12px;
+	font-weight: 400;
+
+}
+
+
+
+.page_header {
+	display: flex;
+	flex-direction: row;
+	border-bottom: 1px solid black;
+}
+
+
+.page_header h3 {
+	margin-left: auto;
+	margin-bottom: 8px;
+}
+
+
+path.SA4, path.SA2{
+    fill: #F2C48D;
+    opacity: 0.5;
+    stroke: #4EA66D;
+    stroke-width: .5px;
+}
+
+text.area_label {
+	fill:  #4EA66D;
+	text-transform: uppercase;
+	text-anchor: middle;
+	font-size: 10px;
+
+
+}	
+
+
+text.point_label {
+	fill:  #000;
+	/*text-transform: uppercase;*/
+	text-anchor: middle;
+	font-size: 10px;
+
+}	
+
+
+.circle {
+	fill:  #F25C05;
+	stroke:  #4EA66D;
+	stroke-width:  1px;
+}
+
