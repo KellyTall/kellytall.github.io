@@ -26,7 +26,7 @@ async function drawMap_topo() {
     // console.log(trains)
 
     let dimensions = {
-        width: window.innerWidth * .8,
+        width: window.innerWidth,
         margin: {
             top: 10,
             right: 10,
