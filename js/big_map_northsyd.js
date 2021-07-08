@@ -1,20 +1,20 @@
 async function drawMap_topo() {
 
 
-    const SA2_map_parramatta = await d3.json("./../geo/SA2_simple.json")
+    const SA2_map_northsyd = await d3.json("./../geo/SA2_simple.json")
 
 
 
-    SA2_map_parramatta.objects.SA2.geometries = SA2_map_parramatta.objects.SA2.geometries.filter(d => d.properties.SA4_NAME16 == "Sydney - Parramatta")
+    SA2_map_northsyd.objects.SA2.geometries = SA2_map_northsyd.objects.SA2.geometries.filter(d => d.properties.SA4_NAME16 == "Sydney - North Sydney and Hornsby")
 
-    // console.log(SA2_map)
+    // console.log(SA2_map_northsyd)
 
 
-    SA2_topo_parramatta = topojson.feature(SA2_map_parramatta, SA2_map_parramatta.objects.SA2)
+    SA2_topo_northsyd = topojson.feature(SA2_map_northsyd, SA2_map_northsyd.objects.SA2)
 
-    // console.log(SA2_topo)
+    // console.log(SA2_topo_northsyd)
 
-     const trains_import = await d3.csv("./../data/tfnsw_train.csv", function(d) {
+    const trains_import = await d3.csv("./../data/tfnsw_train.csv", function(d) {
         return {
             location_name: d.location_name,
             latitude: +d.latitude,
@@ -24,13 +24,12 @@ async function drawMap_topo() {
         }
     })
 
-    trains = trains_import.filter(d=>d.SA4 != "Outer" & d.SA4=="Sydney - Parramatta")
-
+    trains = trains_import.filter(d => d.SA4 != "Outer" & d.SA4 == "Sydney - North Sydney and Hornsby")
 
     // console.log(trains)
 
     let dimensions = {
-        width: window.innerWidth * .8,
+        width: window.innerWidth * .5,
         margin: {
             top: 10,
             right: 10,
@@ -47,7 +46,7 @@ async function drawMap_topo() {
 
 
     const projection_SA2 = d3.geoEquirectangular()
-        .fitWidth(dimensions.boundedWidth, SA2_topo_parramatta)
+        .fitWidth(dimensions.boundedWidth, SA2_topo_northsyd)
 
 
 
@@ -57,7 +56,7 @@ async function drawMap_topo() {
     const [
         [x0, y0],
         [x1, y1]
-    ] = pathGenerator_SA2.bounds(SA2_topo_parramatta)
+    ] = pathGenerator_SA2.bounds(SA2_topo_northsyd)
 
 
     dimensions.boundedHeight = y1
@@ -65,7 +64,7 @@ async function drawMap_topo() {
 
 
 
-    const wrapper = d3.select(".map_parramatta") 
+    const wrapper = d3.select(".map_northsyd")
         .append("svg")
         .attr("width", dimensions.width)
         .attr("height", dimensions.height)
@@ -81,7 +80,7 @@ async function drawMap_topo() {
 
     const background = bounds
         .selectAll(".background")
-        .data(SA2_topo_parramatta.features)
+        .data(SA2_topo_northsyd.features)
         .join("path")
         .attr("class", "SA2")
         .attr("d", pathGenerator_SA2)
@@ -89,7 +88,7 @@ async function drawMap_topo() {
 
     const labels = bounds
         .selectAll("text")
-        .data(SA2_topo_parramatta.features)
+        .data(SA2_topo_northsyd.features)
         .join("text")
         .attr("class", "area_label")
         .text(d => d.properties.SA2_NAME16)
@@ -97,24 +96,25 @@ async function drawMap_topo() {
         .attr("y", d => pathGenerator_SA2.centroid(d)[1])
 
     const points = bounds
-        .selectAll("circle")    
-        .data(trains)    
+        .selectAll("circle")
+        .data(trains)
         .join("circle")
         .attr("class", "circle")
         .attr("cx", d => projection_SA2([d.longitude, d.latitude])[0])
         .attr("cy", d => projection_SA2([d.longitude, d.latitude])[1])
         .attr("r", 4)
 
-        const point_label = points
-        .select("text")    
-        .data(trains)    
+    const point_label = points
+        .select("text")
+        .data(trains)
         .join("text")
         .attr("class", "point_label")
         .text(d => d.location_name)
-        .attr("x", d => projection_SA2([d.longitude, d.latitude + 0.001])[0])
-        .attr("y", d => projection_SA2([d.longitude, d.latitude + 0.001])[1])
-        
-    
+        .attr("x", d => projection_SA2([d.longitude, d.latitude - .003])[0])
+        .attr("y", d => projection_SA2([d.longitude, d.latitude - .003])[1])
+
+
+
 
 
 

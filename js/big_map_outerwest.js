@@ -14,19 +14,24 @@ async function drawMap_topo() {
 
     // console.log(SA2_topo)
 
-    const trains = await d3.csv("./../data/tfnsw_train.csv", function(d) {
+    const trains_import = await d3.csv("./../data/tfnsw_train.csv", function(d) {
         return {
             location_name: d.location_name,
             latitude: +d.latitude,
-            longitude: +d.longitude
+            longitude: +d.longitude,
+            SA4: d.SA4
 
         }
     })
 
+    trains = trains_import.filter(d=>d.SA4 != "Outer" & d.SA4=="Sydney - Outer West and Blue Mountains")
+
+
+
     // console.log(trains)
 
     let dimensions = {
-        width: window.innerWidth,
+        width: window.innerWidth *.7,
         margin: {
             top: 10,
             right: 10,
@@ -107,8 +112,8 @@ async function drawMap_topo() {
         .join("text")
         .attr("class", "point_label")
         .text(d => d.location_name)
-        .attr("x", d => projection_SA2([d.longitude+.005, d.latitude])[0])
-        .attr("y", d => projection_SA2([d.longitude + .005, d.latitude])[1])
+        .attr("x", d => projection_SA2([d.longitude, d.latitude + 0.005])[0])
+        .attr("y", d => projection_SA2([d.longitude, d.latitude + 0.005])[1])
         
     
 

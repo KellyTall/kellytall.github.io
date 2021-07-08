@@ -5,7 +5,7 @@ async function drawMap_topo() {
 
 
 
-    SA4_map.objects.SA4.geometries = SA4_map.objects.SA4.geometries.filter(d => d.properties.GCC_NAME16 == "Greater Sydney")
+    SA4_map.objects.SA4.geometries = SA4_map.objects.SA4.geometries.filter(d => d.properties.GCC_NAME16 == "Greater Sydney" &  d.properties.SA4_NAME16 !="Central Coast")
 
     // console.log(SA4_map)
 
@@ -14,19 +14,22 @@ async function drawMap_topo() {
 
     // console.log(SA4_topo)
 
-    const trains = await d3.csv("./../data/tfnsw_train.csv", function(d) {
+    const trains_import = await d3.csv("./../data/tfnsw_train.csv", function(d) {
         return {
             location_name: d.location_name,
             latitude: +d.latitude,
-            longitude: +d.longitude
+            longitude: +d.longitude,
+            SA4: d.SA4
 
         }
     })
 
+    trains = trains_import.filter(d=>d.SA4 != "Outer")
+
     // console.log(trains)
 
     let dimensions = {
-        width: window.innerWidth * .8,
+        width: window.innerWidth *.7,
         margin: {
             top: 10,
             right: 10,
