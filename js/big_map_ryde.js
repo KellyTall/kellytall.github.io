@@ -110,7 +110,7 @@ async function drawMap_topo() {
         .attr("class", "point_label")
         .text(d => d.location_name)
           .attr("x", d => projection_SA2([d.longitude, d.latitude + 0.002])[0])
-        .attr("y", d => projection_SA2([d.longitude, d.latitude + 0.002])[1])
+        .attr("y", d => projection_SA2([d.longitude, d.latitude + 0.00])[1])
         
     
 

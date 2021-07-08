@@ -1,4 +1,4 @@
-location_name,sa4,address,latitude,longitude,access,train,ferry,lightrail,bus,taxi,regional_coach,regional_train,coach
+location_name,SA4,address,latitude,longitude,access,train,ferry,lightrail,bus,taxi,regional_coach,regional_train,coach
 Abbotsford Wharf,Sydney - Inner West,"Great North Rd, Abbotsford NSW 2046",-33.843674,151.128173,wheelchair_access,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
 Aberdeen Station,Outer,"Macqueen St, Aberdeen NSW 2336",-32.167104,150.892052,wheelchair_access,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
 Adamstown Station,Outer,"Park Ave, Adamstown NSW 2289",-32.93373,151.720081,wheelchair_access,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
