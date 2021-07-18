@@ -28,8 +28,13 @@ async function drawMap_topo() {
 
     // console.log(trains)
 
+    const wrapper = d3.select(".map_northsyd")
+       .append("svg")
+        .attr("viewBox", "0 0 1200 1100")
+        
+
     let dimensions = {
-        width: window.innerWidth * .5,
+        width: 700,
         margin: {
             top: 10,
             right: 10,
@@ -64,10 +69,7 @@ async function drawMap_topo() {
 
 
 
-    const wrapper = d3.select(".map_northsyd")
-        .append("svg")
-        .attr("width", dimensions.width)
-        .attr("height", dimensions.height)
+    
 
     const bounds = wrapper
         .append("g")

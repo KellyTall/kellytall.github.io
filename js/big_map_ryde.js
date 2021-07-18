@@ -27,8 +27,13 @@ async function drawMap_topo() {
     trains = trains_import.filter(d => d.SA4 != "Outer" & d.SA4 == "Sydney - Ryde")
     // console.log(trains)
 
+    const wrapper = d3.select(".map_ryde")
+               .append("svg")
+        .attr("viewBox", "0 0 1200 1000")
+        
+
     let dimensions = {
-        width: window.innerWidth * .6,
+        width: 1000,
         margin: {
             top: 10,
             right: 10,
@@ -36,6 +41,7 @@ async function drawMap_topo() {
             left: 10,
         },
     }
+
 
 
 
@@ -63,10 +69,7 @@ async function drawMap_topo() {
 
 
 
-    const wrapper = d3.select(".map_ryde")
-        .append("svg")
-        .attr("width", dimensions.width)
-        .attr("height", dimensions.height)
+    
 
     const bounds = wrapper
         .append("g")

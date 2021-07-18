@@ -66,7 +66,7 @@ h1 {
 .not_ready h1 {
     text-align: left;
     font-size: 72px;
-    max-width:  1000px  ;
+    max-width: 1000px;
     /*margin-right: auto;
     margin-left: auto;*/
 }
@@ -74,8 +74,8 @@ h1 {
 .not_ready h2 {
     text-align: left;
     font-size: 56px;
-    max-width:  1000px  ;
- 
+    max-width: 1000px;
+
 }
 
 h2 {
@@ -117,13 +117,14 @@ h4 {
     margin-top: 12px;
 }
 
-.description p , ol {
+.description p,
+ol {
     font-size: 14px;
     font-family: franklin-gothic-condensed, sans-serif;
 }
 
 
-.description ol{
+.description ol {
     line-height: 25px;
 }
 
@@ -142,7 +143,7 @@ code {
     font-family: dico-mono, mono;
     font-weight: 400;
     font-style: normal;
-    font-size:  12px;
+    font-size: 12px;
     background-color: var(--pink);
     color: var(--lihght_blue);
     padding: 5px 1px 5px 1px;
@@ -208,20 +209,20 @@ text.bar_label {
     fill: var(--light_pink);
 }
 
-path.background{
+path.background {
     fill: var(--pink);
     opacity: 0.5;
     stroke: var(--dark_blue);
     stroke-width: .5px;
 }
 
-path.SA4_background{
+path.SA4_background {
     stroke: var(--dark_blue);
     stroke-width: 2px;
 
 }
 
-path.SA2_background{
+path.SA2_background {
     stroke: var(--dark_blue);
     stroke-width: .25px;
 
@@ -236,4 +237,39 @@ path.SA2_background{
     fill: var(--dark_blue);
     font-size: 14px;
     font-weight: 700;
+}
+
+.SA4_area_label {
+    fill: var(--dark_blue);
+    text-transform: uppercase;
+    font-style: italic;
+    letter-spacing: 5px;
+    text-anchor: middle;
+}
+
+.circle {
+    fill: var(--light_blue);
+    stroke: var(--dark_blue);
+    stroke-width: 2px;
+}
+
+.point_label {
+    fill: var(--dark_blue);
+    /*font-style: italic;*/
+    /*letter-spacing: 5px;*/
+    text-anchor: middle;
+}
+
+
+path.world_map {
+    stroke: var(--light_pink);
+    stroke-width: 1px;
+    fill: var(--pink);
+}
+
+.world_label {
+    fill: var(--dark_blue);
+    text-anchor: middle;
+    font-size: 8px;
+
 }

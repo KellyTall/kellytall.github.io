@@ -1,33 +1,37 @@
 async function drawMap_topo() {
 
 
-    const SA2_map = await d3.json("./../geo/SA2_simple.json")
-    console.log(SA2_map)
+    const SA2_map = await d3.json("./../geo/SA2_simple_copy.json")
+    // console.log(SA2_map)
 
-    SA2_map.objects.SA2.geometries = SA2_map.objects.SA2.geometries.filter(d => d.properties.SA4_NAME16 == "Sydney - Blacktown" || d.properties.SA4_NAME16 == "Sydney - Parramatta")
+    SA2_map.objects.SA2.geometries = SA2_map.objects.SA2.geometries.filter(d => d.properties.SA4_NAME16 == "Blacktown" || d.properties.SA4_NAME16 == "Parramatta")
 
     SA2_topo = topojson.feature(SA2_map, SA2_map.objects.SA2)
 
-    console.log(SA2_topo)
+    // console.log(SA2_topo)
 
 
     const SA4_map = await d3.json("./../geo/SA4_simple.json")
 
-    SA4_map.objects.SA4.geometries = SA4_map.objects.SA4.geometries.filter(d => d.properties.SA4_NAME16 == "Sydney - Blacktown" || d.properties.SA4_NAME16 == "Sydney - Parramatta")
+    SA4_map.objects.SA4.geometries = SA4_map.objects.SA4.geometries.filter(d => d.properties.SA4_NAME16 == "Blacktown" || d.properties.SA4_NAME16 == "Parramatta")
 
-    console.log(SA4_map)
+    // console.log(SA4_map)
 
     // console.log(SA2_map.objects.tracts)
 
     SA4_topo = topojson.feature(SA4_map, SA4_map.objects.SA4)
 
-    console.log(SA4_topo)
 
 
+
+    const wrapper = d3.select(".blacktown_map")
+        .append("svg")
+        .attr("width", "500")
+        .attr("height", "500")
 
 
     let dimensions = {
-        width: window.innerWidth * .5,
+        width: 500,
         margin: {
             top: 10,
             right: 10,
@@ -61,8 +65,8 @@ async function drawMap_topo() {
 
     const SA4_colour = ({
 
-        "Sydney - Blacktown": '#DCDCDC',
-        "Sydney - Parramatta": '#808080',
+        "Blacktown": '#DCDCDC',
+        "Parramatta": '#808080',
 
     })
 
@@ -73,11 +77,7 @@ async function drawMap_topo() {
 
     })
 
-    const wrapper = d3.select(".blacktown_map")
-        .append("svg")
-        .attr("width", dimensions.width)
-        .attr("height", dimensions.height)
-
+    
     const bounds = wrapper
         .append("g")
         .style("transform", `translate(${
@@ -122,7 +122,7 @@ async function drawMap_topo() {
 
     const legendTitle = legendGroup
         .append("text")
-        .attr("y", -405)
+        .attr("y", -305)
         // .attr("x", 10)
         .attr("class", "legendHeader")
         .text("SA4 Displayed")
@@ -133,8 +133,7 @@ async function drawMap_topo() {
 
     const legendBox1 = legendGroup
         .append("rect")
-        // .attr("x", legendSize / 2)
-        .attr("y", -390)
+        .attr("y", -290)
         .attr("height", legendSize)
         .attr("width", legendSize)
         .style("fill", `#DCDCDC`)
@@ -143,21 +142,21 @@ async function drawMap_topo() {
     const legendBox2 = legendGroup
         .append("rect")
         // .attr("x", legendSize / 2)
-        .attr("y", -370)
+        .attr("y", -270)
         .attr("height", legendSize)
         .attr("width", legendSize)
         .style("fill", `#808080`)
 
     const legendText1 = legendGroup
         .append("text")
-        .attr("y", -380)
+        .attr("y", -280)
         .attr("x", 20)
         .attr("class", "legendTitle")
         .text("Blacktown")
 
     const legendText2 = legendGroup
         .append("text")
-        .attr("y", -360)
+        .attr("y", -260)
         .attr("x", 20)
         .attr("class", "legendTitle")
         .text("Parramatta")

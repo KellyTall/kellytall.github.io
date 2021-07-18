@@ -6,8 +6,8 @@ body {
 
 
 .page {
-	min-height: 21.0cm;
-	min-width: 29.7cm;
+	width: 21.0cm;
+	min-height: 29.7cm;
 	margin-left: auto;
 	margin-right: auto;
 	padding-left: 2cm;
@@ -57,6 +57,9 @@ p {
 	margin-bottom: 8px;
 }
 
+.map{
+	padding-top: 80px;
+}
 
 path.SA4, path.SA2{
     fill: #F2C48D;
@@ -67,7 +70,7 @@ path.SA4, path.SA2{
 
 text.area_label {
 	fill:  #4EA66D;
-	/*opacity: .5;*/
+	opacity: .5;
 	text-transform: uppercase;
 	font-style: italic;
 	text-anchor: middle;
@@ -84,6 +87,9 @@ text.point_label {
 	font-size: 12px;
 
 }	
+
+
+
 
 
 .circle {

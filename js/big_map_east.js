@@ -29,8 +29,13 @@ async function drawMap_topo() {
 
     // console.log(trains)
 
+    const wrapper = d3.select(".map_east")
+        .append("svg")
+        .attr("viewBox", "0 0 1200 1100")
+        
+
     let dimensions = {
-        width: window.innerWidth * .5,
+        width: 500,
         margin: {
             top: 10,
             right: 10,
@@ -41,15 +46,11 @@ async function drawMap_topo() {
 
 
 
-
-
     dimensions.boundedWidth = (dimensions.width - dimensions.margin.left - dimensions.margin.right)
 
 
     const projection_SA2 = d3.geoEquirectangular()
         .fitWidth(dimensions.boundedWidth, SA2_topo_east)
-
-
 
     const pathGenerator_SA2 = d3.geoPath(projection_SA2)
 
@@ -65,11 +66,7 @@ async function drawMap_topo() {
 
 
 
-    const wrapper = d3.select(".map_east")
-        .append("svg")
-        .attr("width", dimensions.width)
-        .attr("height", dimensions.height)
-
+    
     const bounds = wrapper
         .append("g")
         .style("transform", `translate(${

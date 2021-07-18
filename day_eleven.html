@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles_day.css">
+    </link>
+    <link rel="stylesheet" href="https://use.typekit.net/qpl0nxr.css">
+    <title>Day Eleven</title>
+</head>
+
+<body>
+    <ul class="top_nav">
+        <li><a href="100_days.html">
+                <p>back to home page</p>
+            </a></li>
+    </ul>
+    <h1> Day Eleven</h1>
+    <h2> 28th June 2021 </h2>
+    <h3>The world in 1815</h3>
+    <h4>A map showing boundaries in 1815</h4>
+    <div class="world_map"></div>
+    <div class="description">
+        <h3>Log</h3>
+        <p>My child is quite into history and changing world boarders at the moment so I suggested we get some historial mapping data and make our own! </p>
+        <p>This <a href="https://www.gislounge.com/find-gis-data-historical-country-boundaries/" target="_blank">article</a> provided some ideas on where to look, so I thought I'd check out <a href="https://web.archive.org/web/20080328104539/http://library.thinkquest.org:80/C006628/download.html" target="_blank">the first one listed </a> that's found on the wayback machine. There appears to be a lot of caveats on the accuracy of these ones, but as a starter, it will do!</p>
+        <ol>
+            <li>
+                <p>Used the steps I went through on <a href="day_five.html" target="_blank">Day Five</a> and converted the shape files to geoJson then topoJson. The files weren't too big, so decided to skip simplifying them. </p>
+            </li>
+
+            <li><p>Used <code>d3.geoEqualEarth()</code> as the <a href= "https://github.com/d3/d3-geo-projection" target="_blank">geo projection </a> </li>
+                <li><p>Added labels. There is lots of overlap in Europe, so possibly next step,I'll work out a ounding box and create some maps that focus on their areas of interest. </p></li>
+        </ol>
+    </div>
+    <footer>
+        <div class="footer_nav">
+            <ul class="list_container">
+                <li><a href="day_ten.html">
+                        <p>Go to Day 10</p>
+                    </a></li>
+                <li><a href="not_ready_yet.html">
+                        <p>Go to Day 12</p>
+                    </a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="../js/d3.v6.js"></script>
+    <script src="https://unpkg.com/topojson@3"></script>
+    <script src="../js/day_eleven.js"></script>
+</body>
+
+</html>

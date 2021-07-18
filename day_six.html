@@ -25,7 +25,7 @@
         <h3>Log</h3>
         <p>First off - I discovered that Toongabbie - the suburb I'm interested in, straddles two SA4s, so I extended my filter to include both the Blacktown and Parramatta SA4s: </p>
         <p>
-            <code> SA2_map.objects.tracts.geometries = SA2_map.objects.tracts.geometries.filter(d => d.properties.SA4_NAME16 == "Sydney - Blacktown" || d.properties.SA4_NAME16 =="Sydney - Parramatta")
+            <code> SA2_map.objects.tracts.geometries = SA2_map.objects.tracts.geometries.filter(d => d.properties.SA4_NAME16 == "Blacktown" || d.properties.SA4_NAME16 =="Parramatta")
             </code></p>
         <p>I first drew the map using SA4 simplified topojson )see <a href="day_five.html" target="_blank">day five</a> to see how these files were made , gave each one a different grey fill, and a thicker stroke. With the SA2s, I gave a thinner stroke, and filled the SA4s that capture Toongabbie the same</p>
         <p><code>const SA2_colour = ({<br>

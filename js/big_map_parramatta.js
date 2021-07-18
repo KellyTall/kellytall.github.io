@@ -29,8 +29,13 @@ async function drawMap_topo() {
 
     // console.log(trains)
 
+    const wrapper = d3.select(".map_parramatta") 
+       .append("svg")
+        .attr("viewBox", "0 0 1200 1000")
+        
+
     let dimensions = {
-        width: window.innerWidth * .8,
+        width: 1200,
         margin: {
             top: 10,
             right: 10,
@@ -38,7 +43,6 @@ async function drawMap_topo() {
             left: 10,
         },
     }
-
 
 
 
@@ -65,10 +69,7 @@ async function drawMap_topo() {
 
 
 
-    const wrapper = d3.select(".map_parramatta") 
-        .append("svg")
-        .attr("width", dimensions.width)
-        .attr("height", dimensions.height)
+    
 
     const bounds = wrapper
         .append("g")
@@ -111,8 +112,8 @@ async function drawMap_topo() {
         .join("text")
         .attr("class", "point_label")
         .text(d => d.location_name)
-        .attr("x", d => projection_SA2([d.longitude, d.latitude + 0.001])[0])
-        .attr("y", d => projection_SA2([d.longitude, d.latitude + 0.001])[1])
+        .attr("x", d => projection_SA2([d.longitude, d.latitude + 0.02])[0])
+        .attr("y", d => projection_SA2([d.longitude, d.latitude + 0.02])[1])
         
     
 

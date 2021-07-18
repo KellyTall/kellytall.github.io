@@ -31,8 +31,14 @@ async function drawMap_topo() {
     trains = trains_import.filter(d => d.SA4 != "Outer" & d.SA4 == "Sydney - City and Inner South")
 
 
+
+    const wrapper = d3.select(".map_innersouth")
+       .append("svg")
+        .attr("viewBox", "0 0 1200 1100")
+        
+
     let dimensions = {
-        width: window.innerWidth * .7,
+        width: 820,
         margin: {
             top: 10,
             right: 10,
@@ -40,7 +46,6 @@ async function drawMap_topo() {
             left: 10,
         },
     }
-
 
 
     dimensions.boundedWidth = (dimensions.width - dimensions.margin.left - dimensions.margin.right)
@@ -65,10 +70,6 @@ async function drawMap_topo() {
 
 
 
-    const wrapper = d3.select(".map_innersouth")
-        .append("svg")
-        .attr("width", dimensions.width)
-        .attr("height", dimensions.height)
 
     const bounds = wrapper
         .append("g")
@@ -97,17 +98,17 @@ async function drawMap_topo() {
         .attr("y", d => pathGenerator_SA2.centroid(d)[1])
 
     const points = bounds
-        .selectAll("circle")    
-        .data(trains)    
+        .selectAll("circle")
+        .data(trains)
         .join("circle")
         .attr("class", "circle")
         .attr("cx", d => projection_SA2([d.longitude, d.latitude])[0])
         .attr("cy", d => projection_SA2([d.longitude, d.latitude])[1])
         .attr("r", 4)
 
-        const point_label = points
-        .select("text")    
-        .data(trains)    
+    const point_label = points
+        .select("text")
+        .data(trains)
         .join("text")
         .attr("class", "point_label")
         .text(d => d.location_name)

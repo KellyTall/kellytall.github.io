@@ -7,7 +7,7 @@ async function drawMap_topo() {
 
     SA4_map.objects.SA4.geometries = SA4_map.objects.SA4.geometries.filter(d => d.properties.GCC_NAME16 == "Greater Sydney" &  d.properties.SA4_NAME16 !="Central Coast")
 
-    // console.log(SA4_map)
+    console.log(SA4_map)
 
 
     SA4_topo = topojson.feature(SA4_map, SA4_map.objects.SA4)
@@ -28,8 +28,13 @@ async function drawMap_topo() {
 
     // console.log(trains)
 
+    const wrapper = d3.select(".map_overview")
+        .append("svg")
+        .attr("viewBox", "0 0 1200 1000")
+        
+
     let dimensions = {
-        width: window.innerWidth *.7,
+        width: 1000,
         margin: {
             top: 10,
             right: 10,
@@ -64,11 +69,7 @@ async function drawMap_topo() {
 
 
 
-    const wrapper = d3.select(".map_overview")
-        .append("svg")
-        .attr("width", dimensions.width)
-        .attr("height", dimensions.height)
-
+    
     const bounds = wrapper
         .append("g")
         .style("transform", `translate(${

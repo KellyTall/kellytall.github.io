@@ -23,7 +23,19 @@
     <div class="blacktown_map"></div>
     <div class="description">
         <h3>Log</h3>
-        <p>Now adding labels to the map</p>
+        <p>Adding labels to the map:</p>
+
+        <p> <code>const labels = bounds
+        .selectAll("text")<br>
+        .data(SA4_topo.features)<br>
+        .join("text") <br>
+        .attr("class", "SA4_area_label") <br>
+        .text(d => d.properties.SA4_NAME16) <br>
+        .attr("x", d => pathGenerator.centroid(d)[0])<br>
+        .attr("y", d => pathGenerator.centroid(d)[1])</code><p>
+            <p> This pulls the detail from the geojson file and calculates the centorid of the polygon to work out where to place it</p>
+            <p>I looked up some different ways to style a map and used one of the tips about increasing letter spacing to indicate that the label covers a larger area and not just a point</p>
+
         
     </div>
     <footer>
@@ -32,7 +44,7 @@
                 <li><a href="day_seven.html">
                         <p>Go to Day 7</p>
                     </a></li>
-                <li><a href="not_ready_yet.html">
+                <li><a href="day_nine.html">
                         <p>Go to Day 9</p>
                     </a></li>
             </ul>

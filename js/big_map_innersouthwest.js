@@ -29,8 +29,13 @@ async function drawMap_topo() {
 
     // console.log(trains)
 
+    const wrapper = d3.select(".map_innersouthwest")
+        .append("svg")
+        .attr("viewBox", "0 0 1200 1000")
+        
+
     let dimensions = {
-        width: window.innerWidth * .6,
+        width: 1200,
         margin: {
             top: 10,
             right: 10,
@@ -42,8 +47,9 @@ async function drawMap_topo() {
 
 
 
-
     dimensions.boundedWidth = (dimensions.width - dimensions.margin.left - dimensions.margin.right)
+
+
 
 
     const projection_SA2 = d3.geoEquirectangular()
@@ -65,10 +71,7 @@ async function drawMap_topo() {
 
 
 
-    const wrapper = d3.select(".map_innersouthwest")
-        .append("svg")
-        .attr("width", dimensions.width)
-        .attr("height", dimensions.height)
+    
 
     const bounds = wrapper
         .append("g")

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles_day.css">
+    </link>
+    <link rel="stylesheet" href="https://use.typekit.net/qpl0nxr.css">
+    <title>Day Nine</title>
+</head>
+
+<body>
+    <ul class="top_nav">
+        <li><a href="100_days.html">
+                <p>back to home page</p>
+            </a></li>
+    </ul>
+    <h1> Day Nine</h1>
+    <h2> 26th June 2021 </h2>
+    <h3>Focus on Toongabbie</h3>
+    <h4>Toongabbie (shaded in pink) straddles two SA4s; Blacktown and Parramatta</h4>
+    <h4>Map shows wheelchair accessible stations in the area</h4>
+    <div class="blacktown_map"></div>
+    <div class="description">
+        <h3>Log</h3>
+        <p>Adding points to the map:</p>
+        <ol>
+        <li><p>Imported csv with longitude and latitude of train stations</p></li>
+        <li><p>Filtered this based on the two SA4s</p></li>
+        <li><p>Imported csv with longitude and latitude of train stations</p></li>
+        <li><p>added following:</p></li>
+        <p><code>const points = bounds <br>
+        .selectAll("circle")<br>
+        .data(trains)<br>
+        .join("circle")<br>
+        .attr("class", "circle")<br>
+        .attr("cx", d => projection([d.longitude, d.latitude])[0])<br>
+        .attr("cy", d => projection([d.longitude, d.latitude])[1])<br>
+        .attr("r", 4)</code></p>
+        <li><p>Styled the circles in css</p></li>
+    </ol>
+
+
+       
+
+        
+    </div>
+    <footer>
+        <div class="footer_nav">
+            <ul class="list_container">
+                <li><a href="day_eight.html">
+                        <p>Go to Day 8</p>
+                    </a></li>
+                <li><a href="not_ready_yet.html">
+                        <p>Go to Day 10</p>
+                    </a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="../js/d3.v6.js"></script>
+    <script src="https://unpkg.com/topojson@3"></script>
+    <script src="../js/day_nine.js"></script>
+</body>
+
+</html>
