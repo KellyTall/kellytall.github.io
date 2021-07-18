@@ -2,12 +2,12 @@ async function drawMap_topo() {
 
 
     const historical_1815_map = await d3.json("./../geo/topo_1815.json")
-    console.log(historical_1815_map)
+    // console.log(historical_1815_map)
 
 
     topo_1815 = topojson.feature(historical_1815_map, historical_1815_map.objects.topo1_1815)
 
-    console.log(topo_1815)
+    // console.log(topo_1815)
 
     const wrapper = d3.select(".world_map")
         .append("svg")
