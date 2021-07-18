@@ -34,7 +34,7 @@ async function drawMap_topo() {
 
     trains = trains_import.filter(d => d.SA4 != "Outer" & (d.SA4 == "Sydney - Parramatta" || d.SA4 =="Sydney - Blacktown"))
 
-    console.log(trains)
+    // console.log(trains)
 
     const wrapper = d3.select(".blacktown_map")
         .append("svg")
