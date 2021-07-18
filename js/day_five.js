@@ -8,11 +8,11 @@ async function drawMap_topo() {
     SA2_map.objects.SA2.geometries = SA2_map.objects.SA2.geometries.filter(d => d.properties.SA4_NAME16 == "Sydney - Blacktown")
 
 
-        console.log(SA2_map)
+        // console.log(SA2_map)
 
     SA2_topo = topojson.feature(SA2_map, SA2_map.objects.SA2)
 
-	console.log(SA2_topo)    
+	// console.log(SA2_topo)    
 
 
 

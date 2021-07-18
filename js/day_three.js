@@ -16,7 +16,7 @@ async function drawBars() {
     const sortedData = dataset.slice().sort((a, b) => d3.descending(a.number, b.number))
 
 
-    console.log(sortedData)
+    // console.log(sortedData)
 
     const districtAccessor = d => d.district
     const numberAccessor = d => d.number
