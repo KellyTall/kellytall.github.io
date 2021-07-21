@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles_day.css">
+    </link>
+    <link rel="stylesheet" href="https://use.typekit.net/qpl0nxr.css">
+    <title>Day Twelve</title>
+</head>
+
+<body>
+    <ul class="top_nav">
+        <li><a href="100_days.html">
+                <p>back to home page</p>
+            </a></li>
+    </ul>
+    <h1> Day Twelve</h1>
+    <h2> 29th June 2021 </h2>
+    <h3>Number of SDA properties</h3>
+    <h4>SA3s in Parramatta and Blacktown</h4>
+    <div class="table"></div>
+
+    <div class="description">
+         <h3>Log</h3>
+         <p>Sometimes you just need a little text and a number</p>
+
+         <p>I have to produce some reports and at times I don't want to make a chart, just a list and corresponding numbers. Here I loooked back at some tutorials from <a href="https://www.superhi.com/courses/data-visualization-with-d3" target="_blank">superHi's data visualisation / D3 course </a> (which I would highly recommend!). </p>
+         <p>Even though I've been plkuging away at D3 now, I still get a bit confused about groups, and selections and so forth, but here is what I tink is going on </p>
+         <ol>
+             <li>Create a group for each of the rows based on the number of rows in the data set</li>
+             <li>In the group append some text to it - the SA3 name</li>
+             <li>Append more text: this time the number of dwellings in each SA3</li>
+             <li>Then style in CSS</li>
+         </ol>
+
+         <p>Becasue I'm not very comfortable in JS, I tend to learn things and then crib from these tutorials. It often leads to mistakes, but I find I am getting better (I hope 😬) at woring out at least what is going on. Learning from dofferent people has meant I sometimes get a bit mixed up in the differences in styles. Doing these regulalry at least helps build some of that <em>recognition</em> ...</p>
+
+         <p>The date today is actually 19th July so I am a bit behind, but committed at least to do one for each day, even if these days are behind. Comfort in the knowledge that I have been making all kinds of maps for a client which has been fantastic (and also good to buid some of the things i have learnt in here into small examples so that I can easly find them in the future)</p>
+
+         <p>Note: I also used a sorting example I have back in <a href="day_two.html" target="_blank">day two</a> - it's already helping 🙃</p>
+    
+    </div>
+    <footer>
+        <div class="footer_nav">
+            <ul class="list_container">
+                <li><a href="day_eleven.html">
+                        <p>Go to Day 11</p>
+                    </a></li>
+                <li><a href="day_thirteen.html">
+                        <p>Go to Day 13</p>
+                    </a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="../js/d3.v6.js"></script>
+    <script src="https://unpkg.com/topojson@3"></script>
+    <script src="../js/day_twelve.js"></script>
+</body>
+
+</html>

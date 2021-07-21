@@ -239,7 +239,7 @@ path.SA2_background {
     font-weight: 700;
 }
 
-.SA4_area_label {
+.SA4_area_label, .SA4_area_label_small {
     fill: var(--dark_blue);
     text-transform: uppercase;
     font-style: italic;
@@ -273,3 +273,30 @@ path.world_map {
     font-size: 8px;
 
 }
+
+.sa3_name, .dwelling_num {
+    fill: var(--dark_blue);
+    text-anchor: start;
+    font-size: 14px;
+}
+
+
+
+.SA3_area_label_small {
+    fill: var(--dark_blue);
+    text-anchor: middle;
+    font-size: 14px;
+}
+
+
+.sa3_name{
+    
+    text-anchor: start;
+    
+}
+
+.dwelling_num {
+    text-anchor: middle;
+    font-weight: 700;
+}
+

@@ -25,28 +25,23 @@ async function drawMap_topo() {
 
     SA3_topo = topojson.feature(SA3_map, SA3_map.objects.SA3)
 
-    // console.log(SA3_map)
-    // console.log(SA3_topo)
 
 
-
-
-    // console.log(SA4_topo)
 
     const wrapper = d3.select(".location_map")
         .append("svg")
-        .attr("width", "500")
+        .attr("width", "580")
         .attr("height", "500")
 
 
 
     let dimensions = {
-        width: 500,
+        width: 580,
         margin: {
             top: 2,
-            right: 2,
+            right: 20,
             bottom: 2,
-            left: 2,
+            left: 20,
         },
     }
 
@@ -135,17 +130,17 @@ async function drawMap_topo() {
     dimensions.height = dimensions.boundedHeight + dimensions.margin.top + dimensions.margin.bottom
 
 
-    const SA4_colour = ({
+    // const SA4_colour = ({
 
-        "Blacktown": '#E6E6E6',
-        "Parramatta": '#E6E6E6',
+    //     "Blacktown": '#A3C8FF',
+    //     "Parramatta": '#A3C8FF',
 
-    })
+    // })
 
     const SA2_colour = ({
 
-        "Toongabbie - Constitution Hill": '#86BF84',
-        "Seven Hills - Toongabbie": '#86BF84',
+        "Toongabbie - Constitution Hill": '#688B90',
+        "Seven Hills - Toongabbie": '#688B90',
 
     })
 
@@ -166,7 +161,7 @@ async function drawMap_topo() {
         .join("path")
         .attr("class", "SA2_background")
         .attr("d", pathGenerator)
-        .attr("fill", (d) => SA2_colour[d.properties.SA2_NAME16] || '#F2DEC4')
+        .attr("fill", (d) => SA2_colour[d.properties.SA2_NAME16] || "#B5D8DD")
 
 
 

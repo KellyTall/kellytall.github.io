@@ -78,17 +78,17 @@ async function drawMap_topo() {
 
 
     
-    const wrapper = d3.select(".sda_sa3_map")
+    const wrapper = d3.select(".choro_map")
         .append("svg")
-        .attr("width", "273")
-        .attr("height", "249")
+        .attr("width", "600")
+        .attr("height", "500")
 
 
 
     let dimensions = {
-        width: 273,
+        width: 600,
         margin: {
-            top: 2,
+            top: 20,
             right: 2,
             bottom: 2,
             left: 2,
@@ -161,7 +161,7 @@ async function drawMap_topo() {
 
     })
 
-    const scale_color = d3.scaleQuantize([min_dwelling, max_dwelling], d3.schemeBlues[7])
+    const scale_color = d3.scaleQuantize([min_dwelling, max_dwelling], d3.schemeBlues[9])
 
 
 

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles_day.css">
+    </link>
+    <link rel="stylesheet" href="https://use.typekit.net/qpl0nxr.css">
+    <title>Day Thirteen</title>
+</head>
+
+<body>
+    <ul class="top_nav">
+        <li><a href="100_days.html">
+                <p>back to home page</p>
+            </a></li>
+    </ul>
+    <h1> Day Thirteen</h1>
+    <h2> 30th June 2021 </h2>
+    <h3>Number of SDA properties within SA3s | viewed as a choropleth map</h3>
+    
+    <div class="choro_map"></div>
+
+    <div class="description">
+         <h3>Log</h3>
+         <p>This was a failed experiement but adding it here for record:</p>
+
+         
+         <ol>
+             <li>Mapped data to access later when working out colour<br><code>const data_mapped = new Map(SA3_SDA_data.map(d => [d.SA3_NAME16, d.total_dwellings_SA3]))</code></li>
+             <li>Added in line that worked out the fill for each SA3 based on the number of dwellings as stated in the data file<br> <code>const scale_color = d3.scaleQuantize([min_dwelling, max_dwelling], d3.schemeBlues[9])</code></li>
+             <li>Could add in a filrer here to make sure that the labels in the dareker areas are a lighter colour...but this can be for another day!</li>
+             <li>Then style in CSS</li>
+             <li><b>Important to note</b> - I did not use this in the project as it didn;t fit in with the whole story - but good to record here for future reference</li>
+         </ol>
+
+        
+    
+    </div>
+    <footer>
+        <div class="footer_nav">
+            <ul class="list_container">
+                <li><a href="day_twelve.html">
+                        <p>Go to Day 12</p>
+                    </a></li>
+                <li><a href="not_ready_yet.html">
+                        <p>Go to Day 14</p>
+                    </a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="../js/d3.v6.js"></script>
+    <script src="https://unpkg.com/topojson@3"></script>
+    <script src="../js/day_thirteen.js"></script>
+</body>
+
+</html>
