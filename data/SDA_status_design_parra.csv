@@ -1,0 +1,10 @@
+sa4,status,design,sa4_total,sa4_status_total,sa4_status_design_total,sa4_design_total
+Parramatta,Existing,Basic,275,111,76,76
+Parramatta,Existing,Fully Accessible,275,111,16,48
+Parramatta,Existing,High physical support,275,111,5,65
+Parramatta,Existing,Improved Liveability,275,111,14,85
+Parramatta,New,Fully Accessible,275,154,32,48
+Parramatta,New,High physical support,275,154,50,65
+Parramatta,New,Improved Liveability,275,154,71,85
+Parramatta,New,Robust,275,154,1,1
+Parramatta,Unfinished,High physical support,275,10,10,65

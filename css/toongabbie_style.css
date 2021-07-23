@@ -1,39 +1,60 @@
 body {
 
-    font-family: 'Helvetica Neue';
+    font-family: neue-haas-grotesk-text, sans-serif;
+    font-weight: 400;
+    font-style: normal;
 
 }
 
 
 .page {
     width: 21cm;
-    min-height: 29.7cm;
+    height: 29.7cm;
     margin-left: auto;
     margin-right: auto;
     padding-left: 2cm;
     padding-top: 2cm;
     padding-right: 2cm;
     padding-bottom: 2cm;
+    display: flex;
+    flex-direction: column;
 
 }
 
 h1 {
-    font-size: 40px;
+    font-family: neue-haas-grotesk-display, sans-serif;
     font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
     margin-top: 8px;
 }
 
 
-h2 {
-    font-size: 24px;
-    font-weight: 500;
 
+h2 {
+    font-size: 18px;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 700;
+    margin-bottom: 12px;
 }
+
 
 h3 {
-    font-size: 16px;
-    font-weight: 200;
+    font-size: 18px;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 300;
+    
+    font-style: normal;
 }
+
+
+h4 {
+    font-size: 16px;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 300;
+    margin-bottom: 12px;
+}
+
 
 p {
     font-size: 12px;
@@ -50,6 +71,17 @@ p {
 }
 
 
+footer {
+    flex-direction: row;
+    border-bottom: 1px solid black;
+    flex:  1;
+
+}
+
+.main_header{
+    width: 100%;
+}
+
 .page_header h3 {
     margin-left: auto;
     margin-bottom: 8px;
@@ -57,14 +89,22 @@ p {
 
 
 
-/*page one*/
 
 
-.top_row {
+
+.top_row_page_one {
     display: flex;
     flex-direction: row;
     width: 100%;
 }
+
+
+.top_row_page_two {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
 
 .text_column {
     width: 25%;
@@ -72,6 +112,13 @@ p {
 
 }
 
+
+
+.text_column_full_width {
+    width: 100%;
+    align-items: flex-end;
+
+}
 
 
 text.seven_hills_label,
@@ -162,6 +209,11 @@ path.SA3_dwelling_map {
 
 }
 
+
+text{
+    font-family: neue-haas-grotesk-display, sans-serif;
+}
+
 text.sa3_name,
 text.dwelling_num {
     font-size: 12px;
@@ -177,12 +229,107 @@ text.dwelling_num {
 
 .second_row {
     width: 100%;
+
+}
+
+.chart_holder {
+    width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+
 
 }
 
-.second_row_text_column {
-    width: 50%;
-
+.toongabbie_SDA_table {
+    width: 30%;
 }
+
+.toongabbie_SDA_design_chart {
+    width: 70%;
+}
+
+.small_mult_head {
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 400;
+    font-size: 9px;
+    text-anchor: start;
+}
+
+.small_mult_head_larger {
+    font-size: 12px;
+}
+
+
+.xAxis_small_multiple path{
+    stroke:  none;
+}
+
+
+.small_multiple_bar_label {
+    font-size:  9px;
+}
+
+.ndis_number_map, 
+.sda_number_map,
+.sda_seeking,
+.sda_design_seek {
+    width:  50%;
+}
+
+
+text.inside_bar_label {
+    fill: white;
+    font-size: 12px;
+    font-family: neue-haas-grotesk-display, sans-serif;
+}
+
+/*page two*/
+
+.chart_row{
+    display:  flex;
+    /*flex_direction: column;*/
+}
+
+.half_square {
+    width:  50%;
+    margin-right: 24px;
+}
+
+
+.full_square {
+    width:  100%;
+    margin-right: 24px;
+    margin-bottom: 32px;
+}
+
+
+.full_square p {
+    margin-top: 32px  ;
+}
+/*.ndis_number_map_holder, .sda_number_map_holder {
+    width:  50%;
+    margin-right: 24px;
+}
+*/
+.half_square p{
+    margin-right: 24px;
+}
+
+
+/*.ndis_number_map_holder p, .sda_number_map_holder p{
+    margin-right: 24px;
+}
+*/
+.chart_row_indent {
+    margin-left: 24px ;
+}
+
+
+text.sda_seek {
+    font-size: 14px;
+    text-anchor: middle;
+    font-family: neue-haas-grotesk-display, sans-serif;
+}
+
+
+

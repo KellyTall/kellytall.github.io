@@ -12,14 +12,14 @@ async function drawList() {
 
     // console.log(data)
 
-    const wrapper = d3.select(".table")
+    const wrapper = d3.select(".toongabbie_SDA_table")
         .append("svg")
         .attr("width", "800")
         .attr("height", "200")
 
 
     let dimensions = {
-        width: 500,
+        width: 400,
         margin: {
             top: 10,
             right: 10,
@@ -45,7 +45,6 @@ async function drawList() {
         .selectAll("g.list")
         .data(sortedData)
         .join("g")
-        // .attr("class", "sa3")
         .attr("transform", (d, i) => { return `translate(0, ${i*24})` })
 
      groups 

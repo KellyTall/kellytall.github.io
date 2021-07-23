@@ -28,7 +28,7 @@ async function drawMap_topo() {
 
 
 
-    const wrapper = d3.select(".location_map")
+    const wrapper = d3.select(".toongabbie_map")
         .append("svg")
         .attr("width", "580")
         .attr("height", "500")

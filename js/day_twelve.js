@@ -45,7 +45,7 @@ async function drawList() {
         .selectAll("g.list")
         .data(sortedData)
         .join("g")
-        // .attr("class", "sa3")
+        .attr("class", "sa3")
         .attr("transform", (d, i) => { return `translate(0, ${i*24})` })
 
      groups 

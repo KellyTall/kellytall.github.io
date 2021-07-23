@@ -1,0 +1,11 @@
+sa4,status,design,sa4_total,sa4_status_total,sa4_status_design_total,sa4_design_total
+Blacktown,Existing,Basic,142,80,61,72
+Blacktown,Existing,Fully Accessible,142,80,7,14
+Blacktown,Existing,High physical support,142,80,2,25
+Blacktown,Existing,Improved Liveability,142,80,9,30
+Blacktown,Existing,Robust,142,80,1,1
+Blacktown,New,Fully Accessible,142,32,7,14
+Blacktown,New,High physical support,142,32,4,25
+Blacktown,New,Improved Liveability,142,32,21,30
+Blacktown,Unfinished,Basic,142,30,11,72
+Blacktown,Unfinished,High physical support,142,30,19,25

@@ -1,16 +1,6 @@
 async function drawBars() {
 
-    // Access Data
-
-
-    // const dataset = await d3.csv("../data/day_one_SDA.csv", function(d) {
-    //     return {
-    //         district: d.district,
-    //         number: +d.number
-    //     }
-    // })
-    // .sort((a, b) => d3.descending(a.number, b.number))
-
+   
 
 
 
@@ -19,7 +9,7 @@ async function drawBars() {
             district: d.district,
             number: +d.number
         }
-        // .sort((a, b) => d3.descending(a.number, b.number))
+   
     })
 
     
