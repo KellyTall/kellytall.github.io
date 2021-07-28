@@ -9,7 +9,7 @@ async function drawUnpaid_Assistance() {
         }
     })
 
-    console.log(schools)
+    // console.log(schools)
 
     const data = await d3.csv("./../data/toongabbie_unpaid_assistance_SA2.csv", function(d) {
         return {
@@ -26,7 +26,7 @@ async function drawUnpaid_Assistance() {
         d.properties.generalname == 'blacktown hospital' || d.properties.generalname == "auburn hospital" || d.properties.generalname == "minchinbury community hospital" ||
         d.properties.generalname == "auburn hospital" || d.properties.generalname == "st joseph's hospital")
 
-    console.log(hospital)
+    // console.log(hospital)
 
 
 
@@ -37,7 +37,7 @@ async function drawUnpaid_Assistance() {
         d.properties.generalname == 'university of western sydney westmead campus' || d.properties.generalname == "university of western sydney parramatta nth campus" || d.properties.generalname == "university of western sydney parramatta sth campus" ||
         d.properties.generalname == "university of western sydney blacktown campus")
 
-    console.log(hospital)
+    // console.log(hospital)
 
     // const data_mapped = new Map(data.map(d => [d.SA2_NAME16, d.prop]))
 
@@ -55,7 +55,7 @@ async function drawUnpaid_Assistance() {
 
     SA3_map.objects.SA3.geometries = SA3_map.objects.SA3.geometries.filter(d => d.properties.SA4_NAME16 == "Blacktown" || d.properties.SA4_NAME16 == "Parramatta")
 
-    console.log(SA3_map)
+    // console.log(SA3_map)
 
     SA3_topo = topojson.feature(SA3_map, SA3_map.objects.SA3)
 
