@@ -57,7 +57,7 @@ h1 {
     font-family: 'eskorte-latin', sans-serif;
     font-style: italic;
     border-bottom: 1px solid var(--dark_blue);
-    max-width: 500px;
+    max-width: 1000px;
     margin-bottom: 24px;
     margin-top: 24px;
 }
