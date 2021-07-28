@@ -80,7 +80,7 @@ h1 {
 
 h2 {
     font-size: 18px;
-    font-family: 'eskorte-latin', sans-serif;
+    /*font-family: 'eskorte-latin', sans-serif;*/
     font-weight: 400;
     margin-top: 0;
 
@@ -300,3 +300,12 @@ path.world_map {
     font-weight: 700;
 }
 
+.small_mult_head_larger {
+    font-size:  16px;
+    fill: var(--light_blue);
+}
+
+.small_multiple_bar_label {
+    font-size: 14px;
+    fill: var(--light_blue);
+}

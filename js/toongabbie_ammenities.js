@@ -8,13 +8,13 @@ async function drawUnpaid_Assistance() {
         } 
     })
 
-    const data_mapped = new Map(data.map(d => [d.SA2_NAME16, d.prop]))
+    // const data_mapped = new Map(data.map(d => [d.SA2_NAME16, d.prop]))
 
 
-    const max_assistance = d3.max(data, d => d.prop)
-    const min_assistance = d3.min(data, d => d.prop)
+    // const max_assistance = d3.max(data, d => d.prop)
+    // const min_assistance = d3.min(data, d => d.prop)
 
-    const scale_color = d3.scaleQuantize([min_assistance, max_assistance], d3.schemeBlues[9])
+    // const scale_color = d3.scaleQuantize([min_assistance, max_assistance], d3.schemeBlues[9])
 
 
 
@@ -23,6 +23,8 @@ async function drawUnpaid_Assistance() {
     const SA3_map = await d3.json("./../geo/SA3_simple_copy.json")
 
     SA3_map.objects.SA3.geometries = SA3_map.objects.SA3.geometries.filter(d => d.properties.SA4_NAME16 == "Blacktown" || d.properties.SA4_NAME16 == "Parramatta")
+
+    console.log(SA3_map)
 
     SA3_topo = topojson.feature(SA3_map, SA3_map.objects.SA3)
 
@@ -46,11 +48,26 @@ async function drawUnpaid_Assistance() {
 
     SA4_topo = topojson.feature(SA4_map, SA4_map.objects.SA4)
 
-    const width = 300
-    const height = 300
+
+
+
+     const trains_import = await d3.csv("./../data/tfnsw_train.csv", function(d) {
+        return {
+            location_name: d.location_name,
+            latitude: +d.latitude,
+            longitude: +d.longitude,
+            SA4: d.SA4
+
+        }
+    })
+
+    trains = trains_import.filter(d => d.SA4 != "Outer" & (d.SA4 == "Sydney - Parramatta" || d.SA4 =="Sydney - Blacktown"))
+
+    const width = 600
+    const height = 600
     const margin = { top: 10, right: 10, bottom: 10, left: 10 }
 
-    const svg = d3.select(".toongabbie_unpaid_assistance")
+    const svg = d3.select(".toongabbie_ammenities")
         .append("svg")
         .attr("width", width)
     .attr("height", height)
@@ -92,25 +109,50 @@ async function drawUnpaid_Assistance() {
     })
 
 
-    // const SA3_background = map
-    //     .selectAll(".SA3_background")
-    //     .data(SA3_topo.features)
-    //     .join("path")
-    //     .attr("class", "SA3_dwelling_map")
-    //     .attr("d", pathGenerator)
-    //     .attr("fill", d => scale_color(data_mapped.get(d.properties.SA3_NAME16)))
-
-
-
     const SA2_background = map
         .selectAll(".SA2_background")
         .data(SA2_topo.features)
         .join("path")
         .attr("class", "SA2_background")
         .attr("d", pathGenerator)
-        .attr("fill", d => scale_color(data_mapped.get(d.properties.SA2_NAME16)))
+        .attr("fill", (d) => SA2_colour[d.properties.SA2_NAME16] || "#B5D8DD")
 
 
+
+    const SA3_background = map
+        .selectAll(".SA3_background")
+        .data(SA3_topo.features)
+        .join("path")
+        .attr("class", "SA3_background")
+        .attr("d", pathGenerator)
+
+
+    const SA4_background = map
+        .selectAll(".SA4_background")
+        .data(SA4_topo.features)
+        .join("path")
+        .attr("class", "SA4_background")
+        .attr("d", pathGenerator)
+
+    const labels = map
+        .selectAll("text")
+        .data(SA4_topo.features)
+        .join("text")
+        .attr("class", "SA4_area_label")
+        .text(d => d.properties.SA4_NAME16)
+        .attr("x", d => pathGenerator.centroid(d)[0])
+        .attr("y", d => pathGenerator.centroid(d)[1])
+
+
+
+    const points = map
+        .selectAll("circle")
+        .data(trains)
+        .join("circle")
+        .attr("class", "circle")
+        .attr("cx", d => projection([d.longitude, d.latitude])[0])
+        .attr("cy", d => projection([d.longitude, d.latitude])[1])
+        .attr("r", 4)
 
 
 

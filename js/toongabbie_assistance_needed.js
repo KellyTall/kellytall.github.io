@@ -14,7 +14,7 @@ async function drawUnpaid_Assistance() {
     const max_assistance = d3.max(data, d => d.prop)
     const min_assistance = d3.min(data, d => d.prop)
 
-    const scale_color = d3.scaleQuantize([min_assistance, max_assistance], d3.schemeBlues[7])
+    const scale_color = d3.scaleQuantize([min_assistance, max_assistance], d3.schemeBlues[9])
 
 
 

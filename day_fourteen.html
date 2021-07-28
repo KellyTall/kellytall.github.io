@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.typekit.net/qpl0nxr.css">
+    <link rel="stylesheet" href="css/styles_day.css"></link>
+    
+    <title>Day Fourteen</title>
+</head>
+
+<body>
+    <ul class="top_nav">
+        <li><a href="100_days.html">
+                <p>back to home page</p>
+            </a></li>
+    </ul>
+    <h1> Day Fourteen</h1>
+    <h2> 1 July 2021 </h2>
+    <h3>SDA property status | Small Multiple Example</h3>
+    
+    <div class="toongabbie_SDA_build_status"></div>
+
+    <div class="description">
+         <h3>Log</h3>
+         <p>Have had to create small multiple charts for recent report. These are small charts that help show the same data form but split by a categrical variable. They are really useful when you have a lot of data, and it's hard to see any patterns when they are encoded all together. I tend to get a bit mixed up with the selection process here, so having this as a bit of a template will help a lot! </p>
+
+         <ol>
+             <li><p>Group the data by the relevant variable <br>
+                <code>const grouped_data = Array.from(d3.group(data, d => d.sa4), ([key, value]) => ({ key, value }))</code><br>
+            This groups by the Sa4 variable: the variable we are basing the split of the data</li>
+            <li><p>The width should be set to the desired width of each svg - in this case it's going to be 400px</p></li>
+            <li><p> When I select the svg and ink to the html page, I use <code>SelectAll</code><br> and the data is the grouped data. In my stack overflow trawls I also came across this nifty class thingy, where you allocate a class name to each of the svg's by the variable you are splitting<br><code>const svg = d3.select(".toongabbie_SDA_build_status")<br>
+        .selectAll("chart")<br>
+        .data(grouped_data)<br>
+        .join("svg")<br>
+        .attr("width", width) <br>
+        .attr("height", height)<br>
+        <em><b>.attr("class", d => d.value[0].sa4)</em> </b><br>
+        .attr('transform', `translate(0,${margin.top})`)</code>
+</p></li>
+<li><p>Then when drawing the rects, use d.value to access the data that sits under each of the key variables</p></li>
+<li><p>The full code can be found on my github page here</p></li>
+
+         </ol>
+
+         
+         
+    
+    </div>
+    <footer>
+        <div class="footer_nav">
+            <ul class="list_container">
+                <li><a href="day_thirteen.html">
+                        <p>Go to Day 13</p>
+                    </a></li>
+                <li><a href="not_ready_yet.html">
+                        <p>Go to Day 14</p>
+                    </a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="../js/d3.v6.js"></script>
+    <script src="https://unpkg.com/topojson@3"></script>
+    <script src="../js/day_fourteen.js"></script>
+</body>
+
+</html>
