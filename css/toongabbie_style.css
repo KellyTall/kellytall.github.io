@@ -141,7 +141,7 @@ text.c_hill_label {
 
 
 text.SA4_area_label {
-    fill: black;
+    fill: darkgrey;
     text-anchor: middle;
     font-size: 14px;
     text-transform: uppercase;
@@ -172,6 +172,16 @@ text.SA3_area_label {
     letter-spacing: 1px;
     font-weight: 200;
 
+}
+
+text.SA3_area_label_light {
+    fill: darkgrey;
+    text-anchor: middle;
+    font-size: 12px;
+    font-style: italic;
+    letter-spacing: 2px;
+    font-weight: 200;
+    /*font-size: 28px;*/
 }
 
 text.SA3_area_label_small {
@@ -332,4 +342,40 @@ text.sda_seek {
 }
 
 
+/*.point_label{
+    font-size: 12px;
+}
+*/
+.hospital_point_label, .education_point_label, .train_point_label {
+ text-transform: capitalize;   
+    font-size: 10px;
+    text-anchor:  middle;
 
+
+}
+
+
+
+.circle_train {
+    fill:  #0388A6;
+    /*opacity:  0.8;*/
+}
+
+.circle_hospital {
+    fill:  #D91807;
+    /*opacity:  0.8;*/
+}
+
+.circle_education {
+    fill:  #D9AC25;
+    /*opacity:  0.8;*/
+}
+
+.circle_school {
+    fill:  #A2A629;
+    /*opacity:  0.8;*/
+}
+
+.legendText{
+    font-size: 12px;
+}

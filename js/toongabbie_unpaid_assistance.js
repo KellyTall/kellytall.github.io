@@ -36,7 +36,7 @@ async function drawUnpaid_Assistance() {
     SA2_topo = topojson.feature(SA2_map, SA2_map.objects.SA2)
 
 
-    console.log(SA2_topo)
+    // console.log(SA2_topo)
 
 
 
