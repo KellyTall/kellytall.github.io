@@ -55,12 +55,12 @@ async function drawDesign_parra() {
         .tickFormat(d3.format('d'))
         .tickPadding(7)
 
-    // svg
-    //     .append('g')
-    //     .call(xAxis)
-    //     .attr('class', 'xAxis')
-    //     .attr('transform', `translate(0,${height-margin.bottom})`)
-    //     .style('stroke', 'none')
+    svg
+        .append('g')
+        .call(xAxis)
+        .attr('class', 'xAxis')
+        .attr('transform', `translate(0,${height-margin.bottom})`)
+        .style('stroke', 'none')
 
 
     const yScale = d3.scaleBand()
