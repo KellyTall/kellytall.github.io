@@ -1,6 +1,6 @@
-async function drawstatus() { 
+async function drawstatus() {
 
-	//import data
+    //import data
 
     const data_all = await d3.csv("./../data/language_proficiency.csv", function(d) {
 
@@ -17,7 +17,7 @@ async function drawstatus() {
 
     const data = data_all.filter(d => d.sa4 == "Blacktown")
 
-    
+
 
     const grouped_data = Array.from(d3.group(data, d => d.sa4), ([key, value]) => ({ key, value }))
 
@@ -39,7 +39,7 @@ async function drawstatus() {
         .attr("height", height)
         .attr('transform', `translate(0,${margin.top})`)
 
-// // // // //calcualting axis
+    // // // // //calcualting axis
 
     const xScale = d3.scaleLinear()
         .domain([0, d3.max(data, d => d.prop)])
@@ -59,7 +59,7 @@ async function drawstatus() {
         .attr('transform', `translate(0,${height-margin.bottom})`)
         .style('stroke', 'none')
 
-const yScale = d3.scaleBand()
+    const yScale = d3.scaleBand()
         .domain(d3.range(language_names.length))
         .range([margin.top, height - margin.bottom])
         .padding(0.2)
@@ -68,8 +68,8 @@ const yScale = d3.scaleBand()
     const yAxis = d3.axisLeft()
         .scale(yScale)
         .tickFormat(i => data[i].language)
-    .tickSizeOuter(0)
-    .tickSizeInner(2)
+        .tickSizeOuter(0)
+        .tickSizeInner(2)
 
 
 
@@ -106,15 +106,6 @@ const yScale = d3.scaleBand()
         .text(d => d3.format(".0%")(d.prop))
 
 
-    // svg
-    //     .append("path")
-    //     .style("stroke", "blue")
-    //     .style("stroke-width", 2)
-    //     .attr("d", function(d){
-    //     var rv = "M" + yScale(d.ancestry) + "," + xScale(d.greater_sydney); // move to
-    //     rv += "L" + (yScale(d.ancestry) + d3.scaleBand()) + "," + xScale(d.greater_sydney); // line
-    //   return rv;
-    // });
 
 
     svg
@@ -127,6 +118,15 @@ const yScale = d3.scaleBand()
         .text(d => d.key)
         .attr("class", "small_mult_head_larger")
 
+    svg
+        .append("path")
+        .style("stroke", "blue")
+        .style("stroke-width", 2)
+        .attr("d", function(d) {
+            var rv = "M" + yScale(d.english_language_proficiency2) + "," + xScale(d.greater_sydney); // move to
+            rv += "L" + (yScale(d.english_language_proficiency2) + yScale.rangeBand()) + "," + xScale(d.greater_sydney); // line
+            return rv;
+        })
 
 
 
