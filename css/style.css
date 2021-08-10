@@ -14,7 +14,8 @@ body {
     font-style: normal;
     color: var(--light_pink);
     background-color: var(--dark_blue);
-    margin: 1px 56px;
+    margin: 56px 56px;
+    height: auto;
 
 }
 
@@ -23,11 +24,15 @@ h1 {
     font-family: neue-haas-unica, sans-serif;
     font-weight: 500;
     font-style: normal;
-    margin: none;
+    margin: 0;
 }
 
 h2 {
     font-size: 48px;
+}
+
+.blurb {
+    margin-top: 120px;
 }
 
 h3 {
@@ -35,7 +40,8 @@ h3 {
     font-weight: 400;
     font-style: normal;
     font-size: 56px;
-    margin-top: 120px;
+
+    line-height: 1.2;
 }
 
 h4 {
@@ -52,16 +58,73 @@ p {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
-    margin: 0;
 
 }
 
-nav {
+.top_nav {
+    padding:  0;
 
-   display: flex; 
+}
+
+header {
+    border-top: 1px solid var(--light_pink);
+
+}
+
+
+nav ul{
+    display: flex;
+
+}
+
+
+nav ul li{
+    
+
+    list-style-type: none;
+
+
+
+}
+
+.navbar nav ul li{
+    
+
+    
+    padding-left: 12px;
+
 
 }
 
 
 
 
+ul {
+    margin-top: 0;
+}
+
+
+header nav ul li p a,
+.contact p a {
+    text-decoration: none;
+    color: var(--light_pink);
+    padding-top: 12px;
+
+}
+
+
+header nav ul p a:hover,
+.contact p a:hover {
+    color: var(--olive);
+    border-bottom: 1px solid var(--olive);
+
+
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    border-bottom: 1px solid var(--light_pink);
+    flex: 1;
+}
