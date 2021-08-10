@@ -124,7 +124,7 @@ async function drawstatus() {
         .style("stroke-width", 2)
         .attr("d", function(d) {
             var rv = "M" + yScale(d.english_language_proficiency2) + "," + xScale(d.greater_sydney); // move to
-            rv += "L" + (yScale(d.english_language_proficiency2) + yScale.rangeBand()) + "," + xScale(d.greater_sydney); // line
+            rv += "L" + (yScale(d.english_language_proficiency2) + yScale.bandwidth()) + "," + xScale(d.greater_sydney); // line
             return rv;
         })
 
