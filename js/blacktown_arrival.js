@@ -1,6 +1,6 @@
-async function drawstatus() { 
+async function drawstatus() {
 
-	//import data
+    //import data
 
     const data_all = await d3.csv("./../data/year_arrival.csv", function(d) {
 
@@ -17,7 +17,7 @@ async function drawstatus() {
 
     const data = data_all.filter(d => d.sa4 == "Blacktown")
 
-    // console.log(data)
+    console.log(data)
 
 
 
@@ -33,7 +33,7 @@ async function drawstatus() {
 
     //     // console.log(ancestry_names)
 
-const width = 380
+    const width = 380
     const height = 250
     const margin = { top: 20, right: 30, bottom: 30, left: 150 }
 
@@ -44,18 +44,19 @@ const width = 380
         .attr("height", height)
         .attr('transform', `translate(0,${margin.top})`)
 
-// // // // //calcualting axis
+    // // // // //calcualting axis
 
     const xScale = d3.scaleLinear()
         .domain([0, d3.max(data, d => d.prop)])
         .range([margin.left, width - margin.right])
+        .nice()
 
     const xAxis = d3.axisBottom()
         .scale(xScale)
-        .ticks(0)
-        .tickSize(0)
-        .tickFormat(d3.format('d'))
-        .tickPadding(7)
+        .tickPadding(5)
+        .tickFormat(d3.format(",.0%"))
+        .ticks(4)
+
 
     svg
         .append('g')
@@ -64,7 +65,8 @@ const width = 380
         .attr('transform', `translate(0,${height-margin.bottom})`)
         .style('stroke', 'none')
 
-const yScale = d3.scaleBand()
+
+    const yScale = d3.scaleBand()
         .domain(d3.range(year_names.length))
         .range([margin.top, height - margin.bottom])
         .padding(0.2)
@@ -73,8 +75,8 @@ const yScale = d3.scaleBand()
     const yAxis = d3.axisLeft()
         .scale(yScale)
         .tickFormat(i => data[i].year)
-    .tickSizeOuter(0)
-    .tickSizeInner(2)
+        .tickSizeOuter(0)
+        .tickSizeInner(2)
 
 
 
@@ -111,15 +113,7 @@ const yScale = d3.scaleBand()
         .text(d => d3.format(".0%")(d.prop))
 
 
-//     // svg
-//     //     .append("path")
-//     //     .style("stroke", "blue")
-//     //     .style("stroke-width", 2)
-//     //     .attr("d", function(d){
-//     //     var rv = "M" + yScale(d.ancestry) + "," + xScale(d.greater_sydney); // move to
-//     //     rv += "L" + (yScale(d.ancestry) + d3.scaleBand()) + "," + xScale(d.greater_sydney); // line
-//     //   return rv;
-//     // });
+
 
 
     svg
@@ -131,6 +125,20 @@ const yScale = d3.scaleBand()
         .attr("dx", 0)
         .text(d => d.key)
         .attr("class", "small_mult_head_larger")
+
+    var size = 2
+
+    svg
+        .append('g')
+        .selectAll('line')
+        .data(data)
+        .join("line")
+        .attr("y1", (d, i) => yScale(i) + yScale.bandwidth() + size)
+        .attr("y2", (d, i) => yScale(i) - size)
+
+        .attr("x1", (d, i) => xScale(d.greater_sydney))
+        .attr("x2", (d, i) => xScale(d.greater_sydney))
+        .attr("class", "average_line")
 
 
 

@@ -17,7 +17,7 @@ async function drawstatus() {
 
     const data = data_all.filter(d => d.sa4 == "Parramatta")
 
-    // console.log(data)
+    console.log(data)
 
 
 
@@ -49,13 +49,14 @@ const width = 380
     const xScale = d3.scaleLinear()
         .domain([0, d3.max(data, d => d.prop)])
         .range([margin.left, width - margin.right])
+        .nice()
 
     const xAxis = d3.axisBottom()
         .scale(xScale)
-        .ticks(0)
-        .tickSize(0)
-        .tickFormat(d3.format('d'))
-        .tickPadding(7)
+        .tickPadding(5)
+        .tickFormat(d3.format(",.0%"))
+        .ticks(4)
+
 
     svg
         .append('g')
@@ -111,15 +112,7 @@ const yScale = d3.scaleBand()
         .text(d => d3.format(".0%")(d.prop))
 
 
-//     // svg
-//     //     .append("path")
-//     //     .style("stroke", "blue")
-//     //     .style("stroke-width", 2)
-//     //     .attr("d", function(d){
-//     //     var rv = "M" + yScale(d.ancestry) + "," + xScale(d.greater_sydney); // move to
-//     //     rv += "L" + (yScale(d.ancestry) + d3.scaleBand()) + "," + xScale(d.greater_sydney); // line
-//     //   return rv;
-//     // });
+
 
 
     svg
@@ -132,6 +125,20 @@ const yScale = d3.scaleBand()
         .text(d => d.key)
         .attr("class", "small_mult_head_larger")
 
+
+ var size = 2
+
+    svg
+        .append('g')
+        .selectAll('line')
+        .data(data)
+        .join("line")
+        .attr("y1", (d, i) => yScale(i) + yScale.bandwidth() + size)
+        .attr("y2", (d, i) => yScale(i) - size)
+
+        .attr("x1", (d, i) => xScale(d.greater_sydney))
+        .attr("x2", (d, i) => xScale(d.greater_sydney))
+        .attr("class", "average_line")
 
 
 

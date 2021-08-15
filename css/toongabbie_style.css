@@ -379,3 +379,8 @@ text.sda_seek {
 .legendText{
     font-size: 12px;
 }
+
+line.average_line {
+    stroke:  orange;
+    stroke-width:  1.5px;
+}
