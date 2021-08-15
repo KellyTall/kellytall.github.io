@@ -22,9 +22,13 @@ body {
     margin-right: auto;
     margin-top: 24px;
     text-align: left;
+    max-width: 1200px;
 
 }
 
+.chart {
+    max-width:  900px;
+}
 
 ul.top_nav {
 
@@ -308,4 +312,11 @@ path.world_map {
 .small_multiple_bar_label {
     font-size: 14px;
     fill: var(--light_blue);
+}
+
+
+
+line.average_line {
+    stroke:  var(--light_blue);
+    stroke-width:  1.5px;
 }

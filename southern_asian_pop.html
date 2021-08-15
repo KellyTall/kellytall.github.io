@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/ancestry.css">
+    <title>Southern Asian Population Greater Sydney</title>
+</head>
+
+<body>
+    <section class="page" id="page_one">
+        <div class="page_header">
+            <h3>Cultural Diversity in Greater Sydney</h3>
+        </div>
+        <h1>South Asian ancestry across Sydney</h1>
+        <h3>The map shows Greater Sydney SA2s. The colour indicates the how the proportion of ancentries in the area compares to the average of South Asian ancestries. Green is below average and orange is above average. The intensity of the colour indicates the strength of the difference. The dark grey areas have a total population of less than 100 people. </h3>
+        <h3>Hover over the map for details about each SA2. </h3>
+        
+        <div class=map_holder>
+
+            <div class="map">
+            
+            <div id="tooltip" class="tooltip">
+                <div class="tooltip-sa4" id="sa4"></div>
+                <div class="tooltip-value">
+                    <span id="value"></span> Area Details
+        
+                </div>
+        
+            </div>
+
+            </div>
+        
+        </div>
+
+
+    </section>
+</body>
+<script src="../js/d3.v6.js"></script>
+<script src="https://unpkg.com/topojson@3"></script>
+<script src="../js/southern_asian_pop.js"></script>
+
+</html>
