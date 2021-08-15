@@ -16,27 +16,27 @@
                 <p>back to home page</p>
             </a></li>
     </ul>
-    <h1> Day Fifteen</h1>
-    <h2> 2 July 2021 </h2>
+    <h1> Day Sixteen</h1>
+    <h2> 3 July 2021 </h2>
     <h3>The below bar chart shows values for a sub-region - in this case a suburb in Sydney, while the lines show the average of the whole region - in this case Greater Sydney</h3>
     
     <div class="chart"></div>
 
     <div class="description">
          <h3>Log</h3>
-         <p>This took me a long time to do 😬 </p>
+         <p>Need to do this for horizontal bar charts, so figured I better get it right here before I finish them - have a look at <a href="day_fifteen.html" target="_blank"> day fifteen</a> </p>
          <p>Here is the code:</p>
-         <p><code>var size = 5<br>
+         <p><code>var size = 2<br>
             svg<br>
         .append('g')<br>
         .selectAll('line') <br>
         .data(data) <br>
         .join("line") <br>
-        .attr("x1", (d, i) => xScale(i) + xScale.bandwidth() + size) <br>
-        .attr("x2", (d, i) => xScale(i) - size) <br>
+        .attr("y1", (d, i) => yScale(i) + yScale.bandwidth() + size)<br>
+        .attr("y2", (d, i) => yScale(i) - size)<br>
 
-        .attr("y1", (d, i) => yScale(d.greater_sydney))<br>
-        .attr("y2", (d, i) => yScale(d.greater_sydney))<br>
+        .attr("x1", (d, i) => xScale(d.greater_sydney)) <br>
+        .attr("x2", (d, i) => xScale(d.greater_sydney))<br>
         .attr("class", "average_line")</code></p>
 <p>The full code can be found on my github page <a href="https://github.com/KellyTall/kellytall.github.io/blob/master/js/day_fifteen.js" target="_blank">here</a></p>
 
@@ -48,18 +48,18 @@
     <footer>
         <div class="footer_nav">
             <ul class="list_container">
-                <li><a href="day_fourteen.html">
-                        <p>Go to Day 14</p>
+                <li><a href="day_fifteen.html">
+                        <p>Go to Day 15</p>
                     </a></li>
-                <li><a href="day_sixteen.html">
-                        <p>Go to Day 16</p>
+                <li><a href="day_seventeen.html">
+                        <p>Go to Day 17</p>
                     </a></li>
             </ul>
         </div>
     </footer>
     <script src="../js/d3.v6.js"></script>
     <script src="https://unpkg.com/topojson@3"></script>
-    <script src="../js/day_fifteen.js"></script>
+    <script src="../js/day_sixteen.js"></script>
 </body>
 
 </html>
