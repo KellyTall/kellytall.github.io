@@ -91,13 +91,13 @@ async function drawDesign_parra() {
         .selectAll('rect')
         .data(d => d.value)
         .join('rect')
-        .attr("fill", "teal")
+        
         .attr("x", (d, i) => xScale(0))
         .attr("y", (d, i) => yScale(i))
         .attr("width", d => xScale(d.number) - xScale(0))
         .attr("height", yScale.bandwidth())
 
-        .attr('class', 'rect')
+        .attr("class", "bar_rect")
 
 
     svg

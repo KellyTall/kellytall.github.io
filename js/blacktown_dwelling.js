@@ -1,6 +1,6 @@
-async function drawstatus() { 
+async function drawstatus() {
 
-	//import data
+    //import data
 
     const data_all = await d3.csv("./../data/dwelling.csv", function(d) {
 
@@ -35,7 +35,7 @@ async function drawstatus() {
 
     //     // console.log(ancestry_names)
 
-const width = 380
+    const width = 380
     const height = 250
     const margin = { top: 20, right: 30, bottom: 30, left: 150 }
 
@@ -46,7 +46,7 @@ const width = 380
         .attr("height", height)
         .attr('transform', `translate(0,${margin.top})`)
 
-// // // // //calcualting axis
+    // // // // //calcualting axis
 
     const xScale = d3.scaleLinear()
         .domain([0, d3.max(data, d => d.prop)])
@@ -54,7 +54,7 @@ const width = 380
         .nice()
 
 
-        const xAxis = d3.axisBottom()
+    const xAxis = d3.axisBottom()
         .scale(xScale)
         .tickPadding(5)
         .tickFormat(d3.format(",.0%"))
@@ -69,7 +69,7 @@ const width = 380
         .attr('transform', `translate(0,${height-margin.bottom})`)
         .style('stroke', 'none')
 
-const yScale = d3.scaleBand()
+    const yScale = d3.scaleBand()
         .domain(d3.range(names.length))
         .range([margin.top, height - margin.bottom])
         .padding(0.2)
@@ -78,8 +78,8 @@ const yScale = d3.scaleBand()
     const yAxis = d3.axisLeft()
         .scale(yScale)
         .tickFormat(i => data[i].dwelling)
-    .tickSizeOuter(0)
-    .tickSizeInner(2)
+        .tickSizeOuter(0)
+        .tickSizeInner(2)
 
 
 
@@ -95,12 +95,11 @@ const yScale = d3.scaleBand()
         .selectAll('rect')
         .data(data)
         .join('rect')
-        .attr("fill", "teal")
         .attr("x", (d, i) => xScale(0))
         .attr("y", (d, i) => yScale(i))
         .attr("width", d => xScale(d.prop) - xScale(0))
         .attr("height", yScale.bandwidth())
-        .attr('class', 'rect')
+        .attr("class", "bar_rect")
 
 
     svg
@@ -126,7 +125,7 @@ const yScale = d3.scaleBand()
         .text(d => d.key)
         .attr("class", "small_mult_head_larger")
 
-var size = 2
+    var size = 2
 
     svg
         .append('g')

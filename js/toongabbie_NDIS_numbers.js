@@ -72,8 +72,8 @@ async function drawNDIS() {
         .attr("y", (d, i) => yScale(i))
         .attr("width", d => xScale(d.NDIS_number) - xScale(0))
         .attr("height", yScale.bandwidth())
-        .attr("class", "rect")
-        .attr("fill", "teal")
+        .attr("class", "bar_rect")
+        
 
     svg
         .append("g")

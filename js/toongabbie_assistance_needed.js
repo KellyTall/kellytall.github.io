@@ -14,8 +14,12 @@ async function drawUnpaid_Assistance() {
     const max_assistance = d3.max(data, d => d.prop)
     const min_assistance = d3.min(data, d => d.prop)
 
-    const scale_color = d3.scaleQuantize([min_assistance, max_assistance], d3.schemeBlues[9])
+    // const scale_color = d3.scaleQuantize([min_assistance, max_assistance], d3.schemeBlues[9])
+const scale_color = d3.scaleLinear()
 
+    .domain([min_assistance, max_assistance])
+    .range([ "#B5D8DD", "#406770"])
+    
 
 
     // importing mapping data and converting topoJson to Geojson
@@ -45,6 +49,16 @@ async function drawUnpaid_Assistance() {
     SA4_map.objects.SA4.geometries = SA4_map.objects.SA4.geometries.filter(d => d.properties.SA4_NAME16 == "Blacktown" || d.properties.SA4_NAME16 == "Parramatta")
 
     SA4_topo = topojson.feature(SA4_map, SA4_map.objects.SA4)
+
+    const SA2_map_toongabbie = await d3.json("./../geo/SA2_simple_copy.json")
+
+
+    SA2_map_toongabbie.objects.SA2.geometries = SA2_map_toongabbie.objects.SA2.geometries.filter(d => d.properties.SA2_NAME16 == "Seven Hills - Toongabbie" || d.properties.SA2_NAME16 == "Toongabbie - Constitution Hill")
+
+    SA2_topo_toongabbie = topojson.feature(SA2_map_toongabbie, SA2_map_toongabbie.objects.SA2)
+
+console.log(SA2_topo_toongabbie)
+
 
     const width = 300
     const height = 300
@@ -77,41 +91,60 @@ async function drawUnpaid_Assistance() {
 
     const map = svg
         .append("g")
-      //   .style("transform", `translate(${
-      //   margin.left
-      // }px, ${
-      //   margin.top
-      // }px)`)
-
-
-        const SA2_colour = ({
-
-        "Toongabbie - Constitution Hill": '#86BF84',
-        "Seven Hills - Toongabbie": '#86BF84',
-
-    })
-
-
-    // const SA3_background = map
-    //     .selectAll(".SA3_background")
-    //     .data(SA3_topo.features)
-    //     .join("path")
-    //     .attr("class", "SA3_dwelling_map")
-    //     .attr("d", pathGenerator)
-    //     .attr("fill", d => scale_color(data_mapped.get(d.properties.SA3_NAME16)))
+      
 
 
 
-    const SA2_background = map
+    map
         .selectAll(".SA2_background")
         .data(SA2_topo.features)
         .join("path")
         .attr("class", "SA2_background")
         .attr("d", pathGenerator)
+        .attr("fill", d => scale_color(data_mapped.get(d.properties.SA2_NAME16)) || "#E5E5E5")
+
+      
+
+  map
+        .selectAll(".SA2_background_toongabbie")
+        .data(SA2_topo_toongabbie.features)
+        .join("path")
+        .attr("class", "SA2_background_toongabbie")
+        .attr("d", pathGenerator)
         .attr("fill", d => scale_color(data_mapped.get(d.properties.SA2_NAME16)))
+        
+    
 
 
 
+
+map
+        .selectAll("text")
+        .data(SA4_topo.features)
+        .join("text")
+        .attr("class", "SA4_choropleth_small_label")
+        .text(d => d.properties.SA4_NAME16)
+        .attr("x", d => pathGenerator.centroid(d)[0])
+        .attr("y", d => pathGenerator.centroid(d)[1])
+        // .call(wrap, 50)
+
+        const legend = svg
+    .append("g")
+  .attr("class", "legendLinear")
+  .attr("transform", "translate(20,200)");
+
+var legendLinear = d3.legendColor()
+  .shapeWidth(10)
+  .shapeHeight(10)
+  .shapePadding(5)
+  .cells(5)
+  .orient('vertical')
+  .scale(scale_color)
+  .title("Require assistance %")
+  .labelFormat(d3.format(".0%"))
+
+svg.select(".legendLinear")
+  .call(legendLinear);
 
 
 }

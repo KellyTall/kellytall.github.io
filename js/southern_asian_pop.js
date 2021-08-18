@@ -105,26 +105,6 @@ async function drawMap_topo() {
 
 
 
-    // const labels = bounds
-    //     .selectAll("text")
-    //     .data(SA4_topo.features)
-    //     .join("text")
-    //     .attr("class", "area_label")
-    //     .text(d => d.properties.SA4_NAME16)
-    //     .attr("x", d => pathGenerator_SA4.centroid(d)[0])
-    //     .attr("y", d => pathGenerator_SA4.centroid(d)[1])
-
-    // const points = bounds
-    //     .selectAll("circle")    
-    //     .data(trains)    
-    //     .join("circle")
-    //     .attr("class", "circle")
-    //     .attr("cx", d => projection_SA4([d.longitude, d.latitude])[0])
-    //     .attr("cy", d => projection_SA4([d.longitude, d.latitude])[1])
-    //     .attr("r", 4)
-
-
-
     SA2.on("mouseenter", onMouseEnter)
         .on("mouseleave", onMouseLeave)
 

@@ -94,12 +94,11 @@ async function drawstatus() {
         .selectAll('rect')
         .data(data)
         .join('rect')
-        .attr("fill", "teal")
         .attr("x", xScale(0))
         .attr("y", (d, i) => yScale(i))
         .attr("width", d => xScale(d.prop) - xScale(0))
         .attr("height", yScale.bandwidth())
-        .attr('class', 'rect')
+        .attr("class", "bar_rect")
 
 
     svg

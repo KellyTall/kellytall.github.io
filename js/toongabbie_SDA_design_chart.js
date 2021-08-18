@@ -64,7 +64,7 @@ async function drawDesign() {
 
     // set width and height
 
-    const width = 95
+    const width = 100
     const height = 200
     const margin = { top: 15, right: 20, bottom: 20, left: 20 }
 
@@ -124,7 +124,7 @@ async function drawDesign() {
         .attr("width", d => xScale(d.number) - xScale(0))
         .attr("height", yScale.bandwidth())
 
-        .attr('class', 'rect')
+        .attr('class', 'bar_rect')
 
 
     svg

@@ -92,12 +92,11 @@ const yScale = d3.scaleBand()
         .selectAll('rect')
         .data(data)
         .join('rect')
-        .attr("fill", "teal")
         .attr("x", (d, i) => xScale(0))
         .attr("y", (d, i) => yScale(i))
         .attr("width", d => xScale(d.prop) - xScale(0))
         .attr("height", yScale.bandwidth())
-        .attr('class', 'rect')
+        .attr("class", "bar_rect")
 
 
     svg
@@ -113,16 +112,7 @@ const yScale = d3.scaleBand()
         .text(d => d3.format(".0%")(d.prop))
 
 
-    svg
-        .append("circle")
-        .style("stroke", "blue")
-        .style("stroke-width", 2)
-        .attr("d", function(d){
-        var rv = "M" + yScale(d.ancestry) + "," + xScale(d.greater_sydney); // move to
-        rv += "L" + (yScale(d.ancestry) + d3.scaleBand()) + "," + xScale(d.greater_sydney); // line
-      return rv;
-    });
-
+    
 
     svg
         .append('g')

@@ -31,7 +31,7 @@ async function drawDesign_seeking() {
     // // console.log(sa3_names)
 
 
-   
+
     // // set width and height
 
     const width = 380
@@ -46,8 +46,8 @@ async function drawDesign_seeking() {
         .attr("height", height)
         .attr("class", d => d.value[0].sa4) // this adds design type as a class to each of the svgs :))
         .attr('transform', `translate(0,${margin.top})`)
-    
- 
+
+
     // //calcualting axis
 
     const xScale = d3.scaleLinear()
@@ -78,8 +78,8 @@ async function drawDesign_seeking() {
     const yAxis = d3.axisLeft()
         .scale(yScale)
         .tickFormat(i => data[i].design)
-    .tickSizeOuter(0)
-    .tickSizeInner(2)
+        .tickSizeOuter(0)
+        .tickSizeInner(2)
 
 
 
@@ -88,7 +88,7 @@ async function drawDesign_seeking() {
         .call(yAxis)
         .attr('class', 'yAxis')
         .attr('transform', `translate(${margin.left},0)`)
-    
+
 
 
 
@@ -97,13 +97,11 @@ async function drawDesign_seeking() {
         .selectAll('rect')
         .data(d => d.value)
         .join('rect')
-        .attr("fill", "teal")
         .attr("x", (d, i) => xScale(0))
         .attr("y", (d, i) => yScale(i))
         .attr("width", d => xScale(d.number) - xScale(0))
         .attr("height", yScale.bandwidth())
-
-        .attr('class', 'rect')
+        .attr("class", "bar_rect")
 
 
     svg

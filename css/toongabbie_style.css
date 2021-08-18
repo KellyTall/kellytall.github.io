@@ -63,6 +63,18 @@ p {
 }
 
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+a:hover {
+    color: #00717F;
+    border-bottom: 1px solid #00717F;
+
+}
+
 
 .page_header {
     display: flex;
@@ -151,7 +163,9 @@ text.SA4_area_label {
 
 }
 
-text.SA4_area_label_small {
+text.SA4_area_label_small, 
+text.SA2_area_label_small, 
+ {
     fill: black;
     text-anchor: middle;
     font-size: 10px;
@@ -162,6 +176,18 @@ text.SA4_area_label_small {
 
 }
 
+
+text.SA4_choropleth_small_label {
+    fill: black;
+    text-anchor: middle;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-style: italic;
+    letter-spacing: 5px;
+    font-weight: 500;
+    /*font-family: neue-haas-grotesk-text, sans-serif;*/
+
+}
 
 
 text.SA3_area_label {
@@ -210,7 +236,13 @@ path.SA3_background {
 path.SA2_background {
     stroke: white;
     stroke-width: .5px;
-    opacity: .8;
+    opacity: .9;
+}
+
+path.SA2_background_toongabbie {
+    stroke: white;
+    stroke-width: 3px;
+    /*opacity:  0;*/
 }
 
 path.SA3_dwelling_map {
@@ -342,19 +374,17 @@ text.sda_seek {
 }
 
 
-/*.point_label{
-    font-size: 12px;
-}
-*/
-.hospital_point_label, .education_point_label, .train_point_label {
+
+text.hospital_point_label, 
+text.education_point_label,
+text.train_point_label{
  text-transform: capitalize;   
     font-size: 10px;
     text-anchor:  middle;
-
-
 }
 
 
+ 
 
 .circle_train {
     fill:  #0388A6;
@@ -381,6 +411,18 @@ text.sda_seek {
 }
 
 line.average_line {
-    stroke:  orange;
-    stroke-width:  1.5px;
+    stroke:  #FA9D55;
+    stroke-width:  3px;
+}
+
+text.legendTitle, text.label {
+    font-size: 12px;
+}
+
+.bar_rect{
+    fill:  #00717F;
+}
+
+sup{
+    font-size: 10px;
 }

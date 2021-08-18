@@ -38,11 +38,6 @@ async function drawNDIS() {
         .tickFormat(d3.format('d'))
         .tickPadding(7)
 
-    // // svg
-    // //     .append("g")
-    // //     .call(xAxis)
-    // //     .attr('transform', `translate(0,${height-margin.bottom})`)
-
 
 
     const yScale = d3.scaleBand()
@@ -72,8 +67,7 @@ async function drawNDIS() {
         .attr("y", (d, i) => yScale(i))
         .attr("width", d => xScale(d.SDA_number) - xScale(0))
         .attr("height", yScale.bandwidth())
-        .attr("class", "rect")
-        .attr("fill", "teal")
+        .attr("class", "bar_rect")
 
     svg
         .append("g")
