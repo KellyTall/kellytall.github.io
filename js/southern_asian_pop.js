@@ -32,12 +32,7 @@ async function drawMap_topo() {
         }
     })
 
-    // const data = data_import.filter(d => d.SA2_NAME16 !="Royal National Park" & d.SA2_NAME16 !="Centennial Park" 
-    //    & d.SA2_NAME16 !="Rookwood Cemetery" & d.SA2_NAME16 !="Prospect Reservoir" 
-    //    & d.SA2_NAME16 !="Banksmeadow" & d.SA2_NAME16 !="Port Botany Industrial" & d.SA2_NAME16 !="Sydney Airport" 
-    //    & d.SA2_NAME16 !="Smithfield Industrial" & d.SA2_NAME16 !="Yennora Industrial" & d.SA2_NAME16 !="Badgerys Creek" 
-    //    & d.SA2_NAME16 !="Blue Mountains - North" & d.SA2_NAME16 !="Blue Mountains - South")
-
+   
     console.log(data)
 
     const data_mapped = new Map(data.map(d => [d.SA2_NAME16, d.area_diff]))
@@ -47,7 +42,7 @@ async function drawMap_topo() {
     const max_prop = d3.max(data, d => d.area_diff)
     const min_prop = d3.min(data, d => d.area_diff)
 
-    // const scale_color = d3.scaleLinear([min_prop, max_prop], d3.schemeBlues[9])
+    
 
     const scale_color = d3.scaleLinear()
         .domain([min_prop, 0, max_prop])
@@ -85,12 +80,7 @@ async function drawMap_topo() {
 
 
 
-    // svg
-    // .selectAll(".background")
-    // .data(SA4_topo.features)
-    // .join("path")
-    // .attr("class", "SA4_ancestry")
-    // .attr("d", pathGenerator_SA2)
+    
 
 
 

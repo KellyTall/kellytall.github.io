@@ -289,7 +289,7 @@ path.world_map {
 .SA3_area_label_small {
     fill: var(--dark_blue);
     text-anchor: middle;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 
@@ -319,4 +319,8 @@ path.world_map {
 line.average_line {
     stroke:  var(--light_blue);
     stroke-width:  1.5px;
+}
+
+.chloro_map {
+    max-width: 400px;
 }

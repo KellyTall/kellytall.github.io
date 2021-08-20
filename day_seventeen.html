@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles_day.css">
+    </link>
+    <link rel="stylesheet" href="https://use.typekit.net/qpl0nxr.css">
+    <title>Day Seventeen</title>
+</head>
+
+<body>
+    <ul class="top_nav">
+        <li><a href="100_days.html">
+                <p>back to home page</p>
+            </a></li>
+    </ul>
+    <h1> Day Seventeen</h1>
+    <h2> 30th June 2021 </h2>
+    <h3>Number of SDA properties within SA3s | viewed as a choropleth map</h3>
+    
+    <div class="chloro_map"></div>
+
+    <div class="description">
+         <h3>Log</h3>
+         <p>Working from <a href="day_thirteen.html" target="_blank">day 13</a>. This week I needed to make a legend, and I always muck about with this, and for some reason I had a look at <a href="https://www.manning.com/books/d3js-in-action-second-edition?gclid=CjwKCAjwgviIBhBkEiwA10D2j-cbh_6KnxYYC57zVK-ssBfQSP3v6cmA5i6Oi8ZuzRFm3NqqeQXU_BoChhkQAvD_BwE" target="_blank">Elijah Meek's book</a> (which I need to do more of as every time I do this I pick something new up, and saw a refernce about using <a href="https://d3-legend.susielu.com/" target="_blank">d3 SVG legend developed by Susie Lu</a>. I had used their annotation tool before on a project (which I need to add in here on a day or two or three...). So Isued it on a project, and what I would normally spend time messing about on, it juts worked - BAM - like that. </p>
+
+         
+         <ol>
+             <li>ADDED THIS:<br><code>const legend = svg <br>
+        .append("g")<br>
+        .attr("class", "legendLinear")<br>
+        .attr("transform", "translate(10,220)")<br>
+        <br>
+
+    const legendLinear = d3.legendColor()<br>
+        .shapeWidth(10)<br>
+        .shapeHeight(10)<br>
+        .shapePadding(5)<br>
+        .orient('vertical')<br>
+        .scale(scale_color)<br>
+        .title("Number of SDA dwellings")<br>
+        <br>
+
+    legend <br>
+    .select(".legendLinear")<br>
+        .call(legendLinear)</code></li> 
+        <li>There are many options for layout included and more detail can be found at on the documentation page <a href="https://d3-legend.susielu.com/" target="_blank"> here</a> </li></ol>
+
+             
+             <p>As ever code can be found <a href="https://github.com/KellyTall/kellytall.github.io/blob/master/js/day_fifteen.js" target="_blank">here</a></p></p>
+
+        
+    
+    </div>
+    <footer>
+        <div class="footer_nav">
+            <ul class="list_container">
+                <li><a href="day_sixteen.html">
+                        <p>Go to Day 16</p>
+                    </a></li>
+                <li><a href="not_ready_yet.html">
+                        <p>Go to Day 18</p>
+                    </a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="../js/d3.v6.js"></script>
+    <script src="https://unpkg.com/topojson@3"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.21.0/d3-
+legend.min.js"></script>
+    <script src="../js/day_seventeen.js"></script>
+</body>
+
+</html>
