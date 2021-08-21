@@ -324,3 +324,17 @@ line.average_line {
 .chloro_map {
     max-width: 400px;
 }
+
+.tooltip_map{
+    max-width:  700px;
+}
+
+
+path.SA2_map:hover {
+    fill: cornflowerblue;
+    stroke: white;
+    stroke-width:2px;
+
+    
+}
+

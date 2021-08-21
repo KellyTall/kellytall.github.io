@@ -13,14 +13,14 @@ async function drawMap_topo() {
     SA2_topo = topojson.feature(SA2_map, SA2_map.objects.SA2)
 
 
-    const SA4_map = await d3.json("./../geo/SA4_simple.json")
+    // const SA4_map = await d3.json("./../geo/SA4_simple.json")
 
-    SA4_map.objects.SA4.geometries = SA4_map.objects.SA4.geometries.filter(d => d.properties.GCC_NAME16 == "Greater Sydney" & d.properties.SA4_NAME16 != "Central Coast")
+    // SA4_map.objects.SA4.geometries = SA4_map.objects.SA4.geometries.filter(d => d.properties.GCC_NAME16 == "Greater Sydney" & d.properties.SA4_NAME16 != "Central Coast")
 
-    SA4_topo = topojson.feature(SA4_map, SA4_map.objects.SA4)
+    // SA4_topo = topojson.feature(SA4_map, SA4_map.objects.SA4)
 
 
-    console.log(SA2_topo)
+    // console.log(SA2_topo)
 
 
 
@@ -56,7 +56,7 @@ async function drawMap_topo() {
     const margin = { top: 10, right: 10, bottom: 10, left: 10 }
 
 
-    const svg = d3.select(".map")
+    const svg = d3.select(".south_asian_map")
         .append("svg")
         .attr("viewBox", "0 0 900 900")
 
@@ -79,11 +79,6 @@ async function drawMap_topo() {
         .append("g")
 
 
-
-    
-
-
-
     const SA2 = svg
         .selectAll(".background")
         .data(SA2_topo.features)
@@ -94,20 +89,6 @@ async function drawMap_topo() {
 
 
 
-
-    SA2.on("mouseenter", onMouseEnter)
-        .on("mouseleave", onMouseLeave)
-
-    const tooltip = d3.select("#tooltip")
-
-    function onMouseEnter(e, datum) {
-        tooltip.style("opacity", 1)
-    }
-
-
-    function onMouseLeave(e, datum) {
-        tooltip.style("opacity", 0)
-    }
 
 
    

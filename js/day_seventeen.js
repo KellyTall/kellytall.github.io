@@ -199,7 +199,7 @@ async function drawMap_topo() {
 
 
 
-    map
+    text
         .select("text")
         .data(SA4_topo.features)
         .join("text")
@@ -212,7 +212,7 @@ async function drawMap_topo() {
     const legend = svg
         .append("g")
         .attr("class", "legendLinear")
-        .attr("transform", "translate(10,220)")
+        .attr("transform", "translate(10,280)")
 
     const legendLinear = d3.legendColor()
         .shapeWidth(10)
@@ -224,7 +224,7 @@ async function drawMap_topo() {
         .title("Number of SDA dwellings")
         
 
-    legend 
+    svg
     .select(".legendLinear")
         .call(legendLinear)
 
