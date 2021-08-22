@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/styles_day.css">
     </link>
     <link rel="stylesheet" href="https://use.typekit.net/qpl0nxr.css">
-    <title>Day Seventeen</title>
+    <title>Day Eighteen</title>
 </head>
 
 <body>
@@ -18,26 +18,62 @@
     </ul>
     <h1> Day Eighteen</h1>
     <h2> 5 July 2021 </h2>
-    <h3>Maps with tooltips</h3>
+    <h3>Maps with tooltips showing difference in Southern Asian Ancestry in each SA2 compared to Greater Sydney Average</h3>
     
     <div class="tooltip_map"></div>
 
-     <div id="tooltip" class="tooltip">
-            <div class="tooltip-country" id="country"></div>
+      <div id="tooltip" class="tooltip">
+            <div class="tooltip-sa2" id="sa2"></div>
             <div class="tooltip-value">
-                <span id="value"></span> population change
+                <span id="value"></span> difference
             </div>
         </div>
 
 
-    
+
 
     <div class="description">
          <h3>Log</h3>
-         <p>Increasingly I am creating things online for a great client. Before I'd create charts in R and send them over so they could be used internally in their reports, but now tye are getting more comfortable rececinvg links, and are asing fro the ability to drill down etc. This is GREAT, but also means I need to get a standard way fo doing this, and increasingly this little project is me working out the best way of doing things. As I progress I'm making changes to things like setting up the SVG on the page etc as I find a better / more efficient way to do it. I'm also using these to keep coming back to and using different scripts as things I can copy and paste from and it's saving me HEAPS of time!</p>
-         <p>I'm using <a href="https://www.newline.co/fullstack-d3" target="_blank">Full stack D3</a> as the basis for this</p>
+         <p>Increasingly I am creating things online for a great client. Before I'd create charts in R and send them over so they could be used internally in their reports, but now I'm starting to send a link to a page, and are asing fro the ability to drill down etc. This is GREAT, but also means I need to get a standard way of doing this, so this little 100 days project (even though I'm VERY behind) is me working out the best way of doing things. As I progress I'm making changes to things like setting up the SVG on the page etc as I find a better / more efficient way to do it - or at least a way that I am finding more efficient. I'm also noticing how much I am using these to keep coming back to and referring to different scripts for copy / paste and it's saving me HEAPS of time!</p>
+         <p>I'm using <a href="https://www.newline.co/fullstack-d3" target="_blank">Full stack D3</a> as the basis for this, but have changed a lot. I find the set up of the page used in this book as sometimes a bit OTT, and some of the variable creation seems overly complicated. And this is because I'm still learning, so the simpler the better at this stage in the game!</p>
 
-        
+         <ol>
+             <li><p>Added a legend as per Day 17</p></li>
+             <li><p>Set up the tooltip part:<br>
+                <code>SA2.on("mouseenter", onMouseEnter)<br>
+      .on("mouseleave", onMouseLeave)<br>
+<br>
+  const tooltip = d3.select("#tooltip")<br>
+  function onMouseEnter(i, d) {<br>
+    tooltip.style("opacity", 1)<br>
+
+
+    tooltip.select("#sa2")<br>
+        .text(SA2_name_accessor(d))<br>
+<br>
+    tooltip.select("#value") <br>
+        .text(`${d3.format(".0%")(data_mapped.get(<br>d.properties.SA2_NAME16) || 0)}`)<br>
+<br>
+    const x = pathGenerator_SA2.centroid(d)[0]-50<br>
+    const y = pathGenerator_SA2.centroid(d)[1]+400<br>
+
+<br>
+    tooltip.style("transform", `translate(`<br>
+      + `calc( ${x}px),`<br>
+      + `calc(${y}px)`<br>
+      + `)`)<br>
+  }<br>
+<br>
+  function onMouseLeave() {<br>
+    tooltip.style("opacity", 0)<br>
+  }</code>
+             </p></li>
+         </ol>
+
+ <p>I'm quite happy that I did this! I like the style and it has all the info the client needs.</p>      
+
+   <p>As ever code can be found <a href="https://github.com/KellyTall/kellytall.github.io/blob/master/js/day_eighteen.js" target="_blank">here</a></p></p>
+ 
     
     </div>
     <footer>

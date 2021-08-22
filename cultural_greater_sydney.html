@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/ancestry.css">
+    <link rel="stylesheet" href="https://use.typekit.net/krt5izd.css">
     <title>Southern Asian Population Greater Sydney</title>
 </head>
 
@@ -13,18 +14,23 @@
         <div class="page_header">
             <h3>Cultural Diversity in Greater Sydney</h3>
         </div>
-        <h1>South Asian ancestry across Sydney</h1>
-        <h3>The map shows Greater Sydney SA2s. The colour indicates the how the proportion of ancentries in the area compares to the average of South Asian ancestries. Green is below average and orange is above average. The intensity of the colour indicates the strength of the difference. The dark grey areas have a total population of less than 100 people. </h3>
+
+    <div class="southern_asian_section">
+        <h1>Southern Asian ancestry across Sydney</h1>
+        <h3>The map shows Greater Sydney SA2s. The colour indicates the how the proportion of Southern Asian ancentries in the SA2 compares to the average of South Asian ancestries in Greater Sydney. Green is below average and orange is above average. The intensity of the colour indicates the strength of the difference. The table shows the top SA4s across Greater Sydney</h3>
+        <h3>The dark grey are excluded as they are areas that had a total population of less than 100 people in the 2016 census. </h3>
         <h3>Hover over the map for details about each SA2. </h3>
         
-        <div class=map_holder>
+        <div class="viz_holder">
 
-            <div class="south_asian_map">
+        <div class="map_holder">
+
+            <div class="south_asian_map svg_sa">
             
-            <div id="tooltip" class="tooltip">
-                <div class="tooltip-sa4" id="sa4"></div>
-                <div class="tooltip-value">
-                    <span id="value"></span> Area Details
+            <div id="tooltip_sa" class="tooltip_sa">
+                <div class="tooltip_sa2_sa" id="sa2_sa"></div>
+                <div class="tooltip_value_sa">
+                    <span id="value_sa"></span> difference
         
                 </div>
         
@@ -34,11 +40,90 @@
         
         </div>
 
+        <div class="table_holder">
+
+            <div class="ancestry_table_sa"></div>
+
+
+        </div>
+
+
+            
+
+        </div>
+
+    </div>
+
+    <div class="vietnamese_section following_section">
+        <h1>Vietnamese ancestry across Sydney</h1>
+        <h3>The map shows Greater Sydney SA2s. The colour indicates the how the proportion of Vietnamese ancentries in the area compares to the average of Vietnamese ancestries in Greater Sydney. Green is below average and orange is above average. The intensity of the colour indicates the strength of the difference. The table shows the top SA4s across Greater Sydney </h3>
+        <h3>The dark grey are excluded as they are areas that had a total population of less than 100 people in the 2016 census. </h3>
+        <h3>Hover over the map for details about each SA2. </h3>
+        
+
+     <div class="viz_holder">
+    
+        <div class="map_holder">
+
+            <div class="vietnamese_map svg_viet">
+            
+            <div id="tooltip_viet" class="tooltip_viet">
+                <div class="tooltip_sa2_viet" id="sa2_viet"></div>
+                <div class="tooltip_value_viet">
+                    <span id="value_viet"></span> difference
+        
+                </div>
+        
+            </div>
+
+            </div>
+        
+        </div>
+        <div class="table_holder">
+
+            <div class="ancestry_table_viet"></div>
+
+
+        </div>
+
+
+            
+
+        </div>
+
+    </div>
+
+    <section class="data_explainer">
+
+        <div class="following_section">
+
+        <h1>Data sources</h1>
+        
+        </div>
+
+        <p>All data is sourced from the Australian Bureau of Statistics, 2016 Census, Census Table Builder <a href="https://www.abs.gov.au/websitedbs/D3310114.nsf/Home/2016%20TableBuilder">https://www.abs.gov.au/websitedbs/D3310114.nsf/Home/2016%20TableBuilder</a></p>
+
+        <p>Please note that all references to Greater Sydney excludes the Central Coast</p>
+
+        <p>Ancestry is a multiple response question in the census. Proportions have been calculated by adding up first and second ancestry and then diving by total population of the SA2. </p>
+
+        
+        
+        
+</div>
+
+    </section>
+
 
     </section>
 </body>
 <script src="../js/d3.v6.js"></script>
 <script src="https://unpkg.com/topojson@3"></script>
-<script src="../js/southern_asian_pop.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.21.0/d3-
+legend.min.js"></script>
+<script src="../js/ancestry_southern_asian.js"></script>
+<script src="../js/ancestry_vietnamese.js"></script>
+<script src="../js/ancestry_table_sa.js"></script>
+<script src="../js/ancestry_table_viet.js"></script>
 
 </html>
