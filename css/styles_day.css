@@ -364,3 +364,59 @@ path.SA2_map:hover {
 .tooltip-value {
     font-size: 12px;
 }
+
+
+.map_holder {
+    max-width: 900px;
+}
+
+
+path.SA2_map_no_hover, 
+path.SA3_map_no_hover {
+    fill:  #ADB085;
+    stroke:  #E4CDF7;
+    stroke-width:  2px;
+
+
+}
+
+
+path.SA2_map_no_fill{
+    stroke:  #E4CDF7;
+    fill:  none;
+    stroke-width:.5px;
+
+
+}
+
+
+text.SA3_label_tree {
+    text-anchor: middle;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-style: italic;
+    fill: #FFF1F2;
+    letter-spacing: 2px;
+}
+
+text.SA2_label_tree{
+    text-anchor: middle;
+    /*text-transform: uppercase;*/
+    font-size: 5px;
+    font-style: italic;
+    fill: #4D3E91;
+    /*letter-spacing: 2px;*/
+}
+
+
+.tree_circle{
+    fill: #9096D1;
+    opacity: .2;
+    stroke: #E4CDF7;
+    stroke-width: .5px;
+}
+
+circle.swatch {
+    fill: #9096D1;
+}
+
