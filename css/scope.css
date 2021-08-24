@@ -78,8 +78,16 @@ p {
 .viz_holder {
     display: flex;
     flex-direction: row;
-    /*max-width:  1200px;*/
+    max-width:  1200px;
 }
+
+
+.viz_holder_property {
+    
+    max-width:  1000px;
+}
+
+
 
 .map_holder {
     width: 50%;
@@ -129,8 +137,31 @@ text.area_label {
 }
 
 
+path.SA2_map_no_hover {
+fill: #B5D8DD;
+stroke:  white;
+stroke-width: .5px;
+
+}
+
+circle.location_circle {
+	fill: #8F7D17;
+	opacity: .8;
+}
 
 
+
+circle.location_circle:hover {
+	fill: #E04721;
+	opacity: 1;
+}
+
+
+/*path.SA2_map {
+stroke:  white;
+stroke-width: .5px;
+}
+*/
 path.SA4_map {
     stroke: white;
     stroke-width: 2px;
@@ -148,6 +179,7 @@ text.SA4_label {
 }
 
 
+
 path.SA2_map:hover {
     fill: #031D94;
     stroke: white;
@@ -158,12 +190,12 @@ path.SA2_map:hover {
 
 
 .svg_sa,
-.svg_viet {
+.svg_viet, .svg_location {
     position: relative;
 }
 
 .tooltip_viet,
-.tooltip_sa {
+.tooltip_sa, .tooltip_property {
     opacity: 0;
     position: absolute;
     top: 10px;
@@ -180,8 +212,7 @@ path.SA2_map:hover {
 
 
 
-.tooltip_sa2,
-.tooltip_sa2 {
+.tooltip_sa2, .tooltip_address {
     margin-bottom: 0.2em;
     font-size: 12px;
     text-transform: uppercase;
@@ -190,7 +221,6 @@ path.SA2_map:hover {
     font-style: normal;
 }
 
-.tooltip_value,
 .tooltip_value {
     font-size: 12px;
     font-family: neue-haas-grotesk-display, sans-serif;
