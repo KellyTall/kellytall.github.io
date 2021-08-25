@@ -327,6 +327,7 @@ line.average_line {
 
 .tooltip_map{
     max-width:  700px;
+    position: relative;
 }
 
 
@@ -339,7 +340,7 @@ path.SA2_map:hover {
 }
 
 
-.tooltip {
+.tooltip, .tooltip-tree {
     opacity: 0;
     position: absolute;
     top: 10px;
@@ -356,7 +357,7 @@ path.SA2_map:hover {
 
 
 
-.tooltip-country {
+.tooltip-country, .tooltip-tree {
     margin-bottom: 0.2em;
     font-weight: 600;
 }
@@ -366,8 +367,16 @@ path.SA2_map:hover {
 }
 
 
-.map_holder {
+
+.city_map {
     max-width: 900px;
+    /*position: relative;*/
+}
+
+
+.map_holder {
+    /*max-width: 900px;*/
+    position: relative;
 }
 
 
@@ -402,19 +411,29 @@ text.SA3_label_tree {
 text.SA2_label_tree{
     text-anchor: middle;
     /*text-transform: uppercase;*/
-    font-size: 5px;
+    font-size: 6px;
     font-style: italic;
     fill: #4D3E91;
     /*letter-spacing: 2px;*/
 }
 
 
-.tree_circle{
+.tree_point{
     fill: #9096D1;
     opacity: .2;
     stroke: #E4CDF7;
     stroke-width: .5px;
 }
+
+
+.tree_circle:hover{
+    fill: #D1D07B;
+    opacity: .8;
+    stroke: #E4CDF7;
+    stroke-width: .5px;
+}
+
+
 
 circle.swatch {
     fill: #9096D1;
