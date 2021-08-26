@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles_day.css">
+    </link>
+    <link rel="stylesheet" href="https://use.typekit.net/qpl0nxr.css">
+    <title>Day Twenty</title>
+</head>
+
+<body>
+    <ul class="top_nav">
+        <li><a href="100_days.html">
+                <p>back to home page</p>
+            </a></li>
+    </ul>
+    <h1> Day Twenty</h1>
+    <h2> 7 July 2021 </h2>
+    <h3>Map showing locations of Jacaranda trees in City and Inner South</h3>
+    
+
+    <div class="city_map map_holder">
+
+      <div id="tooltip" class="tooltip">
+
+            <div class="tooltip-tree" id="tree"></div>
+            <div class="tooltip-height">
+                 Height: <span id="height"></span>m
+            </div>
+           
+        </div>
+
+</div>
+
+
+    <div class="description">
+         <h3>Log</h3>
+
+<p>Had a full day of work today, so planned to just filter the topoJson file down so irrelevant SA3s disappear and do the tooltip tomorrow, but did it all in the end. (Hot tip, sit down to do a small thing when you can't be arsed, and maybe you will do the bigger thing 🤡) Data is the <a href="https://data.cityofsydney.nsw.gov.au/datasets/cityofsydney::trees/explore?filters=eyJDb21tb25OYW1lIjpbIkphY2FyYW5kYSJdfQ%3D%3D&location=-33.888816%2C151.203825%2C14.39" target="_blank"> tree data set </a> </p>
+<p>Not sure what to do here - possibly I should get a map file that us just for the LGA so it doesn't look like there are no jacaranda trees in the eastren suburbs. (There are and heaps of them BTW, but they just aren't included in this data set). One option is to keep all the areas in and just provide a fill colour for the relevant SA2s, another is to remove all the SA2s that are not relevant.</p>
+<p>Anyway, the purpose of this map is just to have a demo of a tooltip that interacts with a point and shows some tree info.</p>
+<p>This could be a fun data set to work on making a filter for, as there are all kinds of trees included, so may be a good idea to download the City of Sydney LGA map as I could use it a few times ¯\_(ツ)_/¯</p>
+
+         <p>As ever code can be found <a href="https://github.com/KellyTall/kellytall.github.io/blob/master/js/day_nineteen.js" target="_blank">here</a></p></p>
+ 
+    
+    </div>
+    <footer>
+        <div class="footer_nav">
+            <ul class="list_container">
+                <li><a href="day_nineteen.html">
+                        <p>Go to Day 19</p>
+                    </a></li>
+                <li><a href="not_ready_yet.html">
+                        <p>Go to Day 21</p>
+                    </a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="../js/d3.v6.js"></script>
+    <script src="https://unpkg.com/topojson@3"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.21.0/d3-
+legend.min.js"></script>
+    <script src="../js/day_twentyone.js"></script>
+</body>
+
+</html>

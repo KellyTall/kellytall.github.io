@@ -146,7 +146,7 @@ SA3
         .selectAll("circle")    
         .data(tree)    
         .join("circle")
-        .attr("class", "tree_circle")
+        .attr("class", "tree_point")
         .attr("cx", d => projection_SA3([d.lon, d.lat])[0])
         .attr("cy", d => projection_SA3([d.lon, d.lat])[1])
         .attr("r", d => radius(d.height))

@@ -9,7 +9,7 @@ async function drawMap_locations() {
 
     SA2_topo = topojson.feature(SA2_map, SA2_map.objects.SA2)
 
-    
+
     const SA4_map = await d3.json("./../geo/SA4_simple_copy.json")
 
 
@@ -19,19 +19,24 @@ async function drawMap_locations() {
     SA4_topo = topojson.feature(SA4_map, SA4_map.objects.SA4)
 
 
-  
+
     const location = await d3.csv("./../data/geo_coded_location.csv", function(d) {
         return {
             geoAddress: d.geoAddress,
             lon: +d.lon,
-            lat: +d.lat
+            lat: +d.lat,
+            partner: d.Partner
         }
     })
 
 
-    const address_accessor = d => d.geoAddress
+    // console.log(location)
 
-    
+
+    const address_accessor = d => d.geoAddress
+    const partner_accessor = d => d.partner
+
+
 
 
 
@@ -70,7 +75,7 @@ async function drawMap_locations() {
         });
     }
 
-    
+
     const width = 900
     const height = 900
     const margin = { top: 40, right: 10, bottom: 10, left: 10 }
@@ -88,6 +93,16 @@ async function drawMap_locations() {
 
 
     const pathGenerator_SA2 = d3.geoPath(projection_SA2)
+
+    
+
+    // partner_key = d3.group(location, d => d.partner)
+
+    
+
+    const colour = d3.scaleOrdinal()
+        .range(["#FF0000", "#00A08A", "#F2AD00", "#F98400", "#5BBCD6"])
+
 
 
 
@@ -118,35 +133,33 @@ async function drawMap_locations() {
         .call(wrap, 80)
 
     const property = svg
-        .selectAll("circle")    
-        .data(location)    
+        .append('g')
+        .selectAll("circle")
+        .data(location)
         .join("circle")
         .attr("class", "location_circle")
         .attr("cx", d => projection_SA2([d.lon, d.lat])[0])
         .attr("cy", d => projection_SA2([d.lon, d.lat])[1])
-        .attr("r",10)
+        .attr("r", 10)
+        .attr("fill", d => colour([d.partner]))
 
 
 
-    // const legend = svg
-    //     .append("g")
-    //     .attr("class", "legendLinear")
-    //     .attr("transform", "translate(0,20)")
+    const legend = svg
+        .append("g")
+        .attr("class", "legendOrdinal")
+        .attr("transform", "translate(20,40)")
 
-    // const legendLinear = d3.legendColor()
-    //     .shapeWidth(10)
-    //     .shapeHeight(10)
-    //     .shapePadding(5)
-    //     .cells(10)
-    //     .orient('vertical')
-    //     .scale(scale_color)
-    //     .title("Difference from Greater Sydney average")
-    //     .labelFormat(d3.format(".0%"))
+    const legendOrdinal = d3.legendColor()
+        .shape("path", d3.symbol().type(d3.symbolCircle).size(150)())
+        .shapePadding(10)
+        .title("Scope NSW key Locations")
+        .scale(colour)
 
 
-    // svg
-    //     .select(".legendLinear")
-    //     .call(legendLinear)
+    svg
+        .select(".legendOrdinal")
+        .call(legendOrdinal)
 
 
     property.on("mouseenter", onMouseEnter)
@@ -156,31 +169,31 @@ async function drawMap_locations() {
 
     function onMouseEnter(i, d) {
         tooltip
-        .style("opacity", .9)
+            .style("opacity", .9)
 
 
         tooltip
-        .select("#property_address")
+            .select("#property_address")
             .text(address_accessor(d))
 
-        // tooltip
-        // .select("#value_viet")
-        //     .text(`${d3.format(".0%")(data_mapped.get(d.properties.SA2_NAME16) || "NA")}`)
+        tooltip
+            .select("#property_partner")
+            .text(partner_accessor(d))
 
         const x = projection_SA2([d.lon, d.lat])[0]
         const y = projection_SA2([d.lon, d.lat])[1]
 
 
         tooltip
-        .style("transform", `translate(` +
-            `calc( ${x}px),` +
-            `calc(${y}px)` +
-            `)`)
+            .style("transform", `translate(` +
+                `calc( ${x}px),` +
+                `calc(${y}px)` +
+                `)`)
     }
 
     function onMouseLeave() {
         tooltip
-                .style("opacity", 0)
+            .style("opacity", 0)
     }
 
 

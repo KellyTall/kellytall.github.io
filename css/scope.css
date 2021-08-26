@@ -145,25 +145,27 @@ stroke-width: .5px;
 }
 
 circle.location_circle {
-	fill: #8F7D17;
-	opacity: .8;
+	/*fill: #8F7D17;*/
+	opacity: .7;
 }
 
 
 
 circle.location_circle:hover {
-	fill: #E04721;
+	/*fill: #E04721;*/
 	opacity: 1;
+    stroke: white;
 }
 
 
-/*path.SA2_map {
+path.SA2_map {
 stroke:  white;
 stroke-width: .5px;
 }
-*/
+
 path.SA4_map {
-    stroke: white;
+    stroke: #8CA7AB;
+    opacity: .5;
     stroke-width: 2px;
     fill: none;
 }
@@ -219,19 +221,41 @@ path.SA2_map:hover {
     font-family: neue-haas-grotesk-display, sans-serif;
     font-weight: 600;
     font-style: normal;
+
 }
 
-.tooltip_value {
+.tooltip_value{
     font-size: 12px;
     font-family: neue-haas-grotesk-display, sans-serif;
     font-weight: 500;
     font-style: normal;
 }
+.tooltip_partner{
+    padding-bottom: 5px;
+    font-size: 14px;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: left;
+}
+
+
 
 text.legendTitle,
+{
+    font-size: 24px;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+
+
 text.label {
     font-family: neue-haas-grotesk-display, sans-serif;
     font-weight: 300;
     font-style: normal;
     font-size: 12px;
 }
+
