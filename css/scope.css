@@ -51,10 +51,6 @@ p {
 }
 
 
-
-
-
-
 .page_header h3 {
     font-family: neue-haas-grotesk-display, sans-serif;
     font-weight: 200;
@@ -124,7 +120,7 @@ path.SA2_ancestry {
 
 
 
-text.area_label {
+/*text.area_label {
     fill: #4EA66D;
     opacity: .5;
     text-transform: uppercase;
@@ -132,12 +128,11 @@ text.area_label {
     text-anchor: middle;
     font-size: 12px;
 
-
-
 }
 
-
-path.SA2_map_no_hover {
+*/
+path.SA2_map_no_hover, 
+.SA4_big_map {
 fill: #B5D8DD;
 stroke:  white;
 stroke-width: .5px;
@@ -158,6 +153,13 @@ circle.location_circle:hover {
 }
 
 
+circle.circle{
+    fill: #8F7D17;
+    opacity: .5;
+    stroke:  white;
+    stroke-width:  .5;
+}
+
 path.SA2_map {
 stroke:  white;
 stroke-width: .5px;
@@ -170,14 +172,47 @@ path.SA4_map {
     fill: none;
 }
 
-text.SA4_label {
+text.SA4_label, text.area_label {
+    fill: #58555A;
+    text-anchor: middle;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-style: italic;
+    letter-spacing: 2px;
+    font-weight: 200;
+}
+
+text.area_label_small {
+    font-family: neue-haas-grotesk-text, sans-serif;
+    fill: #58555A;
+    text-anchor: middle;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-style: italic;
+    letter-spacing: 1px;
+    font-weight: 200;
+    opacity: .5;
+}
+
+text.area_label_extra_small {
+    font-family: neue-haas-grotesk-text, sans-serif;
     fill: #58555A;
     text-anchor: middle;
     font-size: 8px;
     text-transform: uppercase;
     font-style: italic;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     font-weight: 200;
+    opacity: .5;
+}
+
+
+text.point_label {
+    font-family: neue-haas-grotesk-display, sans-serif;
+    fill: #58555A;
+    text-anchor: middle;
+    font-size: 10px;
+    font-weight: 400;
 }
 
 
@@ -192,7 +227,7 @@ path.SA2_map:hover {
 
 
 .svg_sa,
-.svg_viet, .svg_location {
+.svg_viet, .svg_location, .svg_big_map {
     position: relative;
 }
 
@@ -259,3 +294,20 @@ text.label {
     font-size: 12px;
 }
 
+
+
+.big_map_holder {
+
+max-width:900px;
+margin-bottom: 180px;
+
+
+}
+
+.big_map_holder_long {
+
+max-width:600px;
+margin-bottom: 180px;
+
+
+}

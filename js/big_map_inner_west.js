@@ -24,98 +24,111 @@ async function drawMap_topo() {
         }
     })
 
-    trains = trains_import.filter(d=>d.SA4 != "Outer" & d.SA4=="Sydney - Inner West")
+    trains = trains_import.filter(d => d.SA4 != "Outer" & d.SA4 == "Sydney - Inner West")
 
     // console.log(trains)
 
-   const wrapper = d3.select(".map_inner_west")
+    const width = 1000
+    const height = 700
+    const margin = { top: 40, right: 50 , bottom: 10, left: 100 }
+
+
+
+    const svg_big_map = d3.select(".map_inner_west")
         .append("svg")
-            .attr("viewBox", "0 0 1100  900")
-        
+        .attr("viewBox", "0 0 1000 1000")
+        .attr('transform', `translate(0,${margin.top})`)
 
-    let dimensions = {
-        width: 1000,
-        margin: {
-            top: 10,
-            right: 10,
-            bottom: 10,
-            left: 10,
-        },
-    }
-
-
-
-
-
-    dimensions.boundedWidth = (dimensions.width - dimensions.margin.left - dimensions.margin.right)
 
 
     const projection_SA2 = d3.geoEquirectangular()
-        .fitWidth(dimensions.boundedWidth, SA2_topo_inner_west)
+        .fitWidth(width, SA2_topo_inner_west)
 
 
 
     const pathGenerator_SA2 = d3.geoPath(projection_SA2)
 
 
-    const [
-        [x0, y0],
-        [x1, y1]
-    ] = pathGenerator_SA2.bounds(SA2_topo_inner_west)
-
-
-    dimensions.boundedHeight = y1
-    dimensions.height = dimensions.boundedHeight + dimensions.margin.top + dimensions.margin.bottom
 
 
 
+
+ function wrap(text, width) {
+            text.each(function() {
+                var text = d3.select(this),
+                    words = text.text().split(/\s+/).reverse(),
+                    word,
+                    line = [],
+                    lineNumber = 0,
+                    lineHeight = 1.1, // ems
+                    x = text.attr("x"),
+                    y = text.attr("y"),
+                    dy = 0, //parseFloat(text.attr("dy")),
+                    tspan = text.text(null)
+                    .append("tspan")
+                    .attr("x", x)
+                    .attr("y", y)
+                    .attr("dy", dy + "em");
+                while (word = words.pop()) {
+                    line.push(word);
+                    tspan.text(line.join(" "));
+                    if (tspan.node().getComputedTextLength() > width) {
+                        line.pop();
+                        tspan.text(line.join(" "));
+                        line = [word];
+                        tspan = text.append("tspan")
+                            .attr("x", x)
+                            .attr("y", y)
+                            .attr("dy", ++lineNumber * lineHeight + dy + "em")
+                            .text(word);
+                    }
+                }
+            });
+        }
     
 
-    const bounds = wrapper
-        .append("g")
-        .style("transform", `translate(${
-        dimensions.margin.left
-      }px, ${
-        dimensions.margin.top
-      }px)`)
-
-
-    const background = bounds
+    const background = svg_big_map
+        .append('g')
         .selectAll(".background")
         .data(SA2_topo_inner_west.features)
         .join("path")
-        .attr("class", "SA2")
+        .attr("class", "SA4_big_map")
         .attr("d", pathGenerator_SA2)
 
 
-    const labels = bounds
+    const labels = svg_big_map
+        .append('g')
         .selectAll("text")
         .data(SA2_topo_inner_west.features)
         .join("text")
-        .attr("class", "area_label")
+        .attr("class", "area_label_small")
         .text(d => d.properties.SA2_NAME16)
         .attr("x", d => pathGenerator_SA2.centroid(d)[0])
         .attr("y", d => pathGenerator_SA2.centroid(d)[1])
+        .call(wrap, 80)
 
-    const points = bounds
-        .selectAll("circle")    
-        .data(trains)    
+    const points = svg_big_map
+        .append('g')
+        .selectAll("circle")
+        .data(trains)
         .join("circle")
         .attr("class", "circle")
         .attr("cx", d => projection_SA2([d.longitude, d.latitude])[0])
         .attr("cy", d => projection_SA2([d.longitude, d.latitude])[1])
         .attr("r", 4)
 
-        const point_label = points
-        .select("text")    
-        .data(trains)    
+    const point_label = svg_big_map
+        .append('g')
+        .selectAll("text")
+        .data(trains)
         .join("text")
         .attr("class", "point_label")
         .text(d => d.location_name)
-        .attr("x", d => projection_SA2([d.longitude, d.latitude - .002])[0])
-        .attr("y", d => projection_SA2([d.longitude , d.latitude - .002])[1])
-        
-    
+        .attr("x", d => projection_SA2([d.longitude, d.latitude-0.002])[0])
+        .attr("y", d => projection_SA2([d.longitude, d.latitude-0.002])[1])
+        .call(wrap, 90)
+
+
 
 
 

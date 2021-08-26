@@ -5,7 +5,7 @@ async function drawMap_topo() {
 
 
 
-    SA4_map.objects.SA4.geometries = SA4_map.objects.SA4.geometries.filter(d => d.properties.GCC_NAME16 == "Greater Sydney" &  d.properties.SA4_NAME16 !="Central Coast")
+    SA4_map.objects.SA4.geometries = SA4_map.objects.SA4.geometries.filter(d => d.properties.GCC_NAME16 == "Greater Sydney" & d.properties.SA4_NAME16 != "Central Coast")
 
     console.log(SA4_map)
 
@@ -24,70 +24,48 @@ async function drawMap_topo() {
         }
     })
 
-    trains = trains_import.filter(d=>d.SA4 != "Outer")
+    trains = trains_import.filter(d => d.SA4 != "Outer")
 
     // console.log(trains)
 
-    const wrapper = d3.select(".map_overview")
+
+    const width = 1000
+    const height = 1000
+    const margin = { top: 40, right: 10, bottom: 10, left: 10 }
+
+
+    // const wrapper = d3.select(".map_overview")
+    //     .append("svg")
+    //     .attr("viewBox", "0 0 1200 1000")
+
+
+    const svg_big_map = d3.select(".map_overview")
         .append("svg")
-        .attr("viewBox", "0 0 1200 1000")
-        
+        .attr("viewBox", "0 0 1000 1000")
+        .attr('transform', `translate(0,${margin.top})`)
 
-    let dimensions = {
-        width: 1000,
-        margin: {
-            top: 10,
-            right: 10,
-            bottom: 10,
-            left: 10,
-        },
-    }
-
-
-
-
-
-    dimensions.boundedWidth = (dimensions.width - dimensions.margin.left - dimensions.margin.right)
 
 
     const projection_SA4 = d3.geoEquirectangular()
-        .fitWidth(dimensions.boundedWidth, SA4_topo)
+        .fitWidth(width, SA4_topo)
 
 
 
     const pathGenerator_SA4 = d3.geoPath(projection_SA4)
 
 
-    const [
-        [x0, y0],
-        [x1, y1]
-    ] = pathGenerator_SA4.bounds(SA4_topo)
 
-
-    dimensions.boundedHeight = y1
-    dimensions.height = dimensions.boundedHeight + dimensions.margin.top + dimensions.margin.bottom
-
-
-
-    
-    const bounds = wrapper
-        .append("g")
-        .style("transform", `translate(${
-        dimensions.margin.left
-      }px, ${
-        dimensions.margin.top
-      }px)`)
-
-
-    const background = bounds
+    const background = svg_big_map
+        .append('g')
         .selectAll(".background")
         .data(SA4_topo.features)
         .join("path")
-        .attr("class", "SA4")
+        .attr("class", "SA4_big_map")
         .attr("d", pathGenerator_SA4)
 
 
-    const labels = bounds
+    const labels = svg_big_map
+        .append('g')
         .selectAll("text")
         .data(SA4_topo.features)
         .join("text")
@@ -96,15 +74,16 @@ async function drawMap_topo() {
         .attr("x", d => pathGenerator_SA4.centroid(d)[0])
         .attr("y", d => pathGenerator_SA4.centroid(d)[1])
 
-    const points = bounds
-        .selectAll("circle")    
-        .data(trains)    
+    const points = svg_big_map
+        .append('g')
+        .selectAll("circle")
+        .data(trains)
         .join("circle")
         .attr("class", "circle")
         .attr("cx", d => projection_SA4([d.longitude, d.latitude])[0])
         .attr("cy", d => projection_SA4([d.longitude, d.latitude])[1])
         .attr("r", 4)
-    
+
 
 
 
