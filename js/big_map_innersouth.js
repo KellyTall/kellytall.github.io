@@ -31,21 +31,21 @@ async function drawMap_topo() {
     trains = trains_import.filter(d => d.SA4 != "Outer" & d.SA4 == "Sydney - City and Inner South")
 
 
-
-    const width = 600
-    const height = 900
+const width = 1000
+    const height = 1000
     const margin = { top: 40, right: 50, bottom: 10, left: 100 }
 
 
 
     const svg_big_map = d3.select(".map_innersouth")
         .append("svg")
-        .attr("viewBox", "0 0 600 900")
-        .attr('transform', `translate(0,${margin.top})`)
+        .attr("viewBox", "0 0 1000 1000")
+        .attr('transform', `translate(${margin.left},${margin.top})`)
+    
 
 
     const projection_SA2 = d3.geoEquirectangular()
-        .fitWidth(width, SA2_topo_innersouth)
+        .fitHeight(height, SA2_topo_innersouth)
 
 
 

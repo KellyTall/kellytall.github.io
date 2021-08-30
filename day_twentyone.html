@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/styles_day.css">
     </link>
     <link rel="stylesheet" href="https://use.typekit.net/qpl0nxr.css">
-    <title>Day Twenty</title>
+    <title>Day Twenty-one</title>
 </head>
 
 <body>
@@ -16,9 +16,9 @@
                 <p>back to home page</p>
             </a></li>
     </ul>
-    <h1> Day Twenty</h1>
-    <h2> 7 July 2021 </h2>
-    <h3>Map showing locations of Jacaranda trees in City and Inner South</h3>
+    <h1> Day Twenty-one</h1>
+    <h2> 8 July 2021 </h2>
+    <h3>Map showing locations of Jacaranda trees in the City of Sydney LGA</h3>
     
 
     <div class="city_map map_holder">
@@ -38,23 +38,26 @@
     <div class="description">
          <h3>Log</h3>
 
-<p>Had a full day of work today, so planned to just filter the topoJson file down so irrelevant SA3s disappear and do the tooltip tomorrow, but did it all in the end. (Hot tip, sit down to do a small thing when you can't be arsed, and maybe you will do the bigger thing 🤡) Data is the <a href="https://data.cityofsydney.nsw.gov.au/datasets/cityofsydney::trees/explore?filters=eyJDb21tb25OYW1lIjpbIkphY2FyYW5kYSJdfQ%3D%3D&location=-33.888816%2C151.203825%2C14.39" target="_blank"> tree data set </a> </p>
-<p>Not sure what to do here - possibly I should get a map file that us just for the LGA so it doesn't look like there are no jacaranda trees in the eastren suburbs. (There are and heaps of them BTW, but they just aren't included in this data set). One option is to keep all the areas in and just provide a fill colour for the relevant SA2s, another is to remove all the SA2s that are not relevant.</p>
-<p>Anyway, the purpose of this map is just to have a demo of a tooltip that interacts with a point and shows some tree info.</p>
-<p>This could be a fun data set to work on making a filter for, as there are all kinds of trees included, so may be a good idea to download the City of Sydney LGA map as I could use it a few times ¯\_(ツ)_/¯</p>
+<p>Data is the <a href="https://data.cityofsydney.nsw.gov.au/datasets/cityofsydney::trees/explore?filters=eyJDb21tb25OYW1lIjpbIkphY2FyYW5kYSJdfQ%3D%3D&location=-33.888816%2C151.203825%2C14.39" target="_blank"> tree data set </a> </p> 
+<p>Today I made the topojson file from the geojson LGA file. I prefer having the suburb boundaries and labels like you can see on <a href="day_twenty.html" target="_blank">day 20</a> , so added SA2 labels for Inner City SA2, BUT am now missing Paddington. I also like seeing the maller boundaries on the map. I think I'll just filter out the SA2 data to get exactly what I need. That can be for day 22...sneak in an extra day to try and catch up. Today is 30th August and I'm juts doing 8th July 🤡</p>
 
-         <p>As ever code can be found <a href="https://github.com/KellyTall/kellytall.github.io/blob/master/js/day_nineteen.js" target="_blank">here</a></p></p>
+<p>The lack of alignment bwween different geographic boundaries in Australia is quite annoying! There are statistical areas, local council areas, state electorate boundaries, federal, plus post codes...oh, and local health districts. Yippee!</p>
+
+
+
+
+         <p>As ever code can be found <a href="https://github.com/KellyTall/kellytall.github.io/blob/master/js/day_twentyone.js" target="_blank">here</a></p></p>
  
     
     </div>
     <footer>
         <div class="footer_nav">
             <ul class="list_container">
-                <li><a href="day_nineteen.html">
-                        <p>Go to Day 19</p>
+                <li><a href="day_twenty.html">
+                        <p>Go to Day 20</p>
                     </a></li>
-                <li><a href="not_ready_yet.html">
-                        <p>Go to Day 21</p>
+                <li><a href="day_twentytwo.html">
+                        <p>Go to Day 22</p>
                     </a></li>
             </ul>
         </div>

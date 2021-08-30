@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles_day.css">
+    </link>
+    <link rel="stylesheet" href="https://use.typekit.net/qpl0nxr.css">
+    <title>Day Twenty-two</title>
+</head>
+
+<body>
+    <ul class="top_nav">
+        <li><a href="100_days.html">
+                <p>back to home page</p>
+            </a></li>
+    </ul>
+    <h1> Day Twenty-two</h1>
+    <h2> 9 July 2021 </h2>
+    <h3>Map showing locations of Jacaranda trees in the City of Sydney</h3>
+    
+
+    <div class="city_map map_holder">
+
+      <div id="tooltip" class="tooltip">
+
+            <div class="tooltip-tree" id="tree"></div>
+            <div class="tooltip-height">
+                 Height: <span id="height"></span>m
+            </div>
+           
+        </div>
+
+</div>
+
+
+    <div class="description">
+         <h3>Log</h3>
+
+<!-- <p>Data is the <a href="https://data.cityofsydney.nsw.gov.au/datasets/cityofsydney::trees/explore?filters=eyJDb21tb25OYW1lIjpbIkphY2FyYW5kYSJdfQ%3D%3D&location=-33.888816%2C151.203825%2C14.39" target="_blank"> tree data set </a> </p> 
+<p>Today I made the topojson file from the geojson LGA file. I prefer having the suburb boundaries and labels like you can see on <a href="day_twenty.html" target="_blank">day 20</a> , so added SA2 labels for Inner City SA2, BUT am now missing Paddington. I also like seeing the maller boundaries on the map. I think I'll just filter out the SA2 data to get exactly what I need. That can be for day 22...sneak in an extra day to try and catch up. Today is 30th August and I'm juts doing 8th July 🤡</p>
+
+<p>The lack of alignment bwween different geographic boundaries in Australia is quite annoying! There are statistical areas, local council areas, state electorate boundaries, federal, plus post codes...oh, and local health districts. Yippee!</p> -->
+
+
+
+
+         <p>As ever code can be found <a href="https://github.com/KellyTall/kellytall.github.io/blob/master/js/day_twentytwo.js" target="_blank">here</a></p></p>
+ 
+    
+    </div>
+    <footer>
+        <div class="footer_nav">
+            <ul class="list_container">
+                <li><a href="day_twentyone.html">
+                        <p>Go to Day 21</p>
+                    </a></li>
+                <li><a href="not_ready_yet.html">
+                        <p>Go to Day 23</p>
+                    </a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="../js/d3.v6.js"></script>
+    <script src="https://unpkg.com/topojson@3"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.21.0/d3-
+legend.min.js"></script>
+    <script src="../js/day_twentytwo.js"></script>
+</body>
+
+</html>

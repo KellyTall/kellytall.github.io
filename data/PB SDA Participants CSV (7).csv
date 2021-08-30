@@ -1,0 +1,675 @@
+RprtDt,StateCd,SrvcDstrctNm,PrtcpntCnt
+30-Jun-21,ACT,ACT,170
+30-Jun-21,NSW,Central Coast,265
+30-Jun-21,NSW,Hunter New England,799
+30-Jun-21,NSW,Illawarra Shoalhaven,342
+30-Jun-21,NSW,Mid North Coast,151
+30-Jun-21,NSW,Murrumbidgee,253
+30-Jun-21,NSW,Nepean Blue Mountains,404
+30-Jun-21,NSW,North Sydney,767
+30-Jun-21,NSW,Northern NSW,219
+30-Jun-21,NSW,Other,<11
+30-Jun-21,NSW,South Eastern Sydney,451
+30-Jun-21,NSW,South Western Sydney,482
+30-Jun-21,NSW,Southern NSW,139
+30-Jun-21,NSW,Sydney,258
+30-Jun-21,NSW,Western NSW,340
+30-Jun-21,NSW,Western Sydney,695
+30-Jun-21,NT,Central Australia,28
+30-Jun-21,NT,Darwin Urban,81
+30-Jun-21,NT,Katherine,14
+30-Jun-21,NT,Other,<11
+30-Jun-21,QLD,Beenleigh,134
+30-Jun-21,QLD,Brisbane,342
+30-Jun-21,QLD,Bundaberg,64
+30-Jun-21,QLD,Caboolture/Strathpine,133
+30-Jun-21,QLD,Cairns,56
+30-Jun-21,QLD,Ipswich,225
+30-Jun-21,QLD,Mackay,29
+30-Jun-21,QLD,Maroochydore,117
+30-Jun-21,QLD,Maryborough,75
+30-Jun-21,QLD,Robina,136
+30-Jun-21,QLD,Rockhampton,80
+30-Jun-21,QLD,Toowoomba,201
+30-Jun-21,QLD,Townsville,58
+30-Jun-21,SA,Adelaide Hills,36
+30-Jun-21,SA,"Barossa, Light and Lower North",25
+30-Jun-21,SA,Eastern Adelaide,157
+30-Jun-21,SA,Eyre and Western,30
+30-Jun-21,SA,Far North (SA),18
+30-Jun-21,SA,Fleurieu and Kangaroo Island,35
+30-Jun-21,SA,Limestone Coast,42
+30-Jun-21,SA,Murray and Mallee,70
+30-Jun-21,SA,Northern Adelaide,552
+30-Jun-21,SA,Southern Adelaide,535
+30-Jun-21,SA,Western Adelaide,146
+30-Jun-21,SA,Yorke and Mid North,29
+30-Jun-21,TAS,TAS North,101
+30-Jun-21,TAS,TAS North West,98
+30-Jun-21,TAS,TAS South East,67
+30-Jun-21,TAS,TAS South West,130
+30-Jun-21,VIC,Barwon,345
+30-Jun-21,VIC,Bayside Peninsula,745
+30-Jun-21,VIC,Brimbank Melton,196
+30-Jun-21,VIC,Central Highlands,262
+30-Jun-21,VIC,Goulburn,93
+30-Jun-21,VIC,Hume Moreland,211
+30-Jun-21,VIC,Inner East Melbourne,773
+30-Jun-21,VIC,Inner Gippsland,132
+30-Jun-21,VIC,Loddon,256
+30-Jun-21,VIC,Mallee,83
+30-Jun-21,VIC,North East Melbourne,713
+30-Jun-21,VIC,Outer East Melbourne,467
+30-Jun-21,VIC,Outer Gippsland,71
+30-Jun-21,VIC,Ovens Murray,142
+30-Jun-21,VIC,Southern Melbourne,258
+30-Jun-21,VIC,Western District,269
+30-Jun-21,VIC,Western Melbourne,279
+30-Jun-21,WA,Central North Metro,256
+30-Jun-21,WA,Central South Metro,92
+30-Jun-21,WA,Great Southern,15
+30-Jun-21,WA,Midwest-Gascoyne,19
+30-Jun-21,WA,North East Metro,304
+30-Jun-21,WA,North Metro,118
+30-Jun-21,WA,Other,11
+30-Jun-21,WA,South East Metro,231
+30-Jun-21,WA,South Metro,72
+30-Jun-21,WA,South West,31
+31-Mar-21,ACT,ACT,158
+31-Mar-21,NSW,Central Coast,265
+31-Mar-21,NSW,Hunter New England,803
+31-Mar-21,NSW,Illawarra Shoalhaven,339
+31-Mar-21,NSW,Mid North Coast,160
+31-Mar-21,NSW,Murrumbidgee,254
+31-Mar-21,NSW,Nepean Blue Mountains,391
+31-Mar-21,NSW,North Sydney,760
+31-Mar-21,NSW,Northern NSW,217
+31-Mar-21,NSW,Other,<11
+31-Mar-21,NSW,South Eastern Sydney,444
+31-Mar-21,NSW,South Western Sydney,466
+31-Mar-21,NSW,Southern NSW,143
+31-Mar-21,NSW,Sydney,256
+31-Mar-21,NSW,Western NSW,340
+31-Mar-21,NSW,Western Sydney,685
+31-Mar-21,NT,Central Australia,32
+31-Mar-21,NT,Darwin Urban,79
+31-Mar-21,NT,Katherine,15
+31-Mar-21,NT,Other,<11
+31-Mar-21,QLD,Beenleigh,119
+31-Mar-21,QLD,Brisbane,328
+31-Mar-21,QLD,Bundaberg,63
+31-Mar-21,QLD,Caboolture/Strathpine,127
+31-Mar-21,QLD,Cairns,59
+31-Mar-21,QLD,Ipswich,221
+31-Mar-21,QLD,Mackay,28
+31-Mar-21,QLD,Maroochydore,112
+31-Mar-21,QLD,Maryborough,70
+31-Mar-21,QLD,Robina,123
+31-Mar-21,QLD,Rockhampton,88
+31-Mar-21,QLD,Toowoomba,202
+31-Mar-21,QLD,Townsville,55
+31-Mar-21,SA,Adelaide Hills,38
+31-Mar-21,SA,"Barossa, Light and Lower North",23
+31-Mar-21,SA,Eastern Adelaide,155
+31-Mar-21,SA,Eyre and Western,27
+31-Mar-21,SA,Far North (SA),20
+31-Mar-21,SA,Fleurieu and Kangaroo Island,34
+31-Mar-21,SA,Limestone Coast,41
+31-Mar-21,SA,Murray and Mallee,70
+31-Mar-21,SA,Northern Adelaide,558
+31-Mar-21,SA,Southern Adelaide,531
+31-Mar-21,SA,Western Adelaide,141
+31-Mar-21,SA,Yorke and Mid North,32
+31-Mar-21,TAS,TAS North,105
+31-Mar-21,TAS,TAS North West,102
+31-Mar-21,TAS,TAS South East,63
+31-Mar-21,TAS,TAS South West,132
+31-Mar-21,VIC,Barwon,330
+31-Mar-21,VIC,Bayside Peninsula,742
+31-Mar-21,VIC,Brimbank Melton,195
+31-Mar-21,VIC,Central Highlands,253
+31-Mar-21,VIC,Goulburn,91
+31-Mar-21,VIC,Hume Moreland,210
+31-Mar-21,VIC,Inner East Melbourne,771
+31-Mar-21,VIC,Inner Gippsland,136
+31-Mar-21,VIC,Loddon,247
+31-Mar-21,VIC,Mallee,84
+31-Mar-21,VIC,North East Melbourne,703
+31-Mar-21,VIC,Outer East Melbourne,443
+31-Mar-21,VIC,Outer Gippsland,67
+31-Mar-21,VIC,Ovens Murray,139
+31-Mar-21,VIC,Southern Melbourne,250
+31-Mar-21,VIC,Western District,268
+31-Mar-21,VIC,Western Melbourne,266
+31-Mar-21,WA,Central North Metro,262
+31-Mar-21,WA,Central South Metro,89
+31-Mar-21,WA,Goldfields-Esperance,13
+31-Mar-21,WA,Great Southern,15
+31-Mar-21,WA,Midwest-Gascoyne,15
+31-Mar-21,WA,North East Metro,304
+31-Mar-21,WA,North Metro,116
+31-Mar-21,WA,Other,<11
+31-Mar-21,WA,South East Metro,238
+31-Mar-21,WA,South Metro,70
+31-Mar-21,WA,South West,33
+31-Dec-20,ACT,ACT,127
+31-Dec-20,NSW,Central Coast,259
+31-Dec-20,NSW,Hunter New England,789
+31-Dec-20,NSW,Illawarra Shoalhaven,343
+31-Dec-20,NSW,Mid North Coast,165
+31-Dec-20,NSW,Murrumbidgee,253
+31-Dec-20,NSW,Nepean Blue Mountains,387
+31-Dec-20,NSW,North Sydney,759
+31-Dec-20,NSW,Northern NSW,219
+31-Dec-20,NSW,Other,<11
+31-Dec-20,NSW,South Eastern Sydney,431
+31-Dec-20,NSW,South Western Sydney,465
+31-Dec-20,NSW,Southern NSW,143
+31-Dec-20,NSW,Sydney,267
+31-Dec-20,NSW,Western NSW,338
+31-Dec-20,NSW,Western Sydney,685
+31-Dec-20,NT,Central Australia,35
+31-Dec-20,NT,Darwin Urban,76
+31-Dec-20,NT,Katherine,16
+31-Dec-20,NT,Other,<11
+31-Dec-20,QLD,Beenleigh,98
+31-Dec-20,QLD,Brisbane,318
+31-Dec-20,QLD,Bundaberg,56
+31-Dec-20,QLD,Caboolture/Strathpine,113
+31-Dec-20,QLD,Cairns,62
+31-Dec-20,QLD,Ipswich,216
+31-Dec-20,QLD,Mackay,25
+31-Dec-20,QLD,Maroochydore,104
+31-Dec-20,QLD,Maryborough,68
+31-Dec-20,QLD,Robina,100
+31-Dec-20,QLD,Rockhampton,97
+31-Dec-20,QLD,Toowoomba,209
+31-Dec-20,QLD,Townsville,58
+31-Dec-20,SA,Adelaide Hills,37
+31-Dec-20,SA,"Barossa, Light and Lower North",20
+31-Dec-20,SA,Eastern Adelaide,165
+31-Dec-20,SA,Eyre and Western,27
+31-Dec-20,SA,Far North (SA),19
+31-Dec-20,SA,Fleurieu and Kangaroo Island,33
+31-Dec-20,SA,Limestone Coast,43
+31-Dec-20,SA,Murray and Mallee,71
+31-Dec-20,SA,Northern Adelaide,543
+31-Dec-20,SA,Southern Adelaide,540
+31-Dec-20,SA,Western Adelaide,147
+31-Dec-20,SA,Yorke and Mid North,31
+31-Dec-20,TAS,TAS North,108
+31-Dec-20,TAS,TAS North West,110
+31-Dec-20,TAS,TAS South East,59
+31-Dec-20,TAS,TAS South West,140
+31-Dec-20,VIC,Barwon,318
+31-Dec-20,VIC,Bayside Peninsula,751
+31-Dec-20,VIC,Brimbank Melton,192
+31-Dec-20,VIC,Central Highlands,253
+31-Dec-20,VIC,Goulburn,90
+31-Dec-20,VIC,Hume Moreland,214
+31-Dec-20,VIC,Inner East Melbourne,760
+31-Dec-20,VIC,Inner Gippsland,137
+31-Dec-20,VIC,Loddon,239
+31-Dec-20,VIC,Mallee,83
+31-Dec-20,VIC,North East Melbourne,690
+31-Dec-20,VIC,Outer East Melbourne,433
+31-Dec-20,VIC,Outer Gippsland,69
+31-Dec-20,VIC,Ovens Murray,135
+31-Dec-20,VIC,Southern Melbourne,246
+31-Dec-20,VIC,Western District,269
+31-Dec-20,VIC,Western Melbourne,249
+31-Dec-20,WA,Central North Metro,263
+31-Dec-20,WA,Central South Metro,86
+31-Dec-20,WA,Goldfields-Esperance,13
+31-Dec-20,WA,Great Southern,15
+31-Dec-20,WA,Midwest-Gascoyne,15
+31-Dec-20,WA,North East Metro,302
+31-Dec-20,WA,North Metro,110
+31-Dec-20,WA,Other,<11
+31-Dec-20,WA,South East Metro,232
+31-Dec-20,WA,South Metro,78
+31-Dec-20,WA,South West,34
+30-Sep-20,ACT,ACT,106
+30-Sep-20,MIS,Other,<11
+30-Sep-20,NSW,Central Coast,250
+30-Sep-20,NSW,Hunter New England,784
+30-Sep-20,NSW,Illawarra Shoalhaven,341
+30-Sep-20,NSW,Mid North Coast,159
+30-Sep-20,NSW,Murrumbidgee,247
+30-Sep-20,NSW,Nepean Blue Mountains,382
+30-Sep-20,NSW,North Sydney,740
+30-Sep-20,NSW,Northern NSW,220
+30-Sep-20,NSW,Other,<11
+30-Sep-20,NSW,South Eastern Sydney,418
+30-Sep-20,NSW,South Western Sydney,453
+30-Sep-20,NSW,Southern NSW,144
+30-Sep-20,NSW,Sydney,264
+30-Sep-20,NSW,Western NSW,352
+30-Sep-20,NSW,Western Sydney,665
+30-Sep-20,NT,Central Australia,36
+30-Sep-20,NT,Darwin Urban,76
+30-Sep-20,NT,Katherine,17
+30-Sep-20,NT,Other,<11
+30-Sep-20,QLD,Beenleigh,93
+30-Sep-20,QLD,Brisbane,292
+30-Sep-20,QLD,Bundaberg,52
+30-Sep-20,QLD,Caboolture/Strathpine,102
+30-Sep-20,QLD,Cairns,59
+30-Sep-20,QLD,Ipswich,215
+30-Sep-20,QLD,Mackay,20
+30-Sep-20,QLD,Maroochydore,101
+30-Sep-20,QLD,Maryborough,65
+30-Sep-20,QLD,Robina,90
+30-Sep-20,QLD,Rockhampton,96
+30-Sep-20,QLD,Toowoomba,205
+30-Sep-20,QLD,Townsville,61
+30-Sep-20,SA,Adelaide Hills,37
+30-Sep-20,SA,"Barossa, Light and Lower North",22
+30-Sep-20,SA,Eastern Adelaide,162
+30-Sep-20,SA,Eyre and Western,27
+30-Sep-20,SA,Far North (SA),19
+30-Sep-20,SA,Fleurieu and Kangaroo Island,31
+30-Sep-20,SA,Limestone Coast,45
+30-Sep-20,SA,Murray and Mallee,71
+30-Sep-20,SA,Northern Adelaide,541
+30-Sep-20,SA,Southern Adelaide,539
+30-Sep-20,SA,Western Adelaide,145
+30-Sep-20,SA,Yorke and Mid North,30
+30-Sep-20,TAS,TAS North,114
+30-Sep-20,TAS,TAS North West,113
+30-Sep-20,TAS,TAS South East,57
+30-Sep-20,TAS,TAS South West,140
+30-Sep-20,VIC,Barwon,301
+30-Sep-20,VIC,Bayside Peninsula,735
+30-Sep-20,VIC,Brimbank Melton,190
+30-Sep-20,VIC,Central Highlands,247
+30-Sep-20,VIC,Goulburn,88
+30-Sep-20,VIC,Hume Moreland,201
+30-Sep-20,VIC,Inner East Melbourne,752
+30-Sep-20,VIC,Inner Gippsland,133
+30-Sep-20,VIC,Loddon,236
+30-Sep-20,VIC,Mallee,86
+30-Sep-20,VIC,North East Melbourne,685
+30-Sep-20,VIC,Outer East Melbourne,415
+30-Sep-20,VIC,Outer Gippsland,67
+30-Sep-20,VIC,Ovens Murray,137
+30-Sep-20,VIC,Southern Melbourne,236
+30-Sep-20,VIC,Western District,265
+30-Sep-20,VIC,Western Melbourne,230
+30-Sep-20,WA,Central North Metro,262
+30-Sep-20,WA,Central South Metro,83
+30-Sep-20,WA,Goldfields-Esperance,14
+30-Sep-20,WA,Great Southern,13
+30-Sep-20,WA,Midwest-Gascoyne,15
+30-Sep-20,WA,North East Metro,239
+30-Sep-20,WA,North Metro,109
+30-Sep-20,WA,Other,<11
+30-Sep-20,WA,South East Metro,184
+30-Sep-20,WA,South Metro,71
+30-Sep-20,WA,South West,31
+31-Mar-20,ACT,ACT,47
+31-Mar-20,ACT,Other,<11
+31-Mar-20,NSW,Central Coast,192
+31-Mar-20,NSW,Hunter New England,794
+31-Mar-20,NSW,Illawarra Shoalhaven,316
+31-Mar-20,NSW,Mid North Coast,151
+31-Mar-20,NSW,Murrumbidgee,227
+31-Mar-20,NSW,Nepean Blue Mountains,351
+31-Mar-20,NSW,North Sydney,696
+31-Mar-20,NSW,Northern NSW,173
+31-Mar-20,NSW,Other,<11
+31-Mar-20,NSW,South Eastern Sydney,378
+31-Mar-20,NSW,South Western Sydney,410
+31-Mar-20,NSW,Southern NSW,146
+31-Mar-20,NSW,Sydney,256
+31-Mar-20,NSW,Western NSW,346
+31-Mar-20,NSW,Western Sydney,623
+31-Mar-20,NT,Central Australia,36
+31-Mar-20,NT,Darwin Urban,81
+31-Mar-20,NT,Katherine,16
+31-Mar-20,NT,Other,<11
+31-Mar-20,QLD,Beenleigh,103
+31-Mar-20,QLD,Brisbane,264
+31-Mar-20,QLD,Bundaberg,48
+31-Mar-20,QLD,Caboolture/Strathpine,77
+31-Mar-20,QLD,Cairns,53
+31-Mar-20,QLD,Ipswich,207
+31-Mar-20,QLD,Mackay,17
+31-Mar-20,QLD,Maroochydore,71
+31-Mar-20,QLD,Maryborough,69
+31-Mar-20,QLD,Robina,60
+31-Mar-20,QLD,Rockhampton,141
+31-Mar-20,QLD,Toowoomba,210
+31-Mar-20,QLD,Townsville,58
+31-Mar-20,SA,Adelaide Hills,42
+31-Mar-20,SA,"Barossa, Light and Lower North",31
+31-Mar-20,SA,Eastern Adelaide,163
+31-Mar-20,SA,Eyre and Western,26
+31-Mar-20,SA,Far North (SA),20
+31-Mar-20,SA,Fleurieu and Kangaroo Island,34
+31-Mar-20,SA,Limestone Coast,46
+31-Mar-20,SA,Murray and Mallee,85
+31-Mar-20,SA,Northern Adelaide,588
+31-Mar-20,SA,Southern Adelaide,552
+31-Mar-20,SA,Western Adelaide,146
+31-Mar-20,SA,Yorke and Mid North,37
+31-Mar-20,TAS,TAS North,121
+31-Mar-20,TAS,TAS North West,107
+31-Mar-20,TAS,TAS South East,60
+31-Mar-20,TAS,TAS South West,133
+31-Mar-20,VIC,Barwon,278
+31-Mar-20,VIC,Bayside Peninsula,703
+31-Mar-20,VIC,Brimbank Melton,174
+31-Mar-20,VIC,Central Highlands,220
+31-Mar-20,VIC,Goulburn,83
+31-Mar-20,VIC,Hume Moreland,185
+31-Mar-20,VIC,Inner East Melbourne,697
+31-Mar-20,VIC,Inner Gippsland,126
+31-Mar-20,VIC,Loddon,231
+31-Mar-20,VIC,Mallee,85
+31-Mar-20,VIC,North East Melbourne,649
+31-Mar-20,VIC,Outer East Melbourne,374
+31-Mar-20,VIC,Outer Gippsland,63
+31-Mar-20,VIC,Ovens Murray,137
+31-Mar-20,VIC,Southern Melbourne,221
+31-Mar-20,VIC,Western District,264
+31-Mar-20,VIC,Western Melbourne,248
+31-Mar-20,WA,Central North Metro,16
+31-Mar-20,WA,Central South Metro,68
+31-Mar-20,WA,North East Metro,184
+31-Mar-20,WA,North Metro,29
+31-Mar-20,WA,Other,16
+31-Mar-20,WA,South East Metro,21
+31-Mar-20,WA,South Metro,57
+31-Dec-19,ACT,ACT,22
+31-Dec-19,ACT,ACT - Other,<11
+31-Dec-19,NSW,Central Coast,189
+31-Dec-19,NSW,Hunter New England,781
+31-Dec-19,NSW,Illawarra Shoalhaven,305
+31-Dec-19,NSW,Mid North Coast,141
+31-Dec-19,NSW,Murrumbidgee,227
+31-Dec-19,NSW,NSW - Other,<11
+31-Dec-19,NSW,Nepean Blue Mountains,341
+31-Dec-19,NSW,North Sydney,670
+31-Dec-19,NSW,Northern NSW,162
+31-Dec-19,NSW,South Eastern Sydney,359
+31-Dec-19,NSW,South Western Sydney,405
+31-Dec-19,NSW,Southern NSW,135
+31-Dec-19,NSW,Sydney,246
+31-Dec-19,NSW,Western NSW,346
+31-Dec-19,NSW,Western Sydney,609
+31-Dec-19,NT,Central Australia,40
+31-Dec-19,NT,Darwin Urban,80
+31-Dec-19,NT,Katherine,15
+31-Dec-19,NT,NT - Other,<11
+31-Dec-19,QLD,Beenleigh,215
+31-Dec-19,QLD,Brisbane,245
+31-Dec-19,QLD,Bundaberg,49
+31-Dec-19,QLD,Caboolture/Strathpine,71
+31-Dec-19,QLD,Cairns,41
+31-Dec-19,QLD,Ipswich,210
+31-Dec-19,QLD,Mackay,13
+31-Dec-19,QLD,Maroochydore,67
+31-Dec-19,QLD,Maryborough,69
+31-Dec-19,QLD,Robina,47
+31-Dec-19,QLD,Rockhampton,158
+31-Dec-19,QLD,Toowoomba,208
+31-Dec-19,QLD,Townsville,59
+31-Dec-19,SA,Adelaide Hills,42
+31-Dec-19,SA,"Barossa, Light and Lower North",34
+31-Dec-19,SA,Eastern Adelaide,164
+31-Dec-19,SA,Eyre and Western,27
+31-Dec-19,SA,Far North (SA),20
+31-Dec-19,SA,Fleurieu and Kangaroo Island,35
+31-Dec-19,SA,Limestone Coast,41
+31-Dec-19,SA,Murray and Mallee,84
+31-Dec-19,SA,Northern Adelaide,599
+31-Dec-19,SA,Southern Adelaide,564
+31-Dec-19,SA,Western Adelaide,142
+31-Dec-19,SA,Yorke and Mid North,25
+31-Dec-19,TAS,TAS North,118
+31-Dec-19,TAS,TAS North West,95
+31-Dec-19,TAS,TAS South East,63
+31-Dec-19,TAS,TAS South West,135
+31-Dec-19,VIC,Barwon,271
+31-Dec-19,VIC,Bayside Peninsula,688
+31-Dec-19,VIC,Brimbank Melton,168
+31-Dec-19,VIC,Central Highlands,210
+31-Dec-19,VIC,Goulburn,78
+31-Dec-19,VIC,Hume Moreland,174
+31-Dec-19,VIC,Inner East Melbourne,681
+31-Dec-19,VIC,Inner Gippsland,126
+31-Dec-19,VIC,Loddon,225
+31-Dec-19,VIC,Mallee,84
+31-Dec-19,VIC,North East Melbourne,639
+31-Dec-19,VIC,Outer East Melbourne,361
+31-Dec-19,VIC,Outer Gippsland,70
+31-Dec-19,VIC,Ovens Murray,133
+31-Dec-19,VIC,Southern Melbourne,214
+31-Dec-19,VIC,Western District,251
+31-Dec-19,VIC,Western Melbourne,226
+31-Dec-19,WA,Central North Metro,12
+31-Dec-19,WA,Central South Metro,55
+31-Dec-19,WA,North East Metro,176
+31-Dec-19,WA,North Metro,26
+31-Dec-19,WA,South East Metro,21
+31-Dec-19,WA,South Metro,59
+31-Dec-19,WA,WA - Other,16
+30-Sep-19,ACT,ACT,19
+30-Sep-19,ACT,ACT - Other,<11
+30-Sep-19,NSW,Central Coast,166
+30-Sep-19,NSW,Hunter New England,776
+30-Sep-19,NSW,Illawarra Shoalhaven,301
+30-Sep-19,NSW,Mid North Coast,128
+30-Sep-19,NSW,Murrumbidgee,234
+30-Sep-19,NSW,NSW - Other,<11
+30-Sep-19,NSW,Nepean Blue Mountains,337
+30-Sep-19,NSW,North Sydney,641
+30-Sep-19,NSW,Northern NSW,157
+30-Sep-19,NSW,South Eastern Sydney,358
+30-Sep-19,NSW,South Western Sydney,401
+30-Sep-19,NSW,Southern NSW,134
+30-Sep-19,NSW,Sydney,265
+30-Sep-19,NSW,Western NSW,338
+30-Sep-19,NSW,Western Sydney,587
+30-Sep-19,NT,Central Australia,53
+30-Sep-19,NT,Darwin Urban,77
+30-Sep-19,NT,Katherine,14
+30-Sep-19,NT,NT - Other,<11
+30-Sep-19,QLD,Beenleigh,284
+30-Sep-19,QLD,Brisbane,213
+30-Sep-19,QLD,Bundaberg,49
+30-Sep-19,QLD,Caboolture/Strathpine,70
+30-Sep-19,QLD,Cairns,33
+30-Sep-19,QLD,Ipswich,207
+30-Sep-19,QLD,Mackay,19
+30-Sep-19,QLD,Maroochydore,68
+30-Sep-19,QLD,Maryborough,64
+30-Sep-19,QLD,Robina,33
+30-Sep-19,QLD,Rockhampton,165
+30-Sep-19,QLD,Toowoomba,211
+30-Sep-19,QLD,Townsville,64
+30-Sep-19,SA,Adelaide Hills,43
+30-Sep-19,SA,"Barossa, Light and Lower North",31
+30-Sep-19,SA,Eastern Adelaide,169
+30-Sep-19,SA,Eyre and Western,28
+30-Sep-19,SA,Far North (SA),21
+30-Sep-19,SA,Fleurieu and Kangaroo Island,38
+30-Sep-19,SA,Limestone Coast,46
+30-Sep-19,SA,Murray and Mallee,89
+30-Sep-19,SA,Northern Adelaide,602
+30-Sep-19,SA,Southern Adelaide,602
+30-Sep-19,SA,Western Adelaide,136
+30-Sep-19,SA,Yorke and Mid North,41
+30-Sep-19,TAS,TAS North,123
+30-Sep-19,TAS,TAS North West,105
+30-Sep-19,TAS,TAS South East,65
+30-Sep-19,TAS,TAS South West,145
+30-Sep-19,VIC,Barwon,239
+30-Sep-19,VIC,Bayside Peninsula,655
+30-Sep-19,VIC,Brimbank Melton,154
+30-Sep-19,VIC,Central Highlands,192
+30-Sep-19,VIC,Goulburn,72
+30-Sep-19,VIC,Hume Moreland,167
+30-Sep-19,VIC,Inner East Melbourne,663
+30-Sep-19,VIC,Inner Gippsland,124
+30-Sep-19,VIC,Loddon,215
+30-Sep-19,VIC,Mallee,80
+30-Sep-19,VIC,North East Melbourne,608
+30-Sep-19,VIC,Outer East Melbourne,350
+30-Sep-19,VIC,Outer Gippsland,58
+30-Sep-19,VIC,Ovens Murray,119
+30-Sep-19,VIC,Southern Melbourne,197
+30-Sep-19,VIC,Western District,249
+30-Sep-19,VIC,Western Melbourne,193
+30-Sep-19,WA,Central North Metro,15
+30-Sep-19,WA,Central South Metro,54
+30-Sep-19,WA,North East Metro,290
+30-Sep-19,WA,North Metro,28
+30-Sep-19,WA,South East Metro,17
+30-Sep-19,WA,South Metro,72
+30-Sep-19,WA,WA - Other,12
+30-Jun-19,ACT,ACT,18
+30-Jun-19,NSW,Central Coast,148
+30-Jun-19,NSW,Far West,16
+30-Jun-19,NSW,Hunter New England,758
+30-Jun-19,NSW,Illawarra Shoalhaven,295
+30-Jun-19,NSW,Mid North Coast,128
+30-Jun-19,NSW,Murrumbidgee,241
+30-Jun-19,NSW,Nepean Blue Mountains,330
+30-Jun-19,NSW,North Sydney,623
+30-Jun-19,NSW,Northern NSW,149
+30-Jun-19,NSW,South Eastern Sydney,359
+30-Jun-19,NSW,South Western Sydney,404
+30-Jun-19,NSW,Southern NSW,132
+30-Jun-19,NSW,Sydney,285
+30-Jun-19,NSW,Western NSW,303
+30-Jun-19,NSW,Western Sydney,600
+30-Jun-19,NT,Central Australia,54
+30-Jun-19,NT,Darwin Urban,79
+30-Jun-19,NT,Katherine,17
+30-Jun-19,NT,NT - Other,<11
+30-Jun-19,QLD,Beenleigh,300
+30-Jun-19,QLD,Brisbane,188
+30-Jun-19,QLD,Bundaberg,48
+30-Jun-19,QLD,Caboolture/Strathpine,69
+30-Jun-19,QLD,Cairns,34
+30-Jun-19,QLD,Ipswich,203
+30-Jun-19,QLD,Mackay,19
+30-Jun-19,QLD,Maroochydore,69
+30-Jun-19,QLD,Maryborough,61
+30-Jun-19,QLD,Robina,29
+30-Jun-19,QLD,Rockhampton,145
+30-Jun-19,QLD,Toowoomba,212
+30-Jun-19,QLD,Townsville,70
+30-Jun-19,SA,Adelaide Hills,44
+30-Jun-19,SA,"Barossa, Light and Lower North",33
+30-Jun-19,SA,Eastern Adelaide,167
+30-Jun-19,SA,Eyre and Western,30
+30-Jun-19,SA,Far North (SA),20
+30-Jun-19,SA,Fleurieu and Kangaroo Island,40
+30-Jun-19,SA,Limestone Coast,45
+30-Jun-19,SA,Murray and Mallee,88
+30-Jun-19,SA,Northern Adelaide,590
+30-Jun-19,SA,Southern Adelaide,608
+30-Jun-19,SA,Western Adelaide,142
+30-Jun-19,SA,Yorke and Mid North,40
+30-Jun-19,TAS,TAS North,131
+30-Jun-19,TAS,TAS North West,123
+30-Jun-19,TAS,TAS South East,74
+30-Jun-19,TAS,TAS South West,152
+30-Jun-19,VIC,Barwon,203
+30-Jun-19,VIC,Bayside Peninsula,636
+30-Jun-19,VIC,Brimbank Melton,121
+30-Jun-19,VIC,Central Highlands,191
+30-Jun-19,VIC,Goulburn,68
+30-Jun-19,VIC,Hume Moreland,142
+30-Jun-19,VIC,Inner East Melbourne,648
+30-Jun-19,VIC,Inner Gippsland,125
+30-Jun-19,VIC,Loddon,216
+30-Jun-19,VIC,Mallee,76
+30-Jun-19,VIC,North East Melbourne,600
+30-Jun-19,VIC,Outer East Melbourne,357
+30-Jun-19,VIC,Outer Gippsland,59
+30-Jun-19,VIC,Ovens Murray,116
+30-Jun-19,VIC,Southern Melbourne,185
+30-Jun-19,VIC,Western District,247
+30-Jun-19,VIC,Western Melbourne,125
+30-Jun-19,WA,Central North Metro,16
+30-Jun-19,WA,Central South Metro,46
+30-Jun-19,WA,North East Metro,315
+30-Jun-19,WA,North Metro,20
+30-Jun-19,WA,South East Metro,14
+30-Jun-19,WA,South Metro,54
+30-Jun-19,WA,WA - Other,11
+31-Mar-19,ACT,ACT,13
+31-Mar-19,NSW,Central Coast,146
+31-Mar-19,NSW,Far West,16
+31-Mar-19,NSW,Hunter New England,696
+31-Mar-19,NSW,Illawarra Shoalhaven,297
+31-Mar-19,NSW,Mid North Coast,134
+31-Mar-19,NSW,Murrumbidgee,239
+31-Mar-19,NSW,Nepean Blue Mountains,318
+31-Mar-19,NSW,North Sydney,601
+31-Mar-19,NSW,Northern NSW,142
+31-Mar-19,NSW,South Eastern Sydney,349
+31-Mar-19,NSW,South Western Sydney,377
+31-Mar-19,NSW,Southern NSW,130
+31-Mar-19,NSW,Sydney,283
+31-Mar-19,NSW,Western NSW,286
+31-Mar-19,NSW,Western Sydney,589
+31-Mar-19,NT,Central Australia,61
+31-Mar-19,NT,Darwin Urban,88
+31-Mar-19,NT,Katherine,17
+31-Mar-19,NT,NT - Other,<11
+31-Mar-19,QLD,Beenleigh,278
+31-Mar-19,QLD,Brisbane,166
+31-Mar-19,QLD,Bundaberg,49
+31-Mar-19,QLD,Cairns,29
+31-Mar-19,QLD,Ipswich,209
+31-Mar-19,QLD,Mackay,20
+31-Mar-19,QLD,Maryborough,53
+31-Mar-19,QLD,QLD - Other,<11
+31-Mar-19,QLD,Robina,25
+31-Mar-19,QLD,Rockhampton,69
+31-Mar-19,QLD,Toowoomba,220
+31-Mar-19,QLD,Townsville,65
+31-Mar-19,SA,Adelaide Hills,37
+31-Mar-19,SA,"Barossa, Light and Lower North",25
+31-Mar-19,SA,Eastern Adelaide,129
+31-Mar-19,SA,Eyre and Western,29
+31-Mar-19,SA,Far North (SA),19
+31-Mar-19,SA,Fleurieu and Kangaroo Island,38
+31-Mar-19,SA,Limestone Coast,46
+31-Mar-19,SA,Murray and Mallee,82
+31-Mar-19,SA,Northern Adelaide,537
+31-Mar-19,SA,Southern Adelaide,590
+31-Mar-19,SA,Western Adelaide,121
+31-Mar-19,SA,Yorke and Mid North,37
+31-Mar-19,TAS,TAS North,140
+31-Mar-19,TAS,TAS North West,139
+31-Mar-19,TAS,TAS South East,79
+31-Mar-19,TAS,TAS South West,167
+31-Mar-19,VIC,Barwon,182
+31-Mar-19,VIC,Bayside Peninsula,572
+31-Mar-19,VIC,Brimbank Melton,81
+31-Mar-19,VIC,Central Highlands,191
+31-Mar-19,VIC,Hume Moreland,132
+31-Mar-19,VIC,Inner East Melbourne,616
+31-Mar-19,VIC,Inner Gippsland,123
+31-Mar-19,VIC,Loddon,212
+31-Mar-19,VIC,Mallee,15
+31-Mar-19,VIC,North East Melbourne,567
+31-Mar-19,VIC,Outer East Melbourne,358
+31-Mar-19,VIC,Outer Gippsland,46
+31-Mar-19,VIC,Ovens Murray,115
+31-Mar-19,VIC,Southern Melbourne,158
+31-Mar-19,VIC,VIC - Other,<11
+31-Mar-19,VIC,Western District,243
+31-Mar-19,VIC,Western Melbourne,89
+31-Mar-19,WA,Central North Metro,11
+31-Mar-19,WA,Central South Metro,32
+31-Mar-19,WA,North East Metro,329
+31-Mar-19,WA,North Metro,15
+31-Mar-19,WA,South Metro,51
+31-Mar-19,WA,WA - Other,18
