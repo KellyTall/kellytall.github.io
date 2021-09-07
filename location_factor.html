@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/scope.css">
+    <link rel="stylesheet" href="https://use.typekit.net/krt5izd.css">
+    <title>Scope NSW Property Locations</title>
+</head>
+
+<body>
+    <section class="page" id="page_one">
+        <div class="page_header">
+            <h3>Location factors</h3>
+        </div>
+        <div class="location_section">
+            <h1>SDA Location Factors</h1>
+            <!-- <p>Hover over the map for details about each of our properties. </h3> -->
+            <div class="viz_holder">
+                <div class="viz_holder_property">
+                    <h2>Average Factor</h2>
+                    <div class="map_holder_small_multiples">
+                        <div class="location_factor_holder_average">
+                            <div id="tooltip_property" class="tooltip_property">
+                                <div class="tooltip_partner" id="property_partner"></div>
+                                <div class="tooltip_address" id="property_address"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h2>A11 Factor</h2>
+                <div class="map_holder_small_multiples">
+                    <div class="small_factor_maps location_factor_holder_a11">
+                        <div id="tooltip_property" class="tooltip_property">
+                            <div class="tooltip_partner" id="property_partner"></div>
+                            <div class="tooltip_address" id="property_address"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+</body>
+<script src="../js/d3.v6.js"></script>
+<script src="https://unpkg.com/topojson@3"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.21.0/d3-
+legend.min.js"></script>
+<script src="../js/location_factor_average.js"></script>
+<script src="../js/location_factor_a11.js"></script>
+
+</html>
