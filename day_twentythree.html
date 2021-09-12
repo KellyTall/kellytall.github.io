@@ -7,63 +7,81 @@
     <link rel="stylesheet" href="css/styles_day.css">
     </link>
     <link rel="stylesheet" href="https://use.typekit.net/qpl0nxr.css">
-    <title>Day Twenty-two</title>
+    <title>Day Twenty-Three</title>
 </head>
 
 <body>
-    <ul class="top_nav">
-        <li><a href="100_days.html">
-                <p>back to home page</p>
-            </a></li>
-    </ul>
-    <h1> Day Twenty-two</h1>
-    <h2> 9 July 2021 </h2>
-    <h3>Map showing locations of Jacaranda trees in the City of Sydney</h3>
+    <header>
+        <ul class="top_nav">
+            <li><a href="100_days.html">
+                    <p>back to home page</p>
+                </a></li>
+        </ul>
+    </header>
+
+    <h1> Day Twenty-three</h1>
+    <h2> 10 July 2021 </h2>
+    <h3>Discover the World | an exercise from the superHi d3 course</h3>
+
     
-
-    <div class="city_map_22 map_holder">
-
-      <div id="tooltip" class="tooltip">
-
-            <div class="tooltip-tree" id="tree"></div>
-            <div class="tooltip-height">
-                 Height: <span id="height"></span>m
-            </div>
-           
-        </div>
-
 </div>
 
 
-    <div class="description">
-         <h3>Log</h3>
+<section class="scatter_plot">
+    <form>
+        <select name="valueX">
+            <option value="singlePerson" >Single person cost</option>
+            <option value="family">Family of four cost</option>
+            <option value="apartment" selected>1 bed city-center apartment</option>
+            <option value="utilities">Monthly cost of utilities</option>
+            <option value="monthlyPass">Monthly cost of transport</option>
+            <option value="expensiveMeal">Expensive Meal for two</option>
+        </select>
 
-<p>Fixed up the map boundaries - only shoews Syd city council LGA but have overlaid SA2 details on top so you can see boundaries and suburb names. I am taking a little diversion now to go through some exercises I did a while back on SuperHi to get my head around using drop down selectors etc. Wish me luck! </p>
+
+        <span class="scatter_span">vs</span>
+        
+        <select name="valueY">
+            <option value="singlePerson" selected>Single person cost</option>
+            <option value="family">Family of four cost</option>
+            <option value="apartment">1 bed city-center apartment</option>
+            <option value="utilities">Monthly cost of utilities</option>
+            <option value="monthlyPass">Monthly cost of transport</option>
+            <option value="expensiveMeal">Expensive Meal for two</option>   
+        
+        </select>
 
 
-
-
-         <p>As ever code can be found <a href="https://github.com/KellyTall/kellytall.github.io/blob/master/js/day_twentytwo.js" target="_blank">here</a></p></p>
- 
+        
     
+
+    </form>
+    <div class="scatter">
+    </div>
+
+</section> 
+    <div class="description">
+        <h3>Log</h3>
+        <p>So I finally re-did this tutorial from <a href = "https://www.superhi.com/" target = "_blank">superHi </a>to try and get my head around using selectors and hooking them up to data. This was one of their tutorials and I modified the css etc a bit for my own little project. If you are looking for some cool D3 tutorials, really recommend superHi! very good videas and documentation and have also got quite a lot from their Slack community - very helpful!
+        </p>
+        <p>There's lots to see in here - not just the drop down menuus, but also a little cool function called "raise" that helps with occlusion</p>
+        <p>As ever code can be found <a href="https://github.com/KellyTall/kellytall.github.io/blob/master/js/day_twentythree.js" target="_blank">here</a></p>
     </div>
     <footer>
         <div class="footer_nav">
             <ul class="list_container">
-                <li><a href="day_twentyone.html">
-                        <p>Go to Day 21</p>
+                <li><a href="day_twentytwo.html">
+                        <p>Go to Day 22</p>
                     </a></li>
                 <li><a href="not_ready_yet.html">
-                        <p>Go to Day 23</p>
+                        <p>Go to Day 24</p>
                     </a></li>
             </ul>
         </div>
     </footer>
     <script src="../js/d3.v6.js"></script>
-    <script src="https://unpkg.com/topojson@3"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.21.0/d3-
-legend.min.js"></script>
-    <script src="../js/day_twentytwo.js"></script>
+    <script src="../js/day_twentythree.js"></script>
+    <script src="../data/scatter.js"></script>
 </body>
 
 </html>

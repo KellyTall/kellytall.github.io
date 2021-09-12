@@ -74,13 +74,13 @@ p {
 .viz_holder {
     display: flex;
     flex-direction: row;
-    max-width:  1200px;
+    max-width: 1200px;
 }
 
 
 .viz_holder_property {
-    
-    max-width:  1000px;
+
+    max-width: 1000px;
 }
 
 
@@ -96,20 +96,21 @@ p {
 }
 
 
-.table_holder text{
-	font-size: 12px;
-	font-family: neue-haas-grotesk-display, sans-serif;
+.table_holder text {
+    font-size: 12px;
+    font-family: neue-haas-grotesk-display, sans-serif;
     font-weight: 300;
     font-style: normal;
     font-size: 12px;
 }
 
-text.table_header, text.table_content{
-	text-anchor: middle;
+text.table_header,
+text.table_content {
+    text-anchor: middle;
 }
 
-text.table_header{
-	font-weight: 400;
+text.table_header {
+    font-weight: 400;
 }
 
 path.SA2_ancestry {
@@ -131,38 +132,39 @@ path.SA2_ancestry {
 }
 
 */
-path.SA2_map_no_hover, 
+path.SA2_map_no_hover,
 .SA4_big_map {
-fill: #B5D8DD;
-stroke:  white;
-stroke-width: .5px;
+    fill: #B5D8DD;
+    stroke: white;
+    stroke-width: .5px;
 
 }
 
 circle.location_circle {
-	/*fill: #8F7D17;*/
-	opacity: .7;
+    /*fill: #8F7D17;*/
+    opacity: .7;
 }
 
 
 
 circle.location_circle:hover {
-	/*fill: #E04721;*/
-	opacity: 1;
+    /*fill: #E04721;*/
+    opacity: 1;
     stroke: white;
 }
 
 
-circle.circle{
+circle.circle {
     fill: #8F7D17;
     opacity: .5;
-    stroke:  white;
-    stroke-width:  .5;
+    stroke: white;
+    stroke-width: .5;
 }
 
-path.SA2_map {
-stroke:  white;
-stroke-width: .5px;
+path.SA2_map,
+path.SA4_factor_map {
+    stroke: white;
+    stroke-width: .5px;
 }
 
 path.SA4_map {
@@ -172,7 +174,8 @@ path.SA4_map {
     fill: none;
 }
 
-text.SA4_label, text.area_label {
+text.SA4_label,
+text.area_label {
     fill: #58555A;
     text-anchor: middle;
     font-size: 10px;
@@ -227,12 +230,15 @@ path.SA2_map:hover {
 
 
 .svg_sa,
-.svg_viet, .svg_location, .svg_big_map {
+.svg_viet,
+.svg_location,
+.svg_big_map {
     position: relative;
 }
 
 .tooltip_viet,
-.tooltip_sa, .tooltip_property {
+.tooltip_sa,
+.tooltip_property {
     opacity: 0;
     position: absolute;
     top: 10px;
@@ -249,7 +255,8 @@ path.SA2_map:hover {
 
 
 
-.tooltip_sa2, .tooltip_address {
+.tooltip_sa2,
+.tooltip_address {
     margin-bottom: 0.2em;
     font-size: 12px;
     text-transform: uppercase;
@@ -259,13 +266,14 @@ path.SA2_map:hover {
 
 }
 
-.tooltip_value{
+.tooltip_value {
     font-size: 12px;
     font-family: neue-haas-grotesk-display, sans-serif;
     font-weight: 500;
     font-style: normal;
 }
-.tooltip_partner{
+
+.tooltip_partner {
     padding-bottom: 5px;
     font-size: 14px;
     font-family: neue-haas-grotesk-display, sans-serif;
@@ -277,7 +285,7 @@ path.SA2_map:hover {
 
 
 text.legendTitle,
-{
+    {
     font-size: 24px;
     font-family: neue-haas-grotesk-display, sans-serif;
     font-weight: 300;
@@ -298,16 +306,37 @@ text.label {
 
 .big_map_holder {
 
-max-width:900px;
-margin-bottom: 180px;
+    max-width: 900px;
+    margin-bottom: 180px;
 
 
 }
 
 .big_map_holder_long {
 
-max-width:600px;
-margin-bottom: 180px;
+    max-width: 600px;
+    margin-bottom: 180px;
 
 
+}
+
+/*
+.map_holder_small_multiples {
+    display:  flex;
+    flex-direction: row;
+
+
+}*/
+
+.map_holder_small_multiples {
+
+
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+
+}
+
+.small_factor_maps {
+    max-width: 600px;
 }

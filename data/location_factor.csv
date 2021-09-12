@@ -1,0 +1,183 @@
+SA4,type,factor
+Sydney - Baulkham Hills and Hawkesbury,a11,1.05
+Sydney - Blacktown,a11,1
+Sydney - City and Inner South,a11,1.2
+Sydney - Eastern Suburbs,a11,1.18
+Sydney - Inner South West,a11,1.03
+Sydney - Inner West,a11,1.18
+Sydney - North Sydney and Hornsby,a11,1.08
+Sydney - Northern Beaches,a11,1.03
+Sydney - Outer South West,a11,1.04
+Sydney - Outer West and Blue Mountains,a11,1.04
+Sydney - Parramatta,a11,1.02
+Sydney - Ryde,a11,1.03
+Sydney - South West,a11,1
+Sydney - Sutherland,a11,1.02
+Sydney - Baulkham Hills and Hawkesbury,a21,1.05
+Sydney - Blacktown,a21,1
+Sydney - City and Inner South,a21,1.18
+Sydney - Eastern Suburbs,a21,1.16
+Sydney - Inner South West,a21,1.02
+Sydney - Inner West,a21,1.17
+Sydney - North Sydney and Hornsby,a21,1.08
+Sydney - Northern Beaches,a21,1.03
+Sydney - Outer South West,a21,1.04
+Sydney - Outer West and Blue Mountains,a21,1.04
+Sydney - Parramatta,a21,1.01
+Sydney - Ryde,a21,1.03
+Sydney - South West,a21,1
+Sydney - Sutherland,a21,1.02
+Sydney - Baulkham Hills and Hawkesbury,a22,1.05
+Sydney - Blacktown,a22,1
+Sydney - City and Inner South,a22,1.18
+Sydney - Eastern Suburbs,a22,1.16
+Sydney - Inner South West,a22,1.02
+Sydney - Inner West,a22,1.17
+Sydney - North Sydney and Hornsby,a22,1.08
+Sydney - Northern Beaches,a22,1.03
+Sydney - Outer South West,a22,1.04
+Sydney - Outer West and Blue Mountains,a22,1.04
+Sydney - Parramatta,a22,1.01
+Sydney - Ryde,a22,1.03
+Sydney - South West,a22,1
+Sydney - Sutherland,a22,1.02
+Sydney - Baulkham Hills and Hawkesbury,a32,1.06
+Sydney - Blacktown,a32,1
+Sydney - City and Inner South,a32,1.16
+Sydney - Eastern Suburbs,a32,1.15
+Sydney - Inner South West,a32,1.02
+Sydney - Inner West,a32,1.16
+Sydney - North Sydney and Hornsby,a32,1.08
+Sydney - Northern Beaches,a32,1.02
+Sydney - Outer South West,a32,1.05
+Sydney - Outer West and Blue Mountains,a32,1.05
+Sydney - Parramatta,a32,1.01
+Sydney - Ryde,a32,1.02
+Sydney - South West,a32,1
+Sydney - Sutherland,a32,1.02
+Sydney - Baulkham Hills and Hawkesbury,average,1.09
+Sydney - Blacktown,average,1.02
+Sydney - City and Inner South,average,1.89
+Sydney - Eastern Suburbs,average,1.75
+Sydney - Inner South West,average,1.17
+Sydney - Inner West,average,1.45
+Sydney - North Sydney and Hornsby,average,1.29
+Sydney - Northern Beaches,average,1.21
+Sydney - Outer South West,average,1.01
+Sydney - Outer West and Blue Mountains,average,1.01
+Sydney - Parramatta,average,1.09
+Sydney - Ryde,average,1.2
+Sydney - South West,average,1.03
+Sydney - Sutherland,average,1.15
+Sydney - Baulkham Hills and Hawkesbury,gh4,1.12
+Sydney - Blacktown,gh4,1.03
+Sydney - City and Inner South,gh4,2.31
+Sydney - Eastern Suburbs,gh4,2.09
+Sydney - Inner South West,gh4,1.25
+Sydney - Inner West,gh4,1.61
+Sydney - North Sydney and Hornsby,gh4,1.41
+Sydney - Northern Beaches,gh4,1.31
+Sydney - Outer South West,gh4,1
+Sydney - Outer West and Blue Mountains,gh4,0.99
+Sydney - Parramatta,gh4,1.14
+Sydney - Ryde,gh4,1.3
+Sydney - South West,gh4,1.04
+Sydney - Sutherland,gh4,1.23
+Sydney - Baulkham Hills and Hawkesbury,gh5,1.13
+Sydney - Blacktown,gh5,1.03
+Sydney - City and Inner South,gh5,2.53
+Sydney - Eastern Suburbs,gh5,2.27
+Sydney - Inner South West,gh5,1.29
+Sydney - Inner West,gh5,1.72
+Sydney - North Sydney and Hornsby,gh5,1.47
+Sydney - Northern Beaches,gh5,1.36
+Sydney - Outer South West,gh5,0.99
+Sydney - Outer West and Blue Mountains,gh5,0.99
+Sydney - Parramatta,gh5,1.16
+Sydney - Ryde,gh5,1.35
+Sydney - South West,gh5,1.05
+Sydney - Sutherland,gh5,1.26
+Sydney - Baulkham Hills and Hawkesbury,h2,1.08
+Sydney - Blacktown,h2,1.02
+Sydney - City and Inner South,h2,1.93
+Sydney - Eastern Suburbs,h2,1.78
+Sydney - Inner South West,h2,1.18
+Sydney - Inner West,h2,1.44
+Sydney - North Sydney and Hornsby,h2,1.29
+Sydney - Northern Beaches,h2,1.22
+Sydney - Outer South West,h2,1
+Sydney - Outer West and Blue Mountains,h2,1
+Sydney - Parramatta,h2,1.1
+Sydney - Ryde,h2,1.21
+Sydney - South West,h2,1.03
+Sydney - Sutherland,h2,1.16
+Sydney - Baulkham Hills and Hawkesbury,h3,1.1
+Sydney - Blacktown,h3,1.03
+Sydney - City and Inner South,h3,2.15
+Sydney - Eastern Suburbs,h3,1.96
+Sydney - Inner South West,h3,1.22
+Sydney - Inner West,h3,1.54
+Sydney - North Sydney and Hornsby,h3,1.36
+Sydney - Northern Beaches,h3,1.27
+Sydney - Outer South West,h3,1
+Sydney - Outer West and Blue Mountains,h3,0.99
+Sydney - Parramatta,h3,1.12
+Sydney - Ryde,h3,1.26
+Sydney - South West,h3,1.04
+Sydney - Sutherland,h3,1.2
+Sydney - Baulkham Hills and Hawkesbury,legacy,1.13
+Sydney - Blacktown,legacy,1.03
+Sydney - City and Inner South,legacy,2.53
+Sydney - Eastern Suburbs,legacy,2.27
+Sydney - Inner South West,legacy,1.29
+Sydney - Inner West,legacy,1.72
+Sydney - North Sydney and Hornsby,legacy,1.47
+Sydney - Northern Beaches,legacy,1.36
+Sydney - Outer South West,legacy,0.99
+Sydney - Outer West and Blue Mountains,legacy,0.99
+Sydney - Parramatta,legacy,1.16
+Sydney - Ryde,legacy,1.35
+Sydney - South West,legacy,1.05
+Sydney - Sutherland,legacy,1.26
+Sydney - Baulkham Hills and Hawkesbury,vdt1,1.08
+Sydney - Blacktown,vdt1,1.02
+Sydney - City and Inner South,vdt1,1.76
+Sydney - Eastern Suburbs,vdt1,1.63
+Sydney - Inner South West,vdt1,1.15
+Sydney - Inner West,vdt1,1.36
+Sydney - North Sydney and Hornsby,vdt1,1.25
+Sydney - Northern Beaches,vdt1,1.18
+Sydney - Outer South West,vdt1,1.01
+Sydney - Outer West and Blue Mountains,vdt1,1.01
+Sydney - Parramatta,vdt1,1.08
+Sydney - Ryde,vdt1,1.17
+Sydney - South West,vdt1,1.03
+Sydney - Sutherland,vdt1,1.13
+Sydney - Baulkham Hills and Hawkesbury,vdt2,1.11
+Sydney - Blacktown,vdt2,1.03
+Sydney - City and Inner South,vdt2,2.25
+Sydney - Eastern Suburbs,vdt2,2.04
+Sydney - Inner South West,vdt2,1.24
+Sydney - Inner West,vdt2,1.59
+Sydney - North Sydney and Hornsby,vdt2,1.39
+Sydney - Northern Beaches,vdt2,1.3
+Sydney - Outer South West,vdt2,1
+Sydney - Outer West and Blue Mountains,vdt2,0.99
+Sydney - Parramatta,vdt2,1.13
+Sydney - Ryde,vdt2,1.29
+Sydney - South West,vdt2,1.04
+Sydney - Sutherland,vdt2,1.22
+Sydney - Baulkham Hills and Hawkesbury,vdt3,1.13
+Sydney - Blacktown,vdt3,1.03
+Sydney - City and Inner South,vdt3,2.53
+Sydney - Eastern Suburbs,vdt3,2.27
+Sydney - Inner South West,vdt3,1.29
+Sydney - Inner West,vdt3,1.71
+Sydney - North Sydney and Hornsby,vdt3,1.47
+Sydney - Northern Beaches,vdt3,1.36
+Sydney - Outer South West,vdt3,0.99
+Sydney - Outer West and Blue Mountains,vdt3,0.99
+Sydney - Parramatta,vdt3,1.16
+Sydney - Ryde,vdt3,1.35
+Sydney - South West,vdt3,1.05
+Sydney - Sutherland,vdt3,1.26

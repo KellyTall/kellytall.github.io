@@ -27,7 +27,7 @@ body {
 }
 
 .chart {
-    max-width:  900px;
+    max-width: 900px;
 }
 
 ul.top_nav {
@@ -243,7 +243,8 @@ path.SA2_background {
     font-weight: 700;
 }
 
-.SA4_area_label, .SA4_area_label_small {
+.SA4_area_label,
+.SA4_area_label_small {
     fill: var(--dark_blue);
     text-transform: uppercase;
     font-style: italic;
@@ -278,7 +279,8 @@ path.world_map {
 
 }
 
-.sa3_name, .dwelling_num {
+.sa3_name,
+.dwelling_num {
     fill: var(--dark_blue);
     text-anchor: start;
     font-size: 14px;
@@ -293,10 +295,10 @@ path.world_map {
 }
 
 
-.sa3_name{
-    
+.sa3_name {
+
     text-anchor: start;
-    
+
 }
 
 .dwelling_num {
@@ -305,7 +307,7 @@ path.world_map {
 }
 
 .small_mult_head_larger {
-    font-size:  16px;
+    font-size: 16px;
     fill: var(--light_blue);
 }
 
@@ -317,16 +319,16 @@ path.world_map {
 
 
 line.average_line {
-    stroke:  var(--light_blue);
-    stroke-width:  1.5px;
+    stroke: var(--light_blue);
+    stroke-width: 1.5px;
 }
 
 .chloro_map {
     max-width: 400px;
 }
 
-.tooltip_map{
-    max-width:  700px;
+.tooltip_map {
+    max-width: 700px;
     position: relative;
 }
 
@@ -334,13 +336,14 @@ line.average_line {
 path.SA2_map:hover {
     fill: #031D94;
     stroke: white;
-    stroke-width:2px;
+    stroke-width: 2px;
 
-    
+
 }
 
 
-.tooltip, .tooltip-tree {
+.tooltip,
+.tooltip-tree {
     opacity: 0;
     position: absolute;
     top: 10px;
@@ -357,7 +360,8 @@ path.SA2_map:hover {
 
 
 
-.tooltip-country, .tooltip-tree {
+.tooltip-country,
+.tooltip-tree {
     margin-bottom: 0.2em;
     font-weight: 600;
 }
@@ -386,27 +390,27 @@ path.SA2_map:hover {
 }
 
 
-path.SA2_map_no_hover, 
+path.SA2_map_no_hover,
 path.SA3_map_no_hover {
-    fill:  #ADB085;
-    stroke:  #E4CDF7;
-    stroke-width:  2px;
+    fill: #ADB085;
+    stroke: #E4CDF7;
+    stroke-width: 2px;
 
 
 }
 
 path.SA2_map_22 {
-    fill:  #ADB085;
-    stroke:  #E4CDF7;
-    stroke-width:  1px;
+    fill: #ADB085;
+    stroke: #E4CDF7;
+    stroke-width: 1px;
 
 }
 
 
-path.SA2_map_no_fill{
-    stroke:  #E4CDF7;
-    fill:  none;
-    stroke-width:.5px;
+path.SA2_map_no_fill {
+    stroke: #E4CDF7;
+    fill: none;
+    stroke-width: .5px;
 
 
 }
@@ -421,7 +425,7 @@ text.SA3_label_tree {
     letter-spacing: 2px;
 }
 
-text.SA2_label_tree{
+text.SA2_label_tree {
     text-anchor: middle;
     text-transform: uppercase;
     font-size: 10px;
@@ -432,7 +436,7 @@ text.SA2_label_tree{
 }
 
 
-.tree_point{
+.tree_point {
     fill: #9096D1;
     opacity: .2;
     stroke: #E4CDF7;
@@ -440,7 +444,7 @@ text.SA2_label_tree{
 }
 
 
-.tree_circle:hover{
+.tree_circle:hover {
     fill: #D1D07B;
     opacity: .8;
     stroke: #E4CDF7;
@@ -453,3 +457,136 @@ circle.swatch {
     fill: #9096D1;
 }
 
+
+
+/*scatter*/
+
+.scatter_plot {
+    max-width: 700px;
+    text-align: center;
+}
+
+.scatter_span {
+    font-family: dico-mono, mono;
+    font-weight: 400;
+    font-style: normal;
+    /*color: var(--pink);*/
+    margin: 0 8px 0 8px;
+
+}
+
+select {
+    background: var(--light-pink);
+    font-family: dico-mono, mono;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--dark-blue);
+    margin-top: 48px;
+}
+
+.scatter_header h2 {
+    font-size: 24px;
+}
+
+ .scatter_circle {
+    fill: var(--light_blue);
+    opacity: .7;
+    stroke: var(--light_pink);
+    /*stroke-width:  2px;*/
+    transition: opacity 0.25s;
+
+ }
+
+ .scatter_circle:hover {
+    opacity: 1;
+ }
+
+ .axisY line,
+ .axisX line {
+    stroke-width:  .5px;
+    stroke-dasharray: 3 6;
+ }
+
+
+.axisY path,
+ .axisX path {
+    stroke-width:  1.5px;
+
+    
+ }
+.axisX_text,  .axisY_text {
+    font-family: dico-mono, mono;
+    font-size: 18px;
+    text-anchor: middle;
+    fill: var(--light_blue);
+
+}
+
+
+
+
+
+g.city rect{
+    fill: var(--pink);
+    opacity: 0;
+    transition: opacity 0.25s;
+
+
+}
+
+g.city text{
+    fill: var(--dark_blue);
+    text-anchor: middle;
+    font-size: 14px;
+    opacity: 0;
+    transition: opacity 0.25s;
+
+}
+
+g.city:hover rect, g.city:hover text {
+
+opacity: 1;
+}
+
+
+/*media query */
+
+@media (max-width: 1000px) {
+
+    h1 {
+        font-size: 24px;
+        margin-bottom: 12px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    h3 {
+      font-size: 16px;
+    }
+
+    body {
+    margin: 24px; 
+}
+
+.scatter_plot {
+    text-align: left;
+}
+
+select {
+    margin-top: 12px;
+    font-size:  12px;
+}
+
+.axisX_text,  .axisY_text {
+    /*font-family: dico-mono, mono;*/
+    font-size: 24px;
+} 
+
+.axisX text, .axisY text {
+  font-size: 16px;  
+}
+
+
+}

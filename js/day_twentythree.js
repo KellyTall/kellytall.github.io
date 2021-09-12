@@ -1,183 +1,213 @@
-async function drawMap_locations() {
+async function drop_down() {
+
+
+    // bring in data
+
+    const data = await d3.json("./../data/scatter.json")
+
+    // console.log(data)
+
+    // set dimensions
+
+    const width = 700
+    const height = 620
+    const margin = { top: 60, right: 90, bottom: 40, left: 80 }
+
+    // select the svg
+
+    const svg = d3.select(".scatter")
+        .append("svg")
+        .attr("viewBox", "0 0 700 620")
+        .attr('transform', `translate(${margin.left},${margin.bottom})`)
+
+
+    const axisGroupX = svg
+        .append('g')
+        .attr('class', 'axisX')
+        .attr('transform', `translate(0,${height - margin.top})`)
 
 
 
-const SA2_map = await d3.json("./../geo/SA2_simple_copy.json")
+    const axisGroupY = svg
+        .append('g')
+        .attr('class', 'axisY')
+        .attr('transform', `translate(${margin.left},0)`)
 
 
-    SA2_map.objects.SA2.geometries = SA2_map.objects.SA2.geometries.filter(d => d.properties.SA3_NAME16 == "Sydney Inner City" || d.properties.SA2_NAME16 == "Paddington - Moore Park")
+
+    const axisXText = svg
+        .append("text")
+        .attr("class", "axisX_text")
+        .attr("transform", `translate(${width/2}, ${height-(margin.bottom/4)})`)
+        .text("x axis")
 
 
-    SA2_topo = topojson.feature(SA2_map, SA2_map.objects.SA2)
-    
-    const tree = await d3.csv("./../data/jacaranda_sydney.csv", function(d) {
-        return {
-            lon: +d.X,
-            lat: +d.Y,
-            tree_type: d.TreeType,
-            height: +d.TreeHeight, 
-            canopy_EW: +d.TreeCanopyEW,
-            canopy_EW: +d.TreeCanopyNS
+    const axisYText = svg
+        .append("text")
+        .attr("class", "axisY_text")
+        .attr("transform", `translate(${margin.right/4}, ${height/2}) rotate(-90)`)
+        .text("y axis")
 
 
-        }
+
+    const placeCities = function() {
+
+        let inputX = document.querySelector("select[name=valueX]")
+        let inputY = document.querySelector("select[name=valueY]")
+
+        let valueX = inputX.value
+        let valueY = inputY.value
+
+        let textX = inputX.options[inputX.selectedIndex].innerHTML
+        let textY = inputY.options[inputY.selectedIndex].innerHTML
+
+        axisXText.text(textX)
+        axisYText.text(textY)
+
+        // calculating max values of variables
+
+        let maxValueX = d3.max(data, d => d[valueX])
+        let maxValueY = d3.max(data, d => d[valueY])
+        let maxValueR = d3.max(data, d => d.population)
+
+
+
+        // scaling based on max values of varaibles  
+
+        const scaleX = d3.scaleLinear()
+            .domain([0, maxValueX])
+            .range([margin.left, width - margin.right])
+
+
+        const scaleY = d3.scaleLinear()
+            .domain([0, maxValueY])
+            .range([height - margin.top, margin.top])
+
+        const scaleR = d3.scaleSqrt()
+            .domain([0, maxValueR])
+            .range([0, 20])
+
+
+        // axis
+
+        const axisX = d3.axisBottom(scaleX)
+            .tickSizeInner(margin.top - height + margin.top)
+            .tickSizeOuter(5)
+            .tickPadding(10)
+            .ticks(10, ("$,f"))
+
+
+
+
+
+        const axisY = d3.axisLeft(scaleY)
+            .tickSizeInner(margin.left - width + margin.right)
+            .tickSizeOuter(5)
+            .tickPadding(10)
+            .ticks(10)
+            .ticks(10, ("$,f"))
+
+
+
+
+        axisGroupX
+            .call(axisX)
+
+
+
+
+        axisGroupY
+            .call(axisY)
+
+
+
+        // places points in SVG    
+
+
+        const cities = svg
+            .selectAll("g.city")
+            .data(data, d => d.city) //indexes data so "raise" (see below) works
+            .enter()
+            .append('g')
+            .attr("class", "city")
+            .attr("transform", (d, i) => {
+                const x = scaleX(d[valueX])
+                const y = scaleY(d[valueY])
+                return `translate(${x},${y})`
+
+            })
+
+        // transitions in circles
+
+        cities
+            .append('circle')
+            .attr("cx", 0)
+            .attr("cy", 0)
+            .attr("r", 0)
+            .transition()
+            .attr("r", d => scaleR(d.population))
+            .attr("class", "scatter_circle")
+
+        cities
+            .append('rect')
+            .attr('x', -60)
+            .attr('y', d => 1 - scaleR(d.population) - 35)
+            .attr('width', 120)
+            .attr('height', 30)
+
+        cities
+            .append('text')
+            .attr('x', 0)
+            .attr('y', d => 10 - scaleR(d.population) - 25)
+            .text(d => d.city)
+
+
+
+        // transitions circles as they move
+
+        svg
+            .selectAll("g.city")
+            .transition()
+            .duration(500)
+            .attr("transform", (d, i) => {
+                const x = scaleX(d[valueX])
+                const y = scaleY(d[valueY])
+                return `translate(${x},${y})`
+
+            })
+
+        // this raises up as we hover over, but this only works when data is indexed when 
+        // the data is first called in
+
+        svg
+            .selectAll("g.city")
+            .on("mouseover", function() {
+                d3.select(this).raise()
+
+            })
+
+
+
+    }
+
+    placeCities()
+
+
+
+    const selectTags = document.querySelectorAll("select")
+
+
+    selectTags.forEach((selectTag) => {
+        selectTag.addEventListener("change", function() {
+
+            placeCities()
+        })
+
     })
 
-//     console.log(tree)
 
 
-const height_accessor = d => d.height
-
-    
-
-
-
-    // // wrap text function
-
-    function wrap(text, width) {
-        text.each(function() {
-            var text = d3.select(this),
-                words = text.text().split(/\s+/).reverse(),
-                word,
-                line = [],
-                lineNumber = 0,
-                lineHeight = 1.1, // ems
-                x = text.attr("x"),
-                y = text.attr("y"),
-                dy = 0, //parseFloat(text.attr("dy")),
-                tspan = text.text(null)
-                .append("tspan")
-                .attr("x", x)
-                .attr("y", y)
-                .attr("dy", dy + "em");
-            while (word = words.pop()) {
-                line.push(word);
-                tspan.text(line.join(" "));
-                if (tspan.node().getComputedTextLength() > width) {
-                    line.pop();
-                    tspan.text(line.join(" "));
-                    line = [word];
-                    tspan = text.append("tspan")
-                        .attr("x", x)
-                        .attr("y", y)
-                        .attr("dy", ++lineNumber * lineHeight + dy + "em")
-                        .text(word);
-                }
-            }
-        });
-    }
-
-    
-    const width = 700
-    const height = 700
-    const margin = { top: 40, right: 10, bottom: 10, left: 10 }
-
-
-    const svg = d3.select(".city_map_22")
-        .append("svg")
-        .attr("viewBox", "0 0 700 700")
-        .attr('transform', `translate(0,${margin.top})`)
-
-
-    const projection_SA2 = d3.geoEquirectangular()
-        .fitHeight(height, SA2_topo)
-
-
-
-    const pathGenerator_SA2 = d3.geoPath(projection_SA2)
-
-    const radius = d3.scaleSqrt([d3.min(tree, d => d.height), d3.max(tree, d => d.height)], [1, 10])
-
-    const SA2 = svg
-        .append("g")
-        .selectAll("path")
-        .data(SA2_topo.features)
-        .join("path")
-        .attr("d", pathGenerator_SA2)
-        .attr("class", "SA2_map_22")
-
-        
-
-    
-
-
-
-SA2 
-    .append("g")
-        .select("text")
-        .data(SA2_topo.features)
-        .join("text")
-        .attr("class", "SA2_label_tree")
-        .text(d => d.properties.SA2_NAME16)
-        .attr("x", d => pathGenerator_SA2.centroid(d)[0])
-        .attr("y", d => pathGenerator_SA2.centroid(d)[1])
-        .call(wrap, 95)
-
-
-    
-
-    const tree_point = svg
-        .selectAll("circle")    
-        .data(tree)    
-        .join("circle")
-        .attr("class", "tree_point")
-        .attr("cx", d => projection_SA2([d.lon, d.lat])[0])
-        .attr("cy", d => projection_SA2([d.lon, d.lat])[1])
-        .attr("r", d => radius(d.height))
-        // .attr("r", 5)
-
-
-
-    const legend = svg
-        .append("g")
-        .attr("class", "legendSize")
-        .attr("transform", "translate(20,20)")
-
-    const legendSize = d3.legendSize()
-        
-  .scale(radius)
-  .shape('circle')
-        
-        .title("Height of Jacaranda Trees (m)")
-
-
-
-    svg
-        .select(".legendSize")
-        .call(legendSize)
-
-
-
-
-    tree_point.on("mouseenter", onMouseEnter)
-        .on("mouseleave", onMouseLeave)
-
-    const tooltip = d3.select("#tooltip")
-
-    function onMouseEnter(i, d) {
-        tooltip
-        .style("opacity", .9)
-
-
-        tooltip
-        .select("#height")
-            .text(height_accessor(d))
-
-        const x = projection_SA2([d.lon, d.lat])[0]
-        const y = projection_SA2([d.lon, d.lat])[1]
-
-        tooltip
-        .style("transform", `translate(` +
-            `calc( ${x}px),` +
-            `calc(${y}px)` +
-            `)`)
-    }
-
-    function onMouseLeave() {
-        tooltip
-                .style("opacity", 0)
-    }
 
 }
 
-drawMap_locations()
+drop_down()
