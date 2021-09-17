@@ -378,7 +378,7 @@ path.SA2_map:hover {
 }
 
 
-.city_map_22 {
+.city_map_22, .tree_map_filter {
     max-width: 800px;
     /*position: relative;*/
 }
@@ -437,18 +437,18 @@ text.SA2_label_tree {
 
 
 .tree_point {
-    fill: #9096D1;
-    opacity: .2;
+    /*fill: #9096D1;*/
+    opacity: .5;
     stroke: #E4CDF7;
-    stroke-width: .5px;
+    stroke-width: .5px4
 }
 
 
-.tree_circle:hover {
+.tree_point:hover {
     fill: #D1D07B;
-    opacity: .8;
+    opacity: .9;
     stroke: #E4CDF7;
-    stroke-width: .5px;
+    stroke-width: .5px
 }
 
 
