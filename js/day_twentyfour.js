@@ -107,15 +107,18 @@ async function drawMap_locations() {
 
         // axisXText.text(textX)
 
-        const tree_colour = ({
-            "Jacaranda": '#9096D1',
-            "Crepe Myrtle": '#D1A5A6'
-        })
+        // const tree_colour = ({
+        //     "Jacaranda": '#9096D1',
+        //     "Crepe Myrtle": '#D1A5A6'
+        // })
 
 
-        // const tree_colour2 = d3.scaleOrdinal()
-        //     .domain(["Jacaranda", "Crepe Myrtle"])
-        //     .range(['#9096D1', '#D1A5A6'])
+        const colour = d3.scaleOrdinal()
+            .domain(["Jacaranda", "Crepe Myrtle"])
+            .range(["#9096D1", "#D1A5A6"])
+
+
+
 
         SA2
             .append("g")
@@ -139,10 +142,11 @@ async function drawMap_locations() {
             .attr("cx", d => projection_SA2([d.lon, d.lat])[0])
             .attr("cy", d => projection_SA2([d.lon, d.lat])[1])
             .attr("r", d => radius(d.height))
-            .attr("fill", (d) => tree_colour[d.common_name] || 'none')
+            // .attr("fill", (d) => tree_colour[d.common_name] || 'none')
+            .attr("fill", d => colour([d.common_name]) || 'none')
 
 
-        
+
 
 
 
@@ -163,6 +167,20 @@ async function drawMap_locations() {
             .call(legendSize)
 
 
+        const legend2 = svg
+            .append("g")
+            .attr("class", "legendOrdinal")
+            .attr("transform", "translate(20,100)")
+
+        const legendOrdinal = d3.legendColor()
+            .shape("path", d3.symbol().type(d3.symbolCircle).size(120)())
+            .shapePadding(10)
+            .title("Type of tree")
+            .scale(colour)
+
+        svg
+            .select(".legendOrdinal")
+            .call(legendOrdinal)
 
 
         tree_point
