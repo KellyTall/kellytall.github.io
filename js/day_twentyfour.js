@@ -21,14 +21,15 @@ async function drawMap_locations() {
         }
     })
 
-    console.log(tree)
+    // console.log(tree)
 
 
     const height_accessor = d => d.height
     const tree_accessor = d => d.common_name
 
+    const tree_name = Array.from(new Set(tree.map(d => d.common_name)))
 
-
+    console.log(tree_name)
 
 
     //     // // wrap text function
@@ -87,21 +88,14 @@ async function drawMap_locations() {
 
     const radius = d3.scaleSqrt([d3.min(tree, d => d.height), d3.max(tree, d => d.height)], [1, 10])
 
-    const SA2 = svg
-        .append("g")
-        .selectAll("path")
-        .data(SA2_topo.features)
-        .join("path")
-        .attr("d", pathGenerator_SA2)
-        .attr("class", "SA2_map_22")
 
 
     const place_trees = function() {
 
 
-        let inputX = document.querySelector("select[name=valueX]")
+        // let inputX = document.querySelector("select[name=valueX]")
 
-        let valueX = inputX.value
+        // let valueX = inputX.value
 
         // let textX = inputX.options[inputX.selectedIndex].innerHTML
 
@@ -113,12 +107,30 @@ async function drawMap_locations() {
         // })
 
 
+
+        const SA2 = svg
+            .append("g")
+            .selectAll("path")
+            .data(SA2_topo.features)
+            .join("path")
+            .attr("d", pathGenerator_SA2)
+            .attr("class", "SA2_map_22")
+
+
         const colour = d3.scaleOrdinal()
-            .domain(["Jacaranda", "Crepe Myrtle"])
+            .domain(tree_name)
             .range(["#9096D1", "#D1A5A6"])
 
 
 
+
+        d3.select(".selector")
+            .selectAll('myOptions')
+            .data(tree)
+            .enter()
+            .append('option')
+            .text(function(d) { return d; }) // text showed in the menu
+            .attr("value", function(d) { return d; }) // corresponding value returned by the button
 
         SA2
             .append("g")
