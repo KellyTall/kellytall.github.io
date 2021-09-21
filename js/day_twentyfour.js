@@ -126,7 +126,7 @@ async function drawMap_locations() {
 
         d3.select(".selector")
             .selectAll('myOptions')
-            .data(tree)
+            .data(tree_name)
             .enter()
             .append('option')
             .text(function(d) { return d; }) // text showed in the menu
