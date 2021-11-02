@@ -154,8 +154,8 @@ code {
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
-    background-color: var(--pink);
-    color: var(--lihght_blue);
+    background-color: var(--lightgreen);
+    color: var(--light_blue);
     padding: 5px 1px 5px 1px;
     line-height: 1.8;
 
