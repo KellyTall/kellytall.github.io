@@ -33,7 +33,7 @@ body {
 }
 
 .map_holder {
-    max-width: 900px;
+    max-width: 1500px;
 }
 
 ul.top_nav {
@@ -128,8 +128,9 @@ h4 {
 
 .description p,
 ol {
-    font-size: 14px;
+    font-size: 18px;
     font-family: franklin-gothic-condensed, sans-serif;
+    line-height: 1.5;
 }
 
 
@@ -152,7 +153,7 @@ code {
     font-family: dico-mono, mono;
     font-weight: 400;
     font-style: normal;
-    font-size: 12px;
+    font-size: 16px;
     background-color: var(--pink);
     color: var(--lihght_blue);
     padding: 5px 1px 5px 1px;
@@ -200,6 +201,13 @@ footer p {
 /*chart elements*/
 
 
+.map_holder {
+    /*max-width: 900px;*/
+    position: relative;
+}
+
+
+
 .legendTitle {
     fill: var(--dark_blue);
     font-size: 14px;
@@ -242,6 +250,12 @@ path.SA2_map {
     stroke-width: .5px;
 }
 
+.home_point {
+    fill:  var(--highlighttone);
+    opacity:  .5;
+
+}
+
 
 text.label_tree {
     text-anchor: middle;
@@ -254,6 +268,51 @@ text.label_tree {
     font-family: franklin-gothic-condensed, sans-serif;
 
 }
+
+text.label_home {
+    text-anchor: middle;
+    text-transform: uppercase;
+    font-size: 8px;
+    font-style: italic;
+    fill: #FFF1F2;
+    letter-spacing: 2px;
+    fill: var(--background);
+    font-family: franklin-gothic-condensed, sans-serif;
+
+}
+
+.tooltip,
+.tooltip-tree {
+    opacity: 0;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    padding: 0.6em 1em;
+    background: #fff;
+    text-align: center;
+    border: 1px solid #ddd;
+    z-index: 10;
+    transition: all 0.2s ease-out;
+    pointer-events: none;
+    font-family: franklin-gothic-condensed, sans-serif;
+}
+
+
+
+.tooltip-country,
+.tooltip-tree {
+    margin-bottom: 0.2em;
+    font-weight: 600;
+}
+
+path.line_homes {
+    fill: none;
+    stroke:  var(--highlighttwo);
+    stroke_width: 20px;
+}
+
+
+
 
 /*media query */
 

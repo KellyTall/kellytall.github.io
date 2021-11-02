@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles_map.css">
+    </link>
+    <link rel="stylesheet" href="https://use.typekit.net/qpl0nxr.css">
+    <title>Day Twenty-Six</title>
+</head>
+
+<body>
+    <header>
+        <ul class="top_nav">
+            <li><a href="100_days.html">
+                    <p>back to home page</p>
+                </a></li>
+        </ul>
+    </header>
+    <h1> Day Twenty-six</h1>
+    <h2> 2 November 2021</h2>
+    <h2> #30DayMapChallenge | Lines</h2>
+    
+
+    <h3>All the places I've ever lived in Sydney</h3>    
+    <h2>Many of them share houses, some by the sea, some in the city. From 1989 until now</h2>
+
+    <div class="map_holder day2_map">
+    </div>
+    
+    
+    <div class="description">
+        <h3>Log</h3>
+        <p>Today's prompt for the <a href="https://twitter.com/hashtag/30DayMapChallenge?src=hashtag_click&f=live" target="_blank">#30DayMapChallenge</a> is lines. This was a first for me creating connecting paths. I listed out a data set showing where I have lived in Sydney, got the coordinates from Google Maps (if the list was longer I would have got the coordinates using R but this was a nice and quick list. TBH I also needed to look at a map to remember some of these places street names to make the list in the first place!)
+    </p>
+    <p>I wasn't sure how to handle creating the connecing lines so turned to the tutorial on the <a href="https://www.d3-graph-gallery.com/graph/connectionmap_csv.html" target="_blank">d3.js graph gallery</a>. Use the code below to create the source/target linkked lines :) 
+    </p>
+    <p><code>const link = [] <br>
+    home_lines.forEach(function(row) {<br>
+        source = [+row.lon1, +row.lat1]<br>
+        target = [+row.lon2, +row.lat2]<br>
+        topush = { type: "LineString", coordinates: [source, target] }<br>
+        link.push(topush)<br>
+    })</code></p>
+    
+        <p>As ever code can be found <a href="https://github.com/KellyTall/kellytall.github.io/blob/master/js/day_twentysix.js" target="_blank">here</a></p>
+    </div>
+    
+    <footer>
+        <div class="footer_nav">
+            <ul class="list_container">
+                <li><a href="day_twentyfive.html">
+                        <p>Go to Day 25</p>
+                    </a></li>
+                <li><a href="not_ready_yet.html">
+                        <p>Go to Day 27</p>
+                    </a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="../js/d3.v6.js"></script>
+    <script src="https://unpkg.com/topojson@3"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.21.0/d3-
+legend.min.js"></script>
+    <script src="../js/day_twentysix.js"></script>
+    
+</body>
+
+</html>

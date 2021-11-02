@@ -160,40 +160,40 @@ async function drawMap_locations() {
       
 
 
-    //     tree_point
-    //         .on("mouseenter", onMouseEnter)
-    //         .on("mouseleave", onMouseLeave)
+        tree_point
+            .on("mouseenter", onMouseEnter)
+            .on("mouseleave", onMouseLeave)
 
-    //     const tooltip = d3.select("#tooltip")
+        const tooltip = d3.select("#tooltip")
 
-    //     function onMouseEnter(i, d) {
-    //         tooltip
-    //             .style("opacity", .9)
+        function onMouseEnter(i, d) {
+            tooltip
+                .style("opacity", .9)
 
-    //         tooltip
-    //             .selectAll("#height")
-    //             .text(height_accessor(d))
+            tooltip
+                .selectAll("#height")
+                .text(height_accessor(d))
 
-    //         tooltip
-    //             .selectAll("#tree")
-    //             .text(tree_accessor(d))
+            tooltip
+                .selectAll("#tree")
+                .text(tree_accessor(d))
 
-    //         const x = projection_SA2([d.lon, d.lat])[0]
-    //         const y = projection_SA2([d.lon, d.lat])[1]
+            const x = projection_SA2([d.lon, d.lat])[0]
+            const y = projection_SA2([d.lon, d.lat])[1]
 
-    //         tooltip
-    //             .style("transform", `translate(` +
-    //                 `calc( ${x}px),` +
-    //                 `calc(${y}px)` +
-    //                 `)`)
-    //     }
+            tooltip
+                .style("transform", `translate(` +
+                    `calc( ${x}px),` +
+                    `calc(${y}px)` +
+                    `)`)
+        }
 
-    //     function onMouseLeave() {
-    //         tooltip
-    //             .style("opacity", 0)
-    //     }
+        function onMouseLeave() {
+            tooltip
+                .style("opacity", 0)
+        }
 
-    // }
+    
 
     
 
