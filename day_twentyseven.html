@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles_map.css">
+    </link>
+    <link rel="stylesheet" href="https://use.typekit.net/qpl0nxr.css">
+    <title>Day Twenty-seven</title>
+</head>
+
+<body>
+    <header>
+        <ul class="top_nav">
+            <li><a href="100_days.html">
+                    <p>back to home page</p>
+                </a></li>
+        </ul>
+    </header>
+    <h1> Day Twenty-seven</h1>
+    <h2> 3 November 2021</h2>
+    <h2> #30DayMapChallenge | Day 3 | Polygons</h2>
+    <h3>Polygons within polygons within polygons</h3>
+    <h2>Sydney's statistical areas (SA2, SA3, SA4)</h2>
+    <div class="map_holder day3_map">
+    </div>
+    <div class="description">
+        <h3>Log</h3>
+        <p>Today's prompt for the <a href="https://twitter.com/hashtag/30DayMapChallenge?src=hashtag_click&f=live" target="_blank">#30DayMapChallenge</a> is polygons. Polygons are points, joined up by lines, making an enclosed shape. This map is a series of nested polygons. It shows the statistical areas that make up Greater Sydney. The large, labelled areas are SA4s, and nested inside are SA3 and SA2s. All of these areas can be mapped back to different data sets, like population, emplyment, education etc. Watch out for the choropleth day coming up.
+        </p>
+        <p>This is pretty basic, but there is a lot of fiddling with label wrapping, and stroke width and colour. Labels are placed based on the polygon centroid; it would be possible to hard code labels that have the same y value as centroid and adjust, but no time for this today. I also thought I could create a tooltip that highlighted the SA3 area within each SA4; you can see a version I did back here on <a href="https://www.hellomister.com.au/day_eighteen.html" target="_blank">day eighteen</a>
+        </p>
+        <p>So nothing too flash here, but I quite like the simplicity of it.</p>
+        <p>As ever code can be found <a href="https://github.com/KellyTall/kellytall.github.io/blob/master/js/day_twentyseven.js" target="_blank">here</a></p>
+    </div>
+    <footer>
+        <div class="footer_nav">
+            <ul class="list_container">
+                <li><a href="day_twentyfive.html">
+                        <p>Go to Day 25</p>
+                    </a></li>
+                <li><a href="day_twentyseven.html">
+                        <p>Go to Day 27</p>
+                    </a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="../js/d3.v6.js"></script>
+    <script src="https://unpkg.com/topojson@3"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.21.0/d3-
+legend.min.js"></script>
+    <script src="../js/day_twentyseven.js"></script>
+</body>
+
+</html>

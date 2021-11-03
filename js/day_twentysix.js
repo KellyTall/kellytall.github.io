@@ -51,13 +51,7 @@ async function drawMap_locations() {
 
 
 
-    // const height_accessor = d => d.height
-    // const tree_accessor = d => d.common_name
-
-    // const tree_name = Array.from(new Set(tree.map(d => d.common_name)))
-
-    // console.log(tree_name)
-
+    
 
     // // //     // // wrap text function
 
@@ -113,21 +107,7 @@ async function drawMap_locations() {
 
     const pathGenerator_SA2 = d3.geoPath(projection_SA2)
 
-    // const radius = d3.scaleSqrt([d3.min(tree, d => d.height), d3.max(tree, d => d.height)], [1, 20])
-
-
-
-
-
-
-
-    // //     // const tree_colour = ({
-    // //     //     "Jacaranda": '#9096D1',
-    // //     //     "Crepe Myrtle": '#D1A5A6'
-    // //     // })
-
-
-
+  
     const SA2 = svg
         .append("g")
         .selectAll("path")
@@ -185,58 +165,7 @@ async function drawMap_locations() {
 
 
 
-    //     const legend = svg
-    //         .append("g")
-    //         .attr("class", "legendSize")
-    //         .attr('transform', `translate(${width-margin.top*3}, ${height-width/3.5})`)
-
-    //     const legendSize = d3.legendSize()
-    //         .scale(radius)
-    //         .shape('circle')
-    //         .orient('vertical')
-    //         .title("Height of tree (m)")
-    //         .shapePadding(2)
-
-    //     svg
-    //         .select(".legendSize")
-    //         .call(legendSize)
-
-
-
-
-
-    //     tree_point
-    //         .on("mouseenter", onMouseEnter)
-    //         .on("mouseleave", onMouseLeave)
-
-    //     const tooltip = d3.select("#tooltip")
-
-    //     function onMouseEnter(i, d) {
-    //         tooltip
-    //             .style("opacity", .9)
-
-    //         tooltip
-    //             .selectAll("#height")
-    //             .text(height_accessor(d))
-
-    //         tooltip
-    //             .selectAll("#tree")
-    //             .text(tree_accessor(d))
-
-    //         const x = projection_SA2([d.lon, d.lat])[0]
-    //         const y = projection_SA2([d.lon, d.lat])[1]
-
-    //         tooltip
-    //             .style("transform", `translate(` +
-    //                 `calc( ${x}px),` +
-    //                 `calc(${y}px)` +
-    //                 `)`)
-    //     }
-
-    //     function onMouseLeave() {
-    //         tooltip
-    //             .style("opacity", 0)
-    //     }
+  
 
 
 

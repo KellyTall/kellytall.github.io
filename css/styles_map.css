@@ -234,11 +234,34 @@ footer p {
 }
 
 
+path.SA4_map {
+    fill: none;
+    stroke: #778C73;
+    stroke-width: .5px;
+}
+
+path.SA3_map {
+    fill: none;
+    stroke: var(--background);
+    stroke-width: .5px;
+    /*opacity: .9;*/
+}
+
 
 path.SA2_map {
     fill: var(--lightgreen);
     stroke: var(--background);
     stroke-width: .5px;
+    
+
+}
+
+
+path.SA2_map_poly {
+    fill: var(--lightgreen);
+    stroke: var(--background);
+    stroke-width: .25px;
+    /*opacity: .9;*/
 }
 
 
@@ -264,6 +287,19 @@ text.label_tree {
     font-style: italic;
     fill: #FFF1F2;
     letter-spacing: 2px;
+    fill: var(--dark_blue);
+    font-family: franklin-gothic-condensed, sans-serif;
+
+}
+
+
+text.label_poly {
+    text-anchor: middle;
+    text-transform: uppercase;
+    font-size: 8px;
+    font-style: italic;
+    fill: #FFF1F2;
+    letter-spacing: 3.5px;
     fill: var(--dark_blue);
     font-family: franklin-gothic-condensed, sans-serif;
 
@@ -310,6 +346,8 @@ path.line_homes {
     stroke:  var(--highlighttwo);
     stroke_width: 20px;
 }
+
+
 
 
 
