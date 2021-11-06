@@ -20,9 +20,7 @@ async function drawMap_locations() {
 
     SA3_topo = topojson.feature(SA3_map, SA3_map.objects.SA3)
 
-    console.log(SA3_topo)
-
-
+    
 
     const SA4_map = await d3.json("./../geo/SA4_simple.json")
 
@@ -32,53 +30,10 @@ async function drawMap_locations() {
 
     SA4_topo = topojson.feature(SA4_map, SA4_map.objects.SA4)
 
-    console.log(SA4_topo)
-
-    // const home = await d3.csv("./../data/homes.csv", function(d) {
-    //     return {
-    //         lon: +d.x,
-    //         lat: +d.y,
-    //         location: d.location,
-    //         order: +d.order
 
 
-    //     }
-    // })
+    
 
-    // const home_lines = await d3.csv("./../data/homes_line.csv", function(d) {
-    //     return {
-    //         lon1: +d.x1,
-    //         lon2: +d.x2,
-    //         lat1: +d.y1,
-    //         lat2: +d.y2,
-    //         location: d.location,
-    //         order: +d.order
-
-
-    //     }
-    // })
-
-
-    // // console.log(home_lines)
-
-    // const link = []
-    // home_lines.forEach(function(row) {
-    //     source = [+row.lon1, +row.lat1]
-    //     target = [+row.lon2, +row.lat2]
-    //     topush = { type: "LineString", coordinates: [source, target] }
-    //     link.push(topush)
-    // })
-
-
-
-
-
-    // // const height_accessor = d => d.height
-    // // const tree_accessor = d => d.common_name
-
-    // // const tree_name = Array.from(new Set(tree.map(d => d.common_name)))
-
-    // // console.log(tree_name)
 
 
     // // // //     // // wrap text function
@@ -143,7 +98,7 @@ async function drawMap_locations() {
         .data(SA2_topo.features)
         .join("path")
         .attr("d", pathGenerator_SA4)
-        .attr("class", "SA2_map_poly")
+        .attr("class", "SA2_map")
 
 
     

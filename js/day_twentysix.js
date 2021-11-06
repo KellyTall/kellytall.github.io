@@ -48,7 +48,7 @@ async function drawMap_locations() {
     })
 
 
-
+console.log(link)
 
 
     

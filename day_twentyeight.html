@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles_map.css">
+    </link>
+    <link rel="stylesheet" href="https://use.typekit.net/qpl0nxr.css">
+    <title>Day Twenty-eight</title>
+</head>
+
+<body>
+    <header>
+        <ul class="top_nav">
+            <li><a href="100_days.html">
+                    <p>back to home page</p>
+                </a></li>
+        </ul>
+    </header>
+    <h1> Day Twenty-eight</h1>
+    <h2> 4 November 2021</h2>
+    <h2> #30DayMapChallenge | Day 4 | Hexagons</h2>
+    <h3>Trees in Sydney</h3>
+    <h2>Map showing the density of trees cared for by City of Sydney</h2>
+    <div class="map_holder day4_map">
+    </div>
+    <div class="description">
+        <h3>Log</h3>
+        <p>Well this was a learing experience 😅. Very glad I'm taing part in this as making a binned hex map was on my list of things I have wanted to learn how to make in d3, and now I can cross that off. I used a <a href="https://observablehq.com/d/742f791c681c30d2" target="_blank">great example by Lars</a> on Observable using his<a href="https://github.com/larsvers/d3-hexgrid" target="_blank">d3.hexbin</a> plugin. Could do with some tinkering, but it's time to move onto the next day as I am behind.</p>
+        <p>As ever code can be found <a href="https://github.com/KellyTall/kellytall.github.io/blob/master/js/day_twentyeight.js" target="_blank">here</a></p>
+    </div>
+    <footer>
+        <div class="footer_nav">
+            <ul class="list_container">
+                <li><a href="day_twentyseven.html">
+                        <p>Go to Day 27</p>
+                    </a></li>
+                <li><a href="day_twentynine.html">
+                        <p>Go to Day 29</p>
+                    </a></li>
+            </ul>
+        </div>
+    </footer>
+    
+    <!-- NOTE: hexgrid has to come first!!-->
+
+    <script src="https://unpkg.com/d3-hexgrid"></script>
+    <script src="../js/d3.v6.js"></script>
+    <script src="https://unpkg.com/topojson@3"></script>
+    <script src="https://d3js.org/d3-hexbin.v0.2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.21.0/d3-legend.min.js"></script>
+    <script src="../js/day_twentyeight.js"></script>
+</body>
+
+</html>
