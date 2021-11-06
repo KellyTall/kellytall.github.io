@@ -106,7 +106,7 @@ async function drawMap_locations() {
 
 
     colour = d3.scaleSequential(t => {
-        return d3.interpolateYlGn(Math.pow(t, 10))
+        return d3.interpolateYlGn(Math.pow(t, 20))
     }).domain([...hexTrees.grid.extentPointDensity].reverse())
 
     
@@ -134,17 +134,7 @@ async function drawMap_locations() {
 
 
 
-    // SA2
-    //     .append("g")
-    //     .select("text")
-    //     .data(SA2_topo.features)
-    //     .join("text")
-    //     .attr("class", "label_poly")
-    //     .text(d => d.properties.SA2_NAME16)
-    //     .attr("x", d => pathGenerator_SA2.centroid(d)[0])
-    //     .attr("y", d => pathGenerator_SA2.centroid(d)[1])
-    //     .call(wrap, 30)
-
+  
 
 
 
