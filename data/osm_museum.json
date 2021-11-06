@@ -1,0 +1,729 @@
+[
+
+{
+  "type": "node",
+  "id": 20959057,
+  "lat": -33.8620845,
+  "lon": 151.2122831,
+  "tags": {
+    "name": "Justice & Police Museum",
+    "opening_hours": "Sa-Su 10:00-17:00",
+    "tourism": "museum",
+    "website": "http://www.sydneylivingmuseum.com.au",
+    "wikidata": "Q42915912",
+    "wikipedia": "en:Justice and Police Museum"
+  }
+},
+{
+  "type": "node",
+  "id": 20959185,
+  "lat": -33.8578219,
+  "lon": 151.2085270,
+  "tags": {
+    "name": "Westpac Museum",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 461114868,
+  "lat": -33.8386591,
+  "lon": 151.2047692,
+  "tags": {
+    "name": "Mary McKillop Museum",
+    "tourism": "museum",
+    "wheelchair": "yes",
+    "wheelchair:description": "You may have to ask for ramp to be put out",
+    "wikidata": "Q17009581",
+    "wikipedia": "en:Mary Mackillop Memorial Chapel and Museum"
+  }
+},
+{
+  "type": "node",
+  "id": 465200732,
+  "lat": -33.6045776,
+  "lon": 150.8228949,
+  "tags": {
+    "name": "Hawkesbury Museum – John Howe’s House – c1820",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 465200733,
+  "lat": -33.6067912,
+  "lon": 150.8310395,
+  "tags": {
+    "name": "Tebbutt’s Observatories 1879 & 1894",
+    "source": "Bing",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 570812830,
+  "lat": -33.9300974,
+  "lon": 151.1936405,
+  "tags": {
+    "name": "George Hanna Museum",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 686512300,
+  "lat": -33.7497230,
+  "lon": 150.6693935,
+  "tags": {
+    "name": "Arms of Australia Inn Museum",
+    "source": "survey",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 743322923,
+  "lat": -33.8588995,
+  "lon": 151.2086515,
+  "tags": {
+    "name": "The Rocks Discovery Museum",
+    "name:en": "The Rocks Discovery Museum",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 852012493,
+  "lat": -33.6808052,
+  "lon": 150.5613740,
+  "tags": {
+    "name": "Norman Lindsay Gallery",
+    "tourism": "museum",
+    "website": "http://www.normanlindsay.com.au/",
+    "wikidata": "Q7052498"
+  }
+},
+{
+  "type": "node",
+  "id": 1080476563,
+  "lat": -33.6046159,
+  "lon": 150.8223491,
+  "tags": {
+    "name": "Hawkesbury Regional Museum",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 1117739786,
+  "lat": -33.8600915,
+  "lon": 151.2074289,
+  "tags": {
+    "name": "Susannah Place Museum",
+    "opening_hours": "Mo-Su 14:00-17:00",
+    "tourism": "museum",
+    "wikidata": "Q7648734",
+    "wikipedia": "en:Susannah Place Museum"
+  }
+},
+{
+  "type": "node",
+  "id": 1170946760,
+  "lat": -33.8863948,
+  "lon": 151.1887091,
+  "tags": {
+    "name": "Nicholson Museum",
+    "source": "local_knowledge",
+    "tourism": "museum",
+    "wikidata": "Q7026623",
+    "wikipedia": "en:Nicholson Museum"
+  }
+},
+{
+  "type": "node",
+  "id": 1170946800,
+  "lat": -33.8851621,
+  "lon": 151.1881086,
+  "tags": {
+    "name": "Macleay Museum",
+    "opening_hours": "Permanently closed",
+    "source": "local_knowledge",
+    "tourism": "museum",
+    "wikidata": "Q13645742",
+    "wikipedia": "en:Macleay Museum"
+  }
+},
+{
+  "type": "node",
+  "id": 1197908364,
+  "lat": -33.9885207,
+  "lon": 151.2316416,
+  "tags": {
+    "name": "La Perouse Museum",
+    "source": "survey",
+    "source:location": "nearmap",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 1997779030,
+  "lat": -33.9338028,
+  "lon": 150.9168643,
+  "tags": {
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 2085347829,
+  "lat": -33.8201761,
+  "lon": 151.0125829,
+  "tags": {
+    "name": "Experiment Farm Cottage",
+    "source": "http://www.nationaltrust.org.au/nsw/ExperimentFarmCottage",
+    "tourism": "museum",
+    "wikidata": "Q5421089",
+    "wikipedia": "en:Experiment Farm Cottage"
+  }
+},
+{
+  "type": "node",
+  "id": 2152985088,
+  "lat": -33.6771555,
+  "lon": 150.8650048,
+  "tags": {
+    "name": "Riverstone Museum",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 2303042475,
+  "lat": -33.7571622,
+  "lon": 150.6884527,
+  "tags": {
+    "name": "Museum of Printing",
+    "tourism": "museum",
+    "website": "https://www.printingmuseum.org.au/"
+  }
+},
+{
+  "type": "node",
+  "id": 2779050417,
+  "lat": -33.8878606,
+  "lon": 151.1762494,
+  "tags": {
+    "addr:city": "Camperdown",
+    "addr:postcode": "2050",
+    "addr:street": "Pidcock Street",
+    "name": "Chrissie Cotter Gallery",
+    "opening_hours": "Th-Su 11:00-16:00",
+    "operator": "Marrickville Council",
+    "phone": "+61 2 9335 2280",
+    "tourism": "museum",
+    "website": "http://www.marrickville.nsw.gov.au/en/outandabout/arts-and-culture/chrissie-cotter-gallery/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2787409691,
+  "lat": -33.8919486,
+  "lon": 151.1749235,
+  "tags": {
+    "addr:city": "Camperdown",
+    "addr:housenumber": "165",
+    "addr:postcode": "2050",
+    "addr:street": "Salisbury Road",
+    "name": "Artsite",
+    "tourism": "museum",
+    "website": "https://www.artsite.com.au/"
+  }
+},
+{
+  "type": "node",
+  "id": 3479937781,
+  "lat": -33.7142211,
+  "lon": 150.3332617,
+  "tags": {
+    "name": "Treasured Teapot Museum",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 4010124889,
+  "lat": -33.9644650,
+  "lon": 151.1024219,
+  "tags": {
+    "building": "yes",
+    "name": "St George Regional Museum",
+    "source": "survey",
+    "source:name": "NSW LPI Base Map",
+    "source:name:date": "2016-08",
+    "source:position": "NSW LPI Imagery",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 4353240911,
+  "lat": -33.5471352,
+  "lon": 150.6561161,
+  "tags": {
+    "museum": "radio",
+    "name": "Kurrajong Radio Museum",
+    "source": "NSW LPI Base Map",
+    "source:date": "2016-08",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 4353240933,
+  "lat": -33.6980016,
+  "lon": 150.3736483,
+  "tags": {
+    "addr:housenumber": "101",
+    "addr:street": "Blaxland Road",
+    "name": "Tarella Cottage",
+    "source": "NSW LPI Base Map",
+    "source:date": "2016-08",
+    "tourism": "museum",
+    "website": "https://bluemountainshistory.com/tarella-cottage-museum/"
+  }
+},
+{
+  "type": "node",
+  "id": 4353240940,
+  "lat": -33.7027280,
+  "lon": 150.5798789,
+  "tags": {
+    "name": "Valley Heights Locomotive Depot Heritage Museum",
+    "source": "NSW LPI Base Map",
+    "source:date": "2016-08",
+    "tourism": "museum",
+    "wikipedia": "en:Valley Heights Locomotive Depot Heritage Museum"
+  }
+},
+{
+  "type": "node",
+  "id": 4354728817,
+  "lat": -33.8145525,
+  "lon": 151.0985236,
+  "tags": {
+    "name": "Addington Museum",
+    "source": "NSW LPI Base Map",
+    "source:date": "2016-08",
+    "tourism": "museum",
+    "website": "https://www.ryde.nsw.gov.au/Library/Local-and-Family-History/Historic-Ryde/Historic-Buildings/Addington"
+  }
+},
+{
+  "type": "node",
+  "id": 4354728819,
+  "lat": -33.9641516,
+  "lon": 151.0949974,
+  "tags": {
+    "name": "Bakery Museum",
+    "source": "NSW LPI Base Map",
+    "source:date": "2016-08",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 4354728823,
+  "lat": -33.8129075,
+  "lon": 151.0020915,
+  "tags": {
+    "museum": "history",
+    "name": "Brislington Medical And Nursing Museum",
+    "source": "NSW LPI Base Map",
+    "source:date": "2016-08",
+    "tourism": "museum",
+    "wikidata": "Q56279721"
+  }
+},
+{
+  "type": "node",
+  "id": 4354728824,
+  "lat": -33.7953549,
+  "lon": 151.0161916,
+  "tags": {
+    "name": "Burnside Heritage Centre",
+    "source": "NSW LPI Base Map",
+    "source:date": "2016-08",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 4354728826,
+  "lat": -33.5697430,
+  "lon": 150.8366740,
+  "tags": {
+    "name": "Butterfly Museum",
+    "source": "NSW LPI Base Map",
+    "source:date": "2016-08",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 4354728827,
+  "lat": -34.0371716,
+  "lon": 150.7387526,
+  "tags": {
+    "name": "Camden Museum Of Aviation",
+    "source": "NSW LPI Base Map",
+    "source:date": "2016-08",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 4354728828,
+  "lat": -34.0921388,
+  "lon": 150.7688075,
+  "tags": {
+    "name": "Campbelltown Steam Museum",
+    "source": "NSW LPI Base Map",
+    "source:date": "2016-08",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 4354728832,
+  "lat": -33.8568065,
+  "lon": 151.2067121,
+  "tags": {
+    "name": "Colonial House Museum",
+    "source": "NSW LPI Base Map",
+    "source:date": "2016-08",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 4354728834,
+  "lat": -33.8542809,
+  "lon": 150.9420268,
+  "tags": {
+    "name": "Fairfield City Museum And Gallery",
+    "source": "NSW LPI Base Map",
+    "source:date": "2016-08",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 4354728844,
+  "lat": -33.8547004,
+  "lon": 150.9762569,
+  "tags": {
+    "name": "Linnwood Museum",
+    "source": "NSW LPI Base Map",
+    "source:date": "2016-08",
+    "tourism": "museum",
+    "wikidata": "Q6554647"
+  }
+},
+{
+  "type": "node",
+  "id": 4354728855,
+  "lat": -33.8523256,
+  "lon": 150.8214125,
+  "tags": {
+    "name": "Nativity House Museum And Gallery",
+    "source": "NSW LPI Base Map",
+    "source:date": "2016-08",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 4354728856,
+  "lat": -33.6443424,
+  "lon": 151.0444983,
+  "tags": {
+    "name": "Netherby House",
+    "source": "NSW LPI Base Map",
+    "source:date": "2016-08",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 4354728859,
+  "lat": -33.8178051,
+  "lon": 151.2961478,
+  "tags": {
+    "name": "North Fort",
+    "source": "NSW LPI Base Map",
+    "source:date": "2016-08",
+    "tourism": "museum",
+    "website": "http://www.harbourtrust.gov.au/event/north-fort-tour-north-head-sanctuary-every-sunday"
+  }
+},
+{
+  "type": "node",
+  "id": 4354728860,
+  "lat": -33.8121312,
+  "lon": 150.9973229,
+  "tags": {
+    "name": "Old Government House",
+    "source": "NSW LPI Base Map",
+    "source:date": "2016-08",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 4354728864,
+  "lat": -34.0682424,
+  "lon": 150.8151116,
+  "tags": {
+    "name": "Richmond Villa Heritage Centre",
+    "source": "NSW LPI Base Map",
+    "source:date": "2016-08",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 4354728865,
+  "lat": -33.6758354,
+  "lon": 150.9083578,
+  "tags": {
+    "name": "Rouse Hill Estate",
+    "source": "NSW LPI Base Map",
+    "source:date": "2016-08",
+    "tourism": "museum",
+    "website": "https://sydneylivingmuseums.com.au/rouse-hill-house-farm"
+  }
+},
+{
+  "type": "node",
+  "id": 4354728871,
+  "lat": -33.8302201,
+  "lon": 150.9936421,
+  "tags": {
+    "name": "Sydney Childrens Museum",
+    "name:zh": "悉尼兒童博物館",
+    "source": "NSW LPI Base Map",
+    "source:date": "2016-08",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 4354728872,
+  "lat": -33.8790054,
+  "lon": 151.2202516,
+  "tags": {
+    "name": "Sydney Jewish Museum",
+    "source": "NSW LPI Base Map",
+    "source:date": "2016-08",
+    "tourism": "museum",
+    "website": "https://www.sydneyjewishmuseum.com.au/",
+    "wikidata": "Q1722305",
+    "wikipedia": "en:Sydney Jewish Museum"
+  }
+},
+{
+  "type": "node",
+  "id": 4356677661,
+  "lat": -33.8231073,
+  "lon": 151.1500703,
+  "tags": {
+    "name": "Carisbrook House",
+    "source": "NSW LPI Base Map",
+    "source:date": "2016-08",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 4356677670,
+  "lat": -33.8377340,
+  "lon": 151.2051458,
+  "tags": {
+    "name": "Don Bank Museum",
+    "source": "NSW LPI Base Map",
+    "source:date": "2016-08",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 4356677689,
+  "lat": -33.7984680,
+  "lon": 151.2812893,
+  "tags": {
+    "name": "Manly Art Gallery And Museum",
+    "source": "NSW LPI Base Map",
+    "source:date": "2016-08",
+    "tourism": "museum",
+    "wikidata": "Q6750607"
+  }
+},
+{
+  "type": "node",
+  "id": 4356677692,
+  "lat": -34.0294178,
+  "lon": 150.8469159,
+  "tags": {
+    "name": "Minto Carriage Museum",
+    "source": "NSW LPI Base Map",
+    "source:date": "2016-08",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 4733321526,
+  "lat": -33.7707890,
+  "lon": 151.0465120,
+  "tags": {
+    "addr:housenumber": "29",
+    "addr:postcode": "2118",
+    "addr:street": "Woodstock Road",
+    "name": "Waterfall Art Gallery",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 4756293121,
+  "lat": -33.7725373,
+  "lon": 151.1151231,
+  "tags": {
+    "addr:housenumber": "19",
+    "addr:postcode": "2109",
+    "addr:street": "Eastern Road",
+    "name": "Macquarie University Art Gallery",
+    "name:zh": "麥考瑞大學藝術館",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 4799669412,
+  "lat": -33.8697254,
+  "lon": 151.2016549,
+  "tags": {
+    "name": "Madame Tussauds Sydney",
+    "name:en": "Madame Tussauds Sydney",
+    "name:zh": "杜莎夫人蠟像館",
+    "tourism": "museum",
+    "wheelchair": "yes",
+    "wikidata": "Q22271907"
+  }
+},
+{
+  "type": "node",
+  "id": 5334046021,
+  "lat": -33.8680966,
+  "lon": 151.2119600,
+  "tags": {
+    "fee": "no",
+    "name": "Reserve Bank of Australia Museum",
+    "opening_hours": "Mo-Fr 10:00-16:00",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 5701357921,
+  "lat": -33.8865996,
+  "lon": 151.2001270,
+  "tags": {
+    "name": "White Rabbit - Contemporary Chinese Art Collection",
+    "opening_hours": "We-Su 10:00-17:00",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 5721524955,
+  "lat": -34.0535712,
+  "lon": 150.6954766,
+  "tags": {
+    "name": "Camden Museum",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 6326631386,
+  "lat": -33.9177179,
+  "lon": 151.2346277,
+  "tags": {
+    "addr:postcode": "2033",
+    "name": "The Museum of Human Disease",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 7123753985,
+  "lat": -33.8643176,
+  "lon": 151.2089738,
+  "tags": {
+    "name": "Opal museum (free)",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 7176946197,
+  "lat": -33.7464687,
+  "lon": 150.6835786,
+  "tags": {
+    "addr:housenumber": "40-42",
+    "addr:street": "Bruce Neale Drive",
+    "name": "Nepean Naval Museum",
+    "opening_hours": "Sa-Su 13:00-15:00",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 7314034130,
+  "lat": -33.3857925,
+  "lon": 150.9857196,
+  "tags": {
+    "addr:housenumber": "6",
+    "addr:street": "Old Northern Road",
+    "name": "Cobham Hall Museum",
+    "opening_hours": "Sa-Su 13:00-15:00",
+    "tourism": "museum",
+    "website": "https://www.wisemansinnhotel.com.au/#COBHAMHALLMUSEUM"
+  }
+},
+{
+  "type": "node",
+  "id": 8186083992,
+  "lat": -33.8853485,
+  "lon": 151.1905779,
+  "tags": {
+    "addr:postcode": "2006",
+    "addr:state": "NSW",
+    "addr:street": "University Place",
+    "addr:suburb": "Camperdown",
+    "fee": "no",
+    "museum": "art",
+    "museum_type": "history",
+    "name": "Chau Chak Wing Museum",
+    "opening_hours": "Monday-Friday 10am-5pm, Thursday 10am-9pm, Saturday-Sunday 12pm-4pm",
+    "operator": "The University of Sydney",
+    "operator:type": "private_non_profit",
+    "tourism": "museum"
+  }
+}
+
+  ]
+

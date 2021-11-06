@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles_map.css">
+    </link>
+    <link rel="stylesheet" href="https://use.typekit.net/qpl0nxr.css">
+    <title>Day Twenty-nine</title>
+</head>
+
+<body>
+    <header>
+        <ul class="top_nav">
+            <li><a href="100_days.html">
+                    <p>back to home page</p>
+                </a></li>
+        </ul>
+    </header>
+    <h1> Day Twenty-nine</h1>
+    <h2> 5 November 2021</h2>
+    <h2> #30DayMapChallenge | Day 5 | Data Challenge 1: OpenStreetMap</h2>
+    <h3>Museums in Sydney</h3>
+    <h2>Museums in Greater Sydney using information from OpenStreetMap</h2>
+    <div class="map_holder day5_map">
+
+    <div id="tooltip" class="tooltip">
+
+
+                    <div class="tooltip_museum" id="tree"></div>
+                    <div class="museum">
+                        Name: <span id="museum"></span><br>
+                        
+                        
+                    </div>
+                </div>
+
+
+    </div>
+    <p>© OpenStreetMap contributors</p>
+    <div class="description">
+        <h3>Log</h3>
+        <p>Data is from OpenStreetMap <a href="https://overpass-turbo.eu/" target="_blank">overpass turbo</a> which is a very handy tool to interogate Open Street Map information. I used this query that was built from the handy wizard</p> 
+        <code>
+
+
+// fetch area “Sydney” to search in <br>
+{{geocodeArea:Sydney}}->.searchArea;<br>
+// gather results<br>
+(<br>
+  // query part for: “tourism=museum”<br>
+  node["tourism"="museum"](area.searchArea);<br>
+);<br>
+// print results<br>
+out body;<br>
+>;<br>
+out skel qt;</code>
+<p>to find museums listed in OSM. I omitted all queries other than nodes, and extracted a json file to use to create the points. Aplogies for the collusion!</p><p> OpenStreetMap is an incredible resource, and all the information you see there is created by their community. It's one of those amazing places like Wikipedia that is a treasure trove of well...<i>treasure</i>. As someone who loves to tinker with data I sometimes can't quite beleive that all this amazing stuff is here to use - with proper attribution of course. So hats off to the OpenStreetMap community 🤠 </p>
+        <p>As ever code can be found <a href="https://github.com/KellyTall/kellytall.github.io/blob/master/js/day_twentyeight.js" target="_blank">here</a></p>
+    </div>
+    <footer>
+        <div class="footer_nav">
+            <ul class="list_container">
+                <li><a href="day_twentyeight.html">
+                        <p>Go to Day 28</p>
+                    </a></li>
+                <li><a href="day_thirty.html">
+                        <p>Go to Day 30</p>
+                    </a></li>
+            </ul>
+        </div>
+    </footer>
+    
+    <!-- NOTE: hexgrid has to come first!!-->
+
+    <script src="https://unpkg.com/d3-hexgrid"></script>
+    <script src="../js/d3.v6.js"></script>
+    <script src="https://unpkg.com/topojson@3"></script>
+    <script src="https://d3js.org/d3-hexbin.v0.2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.21.0/d3-legend.min.js"></script>
+    <script src="../js/day_twentynine.js"></script>
+</body>
+
+</html>
