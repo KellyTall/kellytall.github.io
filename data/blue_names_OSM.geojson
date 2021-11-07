@@ -1,0 +1,7378 @@
+[
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/20978285",
+        "amenity": "cafe",
+        "name": "Blue Mist Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.3757786,
+          -33.7101086
+        ]
+      },
+      "id": "node/20978285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/20979900",
+        "amenity": "bar",
+        "created_by": "JOSM",
+        "name": "The Blue Chip"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2754242,
+          -33.8896752
+        ]
+      },
+      "id": "node/20979900"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/113372454",
+        "ele": "1994",
+        "name": "Blue Cow Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.3940636,
+          -36.3777292
+        ]
+      },
+      "id": "node/113372454"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/113381458",
+        "created_by": "JOSM",
+        "name": "Blue Vale",
+        "place": "hamlet",
+        "place:nswgnb": "LOCALITY",
+        "ref:nswgnb": "78315",
+        "source": "nswgnb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.1927778,
+          -30.8233333
+        ]
+      },
+      "id": "node/113381458"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/114381410",
+        "created_by": "JOSM",
+        "name": "Blue Nobby",
+        "place": "hamlet",
+        "place:nswgnb": "LOCALITY",
+        "ref:nswgnb": "81305",
+        "source": "nswgnb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.6355556,
+          -29.0713889
+        ]
+      },
+      "id": "node/114381410"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/114638241",
+        "created_by": "JOSM",
+        "name": "Blue Pinch",
+        "place": "hamlet",
+        "place:nswgnb": "RURAL PLACE",
+        "ref:nswgnb": "5449",
+        "source": "nswgnb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0677778,
+          -30.9483333
+        ]
+      },
+      "id": "node/114638241"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/114651215",
+        "created_by": "JOSM",
+        "name": "Blue Knob",
+        "place": "hamlet",
+        "place:nswgnb": "LOCALITY",
+        "ref:nswgnb": "5497",
+        "source": "nswgnb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.1844444,
+          -28.5483333
+        ]
+      },
+      "id": "node/114651215"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/116972289",
+        "created_by": "JOSM",
+        "name": "Blue Bay",
+        "place": "suburb",
+        "place:nswgnb": "SUBURB",
+        "ref:nswgnb": "72927",
+        "source": "nswgnb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.5011111,
+          -33.3525
+        ]
+      },
+      "id": "node/116972289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/116972324",
+        "created_by": "Potlatch 0.10f",
+        "name": "Blue Haven",
+        "place": "suburb",
+        "place:nswgnb": "SUBURB",
+        "ref:nswgnb": "5507",
+        "source": "nswgnb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.5041066,
+          -33.2108061
+        ]
+      },
+      "id": "node/116972324"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/117040756",
+        "name": "Blue Gum Forest",
+        "place": "hamlet",
+        "place:nswgnb": "RURAL PLACE",
+        "ref:nswgnb": "5519",
+        "source": "nswgnb",
+        "wikidata": "Q4929168",
+        "wikipedia": "en:Blue Gum Forest, Blue Mountains"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.3587422,
+          -33.6088594
+        ]
+      },
+      "id": "node/117040756"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/247696776",
+        "name": "Blue Gums",
+        "ref": "11",
+        "tourism": "picnic_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1464959,
+          -33.7915217
+        ]
+      },
+      "id": "node/247696776"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/270993431",
+        "name": "Blue Fish Wall",
+        "place": "locality",
+        "sport": "water_sports",
+        "sport:scuba_diving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.3031233,
+          -33.8021808
+        ]
+      },
+      "id": "node/270993431"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/303928640",
+        "name": "Blue Hole",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1371038,
+          -33.7759692
+        ]
+      },
+      "id": "node/303928640"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/314094739",
+        "fee": "yes",
+        "name": "Blue Dolphin Holiday Park",
+        "source": "survey",
+        "tourism": "caravan_site",
+        "website": "https://www.bluedolphin.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.3414177,
+          -29.4336597
+        ]
+      },
+      "id": "node/314094739"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/316586467",
+        "name": "Limeburners Flat - Blue Mtns NP",
+        "note": "closed due to damage?",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.9987357,
+          -34.1373257
+        ]
+      },
+      "id": "node/316586467"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/316606132",
+        "name": "Blue Heeler Caravan Park",
+        "tourism": "caravan_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.9225966,
+          -21.5779853
+        ]
+      },
+      "id": "node/316606132"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/321926492",
+        "name": "Blue Lake lookout",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.306444,
+          -36.4075485
+        ]
+      },
+      "id": "node/321926492"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/324197823",
+        "addr:housenumber": "3-5",
+        "addr:street": "Old Bathurst Road",
+        "email": "admin@resteasymotel.com.au",
+        "internet_access": "yes",
+        "internet_access:fee": "customers",
+        "name": "Blue Mountains Hotel/Motel",
+        "source": "local_knowledge",
+        "tourism": "motel",
+        "website": "https://www.bluemountainmotel.com.au"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.3833033,
+          -33.7187109
+        ]
+      },
+      "id": "node/324197823"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/324832608",
+        "amenity": "pub",
+        "name": "The Blue Duck Inn",
+        "phone": "+61 3 5159 7220",
+        "tourism": "hotel",
+        "url": "http://www.blueduckinn.com.au"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.4881561,
+          -36.993153
+        ]
+      },
+      "id": "node/324832608"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/327099827",
+        "amenity": "cinema",
+        "name": "Blue Room Cinebar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.9976178,
+          -27.465942
+        ]
+      },
+      "id": "node/327099827"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/332209886",
+        "amenity": "pub",
+        "name": "Blue Duck Hotel",
+        "website": "theblueduckhotelararat.com.au"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.9358413,
+          -37.2839429
+        ]
+      },
+      "id": "node/332209886"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/353776087",
+        "bus": "yes",
+        "gtfs_id": "13078",
+        "gtfs_location_type": "0",
+        "gtfs_stop_code": "013078",
+        "highway": "bus_stop",
+        "name": "Nardie Street at Blue Grass Crescent",
+        "network": "TransLink",
+        "public_transport": "platform",
+        "route_ref": "161",
+        "source": "data.qld.gov.au",
+        "transport:zone": "2",
+        "url": "http://translink.com.au/stop/013078/gtfs/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.101141,
+          -27.568472
+        ]
+      },
+      "id": "node/353776087"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/391923117",
+        "name": "Blue Lagoon Lodge",
+        "tourism": "guest_house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          159.0621877,
+          -31.5232127
+        ]
+      },
+      "id": "node/391923117"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/395260521",
+        "bench": "no",
+        "highway": "bus_stop",
+        "name": "Stand A, North Sydney Station Blue Street",
+        "ref": "A",
+        "shelter": "no",
+        "source": "survey",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2066355,
+          -33.8409109
+        ]
+      },
+      "id": "node/395260521"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/395260522",
+        "highway": "bus_stop",
+        "name": "Stand B, North Sydney Station Blue Street",
+        "shelter": "no",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2068813,
+          -33.840942
+        ]
+      },
+      "id": "node/395260522"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/395260524",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Stand C, North Sydney Station Blue Street",
+        "shelter": "no",
+        "source": "survey",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2070981,
+          -33.8409716
+        ]
+      },
+      "id": "node/395260524"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/395260525",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Stand D, North Sydney Station Blue Street",
+        "shelter": "no",
+        "source": "survey",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2076849,
+          -33.8410607
+        ]
+      },
+      "id": "node/395260525"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/395260526",
+        "highway": "bus_stop",
+        "name": "Stand E, North Sydney Station Blue Street (Set Down)",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2079382,
+          -33.8410941
+        ]
+      },
+      "id": "node/395260526"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/426899449",
+        "amenity": "doctors",
+        "name": "Blue Mountains Family Practice",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.6100243,
+          -33.7444392
+        ]
+      },
+      "id": "node/426899449"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/448170790",
+        "amenity": "theatre",
+        "name": "Blue Wren Theatre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3044196,
+          -37.6535944
+        ]
+      },
+      "id": "node/448170790"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/472266953",
+        "name": "Blue Gum Motel",
+        "operator": "Best Western",
+        "source": "survey",
+        "tourism": "motel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.6100879,
+          -32.2546567
+        ]
+      },
+      "id": "node/472266953"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/575675813",
+        "amenity": "restaurant",
+        "name": "Little Blue restaurant",
+        "name:en": "Little Blue restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9655744,
+          -37.8647259
+        ]
+      },
+      "id": "node/575675813"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/585074787",
+        "amenity": "fast_food",
+        "cuisine": "seafood",
+        "name": "Blue Ocean Seafood"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.0636167,
+          -27.5066571
+        ]
+      },
+      "id": "node/585074787"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/598476142",
+        "amenity": "cafe",
+        "name": "Blue Yabby Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.3445607,
+          -37.9535881
+        ]
+      },
+      "id": "node/598476142"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/599547975",
+        "name": "Blue Lake",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.7733541,
+          -37.8435024
+        ]
+      },
+      "id": "node/599547975"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/599547985",
+        "name": "Blue Lake Lookout",
+        "source": "survey",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.7748122,
+          -37.8429199
+        ]
+      },
+      "id": "node/599547985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/600741536",
+        "amenity": "cafe",
+        "name": "Mountain Blue Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.6201795,
+          -33.7653446
+        ]
+      },
+      "id": "node/600741536"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/600744656",
+        "contact:facebook": "https://www.facebook.com/bluemtnsrunningco/",
+        "name": "Blue Mountains Running Company",
+        "shop": "outdoor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.6216613,
+          -33.767501
+        ]
+      },
+      "id": "node/600744656"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/600771261",
+        "amenity": "arts_centre",
+        "name": "Blue Mountains Creative Arts Centre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.6203094,
+          -33.7633809
+        ]
+      },
+      "id": "node/600771261"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/608998089",
+        "addr:housenumber": "182",
+        "addr:street": "Brunswick Street",
+        "amenity": "restaurant",
+        "cuisine": "malaysian",
+        "name": "Blue Chillies",
+        "phone": "+61394170071",
+        "website": "http://www.bluechillies.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.978072,
+          -37.80209
+        ]
+      },
+      "id": "node/608998089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/616591342",
+        "addr:housenumber": "193",
+        "addr:postcode": "3207",
+        "addr:street": "Bay Street",
+        "name": "Blue Illusion",
+        "shop": "clothes",
+        "toilets:wheelchair": "no",
+        "website": "https://www.blueillusion.com/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9416376,
+          -37.839114
+        ]
+      },
+      "id": "node/616591342"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/627473204",
+        "amenity": "place_of_worship",
+        "name": "Blue Mountains City Church",
+        "religion": "christian"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.6294114,
+          -33.7316281
+        ]
+      },
+      "id": "node/627473204"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/634790260",
+        "name": "Blue Pacific Motor Inn",
+        "tourism": "motel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.643727,
+          -33.0825039
+        ]
+      },
+      "id": "node/634790260"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/641282347",
+        "name": "Blue Lake Lookout",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.7708815,
+          -37.8445967
+        ]
+      },
+      "id": "node/641282347"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/654586644",
+        "amenity": "school",
+        "name": "Blue Gum Community School",
+        "website": "bluegum.act.edu.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1375568,
+          -35.2558117
+        ]
+      },
+      "id": "node/654586644"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/661980359",
+        "amenity": "pub",
+        "name": "Blue Pacific Hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.2037226,
+          -27.0691322
+        ]
+      },
+      "id": "node/661980359"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/687545404",
+        "amenity": "restaurant",
+        "name": "Blue Ginger"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.0701464,
+          -33.9575685
+        ]
+      },
+      "id": "node/687545404"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/698657393",
+        "amenity": "cafe",
+        "name": "Mountain Blue Cafe",
+        "source": "local_knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.5770322,
+          -33.7022535
+        ]
+      },
+      "id": "node/698657393"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/705915693",
+        "name": "Blue Rock Bend",
+        "place": "locality"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.7763725,
+          -27.045156
+        ]
+      },
+      "id": "node/705915693"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/729962200",
+        "name": "Blue Cliffs Retreat",
+        "tourism": "chalet",
+        "website": "https://www.bluecliffsretreat.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.1197565,
+          -37.2862503
+        ]
+      },
+      "id": "node/729962200"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/752208872",
+        "ele": "870",
+        "name": "Blue Mountain",
+        "natural": "peak",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.2973521,
+          -37.4312345
+        ]
+      },
+      "id": "node/752208872"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/913265124",
+        "alt_name": "North Point",
+        "name": "Blue Fish Point",
+        "natural": "cape",
+        "source": "Local knowledge",
+        "source_ref": "http://parishmaps.lands.nsw.gov.au/mrsid/image_sid.pl?client=pmap&image=PMapMN04/14041902.sid"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.3068632,
+          -33.807328
+        ]
+      },
+      "id": "node/913265124"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/954674305",
+        "amenity": "cafe",
+        "internet_access": "no",
+        "name": "The Blue Olive",
+        "opening_hours": "Mo-Fr 07:00-15:00",
+        "outdoor_seating": "yes",
+        "smoking": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1281444,
+          -35.2784703
+        ]
+      },
+      "id": "node/954674305"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1115000383",
+        "name": "Little Blue Lake",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.6799323,
+          -37.9279615
+        ]
+      },
+      "id": "node/1115000383"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1129148862",
+        "historic": "tree",
+        "name": "Historic Blue Gum",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.9968929,
+          -37.4641401
+        ]
+      },
+      "id": "node/1129148862"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1143624321",
+        "amenity": "pub",
+        "name": "Blue Goose Hotel Motel",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.927665,
+          -29.6453093
+        ]
+      },
+      "id": "node/1143624321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1281315652",
+        "amenity": "fast_food",
+        "cuisine": "fish_and_chips",
+        "name": "Blue Pacific Grill",
+        "source": "survey",
+        "source:location": "nearmap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1526086,
+          -34.0510451
+        ]
+      },
+      "id": "node/1281315652"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1285979468",
+        "name": "Blue Gum Flat",
+        "operator": "Seqwater",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.7867559,
+          -27.4733038
+        ]
+      },
+      "id": "node/1285979468"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1379729774",
+        "amenity": "restaurant",
+        "name": "Blue Poles Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.542202,
+          -31.5271141
+        ]
+      },
+      "id": "node/1379729774"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1409756109",
+        "name": "Blue Waters Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.9031622,
+          -33.8448052
+        ]
+      },
+      "id": "node/1409756109"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1411851673",
+        "name": "Blue Waterhole",
+        "tourism": "attraction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6240292,
+          -28.8695722
+        ]
+      },
+      "id": "node/1411851673"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1414284137",
+        "addr:housenumber": "85",
+        "addr:postcode": "3188",
+        "addr:state": "Vic",
+        "addr:street": "Ludstone Street",
+        "addr:suburb": "Hampton",
+        "amenity": "fast_food",
+        "cuisine": "fish_and_chips",
+        "name": "Blue Sea - Fish and Chips"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0136614,
+          -37.9340658
+        ]
+      },
+      "id": "node/1414284137"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1436414508",
+        "information": "office",
+        "name": "The Blue Mountains Botanic Gardens Visitor Centre",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.4226468,
+          -33.5391552
+        ]
+      },
+      "id": "node/1436414508"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1539562496",
+        "amenity": "parking",
+        "name": "Blue Haven"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.8604859,
+          -33.8847456
+        ]
+      },
+      "id": "node/1539562496"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1541742634",
+        "addr:housenumber": "117",
+        "addr:street": "Albert Street",
+        "name": "The Blue Cat Fine",
+        "shop": "chocolate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.0270265,
+          -27.4713038
+        ]
+      },
+      "id": "node/1541742634"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1553660946",
+        "amenity": "fuel",
+        "brand": "Shell",
+        "name": "Shell Blue Lake"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.7782266,
+          -37.8324976
+        ]
+      },
+      "id": "node/1553660946"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1613883956",
+        "amenity": "restaurant",
+        "cuisine": "asian",
+        "name": "Blue Eye Dragon",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1937064,
+          -33.8675365
+        ]
+      },
+      "id": "node/1613883956"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1657344512",
+        "name": "Blue Lake Apex Lookout",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.7785296,
+          -37.8437153
+        ]
+      },
+      "id": "node/1657344512"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1711225010",
+        "amenity": "cafe",
+        "name": "Pilliga Pottery - Blue Wren Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.3182242,
+          -31.0440153
+        ]
+      },
+      "id": "node/1711225010"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1714295054",
+        "ele": "400",
+        "name": "Blue Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.8771908,
+          -21.262536
+        ]
+      },
+      "id": "node/1714295054"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1723724648",
+        "amenity": "parking",
+        "name": "Blue Ribbon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.1486611,
+          -36.988713
+        ]
+      },
+      "id": "node/1723724648"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1765776901",
+        "name": "Blue Mountain",
+        "natural": "peak",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0255596,
+          -21.4427621
+        ]
+      },
+      "id": "node/1765776901"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1765787678",
+        "ele": "1050",
+        "name": "Blue Mountain",
+        "natural": "peak",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.9680603,
+          -21.6005778
+        ]
+      },
+      "id": "node/1765787678"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1784658674",
+        "name": "Blue Wren Motel",
+        "source": "survey",
+        "tourism": "motel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.7525636,
+          -37.5587184
+        ]
+      },
+      "id": "node/1784658674"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1787914268",
+        "alt_name": "Motel Blue Marlin Resort",
+        "name": "The Blue Marlin Resort Motor Inn",
+        "operator": "Budget",
+        "source": "voice",
+        "source:name": "both names on signs at survey Oct 2015",
+        "tourism": "motel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.9014233,
+          -37.0509316
+        ]
+      },
+      "id": "node/1787914268"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1808391724",
+        "name": "Blue Gum Flat",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.99833,
+          -37.17472
+        ]
+      },
+      "id": "node/1808391724"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1808391726",
+        "name": "Blue Pools Campground",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.11278,
+          -37.78056
+        ]
+      },
+      "id": "node/1808391726"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1808391727",
+        "name": "Blue Range Creek Campground",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.0949224,
+          -36.9351777
+        ]
+      },
+      "id": "node/1808391727"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1808392663",
+        "name": "Blue Hole Reserve",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.2489021,
+          -37.389974
+        ]
+      },
+      "id": "node/1808392663"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1811162897",
+        "name": "Blue Heeler Caravan Park",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.9230699,
+          -21.5780691
+        ]
+      },
+      "id": "node/1811162897"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1827485217",
+        "name": "Blue Mountain Homestead",
+        "place": "hamlet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.9994165,
+          -21.5276615
+        ]
+      },
+      "id": "node/1827485217"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1841274154",
+        "name": "Blue Sky",
+        "shop": "outdoor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.5591536,
+          -28.8597105
+        ]
+      },
+      "id": "node/1841274154"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1861252463",
+        "ele": "1350",
+        "name": "Blue Peaks",
+        "natural": "peak",
+        "source": "bushwalking.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.3735483,
+          -41.7152726
+        ]
+      },
+      "id": "node/1861252463"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1907864835",
+        "name": "Blue Moon Cellars",
+        "shop": "alcohol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1713906,
+          -37.8124036
+        ]
+      },
+      "id": "node/1907864835"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1942572885",
+        "name": "Blue Lagoon Resort",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.6965279,
+          -16.7865004
+        ]
+      },
+      "id": "node/1942572885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1942572898",
+        "amenity": "restaurant",
+        "name": "Blue Moon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.6975177,
+          -16.7860041
+        ]
+      },
+      "id": "node/1942572898"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1950739224",
+        "name": "Blue Water Lagoon",
+        "shop": "kiosk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1807751,
+          -21.1376816
+        ]
+      },
+      "id": "node/1950739224"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1958246733",
+        "name": "Blue Jacket Lookout",
+        "source": "survey",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.6827508,
+          -33.5580131
+        ]
+      },
+      "id": "node/1958246733"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2066389139",
+        "fee": "no",
+        "leisure": "water_park",
+        "name": "Blue Water Lagoon Water Slide",
+        "website": "https://www.mackay.qld.gov.au/facilities/council_facilities2/bluewater_lagoon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1815502,
+          -21.1373014
+        ]
+      },
+      "id": "node/2066389139"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2105370042",
+        "name": "Blue Gum Lodge",
+        "operator": "Anglican Youthworks",
+        "tourism": "hostel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.5707015,
+          -33.7050806
+        ]
+      },
+      "id": "node/2105370042"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2121535790",
+        "name": "Blue Seas Motel",
+        "tourism": "motel",
+        "website": "https://www.blueseasmotel.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.852616,
+          -34.7171704
+        ]
+      },
+      "id": "node/2121535790"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2140216944",
+        "name": "Blue Mountain Heights",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.9568786,
+          -27.4972622
+        ]
+      },
+      "id": "node/2140216944"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2172838702",
+        "name": "Blue Gum Point",
+        "place": "locality"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1070527,
+          -35.2961747
+        ]
+      },
+      "id": "node/2172838702"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2270170449",
+        "addr:city": "Southbank",
+        "addr:housenumber": "274",
+        "addr:postcode": "3006",
+        "addr:street": "City Road",
+        "amenity": "car_wash",
+        "name": "Blue Planet",
+        "phone": "+61 3 96904488"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.959354,
+          -37.826321
+        ]
+      },
+      "id": "node/2270170449"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2271226909",
+        "amenity": "pub",
+        "name": "Blue Bell Hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.8296632,
+          -37.5396922
+        ]
+      },
+      "id": "node/2271226909"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2307188478",
+        "name": "Blue Lake Motel",
+        "tourism": "motel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.800163,
+          -37.8315546
+        ]
+      },
+      "id": "node/2307188478"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2375805183",
+        "level": "0",
+        "name": "Blue Illusion",
+        "shop": "clothes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.3278107,
+          -42.8947528
+        ]
+      },
+      "id": "node/2375805183"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2381632365",
+        "addr:city": "Katoomba",
+        "addr:housenumber": "Shops 1 & 2",
+        "addr:postcode": "2780",
+        "addr:street": "Hapenny Lane",
+        "name": "Blue Mountains Food Co-op",
+        "opening_hours": "Mo-Fr 09:00-18:00; Sa 08:30-17:00; Su 10:00-16:30",
+        "phone": "+61 (0)2 4782 5890",
+        "shop": "supermarket",
+        "website": "http://www.bmfoodcoop.org.au/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.3106767,
+          -33.7163493
+        ]
+      },
+      "id": "node/2381632365"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2391503808",
+        "name": "Blue Heeler Hotel and Motel",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.9235587,
+          -21.5786083
+        ]
+      },
+      "id": "node/2391503808"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2395671590",
+        "amenity": "cafe",
+        "level": "1",
+        "name": "Blue Cow Bistro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.393073,
+          -36.3860436
+        ]
+      },
+      "id": "node/2395671590"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2395671696",
+        "camera:direction": "45",
+        "contact:webcam": "https://www.perisher.com.au/weather-cams/cams#Xbluecow",
+        "name": "Blue Cow Webcam",
+        "operator": "Perisher",
+        "surveillance": "webcam"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.3930181,
+          -36.3858533
+        ]
+      },
+      "id": "node/2395671696"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2397382161",
+        "colour": "blue",
+        "denotation": "natural_monument",
+        "name": "Blue Tree",
+        "natural": "tree",
+        "source": "bing;local_knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.7577364,
+          -34.0732018
+        ]
+      },
+      "id": "node/2397382161"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2403501940",
+        "ele": "1905",
+        "name": "Mt Blue Calf",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.3945456,
+          -36.3872724
+        ]
+      },
+      "id": "node/2403501940"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2404311397",
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "Blue Dragon Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9962832,
+          -33.7895809
+        ]
+      },
+      "id": "node/2404311397"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2422638245",
+        "name": "Blue Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.839031,
+          -24.621676
+        ]
+      },
+      "id": "node/2422638245"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2429996695",
+        "name": "Blue Lagoon",
+        "operator": "Comfort Inn",
+        "source": "voice",
+        "tourism": "motel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.6071017,
+          -32.2542846
+        ]
+      },
+      "id": "node/2429996695"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2461068208",
+        "amenity": "parking",
+        "name": "Blue Gum Flat Parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.0743002,
+          -32.7515583
+        ]
+      },
+      "id": "node/2461068208"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2525152760",
+        "gtfs_id": "310748",
+        "gtfs_stop_code": "310748",
+        "highway": "bus_stop",
+        "name": "Kurrajong Drive at Blue Gum Drive",
+        "network": "TransLink",
+        "route_ref": "550;551",
+        "transport:zone": "3",
+        "url": "http://translink.com.au/stop/310748/gtfs/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.112532,
+          -27.675829
+        ]
+      },
+      "id": "node/2525152760"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2525152761",
+        "gtfs_id": "310747",
+        "gtfs_stop_code": "310747",
+        "highway": "bus_stop",
+        "name": "Kurrajong Drive at Blue Gum Drive",
+        "network": "TransLink",
+        "route_ref": "550;551",
+        "transport:zone": "3",
+        "url": "http://translink.com.au/stop/310747/gtfs/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.112987,
+          -27.676241
+        ]
+      },
+      "id": "node/2525152761"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2565944581",
+        "camera:direction": "190",
+        "contact:webcam": "https://www.perisher.com.au/weather-cams/cams#Xsummit",
+        "name": "Blue Cow Summit Webcam",
+        "operator": "Perisher",
+        "surveillance": "webcam"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.3956925,
+          -36.3773665
+        ]
+      },
+      "id": "node/2565944581"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2573959565",
+        "name": "Trinity Blue Bed and Breakfast",
+        "source": "voice",
+        "tourism": "guest_house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.6022494,
+          -33.4131108
+        ]
+      },
+      "id": "node/2573959565"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2603971427",
+        "name": "Blue Lagoon Pearls",
+        "operator": "Blue Lagoon Pearls",
+        "tourism": "attraction",
+        "website": "https://www.bluelagoon.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.6914848,
+          -25.7788553
+        ]
+      },
+      "id": "node/2603971427"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2613244935",
+        "name": "Blue Illusion",
+        "shop": "clothes",
+        "source": "survey",
+        "source:location": "bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1527823,
+          -34.0520373
+        ]
+      },
+      "id": "node/2613244935"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2647193281",
+        "amenity": "hospital",
+        "name": "Blue Nurses"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.8425192,
+          -20.5528839
+        ]
+      },
+      "id": "node/2647193281"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2662100655",
+        "addr:housenumber": "9730",
+        "addr:postcode": "2820",
+        "addr:street": "Mitchell Highway",
+        "addr:town": "Wellington",
+        "name": "Blue Hills",
+        "place": "farm",
+        "source": "Bing",
+        "source:name": "sign at Mitchell Highway"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.9516513,
+          -32.5774181
+        ]
+      },
+      "id": "node/2662100655"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2681705168",
+        "name": "Blue Water Quay",
+        "tourism": "theme_park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1880276,
+          -21.1397054
+        ]
+      },
+      "id": "node/2681705168"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2688336541",
+        "name": "Blue Orange Catering",
+        "payment:bitcoin": "yes",
+        "phone": "+61 7 5522 0067"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.421678,
+          -28.1028224
+        ]
+      },
+      "id": "node/2688336541"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2691050654",
+        "name": "Blue Orange Catering",
+        "payment:bitcoin": "yes",
+        "phone": "+61412956155"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.0127828,
+          -27.4800139
+        ]
+      },
+      "id": "node/2691050654"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755814252",
+        "name": "Blue Lagoon (abandoned)",
+        "note": "Approx",
+        "railway": "halt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.5539001,
+          -25.8624581
+        ]
+      },
+      "id": "node/2755814252"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2757744880",
+        "amenity": "cafe",
+        "name": "Rustic Blue Gallery Cafe",
+        "phone": "+61 8 8559 7371",
+        "website": "http://www.rusticblue.com.au"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.1012827,
+          -35.9905521
+        ]
+      },
+      "id": "node/2757744880"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2763940599",
+        "name": "Blue Hills Farm Retreat",
+        "source": "voice",
+        "tourism": "guest_house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.2277604,
+          -33.5357675
+        ]
+      },
+      "id": "node/2763940599"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2763942860",
+        "amenity": "restaurant",
+        "name": "Blue Jax Restaurant",
+        "website": "https://thegeorgebluemountains.com.au/dining/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.284865,
+          -33.6400582
+        ]
+      },
+      "id": "node/2763942860"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2805777800",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "internet_access": "no",
+        "name": "Blue Basement Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.0206858,
+          -27.4761675
+        ]
+      },
+      "id": "node/2805777800"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2842151858",
+        "name": "Bakers Blue Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1166667,
+          -16.65
+        ]
+      },
+      "id": "node/2842151858"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2842151881",
+        "name": "Blue Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9994444,
+          -17.3325
+        ]
+      },
+      "id": "node/2842151881"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2844163123",
+        "ele": "977",
+        "name": "Blue Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.9702778,
+          -28.6366667
+        ]
+      },
+      "id": "node/2844163123"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2844263533",
+        "ele": "211",
+        "name": "Blue Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.6658333,
+          -22.5
+        ]
+      },
+      "id": "node/2844263533"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2844352623",
+        "name": "Blue Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.9116667,
+          -20.0069444
+        ]
+      },
+      "id": "node/2844352623"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2867626441",
+        "name": "Mount Blue Rag",
+        "natural": "peak",
+        "source": "vicmap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.1181839,
+          -37.0910549
+        ]
+      },
+      "id": "node/2867626441"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2985252976",
+        "mountain_pass": "yes",
+        "name": "Blue Yodel Pass",
+        "natural": "saddle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.298602,
+          -34.8682676
+        ]
+      },
+      "id": "node/2985252976"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2985840369",
+        "bus": "yes",
+        "gtfs_id": "312278",
+        "gtfs_stop_code": "312278",
+        "highway": "bus_stop",
+        "name": "Green Road near Blue Wren Place",
+        "network": "TransLink",
+        "public_transport": "platform",
+        "route_ref": "560",
+        "transport:zone": "3",
+        "url": "http://translink.com.au/stop/312278/gtfs/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.065514,
+          -27.692124
+        ]
+      },
+      "id": "node/2985840369"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2985840370",
+        "bus": "yes",
+        "gtfs_id": "312279",
+        "gtfs_stop_code": "312279",
+        "highway": "bus_stop",
+        "name": "Green Road near Blue Wren Place",
+        "network": "TransLink",
+        "public_transport": "platform",
+        "route_ref": "560",
+        "transport:zone": "3",
+        "url": "http://translink.com.au/stop/312279/gtfs/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.066518,
+          -27.692441
+        ]
+      },
+      "id": "node/2985840370"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3002567210",
+        "ele": "1634",
+        "name": "Blue Hill",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.11256,
+          -36.9247
+        ]
+      },
+      "id": "node/3002567210"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3002567211",
+        "ele": "964",
+        "name": "Blue Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.2293097,
+          -36.1813184
+        ]
+      },
+      "id": "node/3002567211"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3005052161",
+        "name": "Blue Bush Hill",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.4047,
+          -34.36982
+        ]
+      },
+      "id": "node/3005052161"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3005052162",
+        "name": "Blue Hill",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.87177,
+          -33.57999
+        ]
+      },
+      "id": "node/3005052162"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3005052163",
+        "ele": "322",
+        "name": "Blue Hill",
+        "natural": "peak",
+        "source": "DCS NSW Topographic Map"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.88769,
+          -35.53685
+        ]
+      },
+      "id": "node/3005052163"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3008338725",
+        "name": "Blue Bull Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.37608,
+          -35.92939
+        ]
+      },
+      "id": "node/3008338725"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3008338726",
+        "name": "Blue Hills",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.74926,
+          -37.12576
+        ]
+      },
+      "id": "node/3008338726"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3008338727",
+        "ele": "1332",
+        "name": "Blue Shirt Hill",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.98026,
+          -37.12088
+        ]
+      },
+      "id": "node/3008338727"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3008759535",
+        "name": "Big Blue Hill",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.79227,
+          -42.86119
+        ]
+      },
+      "id": "node/3008759535"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3008759560",
+        "name": "Blue Gum Knob",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.88602,
+          -42.83587
+        ]
+      },
+      "id": "node/3008759560"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3008759561",
+        "name": "Blue Hill",
+        "natural": "peak",
+        "wikidata": "Q21919392"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.86187,
+          -42.33301
+        ]
+      },
+      "id": "node/3008759561"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3008759562",
+        "name": "Blue Hill",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.02781,
+          -42.93852
+        ]
+      },
+      "id": "node/3008759562"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3008759563",
+        "name": "Blue Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.35999,
+          -41.16754
+        ]
+      },
+      "id": "node/3008759563"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3008760080",
+        "name": "Little Blue Hill",
+        "natural": "peak",
+        "wikidata": "Q21907494"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.8351,
+          -42.31107
+        ]
+      },
+      "id": "node/3008760080"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3008901806",
+        "ele": "102",
+        "name": "Blue Hills",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.57021,
+          -35.21811
+        ]
+      },
+      "id": "node/3008901806"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3008901807",
+        "name": "Blue Range",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.15104,
+          -33.9719
+        ]
+      },
+      "id": "node/3008901807"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3019436891",
+        "ele": "627",
+        "name": "Blue Biddy Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.41854,
+          -32.35618
+        ]
+      },
+      "id": "node/3019436891"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3019436892",
+        "ele": "710",
+        "name": "Blue Gum Top",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.07305,
+          -32.23503
+        ]
+      },
+      "id": "node/3019436892"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3019436893",
+        "ele": "890",
+        "name": "Blue Knob",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.55604,
+          -30.6984
+        ]
+      },
+      "id": "node/3019436893"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3019436894",
+        "name": "Blue Knob",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.1696,
+          -31.57739
+        ]
+      },
+      "id": "node/3019436894"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3019436895",
+        "ele": "1317",
+        "name": "Blue Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.68894,
+          -30.8334
+        ]
+      },
+      "id": "node/3019436895"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3019436896",
+        "ele": "332",
+        "name": "Blue Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.6608,
+          -32.57381
+        ]
+      },
+      "id": "node/3019436896"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3019436897",
+        "ele": "929",
+        "name": "Blue Nobby Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.49265,
+          -30.22129
+        ]
+      },
+      "id": "node/3019436897"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3019436898",
+        "ele": "1181",
+        "name": "Blue Nobby Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.86085,
+          -30.70246
+        ]
+      },
+      "id": "node/3019436898"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3019436899",
+        "ele": "434",
+        "name": "Blue Nobby",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.59052,
+          -28.98829
+        ]
+      },
+      "id": "node/3019436899"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3019436900",
+        "ele": "352",
+        "name": "Blue Top Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.19115,
+          -32.11141
+        ]
+      },
+      "id": "node/3019436900"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3019436992",
+        "ele": "579",
+        "name": "Colly Blue Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.14405,
+          -31.41113
+        ]
+      },
+      "id": "node/3019436992"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3019438018",
+        "ele": "170",
+        "name": "The Blue Hills",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.27755,
+          -26.75808
+        ]
+      },
+      "id": "node/3019438018"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3020139948",
+        "ele": "402",
+        "name": "Blue Hill",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.57572,
+          -29.59081
+        ]
+      },
+      "id": "node/3020139948"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3020139949",
+        "ele": "345",
+        "name": "Blue Robin Hill",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.6444,
+          -29.29184
+        ]
+      },
+      "id": "node/3020139949"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3020150657",
+        "ele": "108",
+        "name": "Blue Hills",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.20006,
+          -17.98665
+        ]
+      },
+      "id": "node/3020150657"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3020491119",
+        "name": "Blue Bay",
+        "natural": "bay"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.69591,
+          -32.5224
+        ]
+      },
+      "id": "node/3020491119"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3020491120",
+        "name": "Blue Mud Bay",
+        "natural": "bay"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.83867,
+          -11.21696
+        ]
+      },
+      "id": "node/3020491120"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3020491121",
+        "name": "Blue Mud Bay",
+        "natural": "bay"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.01043,
+          -13.47973
+        ]
+      },
+      "id": "node/3020491121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3020491122",
+        "name": "Blue Pearl Bay",
+        "natural": "bay"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.88062,
+          -20.04465
+        ]
+      },
+      "id": "node/3020491122"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3039326567",
+        "name": "Blue Hole Day Use Area",
+        "tourism": "picnic_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7989729,
+          -30.594866
+        ]
+      },
+      "id": "node/3039326567"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3058167874",
+        "amenity": "cafe",
+        "name": "Jamaica Blue Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.7580587,
+          -19.3236636
+        ]
+      },
+      "id": "node/3058167874"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3077654148",
+        "name": "Blue Rocks",
+        "place": "locality"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.5333885,
+          -22.1139906
+        ]
+      },
+      "id": "node/3077654148"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3113868241",
+        "amenity": "cafe",
+        "name": "Blue Bee Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.8333758,
+          -37.7084129
+        ]
+      },
+      "id": "node/3113868241"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3139679530",
+        "name": "Blue Lake Lookout",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.7712989,
+          -37.8465535
+        ]
+      },
+      "id": "node/3139679530"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3174721135",
+        "description": "This campground is private property!",
+        "name": "Blue Gum Flat private campground",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.1963365,
+          -35.3609833
+        ]
+      },
+      "id": "node/3174721135"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3174967444",
+        "addr:city": "Hobart",
+        "addr:housenumber": "1",
+        "addr:postcode": "7004",
+        "addr:street": "Castray Esplanade",
+        "amenity": "cafe",
+        "name": "Blue Eye",
+        "opening_hours": "Mo-Su 17:00-23:00",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.3347173,
+          -42.8864854
+        ]
+      },
+      "id": "node/3174967444"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3266865469",
+        "addr:city": "Northbridge",
+        "addr:housenumber": "79",
+        "addr:postcode": "6003",
+        "addr:street": "James Street",
+        "amenity": "fast_food",
+        "cuisine": "kebab",
+        "name": "Blue Sea Cafe",
+        "phone": "+61 8 9328 7070",
+        "smoking": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8585527,
+          -31.9488537
+        ]
+      },
+      "id": "node/3266865469"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3278528361",
+        "addr:city": "Annandale",
+        "addr:housenumber": "206",
+        "addr:postcode": "2048",
+        "addr:street": "Parramatta Road",
+        "amenity": "restaurant",
+        "name": "Blue White Red",
+        "opening_hours:signed": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1665145,
+          -33.8881558
+        ]
+      },
+      "id": "node/3278528361"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3291840666",
+        "addr:housenumber": "595",
+        "addr:street": "Little Collins Street",
+        "name": "Billy Blue School Of Design",
+        "office": "educational_institution"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9552326,
+          -37.8178274
+        ]
+      },
+      "id": "node/3291840666"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3351541371",
+        "name": "The Blue Hole",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.3933031,
+          -27.3213371
+        ]
+      },
+      "id": "node/3351541371"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3365199640",
+        "name": "Little Blue Bridal Boutique",
+        "shop": "clothes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1379804,
+          -38.1443999
+        ]
+      },
+      "id": "node/3365199640"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3443876788",
+        "name": "Blue Edge Bakery",
+        "shop": "bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.3042514,
+          -41.8759283
+        ]
+      },
+      "id": "node/3443876788"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3503847060",
+        "name": "Blue Frog Laundrette",
+        "shop": "laundry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0564815,
+          -34.0317034
+        ]
+      },
+      "id": "node/3503847060"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3532343062",
+        "name": "Blue Lake Lookout",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.7733721,
+          -37.843529
+        ]
+      },
+      "id": "node/3532343062"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3566625894",
+        "addr:city": "Leura",
+        "addr:housenumber": "1",
+        "addr:postcode": "2780",
+        "addr:street": "Sublime Point Road",
+        "leisure": "resort",
+        "name": "Fairmont Resort Blue Mountains",
+        "operator": "MGallery Collection",
+        "phone": "+61247850000",
+        "website": "https://www.fairmontresort.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.3496008,
+          -33.7218483
+        ]
+      },
+      "id": "node/3566625894"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3568960519",
+        "access": "yes",
+        "amenity": "parking",
+        "name": "Blue Car Park",
+        "operator": "Capital Airport Group",
+        "parking": "multi-storey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1899548,
+          -35.3086988
+        ]
+      },
+      "id": "node/3568960519"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3571221305",
+        "amenity": "restaurant",
+        "name": "Blue Lack Tandoori Express"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.7769089,
+          -37.8271206
+        ]
+      },
+      "id": "node/3571221305"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3571221307",
+        "name": "Blue Lake Printworks",
+        "office": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.7771567,
+          -37.8274043
+        ]
+      },
+      "id": "node/3571221307"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3630228929",
+        "building": "hut",
+        "fee": "yes",
+        "name": "Blue Range Hut",
+        "source": "LPI Base Map Aug 2016",
+        "tourism": "alpine_hut",
+        "website": "https://visitcanberra.com.au/accommodation/56b23b21266140594567de5b/blue-range-hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.8759673,
+          -35.2895642
+        ]
+      },
+      "id": "node/3630228929"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3679981864",
+        "addr:city": "Manjimup",
+        "addr:housenumber": "31B",
+        "addr:postcode": "6258",
+        "addr:street": "Rose Street",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "name": "Blue Tiger Cafe",
+        "phone": "+61 8 9777 2555",
+        "smoking": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1446652,
+          -34.241437
+        ]
+      },
+      "id": "node/3679981864"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3742187667",
+        "name": "Blue Dolphin Whale Watching",
+        "tourism": "attraction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.9112227,
+          -25.2932641
+        ]
+      },
+      "id": "node/3742187667"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3751411811",
+        "name": "Blue Lagoon camping area",
+        "operator": "Moreton Island National Park",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.4441397,
+          -27.0929317
+        ]
+      },
+      "id": "node/3751411811"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3764953500",
+        "addr:city": "Burnie",
+        "addr:country": "AU",
+        "addr:housenumber": "13",
+        "addr:state": "TAS",
+        "addr:street": "Aileen Crescent",
+        "name": "Blue House Barista Training"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.9005636,
+          -41.0620215
+        ]
+      },
+      "id": "node/3764953500"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3788788387",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Blue Gum Caravan Park/Brunt Rd",
+        "network": "837 - Berwick Station",
+        "operator": "Ventura Bus Lines",
+        "public_transport": "platform",
+        "shelter": "no",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3890456,
+          -38.0579339
+        ]
+      },
+      "id": "node/3788788387"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3788788388",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Blue Gum Caravan Park/Brunt Rd",
+        "network": "837 - Beaconsfield East",
+        "operator": "Ventura Bus Lines",
+        "public_transport": "platform",
+        "shelter": "no",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3891268,
+          -38.0579382
+        ]
+      },
+      "id": "node/3788788388"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3796333753",
+        "name": "Blue Gum Point",
+        "place": "locality"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.4770012,
+          -38.3660053
+        ]
+      },
+      "id": "node/3796333753"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3843503031",
+        "name": "Ningaloo Blue Dive",
+        "phone": "+61 8 9949 1119",
+        "phone:AU": "1800 811 338",
+        "shop": "yes",
+        "website": "http://www.ningalooblue.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1226617,
+          -21.9316298
+        ]
+      },
+      "id": "node/3843503031"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3924475916",
+        "name": "Dingo Blue Backpackers",
+        "tourism": "hostel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.3445883,
+          -24.8688417
+        ]
+      },
+      "id": "node/3924475916"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3949904755",
+        "name": "Blue Hills",
+        "place": "farm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.4246715,
+          -32.9260769
+        ]
+      },
+      "id": "node/3949904755"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3963679412",
+        "name": "Blue Bay",
+        "natural": "bay"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.5029067,
+          -33.355134
+        ]
+      },
+      "id": "node/3963679412"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3994876142",
+        "addr:housenumber": "32",
+        "addr:street": "Asquith Street",
+        "amenity": "cafe",
+        "contact:facebook": "http://facebook.com/thebluepoppy/",
+        "name": "Blue Poppy",
+        "opening_hours": "Mo-Su 06:30-13:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.0781594,
+          -27.4742032
+        ]
+      },
+      "id": "node/3994876142"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4030700547",
+        "name": "Blue Sky",
+        "shop": "outdoor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.5321187,
+          -28.8644548
+        ]
+      },
+      "id": "node/4030700547"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4047416905",
+        "name": "Blue Mountains Backpacker Hostel",
+        "phone": "+61 02 4782 9630",
+        "tourism": "hostel",
+        "website": "https://bluemountainsbackpackerhostel.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.3099846,
+          -33.7110382
+        ]
+      },
+      "id": "node/4047416905"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4055985401",
+        "addr:housenumber": "144",
+        "addr:street": "Victoria Street",
+        "name": "Chilli Blue Backpackers",
+        "tourism": "hostel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2229124,
+          -33.8721519
+        ]
+      },
+      "id": "node/4055985401"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4066027907",
+        "name": "Blue & White",
+        "shop": "dry_cleaning"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2062935,
+          -33.8284289
+        ]
+      },
+      "id": "node/4066027907"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4099721581",
+        "name": "Blue Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.3023084,
+          -31.9660601
+        ]
+      },
+      "id": "node/4099721581"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4146795485",
+        "name": "Little Blue Gum",
+        "place": "hamlet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.3529821,
+          -33.5922261
+        ]
+      },
+      "id": "node/4146795485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4218481690",
+        "name": "Blue Lake Rotary Lookout",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.7747723,
+          -37.8428201
+        ]
+      },
+      "id": "node/4218481690"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4250090316",
+        "name": "Blue Knob Lookout",
+        "source": "NSW LPI Base Map",
+        "source:date": "2016-06",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.1701643,
+          -31.5780728
+        ]
+      },
+      "id": "node/4250090316"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4290197628",
+        "attribution": "© Commonwealth of Australia (Geoscience Australia) 2016",
+        "name": "Blue Rocks",
+        "place": "hamlet",
+        "source": "Tasmania North East 1:250 000 GIS Dataset: placenames.",
+        "wikidata": "Q4929801",
+        "wikipedia": "en:Blue Rocks, Tasmania"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.9520918,
+          -40.0561836
+        ]
+      },
+      "id": "node/4290197628"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4290201307",
+        "attribution": "© Commonwealth of Australia (Geoscience Australia) 2016",
+        "name": "Blue Tier",
+        "place": "locality",
+        "source": "Tasmania North East 1:250 000 GIS Dataset: placenames."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.98652,
+          -41.19653
+        ]
+      },
+      "id": "node/4290201307"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4290718678",
+        "attribution": "© Commonwealth of Australia (Geoscience Australia) 2016",
+        "name": "Little Blue Tier",
+        "place": "locality",
+        "source": "Tasmania South East 1:250 000 GIS Dataset: placenames."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.72537,
+          -42.13692
+        ]
+      },
+      "id": "node/4290718678"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4293045739",
+        "attribution": "© Commonwealth of Australia (Geoscience Australia) 2016",
+        "name": "Blue Hills",
+        "place": "locality",
+        "source": "Tasmania South East 1:250 000 GIS Dataset: placenames."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.48183,
+          -42.40333
+        ]
+      },
+      "id": "node/4293045739"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4293050090",
+        "attribution": "© Commonwealth of Australia (Geoscience Australia) 2016",
+        "name": "Blue Hill",
+        "natural": "peak",
+        "source": "Tasmania South East 1:250 000 GIS Dataset: placenames.",
+        "wikidata": "Q21967352"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.7853518,
+          -43.0929035
+        ]
+      },
+      "id": "node/4293050090"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4322641198",
+        "amenity": "restaurant",
+        "name": "The Blue Fish, Sydney",
+        "opening_hours:signed": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1991121,
+          -33.8712146
+        ]
+      },
+      "id": "node/4322641198"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4324783762",
+        "name": "Blue Lagoon Sunrover Campsite",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.4436972,
+          -27.0934161
+        ]
+      },
+      "id": "node/4324783762"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4346518096",
+        "name": "Blue Parrot youth hostel",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2251024,
+          -33.87105
+        ]
+      },
+      "id": "node/4346518096"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4374907080",
+        "artist_name": "Charles GINNEVER",
+        "name": "Green Mountain Blue ii",
+        "source": "NSW LPI Base Map",
+        "source:date": "2016-08",
+        "tourism": "artwork",
+        "website": "https://nga.gov.au/international/Catalogue/Detail.cfm?IRN=33854&BioArtistIRN=13437&MnuID=SRCH&GalID=ALL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1416158,
+          -36.1072732
+        ]
+      },
+      "id": "node/4374907080"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4428494417",
+        "ele": "727",
+        "name": "Blue Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.4497898,
+          -33.6972111
+        ]
+      },
+      "id": "node/4428494417"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4431883197",
+        "amenity": "restaurant",
+        "name": "Blue Olive Cafe and Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.395226,
+          -27.8860048
+        ]
+      },
+      "id": "node/4431883197"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4438450839",
+        "level": "1",
+        "name": "Semaphore Blue Apartments",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.4810672,
+          -34.8381033
+        ]
+      },
+      "id": "node/4438450839"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4472521711",
+        "man_made": "survey_point",
+        "name": "Blue Rag Range Trig",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.053562,
+          -37.09687
+        ]
+      },
+      "id": "node/4472521711"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4487794792",
+        "name": "Blue Haze Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.7438045,
+          -37.3872725
+        ]
+      },
+      "id": "node/4487794792"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4535307792",
+        "amenity": "restaurant",
+        "name": "Blue Lips",
+        "name:en": "Blue Lips"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.122894,
+          -21.9314779
+        ]
+      },
+      "id": "node/4535307792"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4601037690",
+        "name": "Blue Lotus",
+        "name:en": "Blue Lotus",
+        "shop": "cosmetics"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.7570959,
+          -32.0629463
+        ]
+      },
+      "id": "node/4601037690"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4606989589",
+        "amenity": "cafe",
+        "name": "Blue Seal Cafe",
+        "name:en": "Blue Seal Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.9196259,
+          -43.0185571
+        ]
+      },
+      "id": "node/4606989589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4637113990",
+        "name": "The Blue Budha",
+        "name:en": "The Blue Buddha",
+        "shop": "cosmetics"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.7467876,
+          -32.0549741
+        ]
+      },
+      "id": "node/4637113990"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4639413324",
+        "addr:housenumber": "220",
+        "addr:postcode": "4215",
+        "addr:state": "Qld",
+        "addr:street": "Marine Parade",
+        "addr:suburb": "Labrador",
+        "name": "Blue Waters Apartments",
+        "tourism": "apartment"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.4091066,
+          -27.9513044
+        ]
+      },
+      "id": "node/4639413324"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4691539605",
+        "name": "Blue Eucy Distillery Park and Museum",
+        "tourism": "attraction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.8650055,
+          -36.5686913
+        ]
+      },
+      "id": "node/4691539605"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4709271176",
+        "name": "Blue Gum Flat Trail"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.2194595,
+          -29.752333
+        ]
+      },
+      "id": "node/4709271176"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4738103160",
+        "leisure": "resort",
+        "name": "Peppers Blue on Blue"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.854842,
+          -19.1586397
+        ]
+      },
+      "id": "node/4738103160"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4739448291",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Janet St Near Blue Gum Rd",
+        "public_transport": "platform",
+        "ref": "229934"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6918972,
+          -32.9011571
+        ]
+      },
+      "id": "node/4739448291"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4739450040",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Blue Gum Rd Near Goodwin St",
+        "public_transport": "platform",
+        "ref": "229951"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6916093,
+          -32.8989429
+        ]
+      },
+      "id": "node/4739450040"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4739450234",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "University Dr Before Blue Gum Rd",
+        "public_transport": "platform",
+        "ref": "2287142"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6934917,
+          -32.8969804
+        ]
+      },
+      "id": "node/4739450234"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4739451577",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Blue Gum Rd Near Stockland Shopping Centre",
+        "public_transport": "platform",
+        "ref": "229911"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6908464,
+          -32.9027787
+        ]
+      },
+      "id": "node/4739451577"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4739451578",
+        "amenity": "shelter",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Blue Gum Rd After William St",
+        "public_transport": "platform",
+        "ref": "229912"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.691012,
+          -32.9029249
+        ]
+      },
+      "id": "node/4739451578"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4739451579",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Blue Gum Rd Opp Janet St",
+        "public_transport": "platform",
+        "ref": "229914"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6912096,
+          -32.9008767
+        ]
+      },
+      "id": "node/4739451579"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4739451580",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Blue Gum Rd Opp Goodwin St",
+        "public_transport": "platform",
+        "ref": "229917"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6917486,
+          -32.8991539
+        ]
+      },
+      "id": "node/4739451580"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4739451581",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Blue Gum Rd Before Janet St",
+        "public_transport": "platform",
+        "ref": "229918"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6915262,
+          -32.9001982
+        ]
+      },
+      "id": "node/4739451581"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4739451582",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Newcastle Rd Near Blue Gum Rd",
+        "public_transport": "platform",
+        "ref": "229919",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6909338,
+          -32.9047639
+        ]
+      },
+      "id": "node/4739451582"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4739451980",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "University Dr Near Blue Gum Rd",
+        "public_transport": "platform",
+        "ref": "2287141"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6936557,
+          -32.8967701
+        ]
+      },
+      "id": "node/4739451980"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4739452020",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Blue Gum Rd Near Mordue Pde",
+        "public_transport": "platform",
+        "ref": "229946"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6905283,
+          -32.9043524
+        ]
+      },
+      "id": "node/4739452020"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4744287199",
+        "addr:city": "Swan Hill",
+        "addr:housenumber": "241",
+        "addr:postcode": "3585",
+        "addr:street": "Campbell Street",
+        "amenity": "fast_food",
+        "cuisine": "seafood",
+        "name": "Blue Sea Fish Shop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.5604287,
+          -35.3413055
+        ]
+      },
+      "id": "node/4744287199"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4872061376",
+        "addr:housenumber": "106-108",
+        "addr:street": "Macquarie Road",
+        "addr:suburb": "Springwood",
+        "amenity": "theatre",
+        "name": "Blue Mountains Theatre And Community Hub"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.5684397,
+          -33.6997188
+        ]
+      },
+      "id": "node/4872061376"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4881137323",
+        "amenity": "cafe",
+        "email": "hello@blue-door.com.au",
+        "name": "Blue Door Cafe",
+        "opening_hours": "07:00-13:45",
+        "outdoor_seating": "yes",
+        "phone": "+61 2 4929 4988",
+        "website": "https://www.blue-door.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7729425,
+          -32.9270828
+        ]
+      },
+      "id": "node/4881137323"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4918726347",
+        "addr:city": "Leederville",
+        "addr:housenumber": "742",
+        "addr:postcode": "6007",
+        "addr:street": "Newcastle Street",
+        "amenity": "bar",
+        "name": "The Blue Flamingo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8417032,
+          -31.9369727
+        ]
+      },
+      "id": "node/4918726347"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4956182825",
+        "bench": "no",
+        "bus": "yes",
+        "gtfs_id": "278037",
+        "highway": "bus_stop",
+        "name": "Great Western Hwy Opp Blue Mountains City Council",
+        "public_transport": "platform",
+        "ref": "278037",
+        "shelter": "no",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.3122657,
+          -33.7113308
+        ]
+      },
+      "id": "node/4956182825"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4959148761",
+        "amenity": "cafe",
+        "cuisine": "breakfast",
+        "name": "Blue Room",
+        "opening_hours": "Mo-Fr 7:30-15:00",
+        "smoking": "no",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.5430635,
+          -27.4325733
+        ]
+      },
+      "id": "node/4959148761"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4967087305",
+        "name": "Blue Water Laundry",
+        "opening_hours": "Mo-Su 08:00-20:00",
+        "shop": "laundry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.2002288,
+          -30.109941
+        ]
+      },
+      "id": "node/4967087305"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5068246390",
+        "amenity": "kindergarten",
+        "name": "Pink and Blue Early Learning"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.7477071,
+          -36.1406523
+        ]
+      },
+      "id": "node/5068246390"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5081278290",
+        "addr:city": "Redfern",
+        "addr:housenumber": "95",
+        "addr:postcode": "2016",
+        "addr:province": "NSW",
+        "addr:street": "Redfern Street",
+        "amenity": "cafe",
+        "name": "Blue Brew",
+        "opening_hours": "Mo-Fr 06:30-15:30; Sa 07:00-15:30; Su 07:00-15:00",
+        "outdoor_seating": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2036806,
+          -33.8928759
+        ]
+      },
+      "id": "node/5081278290"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5103017521",
+        "name": "Blue Hole River Pool",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.5115361,
+          -38.401289
+        ]
+      },
+      "id": "node/5103017521"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5104366111",
+        "addr:housenumber": "suite 6/68",
+        "building": "commercial",
+        "name": "Blue River Group"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2162828,
+          -33.871824
+        ]
+      },
+      "id": "node/5104366111"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5104454724",
+        "leisure": "track",
+        "name": "Lower Blue Mountains Motorcycle Club",
+        "source": "LPI Imagery 2017",
+        "sport": "motocross",
+        "website": "http://www.lmmcc.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.2230999,
+          -33.4386779
+        ]
+      },
+      "id": "node/5104454724"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5133456828",
+        "addr:street": "Macpherson Street",
+        "amenity": "restaurant",
+        "name": "Three Blue Ducks"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2638742,
+          -33.9062351
+        ]
+      },
+      "id": "node/5133456828"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5139461627",
+        "addr:housenumber": "129",
+        "addr:postcode": "4069",
+        "addr:street": "Brookfield Road",
+        "addr:suburb": "Kenmore",
+        "amenity": "social_facility",
+        "name": "Blue Care Kenmore Aged Care Facility",
+        "operator": "Blue Care",
+        "social_facility": "group_home",
+        "social_facility:for": "senior"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.9320139,
+          -27.5014483
+        ]
+      },
+      "id": "node/5139461627"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5154987756",
+        "board_type": "nature",
+        "information": "board",
+        "name": "Blue Mountains National Park",
+        "operator": "NSW National Parks & Wildlife Service",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.5811684,
+          -33.8404931
+        ]
+      },
+      "id": "node/5154987756"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5156046156",
+        "addr:city": "Mount Gambier",
+        "addr:housenumber": "20",
+        "addr:postcode": "5290",
+        "addr:province": "SA",
+        "addr:street": "Harrald Street",
+        "leisure": "fitness_centre",
+        "name": "Blue Lake Crossfit",
+        "website": "http://www.bluelakecrossfit.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.7872689,
+          -37.833601
+        ]
+      },
+      "id": "node/5156046156"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5179242424",
+        "name": "The Blue Buddah",
+        "shop": "gift"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.746871,
+          -32.0548054
+        ]
+      },
+      "id": "node/5179242424"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5188278005",
+        "bus": "yes",
+        "gtfs_id": "3202",
+        "name": "Blue Gum Primary School Madigan Street",
+        "network": "Transport Canberra",
+        "public_transport": "stop_position",
+        "ref": "3202"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1639337,
+          -35.2498643
+        ]
+      },
+      "id": "node/5188278005"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5190396455",
+        "gtfs_id": "3202",
+        "highway": "bus_stop",
+        "name": "Blue Gum Primary School Madigan Street",
+        "network": "Transport Canberra",
+        "public_transport": "platform",
+        "ref": "3202"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.163879,
+          -35.249874
+        ]
+      },
+      "id": "node/5190396455"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5193532023",
+        "amenity": "pub",
+        "name": "Blue Mountain Hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.4299551,
+          -33.7196033
+        ]
+      },
+      "id": "node/5193532023"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5237464925",
+        "bus": "yes",
+        "gtfs_id": "278017",
+        "highway": "bus_stop",
+        "name": "Blue Mountains Tourist Park, Katoomba Falls Rd",
+        "public_transport": "platform",
+        "ref": "278017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.3036936,
+          -33.7261566
+        ]
+      },
+      "id": "node/5237464925"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5241952632",
+        "name": "Blue Circle Dry Clean & Laundrette",
+        "phone": "+61 3 9546 8679",
+        "shop": "laundry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1490061,
+          -37.9712191
+        ]
+      },
+      "id": "node/5241952632"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5319655710",
+        "amenity": "restaurant",
+        "cuisine": "thai",
+        "name": "Blue Orchid Thai"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.1342186,
+          -26.8049799
+        ]
+      },
+      "id": "node/5319655710"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5323056164",
+        "name": "Ocean Blue Auto",
+        "shop": "car_repair"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1850202,
+          -37.9946131
+        ]
+      },
+      "id": "node/5323056164"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5342545121",
+        "name": "Blue Sky Outdoor experts",
+        "opening_hours": "Mo-Fr 09:00-17:30; Sa 09:00-14:00; Su,PH off",
+        "shop": "outdoor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.126428,
+          -36.2349694
+        ]
+      },
+      "id": "node/5342545121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5449555586",
+        "contact:facebook": "https://www.facebook.com/pg/BluePeaksvdl/",
+        "name": "Blue Peaks VDLl",
+        "opening_hours": "Mo-Fr 09:00-17:30; Sa 09:00-13:00; PH off",
+        "phone": "+61 3 6424 8699",
+        "shop": "outdoor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.3605338,
+          -41.1812884
+        ]
+      },
+      "id": "node/5449555586"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5470069155",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Blue Gum Caravan Park/Wells Rd",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1329365,
+          -38.0314007
+        ]
+      },
+      "id": "node/5470069155"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5470904979",
+        "name": "Blue Violet Motor Inn",
+        "tourism": "motel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.9707835,
+          -27.5628985
+        ]
+      },
+      "id": "node/5470904979"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5495034731",
+        "name": "Blue Olive Delicatessen",
+        "shop": "deli"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.6144384,
+          -28.6425497
+        ]
+      },
+      "id": "node/5495034731"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5505619325",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Blue Gum Caravan Park/Wells Rd",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.133451,
+          -38.031879
+        ]
+      },
+      "id": "node/5505619325"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5529453784",
+        "amenity": "restaurant",
+        "name": "Three Blue Ducks"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.5536914,
+          -28.6359385
+        ]
+      },
+      "id": "node/5529453784"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5561831162",
+        "name": "Blue Bird Bakery",
+        "shop": "bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.5225924,
+          -35.0220571
+        ]
+      },
+      "id": "node/5561831162"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5574677109",
+        "name": "Blue Star Cars",
+        "second_hand": "only",
+        "shop": "car"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.442253,
+          -37.6761223
+        ]
+      },
+      "id": "node/5574677109"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5579809140",
+        "name": "Blue Waterholes Cave",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.6843417,
+          -35.6249499
+        ]
+      },
+      "id": "node/5579809140"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5579919815",
+        "name": "Blue Waterhole Saddle",
+        "natural": "saddle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.6740335,
+          -35.6580308
+        ]
+      },
+      "id": "node/5579919815"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5585931421",
+        "addr:city": "Dubbo",
+        "addr:housenumber": "115",
+        "addr:postcode": "2830",
+        "addr:street": "Wingewarra Street",
+        "name": "Blue Diamond Motor Inn",
+        "tourism": "motel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.6066387,
+          -32.2499799
+        ]
+      },
+      "id": "node/5585931421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5587269721",
+        "amenity": "cafe",
+        "name": "Blue owl cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.5413089,
+          -28.1768084
+        ]
+      },
+      "id": "node/5587269721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5612795001",
+        "amenity": "bench",
+        "name": "Blue Bench"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0087504,
+          -34.2154731
+        ]
+      },
+      "id": "node/5612795001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5692518634",
+        "name": "Blue Pool",
+        "place": "locality",
+        "source": "LPI Base Map June 2018"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.6180567,
+          -33.7747514
+        ]
+      },
+      "id": "node/5692518634"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5746458325",
+        "amenity": "restaurant",
+        "name": "Blue Angel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2162703,
+          -33.8779851
+        ]
+      },
+      "id": "node/5746458325"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5786803362",
+        "amenity": "theatre",
+        "name": "The Blue Box Theatre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0132285,
+          -33.6833703
+        ]
+      },
+      "id": "node/5786803362"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5853167289",
+        "amenity": "restaurant",
+        "name": "Blue Plate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.7244076,
+          -34.7488469
+        ]
+      },
+      "id": "node/5853167289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5902813542",
+        "addr:city": "Paddington",
+        "addr:country": "AU",
+        "addr:postcode": "2021",
+        "addr:state": "NSW",
+        "addr:street": "Oxford Street",
+        "amenity": "restaurant",
+        "cuisine": "sushi",
+        "name": "Sushi n' Blue Train"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2292176,
+          -33.8861786
+        ]
+      },
+      "id": "node/5902813542"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5902885714",
+        "name": "Blue Haveli.",
+        "shop": "houseware"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.231209,
+          -33.887662
+        ]
+      },
+      "id": "node/5902885714"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5926809702",
+        "name": "Blue Mountains G'Day Motel",
+        "tourism": "motel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.3193966,
+          -33.7062858
+        ]
+      },
+      "id": "node/5926809702"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5936112370",
+        "name": "Blue Gum Hill",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.9694104,
+          -35.5427377
+        ]
+      },
+      "id": "node/5936112370"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5937807696",
+        "board_type": "nature",
+        "information": "board",
+        "name": "Blue Mountains National Park",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.3034602,
+          -33.7265326
+        ]
+      },
+      "id": "node/5937807696"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5938092452",
+        "amenity": "cafe",
+        "name": "Blue Mountain Cafe",
+        "phone": "+61 3 9756 0307"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3085456,
+          -37.8942649
+        ]
+      },
+      "id": "node/5938092452"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5960549369",
+        "name": "Beyond Blue Seas",
+        "shop": "seafood"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2658652,
+          -38.032557
+        ]
+      },
+      "id": "node/5960549369"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6035839413",
+        "gaz2012:ref": "QLD44572",
+        "name": "Blue Hills",
+        "place": "locality",
+        "source": "Gazetteer of Australia 2012"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.4958344,
+          -19.2491665
+        ]
+      },
+      "id": "node/6035839413"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6036336082",
+        "gaz2012:ref": "QLD47004",
+        "name": "Blue Mountain",
+        "place": "locality",
+        "source": "Gazetteer of Australia 2012"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.998062,
+          -21.457779
+        ]
+      },
+      "id": "node/6036336082"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6042482225",
+        "gaz2012:ref": "NSW82866",
+        "name": "Blue Mountains National Park",
+        "place": "locality",
+        "source": "Gazetteer of Australia 2012"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.4179,
+          -33.6152
+        ]
+      },
+      "id": "node/6042482225"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6043438082",
+        "name": "Blue Cow",
+        "place": "locality",
+        "source": "NSW LPI Base Map"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.3969688,
+          -36.3842889
+        ]
+      },
+      "id": "node/6043438082"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6117175979",
+        "addr:housenumber": "2110 - 2118",
+        "addr:street": "Sydney Road",
+        "name": "Blue Gum Cabin Park",
+        "tourism": "caravan_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9524925,
+          -37.644811
+        ]
+      },
+      "id": "node/6117175979"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6135015913",
+        "name": "True Blue Dealers",
+        "shop": "furniture"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.2104245,
+          -36.7369929
+        ]
+      },
+      "id": "node/6135015913"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6135015914",
+        "name": "True Blue Dealers - Trailers",
+        "shop": "trailers"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.2105922,
+          -36.7371462
+        ]
+      },
+      "id": "node/6135015914"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6139952106",
+        "leisure": "playground",
+        "name": "Blue Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.1022884,
+          -27.2004527
+        ]
+      },
+      "id": "node/6139952106"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6169815377",
+        "name": "Dazzling Blue Pool & Spa Centre",
+        "phone": "+61 7 5676 7297",
+        "shop": "swimming_pool",
+        "website": "http://dazzlingblue.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.4271051,
+          -28.1020739
+        ]
+      },
+      "id": "node/6169815377"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6176022788",
+        "addr:postcode": "2077",
+        "addr:street": "Waitara Avenue",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "name": "PCYC NSW Blue Star Cafe",
+        "name:en": "PCYC NSW Blue Star Cafe",
+        "opening_hours": "Mo-Th 07:00-16:00; Fr 09:00-16:00; Su 09:00-15:00; Sa 08:00-16:00",
+        "outdoor_seating": "yes",
+        "website": "https://www.pcycnsw.org.au/hornsby-ku-ring-gai/blue-star-cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1058752,
+          -33.7087284
+        ]
+      },
+      "id": "node/6176022788"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6180127485",
+        "addr:street": "The Esplanade",
+        "amenity": "restaurant",
+        "cuisine": "seafood;fish_and_chips;mediterranean",
+        "name": "Ocean Blue Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.8980187,
+          -33.8563092
+        ]
+      },
+      "id": "node/6180127485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6225166287",
+        "amenity": "bar",
+        "name": "Blue Kahunas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7817465,
+          -32.9270673
+        ]
+      },
+      "id": "node/6225166287"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6275823585",
+        "name": "Realty Blue Mermaid Beach",
+        "office": "estate_agent",
+        "phone": "+61 7 5526 1999",
+        "website": "https://www.realtyblue.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.4360172,
+          -28.0501977
+        ]
+      },
+      "id": "node/6275823585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6300985289",
+        "name": "Blue Sky Outdoor Experts Swan Hill",
+        "shop": "outdoor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.5613761,
+          -35.35966
+        ]
+      },
+      "id": "node/6300985289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6357408369",
+        "name": "Blue Hippo Laundry",
+        "shop": "laundry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.7896862,
+          -37.7583893
+        ]
+      },
+      "id": "node/6357408369"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6362369710",
+        "name": "Blue Bay Deli",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "shop": "deli"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1262293,
+          -38.1415516
+        ]
+      },
+      "id": "node/6362369710"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6373302500",
+        "name": "Blue Hippo Laundry",
+        "shop": "laundry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.7513157,
+          -37.723351
+        ]
+      },
+      "id": "node/6373302500"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6403672287",
+        "name": "Blue Mountains Adventure Company",
+        "office": "company"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.3114196,
+          -33.7125045
+        ]
+      },
+      "id": "node/6403672287"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6448989499",
+        "addr:housenumber": "17",
+        "addr:street": "Station Street",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Blue Mountains Dental & Implant Centre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.3757589,
+          -33.7096333
+        ]
+      },
+      "id": "node/6448989499"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6450881592",
+        "amenity": "restaurant",
+        "name": "Darley's Restaurant at Lilianfels Blue Mountains Resort & Spa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.3104671,
+          -33.7296065
+        ]
+      },
+      "id": "node/6450881592"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6457257749",
+        "name": "Blue Frog Optics",
+        "shop": "optician"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.1618395,
+          -34.1841549
+        ]
+      },
+      "id": "node/6457257749"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6460543537",
+        "addr:housenumber": "18",
+        "addr:street": "Cascade Street",
+        "addr:suburb": "Lawson",
+        "name": "Blue Mountains Automotive",
+        "shop": "car_repair"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.439433,
+          -33.7243821
+        ]
+      },
+      "id": "node/6460543537"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6554142545",
+        "addr:street": "The Avenue",
+        "addr:suburb": "Wentworth Falls",
+        "name": "Falls Mountain Retreat Blue Mountains",
+        "phone": "+61 2 4757 8843",
+        "tourism": "hotel",
+        "website": "fallsmountainretreat.com.au"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.3724056,
+          -33.7221184
+        ]
+      },
+      "id": "node/6554142545"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6564089888",
+        "craft": "mechanic",
+        "name": "True Blue Auto Electrics"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9874102,
+          -32.0838281
+        ]
+      },
+      "id": "node/6564089888"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6594042985",
+        "name": "Blue Holes",
+        "natural": "sinkhole",
+        "sinkhole": "bluehole",
+        "tourism": "attraction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1545306,
+          -27.7176986
+        ]
+      },
+      "id": "node/6594042985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6595465087",
+        "addr:housenumber": "100",
+        "addr:street": "Lanigan Road",
+        "craft": "winery",
+        "name": "Blue Gables Vineyard",
+        "opening_hours": "Sa, Su 11:00-17:00",
+        "phone": "+61351480372",
+        "website": "https://www.bluegables.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.8165623,
+          -37.8975143
+        ]
+      },
+      "id": "node/6595465087"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6597451943",
+        "name": "Blue Lake Cirque",
+        "place": "locality"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.3144394,
+          -36.4012551
+        ]
+      },
+      "id": "node/6597451943"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6597473602",
+        "name": "Upper Blue Lake Cirque",
+        "place": "locality"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.3083952,
+          -36.3964962
+        ]
+      },
+      "id": "node/6597473602"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6680173463",
+        "historic": "ruins",
+        "name": "True Blue Reef",
+        "note": "Location approx",
+        "source": "https://nla.gov.au/nla.obj-232819269/view"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.226475,
+          -18.1716751
+        ]
+      },
+      "id": "node/6680173463"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6690852998",
+        "name": "Blue Mountains Funerals",
+        "shop": "funeral_directors"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.5673983,
+          -33.6997976
+        ]
+      },
+      "id": "node/6690852998"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6690853088",
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "Blue Sky Chinese Cuisine",
+        "opening_hours": "Mo-Su 11:30-15:00,17:00-21:30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.5671814,
+          -33.6992081
+        ]
+      },
+      "id": "node/6690853088"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6690853108",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Blue Mountain Dental Centre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.5666034,
+          -33.699229
+        ]
+      },
+      "id": "node/6690853108"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6694608586",
+        "name": "Blue Mountains Gazette",
+        "office": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.5631739,
+          -33.7000486
+        ]
+      },
+      "id": "node/6694608586"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6743930714",
+        "amenity": "restaurant",
+        "cuisine": "thai",
+        "email": "bluepearlthai@hotmail.com",
+        "level": "1",
+        "name": "Blue Pearl",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2979978,
+          -33.6591074
+        ]
+      },
+      "id": "node/6743930714"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6747031241",
+        "addr:postcode": "6536",
+        "addr:state": "WA",
+        "addr:suburb": "Kalbarri",
+        "contact:email": "stay@blueoceanvillas.com.au",
+        "contact:phone": "+61 8 9937 2442",
+        "name": "Blue Ocean Villas",
+        "tourism": "apartment",
+        "website": "https://www.blueoceanvillas.com.au"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1688217,
+          -27.7041711
+        ]
+      },
+      "id": "node/6747031241"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6780673996",
+        "name": "Blue Topaz Caravan Park Shop",
+        "shop": "kiosk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.9057555,
+          -28.6975779
+        ]
+      },
+      "id": "node/6780673996"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6787424585",
+        "name": "Blue Mountains Meats",
+        "shop": "butcher"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.6082381,
+          -33.6711954
+        ]
+      },
+      "id": "node/6787424585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6855124109",
+        "name": "Blue Nurses Thrift Shop",
+        "shop": "charity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.5813001,
+          -27.4623816
+        ]
+      },
+      "id": "node/6855124109"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6938593162",
+        "name": "Blue Mountains Buttery",
+        "phone": "+61 2 4782 2326",
+        "shop": "bakery",
+        "website": "https://www.bluemts.com.au/11819/blue-mountains-buttery/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.3111086,
+          -33.7158304
+        ]
+      },
+      "id": "node/6938593162"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6938593175",
+        "name": "Blue Mountains Seafood",
+        "shop": "seafood"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.3109437,
+          -33.7166294
+        ]
+      },
+      "id": "node/6938593175"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6995525146",
+        "name": "Orford Blue Waters",
+        "phone": "+61 03 6257 1102",
+        "tourism": "hotel",
+        "website": "www.orfordbluewaters.com.au"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.8739778,
+          -42.5541516
+        ]
+      },
+      "id": "node/6995525146"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7016592185",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Lower Blue Mountains Dental Surgery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.6221464,
+          -33.7673737
+        ]
+      },
+      "id": "node/7016592185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7016592210",
+        "name": "Blue Dragon Books",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.6217152,
+          -33.7671787
+        ]
+      },
+      "id": "node/7016592210"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7035504958",
+        "name": "Learning Solutions Blue Mountains",
+        "shop": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.6134629,
+          -33.7570396
+        ]
+      },
+      "id": "node/7035504958"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7040016284",
+        "addr:housenumber": "35-39",
+        "addr:street": "Whitton Street",
+        "name": "Blue Mountains (Katoomba) National Parks and Wildlife Office",
+        "office": "government"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.3110119,
+          -33.7061569
+        ]
+      },
+      "id": "node/7040016284"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7040142082",
+        "name": "Blue Mountains City Council",
+        "office": "government"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.3126513,
+          -33.7107231
+        ]
+      },
+      "id": "node/7040142082"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7055777885",
+        "name": "Blue Mountains National Park",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.4210956,
+          -33.7093352
+        ]
+      },
+      "id": "node/7055777885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7057731073",
+        "name": "Blue Mountains Coffee Roasters",
+        "shop": "yes",
+        "website": "www.bluemountainscoffeeroasters.com.au"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.5806154,
+          -33.7011401
+        ]
+      },
+      "id": "node/7057731073"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7057811010",
+        "name": "Blue Mountains Ugg Boots",
+        "shop": "shoes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.541905,
+          -33.6920603
+        ]
+      },
+      "id": "node/7057811010"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7062184284",
+        "healthcare": "podiatrist",
+        "name": "Blue Mountains Podiatry Katoomba"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.3234199,
+          -33.7134851
+        ]
+      },
+      "id": "node/7062184284"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7062184285",
+        "name": "Blue Mountains Mazda",
+        "shop": "car_repair"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.3231722,
+          -33.7136152
+        ]
+      },
+      "id": "node/7062184285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7065101192",
+        "amenity": "cafe",
+        "name": "Blue Stool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9644035,
+          -37.7549243
+        ]
+      },
+      "id": "node/7065101192"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7077352281",
+        "accommodation": "yes",
+        "addr:city": "Avoca",
+        "addr:postcode": "3467",
+        "addr:street": "Vinoca Road",
+        "attraction": "winery",
+        "cellar_door": "yes",
+        "craft": "winery",
+        "food": "yes",
+        "name": "Blue Pyrenees Estate",
+        "opening_hours": "Mo-Su 11:00-17:00",
+        "shop": "wine",
+        "source": "Bing",
+        "start_date": "1963",
+        "tourism": "attraction",
+        "website": "https://www.bluepyrenees.com.au/",
+        "wine_region": "au:pyrenees"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.4052755,
+          -37.0692105
+        ]
+      },
+      "id": "node/7077352281"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7083676677",
+        "name": "Blue Rocks Point",
+        "natural": "cape"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.5211553,
+          -40.8718397
+        ]
+      },
+      "id": "node/7083676677"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7132488885",
+        "direction": "220",
+        "name": "Blue Lake Lookout",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.4775682,
+          -27.5289697
+        ]
+      },
+      "id": "node/7132488885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7138945118",
+        "addr:street": "Redleaf Avenue",
+        "amenity": "fast_food",
+        "cuisine": "sushi",
+        "name": "Blue Lemon Sushi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1172899,
+          -33.7186233
+        ]
+      },
+      "id": "node/7138945118"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7140200316",
+        "name": "Born in the Blue Mountains",
+        "shop": "clothes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.2856568,
+          -33.6357045
+        ]
+      },
+      "id": "node/7140200316"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7140497087",
+        "amenity": "restaurant",
+        "cuisine": "steak;burger",
+        "name": "The Smokehouse Blue Mountains",
+        "website": "https://www.thesmokehousebluemountains.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.2871852,
+          -33.6491475
+        ]
+      },
+      "id": "node/7140497087"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7140613613",
+        "addr:housenumber": "401",
+        "addr:street": "Great Western Highway",
+        "amenity": "animal_boarding",
+        "animal_boarding": "dog;cat",
+        "name": "Blue Mountains Pet Resort",
+        "website": "http://www.bluemountainspetresort.com.au"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.2752542,
+          -33.6188668
+        ]
+      },
+      "id": "node/7140613613"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7142182205",
+        "health_facility:type": "office",
+        "name": "Blue Wren Therapy",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6494133,
+          -30.5163136
+        ]
+      },
+      "id": "node/7142182205"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7176643226",
+        "historic": "monument",
+        "name": "Eastern Blue Groper"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2973786,
+          -33.8009358
+        ]
+      },
+      "id": "node/7176643226"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7215948628",
+        "access": "private",
+        "leisure": "slipway",
+        "name": "Blue Gum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.8717701,
+          -37.2539728
+        ]
+      },
+      "id": "node/7215948628"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7252098787",
+        "amenity": "cafe",
+        "name": "Three Blue Ducks"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2021666,
+          -33.9168988
+        ]
+      },
+      "id": "node/7252098787"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7293844283",
+        "addr:housenumber": "192",
+        "addr:street": "Main Street West",
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "Blue Sky Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.1534194,
+          -33.4822631
+        ]
+      },
+      "id": "node/7293844283"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7468710396",
+        "addr:housenumber": "27",
+        "addr:street": "Parker Road",
+        "contact:website": "http://www.upickberries.com.au/",
+        "name": "Blue Hills Berries & Cherries",
+        "shop": "farm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.4441644,
+          -37.8250724
+        ]
+      },
+      "id": "node/7468710396"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7574116971",
+        "name": "Blue Hippo",
+        "opening_hours": "Mo-Su 06:00-24:00",
+        "shop": "laundry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2917628,
+          -38.0848323
+        ]
+      },
+      "id": "node/7574116971"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7601399776",
+        "backcountry": "yes",
+        "name": "Blue Jacket Campsite",
+        "note": "Walkers only campsite. Camping is not permitted within 20m of a stream. Maximum 1 night stay.",
+        "openfire": "no",
+        "operator": "Thomson Valley Reserve",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.3099701,
+          -37.6650322
+        ]
+      },
+      "id": "node/7601399776"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7612245952",
+        "name": "Blue Illusion",
+        "shop": "boutique",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.1147957,
+          -30.2965748
+        ]
+      },
+      "id": "node/7612245952"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7658010930",
+        "name": "True Blue Motor Inn",
+        "tourism": "motel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.2161963,
+          -33.9239579
+        ]
+      },
+      "id": "node/7658010930"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7749974899",
+        "bus": "yes",
+        "gtfs_id": "310884",
+        "gtfs_location_type": "0",
+        "gtfs_stop_code": "310884",
+        "highway": "bus_stop",
+        "name": "Blue Water Square",
+        "network": "Translink",
+        "network:wikidata": "Q7833625",
+        "network:wikipedia": "en:TransLink (Queensland)",
+        "public_transport": "platform",
+        "route_ref": "660;680;690;694;696",
+        "transport:zone": "3",
+        "url": "http://translink.com.au/stop/310884/gtfs/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.1154225,
+          -27.2299337
+        ]
+      },
+      "id": "node/7749974899"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7832064775",
+        "addr:housenumber": "65",
+        "addr:street": "Gaskill Street",
+        "name": "The Blue Bowerbird",
+        "shop": "gift"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.6601714,
+          -33.5653478
+        ]
+      },
+      "id": "node/7832064775"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7838924871",
+        "bus": "yes",
+        "gtfs_id": "310727",
+        "gtfs_stop_code": "310727",
+        "highway": "bus_stop",
+        "name": "Browns Plains Rd at Blue Gum Drive",
+        "network": "TransLink",
+        "public_transport": "platform",
+        "route_ref": "545",
+        "transport:zone": "3",
+        "url": "http://translink.com.au/stop/310727/gtfs/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.107469,
+          -27.682124
+        ]
+      },
+      "id": "node/7838924871"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7838924872",
+        "bus": "yes",
+        "gtfs_id": "310726",
+        "gtfs_stop_code": "310726",
+        "highway": "bus_stop",
+        "name": "Browns Plains Rd at Blue Gum Drive",
+        "network": "TransLink",
+        "public_transport": "platform",
+        "route_ref": "545",
+        "transport:zone": "3",
+        "url": "http://translink.com.au/stop/310726/gtfs/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.106642,
+          -27.682224
+        ]
+      },
+      "id": "node/7838924872"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7870653526",
+        "bench": "yes",
+        "bus": "yes",
+        "gtfs_id": "2780187",
+        "highway": "bus_stop",
+        "name": "Blue Mountains Hospital, Woodlands Rd",
+        "public_transport": "platform",
+        "ref": "2780187",
+        "shelter": "no",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.3204656,
+          -33.7057824
+        ]
+      },
+      "id": "node/7870653526"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7872135712",
+        "bench": "no",
+        "bus": "yes",
+        "gtfs_id": "278028",
+        "highway": "bus_stop",
+        "name": "Blue Mountains City Council, Great Western Hwy",
+        "public_transport": "platform",
+        "ref": "278028",
+        "shelter": "no",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.3124484,
+          -33.7111297
+        ]
+      },
+      "id": "node/7872135712"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7888843532",
+        "healthcare": "podiatrist",
+        "name": "Blue Mountains Podiatry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.5358712,
+          -33.6941672
+        ]
+      },
+      "id": "node/7888843532"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7998802423",
+        "bus": "yes",
+        "gtfs_id": "2780155",
+        "highway": "bus_stop",
+        "name": "Blue Mountains Hospital, Great Western Hwy",
+        "public_transport": "platform",
+        "ref": "2780155",
+        "shelter": "yes",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.3202552,
+          -33.7058488
+        ]
+      },
+      "id": "node/7998802423"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8006171576",
+        "addr:housenumber": "99",
+        "addr:street": "Blaxland Road",
+        "name": "Blue Mountains Historical Society",
+        "office": "research",
+        "website": "https://bluemountainshistory.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.3735258,
+          -33.6977257
+        ]
+      },
+      "id": "node/8006171576"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8045600372",
+        "bus": "yes",
+        "gtfs_id": "278553",
+        "highway": "bus_stop",
+        "name": "Blue Mountains Christian School Bus Bay",
+        "public_transport": "platform",
+        "ref": "278553"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.2776453,
+          -33.630297
+        ]
+      },
+      "id": "node/8045600372"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8045600496",
+        "bus": "yes",
+        "gtfs_id": "275861",
+        "highway": "bus_stop",
+        "name": "Blue Mountains Heritage Centre, Govetts Leap Rd",
+        "public_transport": "platform",
+        "ref": "275861"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.306874,
+          -33.6307439
+        ]
+      },
+      "id": "node/8045600496"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8140490414",
+        "addr:city": "North Adelaide",
+        "addr:country": "AU",
+        "addr:housenumber": "43",
+        "addr:postcode": "5006",
+        "addr:street": "O'Connell Street",
+        "amenity": "restaurant",
+        "cuisine": "fish_and_chips",
+        "delivery": "yes",
+        "name": "Blue and White",
+        "opening_hours": "Tu-Th 11:00-24:00; Fr-Sa 12:00-01:30; Su 12:00-24:00",
+        "reservation": "no",
+        "smoking": "no",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.5963541,
+          -34.9079047
+        ]
+      },
+      "id": "node/8140490414"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8253219318",
+        "name": "Blue Hills",
+        "place": "farm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.1576061,
+          -33.5238298
+        ]
+      },
+      "id": "node/8253219318"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8326535942",
+        "addr:unit": "Shop 7/8",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Blue Mountains Pharmacy",
+        "website": "https://www.bluemountainspharmacy.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.3101824,
+          -33.7143077
+        ]
+      },
+      "id": "node/8326535942"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8329300000",
+        "addr:housenumber": "371",
+        "addr:postcode": "2790",
+        "addr:state": "NSW",
+        "addr:street": "Coxs River Road",
+        "addr:suburb": "Little Hartley",
+        "name": "Blue Mountains Lavender Farm",
+        "tourism": "attraction",
+        "website": "https://www.bluemountainslavender.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.2036717,
+          -33.5995386
+        ]
+      },
+      "id": "node/8329300000"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8356510178",
+        "amenity": "ice_cream",
+        "name": "Blue Cow Gelato"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.9064838,
+          -31.4294343
+        ]
+      },
+      "id": "node/8356510178"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8380759234",
+        "bus": "yes",
+        "departures_board": "timetable",
+        "highway": "bus_stop",
+        "name": "Blue Seas / Cable Beach Backpackers",
+        "operator": "Broome Explorer Bus",
+        "public_transport": "platform",
+        "ref": "23",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.2172549,
+          -17.9305021
+        ]
+      },
+      "id": "node/8380759234"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8386112284",
+        "addr:housenumber": "2628",
+        "addr:street": "Warburton Highway",
+        "leisure": "park",
+        "name": "Blue Lotus Garden"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.6304062,
+          -37.7827333
+        ]
+      },
+      "id": "node/8386112284"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8396628689",
+        "addr:housenumber": "148",
+        "addr:postcode": "2780",
+        "addr:state": "NSW",
+        "addr:street": "Leura Mall",
+        "addr:suburb": "Leura",
+        "addr:unit": "1",
+        "email": "leura.info@belleproperty.com",
+        "name": "Belle Property Blue Mountains",
+        "office": "estate_agent",
+        "opening_hours": "Mo-Sa 09:00-17:00",
+        "phone": "+61 2 4784 1633",
+        "website": "https://www.belleproperty.com/blue-mountains/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.3313191,
+          -33.7131324
+        ]
+      },
+      "id": "node/8396628689"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8413547355",
+        "name": "Blue Water Lagoon",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1813355,
+          -21.1373584
+        ]
+      },
+      "id": "node/8413547355"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8422046147",
+        "bus": "yes",
+        "gtfs_id": "278015",
+        "highway": "bus_stop",
+        "name": "Katoomba Falls Rd Opp Blue Mountains Tourist Park",
+        "public_transport": "platform",
+        "ref": "278015"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.303679,
+          -33.7263373
+        ]
+      },
+      "id": "node/8422046147"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8422046166",
+        "bus": "yes",
+        "gtfs_id": "2780239",
+        "highway": "bus_stop",
+        "name": "Blue Mountains Transit Bus Depot, Megalong St",
+        "public_transport": "platform",
+        "ref": "2780239"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.3230619,
+          -33.7131528
+        ]
+      },
+      "id": "node/8422046166"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8422046208",
+        "bus": "yes",
+        "gtfs_id": "2780273",
+        "highway": "bus_stop",
+        "name": "Blue Mountains Emergency Centre, Valley Rd",
+        "public_transport": "platform",
+        "ref": "2780273"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.3003365,
+          -33.7097309
+        ]
+      },
+      "id": "node/8422046208"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8422046210",
+        "bus": "yes",
+        "gtfs_id": "278054",
+        "highway": "bus_stop",
+        "name": "Valley Rd Opp Blue Mountains Emergency Centre",
+        "public_transport": "platform",
+        "ref": "278054"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.3002374,
+          -33.7094299
+        ]
+      },
+      "id": "node/8422046210"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8460361598",
+        "addr:housenumber": "259",
+        "addr:street": "Sir Thomas Mitchell Drive",
+        "addr:suburb": "South Bowenfels",
+        "leisure": "resort",
+        "name": "Blue Mountains Sparadise – Japanese Bath House"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.0829159,
+          -33.5109885
+        ]
+      },
+      "id": "node/8460361598"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8493250509",
+        "bus": "yes",
+        "gtfs_id": "231712",
+        "highway": "bus_stop",
+        "name": "Oaks Pacific Blue Resort, Sandy Point Road",
+        "public_transport": "platform",
+        "ref": "231712"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.1088155,
+          -32.7332608
+        ]
+      },
+      "id": "node/8493250509"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8493254719",
+        "bus": "yes",
+        "gtfs_id": "231743",
+        "highway": "bus_stop",
+        "name": "Bagnall Beach Road opposite Oaks Pacific Blue Resorts",
+        "public_transport": "platform",
+        "ref": "231743"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.1107188,
+          -32.7322134
+        ]
+      },
+      "id": "node/8493254719"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8493254720",
+        "bus": "yes",
+        "gtfs_id": "231764",
+        "highway": "bus_stop",
+        "name": "Oaks Pacific Blue Resort, Bagnall Beach Road",
+        "public_transport": "platform",
+        "ref": "231764"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.1104519,
+          -32.732147
+        ]
+      },
+      "id": "node/8493254720"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8493312337",
+        "addr:housenumber": "121-125",
+        "addr:postcode": "2780",
+        "addr:state": "NSW",
+        "addr:street": "Mort Street",
+        "addr:suburb": "Katoomba",
+        "amenity": "animal_shelter",
+        "name": "RSPCA Blue Mountains Shelter (Katoomba)",
+        "operator": "RSPCA NSW",
+        "operator:wikidata": "Q17026368",
+        "operator:wikipedia": "en:RSPCA NSW",
+        "phone": "+61 2 4782 2674",
+        "website": "https://www.rspcansw.org.au/who-we-are/locations/shelters/blue-mountains-shelter-katoomba/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.3083685,
+          -33.6881437
+        ]
+      },
+      "id": "node/8493312337"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8502549243",
+        "bus": "yes",
+        "gtfs_id": "2782167",
+        "highway": "bus_stop",
+        "name": "Blue Mountain Grammar School, Matcham Avenue",
+        "public_transport": "platform",
+        "ref": "2782167"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.3705852,
+          -33.7078864
+        ]
+      },
+      "id": "node/8502549243"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8502549256",
+        "bus": "yes",
+        "gtfs_id": "278230",
+        "highway": "bus_stop",
+        "name": "Blue Mountains Grammar School, Great Western Highway",
+        "public_transport": "platform",
+        "ref": "278230"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.370727,
+          -33.7094082
+        ]
+      },
+      "id": "node/8502549256"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8502549261",
+        "bus": "yes",
+        "gtfs_id": "278253",
+        "highway": "bus_stop",
+        "name": "Great Western Highway opposite Blue Mountains Grammar School",
+        "public_transport": "platform",
+        "ref": "278253"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.3698077,
+          -33.7097139
+        ]
+      },
+      "id": "node/8502549261"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8505435872",
+        "name": "Blue Gum Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.469945,
+          -34.1811933
+        ]
+      },
+      "id": "node/8505435872"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8591592318",
+        "name": "Blue Mouse Computers",
+        "shop": "computer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.7486191,
+          -34.5999428
+        ]
+      },
+      "id": "node/8591592318"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8650394373",
+        "healthcare": "rehabilitation",
+        "name": "Blue Bay Disability"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.917329,
+          -31.4354453
+        ]
+      },
+      "id": "node/8650394373"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8668359818",
+        "name": "Blue Illusion",
+        "shop": "clothes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.634727,
+          -34.9210532
+        ]
+      },
+      "id": "node/8668359818"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8683085185",
+        "addr:housenumber": "64",
+        "addr:street": "Bold Street",
+        "addr:unit": "3",
+        "amenity": "restaurant",
+        "cuisine": "vietnamese",
+        "name": "Blue Buffalo Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.7964704,
+          -31.6513535
+        ]
+      },
+      "id": "node/8683085185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8708719368",
+        "circumference": "19.4",
+        "height": "60",
+        "leaf_cycle": "evergreen",
+        "leaf_type": "broadleaved",
+        "name": "Blue Tier Giant",
+        "natural": "tree",
+        "species": "Eucalyptus regnans",
+        "species:en": "Swamp Gum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.9894054,
+          -41.2277593
+        ]
+      },
+      "id": "node/8708719368"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8713873053",
+        "name": "Blue Jacket",
+        "place": "locality"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.3105443,
+          -37.6649351
+        ]
+      },
+      "id": "node/8713873053"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8755322982",
+        "amenity": "shelter",
+        "name": "Blue Gum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0384364,
+          -33.7443747
+        ]
+      },
+      "id": "node/8755322982"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8763515440",
+        "name": "Blue Rock Gap",
+        "natural": "saddle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.1243737,
+          -33.2211069
+        ]
+      },
+      "id": "node/8763515440"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8766312417",
+        "addr:housenumber": "433",
+        "addr:street": "Ulan Road",
+        "name": "The Farmhouse at Blue Wren",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.6221374,
+          -32.5607218
+        ]
+      },
+      "id": "node/8766312417"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8813278746",
+        "name": "Blue Hole Campsite",
+        "source:name": "Temporary National Parks sign at campsite, seen in June 2021",
+        "toilets": "no",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.9522292,
+          -35.979289
+        ]
+      },
+      "id": "node/8813278746"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8860230591",
+        "amenity": "studio",
+        "frequency": "89.1 MHz",
+        "name": "Radio Blue Mountains",
+        "note": "Transmitter located on council building roof",
+        "studio": "radio",
+        "website": "https://rbm.org.au/",
+        "wikidata": "Q4645099",
+        "wikipedia": "en:Radio Blue Mountains 89.1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.3098669,
+          -33.7129191
+        ]
+      },
+      "id": "node/8860230591"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8867119723",
+        "amenity": "childcare",
+        "name": "Blue Mountains Family Day Care",
+        "operator": "Blue Mountains City Council",
+        "operator:type": "government",
+        "website": "https://www.bmcc.nsw.gov.au/blue-mountains-family-day-care/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.4299475,
+          -33.7179619
+        ]
+      },
+      "id": "node/8867119723"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8900147220",
+        "amenity": "cafe",
+        "name": "Blue Infusion"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.0059583,
+          -27.2310917
+        ]
+      },
+      "id": "node/8900147220"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8940444522",
+        "addr:housenumber": "1",
+        "addr:street": "Tayler Road",
+        "addr:unit": "1",
+        "craft": "painter",
+        "email": "info@bluemountainspainting.com.au",
+        "facebook": "https://www.facebook.com/Blue-Mountains-Painting-449439468928021/",
+        "name": "Blue Mountains Painting",
+        "phone": "+61 2 4751 1823",
+        "website": "https://www.bluemountainspainting.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.5812354,
+          -33.7011209
+        ]
+      },
+      "id": "node/8940444522"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9063521939",
+        "artwork_type": "sculpture",
+        "material": "bronze",
+        "name": "Blue Tongued Lizard",
+        "tourism": "artwork"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1095222,
+          -35.2019298
+        ]
+      },
+      "id": "node/9063521939"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9086098762",
+        "amenity": "cafe",
+        "name": "Blue Door Espresso"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.3410826,
+          -38.1474174
+        ]
+      },
+      "id": "node/9086098762"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9110868596",
+        "name": "Blue Illusion",
+        "shop": "clothes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0424681,
+          -37.7688778
+        ]
+      },
+      "id": "node/9110868596"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9125577080",
+        "leisure": "nature_reserve",
+        "name": "Blue Tongue Bend",
+        "operator": "Parks Victoria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2367169,
+          -37.719661
+        ]
+      },
+      "id": "node/9125577080"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9128441992",
+        "amenity": "fast_food",
+        "cuisine": "fish_and_chips",
+        "name": "Blue Reef"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.0323256,
+          -27.5102326
+        ]
+      },
+      "id": "node/9128441992"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9161848311",
+        "name": "Blue Mountains Makers",
+        "shop": "gift"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.3753914,
+          -33.7091055
+        ]
+      },
+      "id": "node/9161848311"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9166218217",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Yowah Blue Wren Cafe and Bar",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.6375989,
+          -27.9701212
+        ]
+      },
+      "id": "node/9166218217"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9166218218",
+        "amenity": "fast_food",
+        "name": "Yowah Blue Wren Cafe and Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.6375469,
+          -27.9701568
+        ]
+      },
+      "id": "node/9166218218"
+    }
+  ]

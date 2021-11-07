@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles_map.css">
+    </link>
+    <link rel="stylesheet" href="https://use.typekit.net/qpl0nxr.css">
+    <title>Day Thirty</title>
+</head>
+
+<body class="rgb_page"> 
+    <header>
+        <ul class="top_nav">
+            <li><a href="100_days.html">
+                    <p>back to home page</p>
+                </a></li>
+        </ul>
+    </header>
+
+    <h1> Day Thirty</h1>
+    <h2> 6 November 2021</h2>
+    <h2> #30DayMapChallenge | Day 6 - 8 | Red Green Blue</h2>
+    <h3>R | G | B</h3>
+    <h2>Things with Red, Green or Blue in their names across Australia. Data is sourced from OpenStreetMap</h2>
+
+    <div class="map_holder_colour day6_map">
+        <div class="hex_map">
+            <div class="red_map"></div>
+            <div class="green_map"></div>
+            <div class="blue_map"></div>
+        </div>
+    </div>
+    
+    <p>© OpenStreetMap contributors</p>
+    
+    <div class="description">
+        <h3>Log</h3>
+        <p>Data is from OpenStreetMap <a href="https://overpass-turbo.eu/" target="_blank">overpass turbo</a> which is a very handy tool to interogate Open Street Map information. I used this query that was built from the handy wizard</p>
+        <code>
+            [out:csv(::type, ::id, ::lat, ::lon, name)]
+            [timeout:120];
+            {{geocodeArea:Australia}}->.searchArea;(node[name~"Red "](area.searchArea);>;);out;
+        </code>
+        <p>xxx</p>
+        <p>As ever code can be found <a href="https://github.com/KellyTall/kellytall.github.io/blob/master/js/day_thirty.js" target="_blank">here</a></p>
+    </div>
+    <footer>
+        <div class="footer_nav">
+            <ul class="list_container">
+                <li><a href="day_twentyeight.html">
+                        <p>Go to Day 29</p>
+                    </a></li>
+                <li><a href="day_thirty.html">
+                        <p>Go to Day 31</p>
+                    </a></li>
+            </ul>
+        </div>
+    </footer>
+    <!-- NOTE: hexgrid has to come first!!-->
+    <script src="https://unpkg.com/d3-hexgrid"></script>
+    <script src="../js/d3.v6.js"></script>
+    <script src="https://unpkg.com/topojson@3"></script>
+    <script src="https://d3js.org/d3-hexbin.v0.2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.21.0/d3-legend.min.js"></script>
+    <script src="../js/day_thirty_red.js"></script>
+    <script src="../js/day_thirty_green.js"></script>
+    <script src="../js/day_thirty_blue.js"></script>
+</body>
+
+</html>

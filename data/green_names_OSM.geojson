@@ -1,0 +1,7113 @@
+ [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/15445736",
+        "location": "underground",
+        "name": "Green Square",
+        "operator": "Sydney Trains",
+        "public_transport": "station",
+        "railway": "station",
+        "wikidata": "Q5603235",
+        "wikipedia": "en:Green Square railway station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2024361,
+          -33.9061988
+        ]
+      },
+      "id": "node/15445736"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/33565165",
+        "is_in:country": "Australia",
+        "is_in:country_code": "AU",
+        "is_in:state": "Western Australia",
+        "is_in:state_code": "WA",
+        "name": "Green Head",
+        "place": "town",
+        "population": "297",
+        "source:population": "ABS 2016 Census (State Suburb)",
+        "wikidata": "Q21896036",
+        "wikipedia": "en:Green Head, Western Australia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.9658464,
+          -30.0705882
+        ]
+      },
+      "id": "node/33565165"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/98152953",
+        "amenity": "pub",
+        "name": "Village Green Hotel",
+        "postal_code": "3170",
+        "website": "https://www.thevillagegreen.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1598716,
+          -37.9043603
+        ]
+      },
+      "id": "node/98152953"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/113254814",
+        "created_by": "JOSM",
+        "name": "Green Cape",
+        "place": "hamlet",
+        "place:nswgnb": "LOCALITY",
+        "ref:nswgnb": "79015",
+        "source": "nswgnb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.9877778,
+          -37.2066667
+        ]
+      },
+      "id": "node/113254814"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/113373027",
+        "name": "Green Rock",
+        "place": "locality",
+        "place:nswgnb": "RURAL PLACE",
+        "ref:nswgnb": "21892",
+        "source": "nswgnb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.4844444,
+          -36.3483333
+        ]
+      },
+      "id": "node/113373027"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/113707237",
+        "name": "Green Wattle",
+        "place": "locality",
+        "place:nswgnb": "RURAL PLACE",
+        "ref:nswgnb": "21936",
+        "source": "nswgnb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.0011111,
+          -33.965
+        ]
+      },
+      "id": "node/113707237"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/113712759",
+        "created_by": "JOSM",
+        "name": "Green Hills",
+        "place": "hamlet",
+        "place:nswgnb": "LOCALITY",
+        "ref:nswgnb": "78481",
+        "source": "nswgnb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.9927778,
+          -35.6261111
+        ]
+      },
+      "id": "node/113712759"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/114382964",
+        "created_by": "JOSM",
+        "name": "Green Hills",
+        "place": "hamlet",
+        "place:nswgnb": "LOCALITY",
+        "ref:nswgnb": "75705",
+        "source": "nswgnb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7927778,
+          -30.2733333
+        ]
+      },
+      "id": "node/114382964"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/114607930",
+        "created_by": "JOSM",
+        "name": "Green Gully",
+        "place": "hamlet",
+        "place:nswgnb": "LOCALITY",
+        "ref:nswgnb": "75633",
+        "source": "nswgnb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.6761111,
+          -32.79
+        ]
+      },
+      "id": "node/114607930"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/114607981",
+        "created_by": "JOSM",
+        "name": "Green Hills",
+        "place": "hamlet",
+        "place:nswgnb": "RURAL PLACE",
+        "ref:nswgnb": "21817",
+        "source": "nswgnb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.8011111,
+          -32.14
+        ]
+      },
+      "id": "node/114607981"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/114644031",
+        "name": "Green Pigeon",
+        "place": "village",
+        "place:nswgnb": "LOCALITY",
+        "ref:nswgnb": "80645",
+        "source": "nswgnb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.0747222,
+          -28.4902778
+        ]
+      },
+      "id": "node/114644031"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/114994033",
+        "name": "Green Point",
+        "place": "village",
+        "place:nswgnb": "LOCALITY",
+        "ref:nswgnb": "81731",
+        "source": "nswgnb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.5175294,
+          -32.2492053
+        ]
+      },
+      "id": "node/114994033"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/115070647",
+        "created_by": "JOSM",
+        "name": "Green Point",
+        "place": "hamlet",
+        "place:nswgnb": "RURAL PLACE",
+        "ref:nswgnb": "21874",
+        "source": "nswgnb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.5844444,
+          -30.8983333
+        ]
+      },
+      "id": "node/115070647"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/115097452",
+        "created_by": "JOSM",
+        "name": "Green Creek",
+        "place": "hamlet",
+        "place:nswgnb": "LOCALITY",
+        "ref:nswgnb": "79851",
+        "source": "nswgnb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0325,
+          -31.7827778
+        ]
+      },
+      "id": "node/115097452"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/116961426",
+        "created_by": "JOSM",
+        "name": "Green Point",
+        "place": "suburb",
+        "place:nswgnb": "SUBURB",
+        "ref:nswgnb": "21869",
+        "source": "nswgnb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.3594444,
+          -33.465
+        ]
+      },
+      "id": "node/116961426"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/117051009",
+        "is_in:hamlet": "Mountain Lagoon",
+        "name": "Green Scrub",
+        "place": "locality",
+        "source": "NSW LPI Base Map"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.6284809,
+          -33.461592
+        ]
+      },
+      "id": "node/117051009"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/117167760",
+        "name": "Green Valley",
+        "place": "suburb",
+        "place:nswgnb": "SUBURB",
+        "ref:nswgnb": "21932",
+        "source": "nswgnb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.8674187,
+          -33.9024601
+        ]
+      },
+      "id": "node/117167760"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/125123195",
+        "bus": "yes",
+        "gtfs_id": "485",
+        "gtfs_location_type": "0",
+        "gtfs_stop_code": "000485",
+        "highway": "bus_stop",
+        "name": "Green Terrace near Newmarket Road stop 15",
+        "network": "TransLink",
+        "public_transport": "platform",
+        "route_ref": "346;353",
+        "source": "data.qld.gov.au",
+        "transport:zone": "1",
+        "url": "http://translink.com.au/stop/000485/gtfs/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.026962,
+          -27.438009
+        ]
+      },
+      "id": "node/125123195"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/127727416",
+        "created_by": "JOSM",
+        "name": "Green Patch",
+        "place": "hamlet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.7231641,
+          -35.1373668
+        ]
+      },
+      "id": "node/127727416"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/127728235",
+        "name": "Green Patch",
+        "tourism": "picnic_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.7239535,
+          -35.1374418
+        ]
+      },
+      "id": "node/127728235"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/273869179",
+        "name": "Green Gully",
+        "place": "hamlet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.0951504,
+          -37.1072931
+        ]
+      },
+      "id": "node/273869179"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/291755788",
+        "name": "Green Duck Pool",
+        "place": "locality"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.091234,
+          -33.3669519
+        ]
+      },
+      "id": "node/291755788"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/316581694",
+        "name": "Green Park Tourist Complex",
+        "tourism": "caravan_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.2173952,
+          -15.5737774
+        ]
+      },
+      "id": "node/316581694"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/316587393",
+        "access": "customers",
+        "fee": "yes",
+        "name": "Green Gully Campground - Oxley Wild Rivers NP",
+        "operator": "NSW National Parks and Wildlife Service",
+        "shower": "no",
+        "toilets": "yes",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.0273951,
+          -30.5315516
+        ]
+      },
+      "id": "node/316587393"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/316590074",
+        "caravans": "yes",
+        "fee": "no",
+        "name": "Village Green Campground - Waterhouse Cons Area",
+        "shower": "no",
+        "tents": "yes",
+        "toilets": "yes",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.6609779,
+          -40.8265522
+        ]
+      },
+      "id": "node/316590074"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/316590491",
+        "caravans": "yes",
+        "comment": "NO generators, fires or dog alowed",
+        "fee": "no",
+        "name": "Boltons Green Campground - Southwest NP",
+        "shower": "no",
+        "tents": "yes",
+        "toilets": "yes",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.8950995,
+          -43.5828775
+        ]
+      },
+      "id": "node/316590491"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/316597872",
+        "name": "Green Bank - Murray River Reserve",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.9793235,
+          -36.0103913
+        ]
+      },
+      "id": "node/316597872"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/316598598",
+        "access": "yes",
+        "fee": "no",
+        "internet_access": "no",
+        "name": "Green Hill Lake Reserve",
+        "operator": "Ararat Rural City Council; Green Hill Lake Development Board",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.9810738,
+          -37.2962295
+        ]
+      },
+      "id": "node/316598598"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/322499129",
+        "amenity": "animal_boarding",
+        "name": "Green Hill Kennels"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.5349458,
+          -30.558255
+        ]
+      },
+      "id": "node/322499129"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/324555823",
+        "building": "hut",
+        "name": "Green Gully Hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.0095503,
+          -30.9711407
+        ]
+      },
+      "id": "node/324555823"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/354882161",
+        "bus": "yes",
+        "gtfs_id": "4885",
+        "gtfs_location_type": "0",
+        "gtfs_stop_code": "004885",
+        "highway": "bus_stop",
+        "name": "Green Street near Biarra Street stop 29",
+        "network": "TransLink",
+        "public_transport": "platform",
+        "route_ref": "104;105;108",
+        "source": "data.qld.gov.au",
+        "transport:zone": "1",
+        "url": "http://translink.com.au/stop/004885/gtfs/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.016761,
+          -27.525389
+        ]
+      },
+      "id": "node/354882161"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/354882174",
+        "bus": "yes",
+        "gtfs_id": "4886",
+        "gtfs_location_type": "0",
+        "gtfs_stop_code": "004886",
+        "highway": "bus_stop",
+        "name": "Green Street at Biarra Street stop 29",
+        "network": "TransLink",
+        "public_transport": "platform",
+        "route_ref": "105;108",
+        "source": "data.qld.gov.au",
+        "transport:zone": "1",
+        "url": "http://translink.com.au/stop/004886/gtfs/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.016059,
+          -27.525395
+        ]
+      },
+      "id": "node/354882174"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/357176626",
+        "bus": "yes",
+        "gtfs_id": "483",
+        "gtfs_location_type": "0",
+        "gtfs_stop_code": "000483",
+        "highway": "bus_stop",
+        "name": "Green Terrace at Table Tennis Complex stop 14",
+        "network": "TransLink",
+        "public_transport": "platform",
+        "route_ref": "346;353",
+        "source": "data.qld.gov.au",
+        "transport:zone": "1",
+        "url": "http://translink.com.au/stop/000483/gtfs/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.026226,
+          -27.439668
+        ]
+      },
+      "id": "node/357176626"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/357176684",
+        "bus": "yes",
+        "gtfs_id": "484",
+        "gtfs_location_type": "0",
+        "gtfs_stop_code": "000484",
+        "highway": "bus_stop",
+        "name": "Green Terrace at Table Tennis Complex stop 14",
+        "network": "TransLink",
+        "public_transport": "platform",
+        "route_ref": "346;353",
+        "source": "data.qld.gov.au",
+        "transport:zone": "1",
+        "url": "http://translink.com.au/stop/000484/gtfs/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.026416,
+          -27.439605
+        ]
+      },
+      "id": "node/357176684"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/357177725",
+        "bus": "yes",
+        "gtfs_id": "486",
+        "gtfs_location_type": "0",
+        "gtfs_stop_code": "000486",
+        "highway": "bus_stop",
+        "name": "Green Terrace near Newmarket Road stop 15",
+        "network": "TransLink",
+        "public_transport": "platform",
+        "route_ref": "346;353",
+        "source": "data.qld.gov.au",
+        "transport:zone": "1",
+        "url": "http://translink.com.au/stop/000486/gtfs/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.027101,
+          -27.438047
+        ]
+      },
+      "id": "node/357177725"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/358524459",
+        "bus": "yes",
+        "gtfs_id": "482",
+        "gtfs_location_type": "0",
+        "gtfs_stop_code": "000482",
+        "highway": "bus_stop",
+        "name": "Green Terrace at Downey Park stop 13a",
+        "network": "TransLink",
+        "public_transport": "platform",
+        "route_ref": "346;353",
+        "source": "data.qld.gov.au",
+        "transport:zone": "1",
+        "url": "http://translink.com.au/stop/000482/gtfs/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.025494,
+          -27.441158
+        ]
+      },
+      "id": "node/358524459"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/457978570",
+        "amenity": "fast_food",
+        "cuisine": "mixed",
+        "name": "Green Rock Take Away"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.6846731,
+          -31.8709704
+        ]
+      },
+      "id": "node/457978570"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/466942835",
+        "name": "Green Room",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.5430042,
+          -27.4326195
+        ]
+      },
+      "id": "node/466942835"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/482695720",
+        "name": "Green Point",
+        "natural": "cape",
+        "source": "historical",
+        "source_ref": "http://parishmaps.lands.nsw.gov.au/mrsid/image_sid.pl?client=pmap&image=PMapMN03/14037101.sid"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2309829,
+          -33.5614184
+        ]
+      },
+      "id": "node/482695720"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/492603525",
+        "information": "guidepost",
+        "name": "To the Beach/To The Green sign",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0085345,
+          -34.2157213
+        ]
+      },
+      "id": "node/492603525"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/614672105",
+        "name": "Village Green Samford",
+        "opening_hours": "Mo-Su 07:00-21:00",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.8862774,
+          -27.3727719
+        ]
+      },
+      "id": "node/614672105"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/660116316",
+        "addr:city": "Melbourne",
+        "addr:housenumber": "18",
+        "addr:postcode": "3000",
+        "addr:street": "Bourke Street",
+        "amenity": "restaurant",
+        "building": "retail",
+        "contact:email": "info@greenpepper.com.au",
+        "cuisine": "indian",
+        "name": "Green Pepper",
+        "phone": "+61 3 96622963",
+        "website": "http://www.greenpepper.com.au"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.972399,
+          -37.811355
+        ]
+      },
+      "id": "node/660116316"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/696604073",
+        "addr:city": "Collingwood",
+        "addr:housenumber": "240",
+        "addr:postcode": "3066",
+        "addr:state": "VIC",
+        "addr:street": "Smith Street",
+        "addr:suburb": "Collingwood",
+        "amenity": "fast_food",
+        "cuisine": "burger",
+        "diet:vegan": "yes",
+        "drive_through": "no",
+        "name": "Green Burger",
+        "outdoor_seating": "no",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9839017,
+          -37.8018398
+        ]
+      },
+      "id": "node/696604073"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/704994681",
+        "addr:housenumber": "71",
+        "addr:street": "Victoria Parade",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "The Green Shop Organic",
+        "phone": "+61394171764"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.976403,
+          -37.807944
+        ]
+      },
+      "id": "node/704994681"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/728340921",
+        "amenity": "parking",
+        "ele": "857.3800000",
+        "name": "Green Camp",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.0843128,
+          -30.2792595
+        ]
+      },
+      "id": "node/728340921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/769692423",
+        "disused:railway": "station_site",
+        "name": "Green Hill"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.4542752,
+          -37.165426
+        ]
+      },
+      "id": "node/769692423"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/790668171",
+        "addr:city": "Brisbane",
+        "addr:housenumber": "480",
+        "addr:postcode": "4060",
+        "addr:street": "Waterworks Road",
+        "addr:suburb": "Ashgrove",
+        "addr:unit": "3",
+        "amenity": "restaurant",
+        "cuisine": "thai",
+        "name": "Green Mango",
+        "source": "local_knowledge;Brisbane City Council",
+        "source:date": "2018-12-14"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.9784464,
+          -27.4494003
+        ]
+      },
+      "id": "node/790668171"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/829746676",
+        "amenity": "police",
+        "name": "Green Valley Police Station",
+        "phone": "+61-2-9607-1799",
+        "source": "police.nsw.gov.au"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.8660603,
+          -33.9065575
+        ]
+      },
+      "id": "node/829746676"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/910343360",
+        "name": "Green Point",
+        "natural": "cape",
+        "source": "historical",
+        "source_ref": "http://parishmaps.lands.nsw.gov.au/mrsid/image_sid.pl?client=pmap&image=PMapMN05/14039501.sid"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0757906,
+          -33.9974002
+        ]
+      },
+      "id": "node/910343360"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/910343366",
+        "name": "Green Point",
+        "place": "neighbourhood",
+        "source": "historical"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0809143,
+          -33.9862603
+        ]
+      },
+      "id": "node/910343366"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/918220826",
+        "name": "Green Point",
+        "natural": "cape",
+        "source:name": "historical",
+        "source_ref:name": "http://parishmaps.lands.nsw.gov.au/mrsid/image_sid.pl?client=pmap&image=PMapNA04/13825901.sid"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.7686938,
+          -35.0137097
+        ]
+      },
+      "id": "node/918220826"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/973647351",
+        "name": "Green Corps Lookout",
+        "source:name": "image",
+        "tourism": "viewpoint",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9555387,
+          -31.0876518
+        ]
+      },
+      "id": "node/973647351"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1123372708",
+        "amenity": "restaurant",
+        "cuisine": "vietnamese",
+        "name": "Green Tea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.0336618,
+          -27.4587457
+        ]
+      },
+      "id": "node/1123372708"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1148542146",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "The Green Dispensary",
+        "toilets:wheelchair": "no",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.7165542,
+          -35.005535
+        ]
+      },
+      "id": "node/1148542146"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1236957712",
+        "amenity": "restaurant",
+        "name": "Green Point Brasserie"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.4299514,
+          -37.6797537
+        ]
+      },
+      "id": "node/1236957712"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1268868226",
+        "name": "Green Point lookout",
+        "tourism": "viewpoint",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6359167,
+          -33.0276371
+        ]
+      },
+      "id": "node/1268868226"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1420090495",
+        "ele": "609",
+        "name": "Green Hill",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.9012844,
+          -37.6277839
+        ]
+      },
+      "id": "node/1420090495"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1478638853",
+        "leisure": "slipway",
+        "name": "Boat Ramp - Green Point - 01",
+        "operator": "National Parks and Wildlife Service",
+        "operator:wikidata": "Q6974770"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.5106213,
+          -32.2408168
+        ]
+      },
+      "id": "node/1478638853"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1579392467",
+        "amenity": "veterinary",
+        "name": "Green Cross Nerang Vet",
+        "source": "voice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.3330892,
+          -27.9924643
+        ]
+      },
+      "id": "node/1579392467"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1600787850",
+        "highway": "bus_stop",
+        "name": "Green Street"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0976165,
+          -37.8392642
+        ]
+      },
+      "id": "node/1600787850"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1619638888",
+        "addr:street": "King Street",
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "diet:vegan": "only",
+        "name": "Green Gourmet",
+        "opening_hours": "Mo-Th 12:00-15:00,17:30-21:30;Fr-Sa 12:00-15:00;17:30-22:30",
+        "reservation": "yes",
+        "website": "https://www.greengourmet.com.au/pages/newtown-restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.184165,
+          -33.8930201
+        ]
+      },
+      "id": "node/1619638888"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1624794801",
+        "bus": "yes",
+        "gtfs_id": "4881",
+        "gtfs_location_type": "0",
+        "gtfs_stop_code": "004881",
+        "highway": "bus_stop",
+        "name": "Wilkie Street near Green Street",
+        "network": "TransLink",
+        "public_transport": "platform",
+        "route_ref": "104;R590",
+        "source": "data.qld.gov.au",
+        "transport:zone": "1/2",
+        "url": "http://translink.com.au/stop/004881/gtfs/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.01431,
+          -27.524963
+        ]
+      },
+      "id": "node/1624794801"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1654644152",
+        "BOM:ID": "040182",
+        "attribution": "With kind permission: Australian Bureau of Meteorology (20 Apr 2010)",
+        "attribution:url": "http://www.bom.gov.au/other/copyright.shtml",
+        "fixme": "not_reviewed",
+        "man_made": "monitoring_station",
+        "monitoring:weather": "yes",
+        "name": "Green Mountains"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.1355468,
+          -28.2311724
+        ]
+      },
+      "id": "node/1654644152"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1715397790",
+        "name": "Green Gorge Hut",
+        "operator": "Australian Antarctic Division",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          158.8987173,
+          -54.6310694
+        ]
+      },
+      "id": "node/1715397790"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1717885109",
+        "amenity": "restaurant",
+        "name": "The Green Room"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8577521,
+          -31.9549267
+        ]
+      },
+      "id": "node/1717885109"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1744829823",
+        "name": "Green Island",
+        "place": "island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1509638,
+          -20.9803627
+        ]
+      },
+      "id": "node/1744829823"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1762106539",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Green Street/Westgarth Street",
+        "network": "PTV - Metropolitan Buses",
+        "public_transport": "platform",
+        "ref": "ID.368",
+        "route_ref": "250;251",
+        "shelter": "no",
+        "source": "survey",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.00531,
+          -37.7820086
+        ]
+      },
+      "id": "node/1762106539"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1808391861",
+        "name": "Green Bank",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.97722,
+          -36.00972
+        ]
+      },
+      "id": "node/1808391861"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1808391863",
+        "name": "Green Lake Recreation Reserve",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.82833,
+          -36.43778
+        ]
+      },
+      "id": "node/1808391863"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1808393389",
+        "name": "Green Lake",
+        "tourism": "picnic_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.29778,
+          -36.78694
+        ]
+      },
+      "id": "node/1808393389"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1811177489",
+        "access": "yes",
+        "amenity": "toilets",
+        "changing_table": "no",
+        "name": "Green Gully Campground",
+        "toilets:disposal": "pitlatrine",
+        "tourism": "camp_site",
+        "unisex": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.02778,
+          -30.53167
+        ]
+      },
+      "id": "node/1811177489"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1811177490",
+        "fee": "no",
+        "name": "Green Point Campground",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.6798526,
+          -40.909899
+        ]
+      },
+      "id": "node/1811177490"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1811177491",
+        "name": "Green Range Rest Area",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.3808242,
+          -34.6282535
+        ]
+      },
+      "id": "node/1811177491"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1811177511",
+        "name": "Green Patch Camping Area",
+        "source": "LPI Base Map Aug 2016",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.7217835,
+          -35.1379084
+        ]
+      },
+      "id": "node/1811177511"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1836040177",
+        "amenity": "car_wash",
+        "name": "Green Car Hand Car Wash and Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0665408,
+          -33.8864885
+        ]
+      },
+      "id": "node/1836040177"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1874249765",
+        "name": "Green Hil",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.6031836,
+          -37.5640128
+        ]
+      },
+      "id": "node/1874249765"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1918134521",
+        "addr:housenumber": "140",
+        "addr:street": "Eastern Service Road",
+        "addr:suburb": "Burpengary East",
+        "contact:phone": "+61 7 3888 2577",
+        "name": "Green Wattle Sanctuary",
+        "place": "locality"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.9822793,
+          -27.1660197
+        ]
+      },
+      "id": "node/1918134521"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1995294200",
+        "leisure": "playground",
+        "name": "Forest Green Reserve"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.066426,
+          -32.3387532
+        ]
+      },
+      "id": "node/1995294200"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2002034985",
+        "addr:city": "Port Melbourne",
+        "addr:country": "AU",
+        "addr:housenumber": "120",
+        "addr:postcode": "3207",
+        "addr:street": "Bay Street",
+        "name": "Green Element",
+        "phone": "+61 3 9645 6411",
+        "shop": "hairdresser"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.940237,
+          -37.840811
+        ]
+      },
+      "id": "node/2002034985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2071116198",
+        "amenity": "restaurant",
+        "cuisine": "thai",
+        "name": "Green Bamboo",
+        "opening_hours": "Mo-Sa 17:30-21:30",
+        "website": "https://www.greenbamboovietnamese.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0981775,
+          -35.3554315
+        ]
+      },
+      "id": "node/2071116198"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2118639567",
+        "ele": "393",
+        "name": "Green Hill",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.852742,
+          -37.8342392
+        ]
+      },
+      "id": "node/2118639567"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2134690318",
+        "amenity": "cafe",
+        "name": "Little Green Bean",
+        "opening_hours": "Mo-Fr 06:30-16:00; Sa,Su 07:00-16:00",
+        "survey": "bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2427407,
+          -33.9036929
+        ]
+      },
+      "id": "node/2134690318"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2141119878",
+        "addr:city": "Padstow",
+        "addr:postcode": "2211",
+        "addr:street": "Padstow Parade",
+        "name": "Padstow's Green Grocer",
+        "shop": "greengrocer",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0327481,
+          -33.9531978
+        ]
+      },
+      "id": "node/2141119878"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2166361114",
+        "name": "The Old Green Shop",
+        "shop": "car_repair"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.6474699,
+          -31.3481677
+        ]
+      },
+      "id": "node/2166361114"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2179041826",
+        "amenity": "restaurant",
+        "name": "Village Green Hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1598969,
+          -37.9041512
+        ]
+      },
+      "id": "node/2179041826"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2179041831",
+        "leisure": "playground",
+        "name": "Village Green Hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1599395,
+          -37.9039948
+        ]
+      },
+      "id": "node/2179041831"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2243343881",
+        "amenity": "car_sharing",
+        "name": "Green Share Car"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9562302,
+          -37.8116132
+        ]
+      },
+      "id": "node/2243343881"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2280669611",
+        "highway": "bus_stop",
+        "name": "Stop 76 Green Valley Drive - East side",
+        "source": "Adelaide Metro",
+        "stop_id": "100252"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.7025895,
+          -34.7707472
+        ]
+      },
+      "id": "node/2280669611"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2280669612",
+        "highway": "bus_stop",
+        "name": "Stop 76 Green Valley Drive - West side",
+        "source": "Adelaide Metro",
+        "stop_id": "100251"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.7024,
+          -34.77075
+        ]
+      },
+      "id": "node/2280669612"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2280669655",
+        "highway": "bus_stop",
+        "name": "Stop 77 Green Valley Drive - North West side",
+        "source": "Adelaide Metro",
+        "stop_id": "100253"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.6987658,
+          -34.7732261
+        ]
+      },
+      "id": "node/2280669655"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2280669656",
+        "highway": "bus_stop",
+        "name": "Stop 77 Green Valley Drive - South East side",
+        "source": "Adelaide Metro",
+        "stop_id": "100254"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.6989069,
+          -34.7733138
+        ]
+      },
+      "id": "node/2280669656"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2280669772",
+        "highway": "bus_stop",
+        "name": "Stop 78 Green Valley Drive - North side",
+        "source": "Adelaide Metro",
+        "stop_id": "7332"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.69714,
+          -34.77373
+        ]
+      },
+      "id": "node/2280669772"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2296798402",
+        "amenity": "cafe",
+        "name": "Mocan & Green Grout"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1249709,
+          -35.284764
+        ]
+      },
+      "id": "node/2296798402"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2299065374",
+        "name": "Green Bin",
+        "tourism": "artwork"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.994647,
+          -37.790086
+        ]
+      },
+      "id": "node/2299065374"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2314318606",
+        "name": "Green Hill",
+        "place": "farm",
+        "source": "Bing",
+        "source:name": "sign at road"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.9018801,
+          -35.8179276
+        ]
+      },
+      "id": "node/2314318606"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2339317201",
+        "addr:city": "West Perth",
+        "addr:housenumber": "1297",
+        "addr:postcode": "6005",
+        "addr:street": "Hay Street",
+        "amenity": "restaurant",
+        "cuisine": "american",
+        "name": "The Green Umbrella"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8395429,
+          -31.9480326
+        ]
+      },
+      "id": "node/2339317201"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2358229080",
+        "ele": "894",
+        "name": "Green Head",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.05976,
+          -43.09434
+        ]
+      },
+      "id": "node/2358229080"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2372915848",
+        "addr:street": "Old Warren Road",
+        "name": "Green Camp",
+        "place": "farm",
+        "source": "Bing",
+        "source:name": "sign at road"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.3138788,
+          -31.5312914
+        ]
+      },
+      "id": "node/2372915848"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2404616881",
+        "bus": "yes",
+        "gtfs_id": "215478",
+        "highway": "bus_stop",
+        "name": "Western Sydney TAFE, Green Rd",
+        "public_transport": "platform",
+        "ref": "215478"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9762069,
+          -33.7237118
+        ]
+      },
+      "id": "node/2404616881"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2404616884",
+        "bus": "yes",
+        "gtfs_id": "215479",
+        "highway": "bus_stop",
+        "name": "Green Road before Saint Pauls Avenue",
+        "public_transport": "platform",
+        "ref": "215479",
+        "shelter": "yes",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9750473,
+          -33.7209913
+        ]
+      },
+      "id": "node/2404616884"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2404616923",
+        "bus": "yes",
+        "gtfs_id": "2154376",
+        "highway": "bus_stop",
+        "name": "Green Road after Saint Pauls Avenue",
+        "public_transport": "platform",
+        "ref": "2154376",
+        "shelter": "yes",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9748238,
+          -33.7194216
+        ]
+      },
+      "id": "node/2404616923"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2404616927",
+        "bus": "yes",
+        "gtfs_id": "2154317",
+        "highway": "bus_stop",
+        "name": "Centenary Of ANZAC Reserve, Green Rd",
+        "public_transport": "platform",
+        "ref": "2154317",
+        "shelter": "yes",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9748452,
+          -33.7167022
+        ]
+      },
+      "id": "node/2404616927"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2405044961",
+        "bus": "yes",
+        "gtfs_id": "215484",
+        "highway": "bus_stop",
+        "name": "Green Rd Opp St Pauls Av",
+        "public_transport": "platform",
+        "ref": "215484",
+        "shelter": "yes",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9752747,
+          -33.7209693
+        ]
+      },
+      "id": "node/2405044961"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2405044962",
+        "bus": "yes",
+        "gtfs_id": "2154318",
+        "highway": "bus_stop",
+        "name": "Green Rd After Eric Cooper Dr",
+        "public_transport": "platform",
+        "ref": "2154318",
+        "shelter": "yes",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9750754,
+          -33.7178636
+        ]
+      },
+      "id": "node/2405044962"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2405044963",
+        "bus": "yes",
+        "gtfs_id": "215481",
+        "highway": "bus_stop",
+        "name": "Green Rd After Wrights Rd",
+        "public_transport": "platform",
+        "ref": "215481",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.97507,
+          -33.7143632
+        ]
+      },
+      "id": "node/2405044963"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2407532973",
+        "addr:city": "Carlton North",
+        "addr:housenumber": "815",
+        "addr:postcode": "3054",
+        "addr:street": "Nicholson Street",
+        "amenity": "cafe",
+        "building": "yes",
+        "cuisine": "spanish",
+        "name": "Green Park",
+        "opening_hours": "Every day from 7am",
+        "phone": "+61 3 9380 5499",
+        "smoking": "no",
+        "website": "http://greenparkdining.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9773295,
+          -37.7799029
+        ]
+      },
+      "id": "node/2407532973"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2429903395",
+        "bus": "yes",
+        "gtfs_id": "215414",
+        "highway": "bus_stop",
+        "name": "Showground Rd Before Green Rd",
+        "public_transport": "platform",
+        "ref": "215414"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9762089,
+          -33.7249913
+        ]
+      },
+      "id": "node/2429903395"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2525152757",
+        "gtfs_id": "313028",
+        "gtfs_stop_code": "313028",
+        "highway": "bus_stop",
+        "name": "Green Road near Emerald Drive",
+        "network": "TransLink",
+        "route_ref": "542",
+        "transport:zone": "3",
+        "url": "http://translink.com.au/stop/313028/gtfs/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.033665,
+          -27.68691
+        ]
+      },
+      "id": "node/2525152757"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2525161769",
+        "gtfs_id": "312855",
+        "gtfs_stop_code": "312855",
+        "highway": "bus_stop",
+        "name": "Green Road near Venture Street",
+        "network": "TransLink",
+        "route_ref": "560",
+        "transport:zone": "3",
+        "url": "http://translink.com.au/stop/312855/gtfs/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.077466,
+          -27.694788
+        ]
+      },
+      "id": "node/2525161769"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2561246744",
+        "amenity": "pub",
+        "name": "Green Valley Hotel",
+        "opening_hours": "Mo-Su 10:00-01:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.883981,
+          -33.919285
+        ]
+      },
+      "id": "node/2561246744"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2623295627",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Green Valley T-Way",
+        "public_transport": "platform",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.8763175,
+          -33.8997448
+        ]
+      },
+      "id": "node/2623295627"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2623295632",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Green Valley T-Way",
+        "public_transport": "platform",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.8763979,
+          -33.9000075
+        ]
+      },
+      "id": "node/2623295632"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2711552911",
+        "historic": "ruins",
+        "name": "Green Hill Fort Coastal Artillery",
+        "opening_hours": "sunrise-sunset",
+        "wikidata": "Q38152906"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.2112342,
+          -10.5838385
+        ]
+      },
+      "id": "node/2711552911"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2720505779",
+        "addr:city": "Brunswick",
+        "addr:housenumber": "31",
+        "addr:postcode": "3056",
+        "addr:street": "Tinning Street",
+        "building": "yes",
+        "contact:facebook": "https://www.facebook.com/ThePeaGreenBoatArtistStudios",
+        "name": "Pea Green Boat Artist Studios"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9613246,
+          -37.7595176
+        ]
+      },
+      "id": "node/2720505779"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2724501139",
+        "amenity": "cafe",
+        "name": "Green & Wood",
+        "outdoor_seating": "yes",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.121106,
+          -37.849717
+        ]
+      },
+      "id": "node/2724501139"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2748758982",
+        "amenity": "cafe",
+        "name": "Green Mango Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2539618,
+          -33.9115795
+        ]
+      },
+      "id": "node/2748758982"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2824349508",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Green Street",
+        "network": "PTV – Metropolitan Buses",
+        "operator": "Transdev",
+        "public_transport": "platform",
+        "ref:ptv": "10340",
+        "route_ref": "902",
+        "website": "https://ptv.vic.gov.au/stop/13822"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0381505,
+          -37.6942659
+        ]
+      },
+      "id": "node/2824349508"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2864429538",
+        "addr:city": "Hillside",
+        "addr:housenumber": "1-5",
+        "addr:postcode": "3037",
+        "addr:street": "Kate Way",
+        "amenity": "clinic",
+        "name": "Parkwood Green Medical",
+        "phone": "+61 3 94494100",
+        "website": "https://parkwoodgreenmedical.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.7448337,
+          -37.6930563
+        ]
+      },
+      "id": "node/2864429538"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2899060207",
+        "name": "Green Trees Guest House",
+        "operator": "Golden Chain",
+        "source": "voice",
+        "tourism": "guest_house",
+        "website": "http://www.greentreeshouse.com.au"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0738763,
+          -33.3045047
+        ]
+      },
+      "id": "node/2899060207"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2927714428",
+        "amenity": "toilets",
+        "name": "Green Wharf Shed Toilets",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.3643966,
+          -38.1448269
+        ]
+      },
+      "id": "node/2927714428"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2962592072",
+        "addr:housenumber": "134",
+        "addr:street": "Eastern Service Road",
+        "addr:suburb": "Burpengary East",
+        "contact:phone": "+61 7 3888 1188",
+        "name": "Green Wattle Gardens",
+        "place": "locality"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.982703,
+          -27.1673039
+        ]
+      },
+      "id": "node/2962592072"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2982562242",
+        "name": "Green Point",
+        "place": "locality"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.7790853,
+          -20.2548713
+        ]
+      },
+      "id": "node/2982562242"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2985824922",
+        "bus": "yes",
+        "gtfs_id": "312266",
+        "gtfs_stop_code": "312266",
+        "highway": "bus_stop",
+        "name": "Bayliss Road near Green Road",
+        "network": "TransLink",
+        "public_transport": "platform",
+        "route_ref": "543",
+        "transport:zone": "3",
+        "url": "http://translink.com.au/stop/312266/gtfs/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.056752,
+          -27.689512
+        ]
+      },
+      "id": "node/2985824922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2985824923",
+        "bus": "yes",
+        "gtfs_id": "312272",
+        "gtfs_stop_code": "312272",
+        "highway": "bus_stop",
+        "name": "Bayliss Road near Green Road",
+        "network": "TransLink",
+        "public_transport": "platform",
+        "route_ref": "543",
+        "transport:zone": "3",
+        "url": "http://translink.com.au/stop/312272/gtfs/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.057009,
+          -27.689892
+        ]
+      },
+      "id": "node/2985824923"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2985840364",
+        "bus": "yes",
+        "gtfs_id": "310562",
+        "gtfs_stop_code": "310562",
+        "highway": "bus_stop",
+        "name": "Green Road at Isle of Ely Drive",
+        "network": "TransLink",
+        "public_transport": "platform",
+        "route_ref": "543;560",
+        "transport:zone": "3",
+        "url": "http://translink.com.au/stop/310562/gtfs/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.052418,
+          -27.689553
+        ]
+      },
+      "id": "node/2985840364"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2985840365",
+        "bus": "yes",
+        "gtfs_id": "310821",
+        "gtfs_stop_code": "310821",
+        "highway": "bus_stop",
+        "name": "Green Road at Isle of Ely Drive",
+        "network": "TransLink",
+        "public_transport": "platform",
+        "route_ref": "543;560",
+        "transport:zone": "3",
+        "url": "http://translink.com.au/stop/310821/gtfs/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.052378,
+          -27.689712
+        ]
+      },
+      "id": "node/2985840365"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2985840366",
+        "bus": "yes",
+        "gtfs_id": "310926",
+        "gtfs_stop_code": "310926",
+        "highway": "bus_stop",
+        "name": "Green Road at Solandra Circuit",
+        "network": "TransLink",
+        "public_transport": "platform",
+        "route_ref": "560",
+        "transport:zone": "3",
+        "url": "http://translink.com.au/stop/310926/gtfs/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.040994,
+          -27.687848
+        ]
+      },
+      "id": "node/2985840366"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2985840367",
+        "bus": "yes",
+        "gtfs_id": "310822",
+        "gtfs_stop_code": "310822",
+        "highway": "bus_stop",
+        "name": "Green Road at Solandra Circuit",
+        "network": "TransLink",
+        "public_transport": "platform",
+        "route_ref": "560",
+        "transport:zone": "3",
+        "url": "http://translink.com.au/stop/310822/gtfs/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.040579,
+          -27.687928
+        ]
+      },
+      "id": "node/2985840367"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2985840368",
+        "bus": "yes",
+        "gtfs_id": "310927",
+        "gtfs_stop_code": "310927",
+        "highway": "bus_stop",
+        "name": "Green Road at Sunrise Court",
+        "network": "TransLink",
+        "public_transport": "platform",
+        "route_ref": "560",
+        "transport:zone": "3",
+        "url": "http://translink.com.au/stop/310927/gtfs/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.0453,
+          -27.688464
+        ]
+      },
+      "id": "node/2985840368"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2985840369",
+        "bus": "yes",
+        "gtfs_id": "312278",
+        "gtfs_stop_code": "312278",
+        "highway": "bus_stop",
+        "name": "Green Road near Blue Wren Place",
+        "network": "TransLink",
+        "public_transport": "platform",
+        "route_ref": "560",
+        "transport:zone": "3",
+        "url": "http://translink.com.au/stop/312278/gtfs/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.065514,
+          -27.692124
+        ]
+      },
+      "id": "node/2985840369"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2985840370",
+        "bus": "yes",
+        "gtfs_id": "312279",
+        "gtfs_stop_code": "312279",
+        "highway": "bus_stop",
+        "name": "Green Road near Blue Wren Place",
+        "network": "TransLink",
+        "public_transport": "platform",
+        "route_ref": "560",
+        "transport:zone": "3",
+        "url": "http://translink.com.au/stop/312279/gtfs/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.066518,
+          -27.692441
+        ]
+      },
+      "id": "node/2985840370"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2985840371",
+        "bus": "yes",
+        "gtfs_id": "312276",
+        "gtfs_stop_code": "312276",
+        "highway": "bus_stop",
+        "name": "Green Road near Heritage Boulevard",
+        "network": "TransLink",
+        "public_transport": "platform",
+        "route_ref": "560",
+        "transport:zone": "3",
+        "url": "http://translink.com.au/stop/312276/gtfs/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.058997,
+          -27.691183
+        ]
+      },
+      "id": "node/2985840371"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2985840372",
+        "bus": "yes",
+        "gtfs_id": "312275",
+        "gtfs_stop_code": "312275",
+        "highway": "bus_stop",
+        "name": "Green Road near Heritage Boulevard",
+        "network": "TransLink",
+        "public_transport": "platform",
+        "route_ref": "560",
+        "transport:zone": "3",
+        "url": "http://translink.com.au/stop/312275/gtfs/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.058744,
+          -27.691301
+        ]
+      },
+      "id": "node/2985840372"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2985840373",
+        "bus": "yes",
+        "gtfs_id": "312277",
+        "gtfs_stop_code": "312277",
+        "highway": "bus_stop",
+        "name": "Green Road near Heritage Boulevard",
+        "network": "TransLink",
+        "public_transport": "platform",
+        "route_ref": "560",
+        "transport:zone": "3",
+        "url": "http://translink.com.au/stop/312277/gtfs/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.062076,
+          -27.691651
+        ]
+      },
+      "id": "node/2985840373"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2985840374",
+        "bus": "yes",
+        "gtfs_id": "312274",
+        "gtfs_stop_code": "312274",
+        "highway": "bus_stop",
+        "name": "Green Road near Heritage Boulevard",
+        "network": "TransLink",
+        "public_transport": "platform",
+        "route_ref": "560",
+        "transport:zone": "3",
+        "url": "http://translink.com.au/stop/312274/gtfs/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.062062,
+          -27.691756
+        ]
+      },
+      "id": "node/2985840374"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2997182778",
+        "bus": "yes",
+        "gtfs_id": "11360",
+        "gtfs_stop_code": "011360",
+        "highway": "bus_stop",
+        "name": "Green Camp Road at Habitat Drive",
+        "network": "TransLink",
+        "public_transport": "platform",
+        "route_ref": "242;243",
+        "transport:zone": "2",
+        "url": "http://translink.com.au/stop/011360/gtfs/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.166482,
+          -27.487094
+        ]
+      },
+      "id": "node/2997182778"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2997182779",
+        "bus": "yes",
+        "gtfs_id": "11362",
+        "gtfs_stop_code": "011362",
+        "highway": "bus_stop",
+        "name": "Green Camp Road at Habitat Drive",
+        "network": "TransLink",
+        "public_transport": "platform",
+        "route_ref": "243",
+        "transport:zone": "2",
+        "url": "http://translink.com.au/stop/011362/gtfs/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.166752,
+          -27.487301
+        ]
+      },
+      "id": "node/2997182779"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2997182780",
+        "bus": "yes",
+        "gtfs_id": "317306",
+        "highway": "bus_stop",
+        "name": "Green Camp Road near New Cleveland Road",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.168302,
+          -27.492716
+        ]
+      },
+      "id": "node/2997182780"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2997182781",
+        "bus": "yes",
+        "gtfs_id": "11361",
+        "gtfs_stop_code": "011361",
+        "highway": "bus_stop",
+        "name": "Green Camp Rd near Gumdale St",
+        "network": "TransLink",
+        "public_transport": "platform",
+        "route_ref": "242;243",
+        "transport:zone": "2",
+        "url": "http://translink.com.au/stop/011361/gtfs/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.166974,
+          -27.48989
+        ]
+      },
+      "id": "node/2997182781"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2997182782",
+        "bus": "yes",
+        "gtfs_id": "11363",
+        "gtfs_stop_code": "011363",
+        "highway": "bus_stop",
+        "name": "Green Camp Rd near New Cleveland Rd",
+        "network": "TransLink",
+        "public_transport": "platform",
+        "route_ref": "243",
+        "source": "data.qld.gov.au",
+        "transport:zone": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.167711,
+          -27.491154
+        ]
+      },
+      "id": "node/2997182782"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2997182841",
+        "bus": "yes",
+        "gtfs_id": "10773",
+        "gtfs_stop_code": "010773",
+        "highway": "bus_stop",
+        "name": "New Cleveland Road near Green Camp Road",
+        "network": "TransLink",
+        "public_transport": "platform",
+        "route_ref": "240;242",
+        "transport:zone": "2",
+        "url": "http://translink.com.au/stop/010773/gtfs/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.168245,
+          -27.49315
+        ]
+      },
+      "id": "node/2997182841"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3002569769",
+        "ele": "1804",
+        "name": "Green Knob",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.46703,
+          -36.3005464
+        ]
+      },
+      "id": "node/3002569769"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3005052199",
+        "name": "Green Hill",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.78803,
+          -36.79836
+        ]
+      },
+      "id": "node/3005052199"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3008339026",
+        "ele": "569",
+        "name": "Green Hill",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.43352,
+          -37.15254
+        ]
+      },
+      "id": "node/3008339026"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3008339027",
+        "name": "Green Hill",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.53581,
+          -37.80014
+        ]
+      },
+      "id": "node/3008339027"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3008339028",
+        "name": "Green Hills",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.53449,
+          -37.6606
+        ]
+      },
+      "id": "node/3008339028"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3008339742",
+        "name": "The Green Hill",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.78802,
+          -37.42854
+        ]
+      },
+      "id": "node/3008339742"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3008759703",
+        "ele": "161",
+        "name": "Green Hill",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.14602,
+          -40.55144
+        ]
+      },
+      "id": "node/3008759703"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3008759704",
+        "name": "Green Hill",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.11471,
+          -42.38703
+        ]
+      },
+      "id": "node/3008759704"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3008759705",
+        "name": "Green Timbers",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.28713,
+          -42.45368
+        ]
+      },
+      "id": "node/3008759705"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3008759706",
+        "name": "Green Top",
+        "natural": "peak",
+        "wikidata": "Q21967350"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.86235,
+          -43.09322
+        ]
+      },
+      "id": "node/3008759706"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3008902275",
+        "ele": "26",
+        "name": "Green Hill",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.45308,
+          -35.09277
+        ]
+      },
+      "id": "node/3008902275"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3008902276",
+        "name": "Green Hill",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.38417,
+          -37.33406
+        ]
+      },
+      "id": "node/3008902276"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3008902277",
+        "name": "Green Hill",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.97088,
+          -37.35069
+        ]
+      },
+      "id": "node/3008902277"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3011934696",
+        "bench": "yes",
+        "bus": "yes",
+        "covered": "no",
+        "gtfs_id": "302146",
+        "gtfs_stop_code": "302146",
+        "highway": "bus_stop",
+        "name": "Woombye Palmwoods Road near Holly Green Crescent",
+        "network": "TransLink",
+        "operator": "Sunbus",
+        "public_transport": "platform",
+        "route_ref": "638",
+        "shelter": "yes",
+        "toilets:wheelchair": "no",
+        "transport:zone": "6",
+        "url": "http://translink.com.au/stop/302146/gtfs/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.9647,
+          -26.684215
+        ]
+      },
+      "id": "node/3011934696"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3019437146",
+        "name": "Green Hill",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.73879,
+          -32.92332
+        ]
+      },
+      "id": "node/3019437146"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3019437147",
+        "ele": "813",
+        "name": "Green Hill",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.4565,
+          -33.11048
+        ]
+      },
+      "id": "node/3019437147"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3019437148",
+        "ele": "381",
+        "name": "Green Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.81477,
+          -31.11232
+        ]
+      },
+      "id": "node/3019437148"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3019437149",
+        "ele": "678",
+        "name": "Green Pigeon Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.09841,
+          -28.49236
+        ]
+      },
+      "id": "node/3019437149"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3020140505",
+        "name": "Green Hill",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.19827,
+          -31.01272
+        ]
+      },
+      "id": "node/3020140505"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3020387624",
+        "ele": "121",
+        "name": "Green Hill",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.30454,
+          -15.2763
+        ]
+      },
+      "id": "node/3020387624"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3020491440",
+        "name": "Bowling Green Bay",
+        "natural": "bay"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.23422,
+          -19.35445
+        ]
+      },
+      "id": "node/3020491440"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3058167873",
+        "amenity": "cafe",
+        "name": "The Green Plate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.7582357,
+          -19.3269287
+        ]
+      },
+      "id": "node/3058167873"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3068360507",
+        "name": "Green Gap",
+        "natural": "saddle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.4848,
+          -37.33254
+        ]
+      },
+      "id": "node/3068360507"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3071846494",
+        "amenity": "place_of_worship",
+        "denomination": "baptist",
+        "name": "Green Point Baptist",
+        "religion": "christian"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.3628942,
+          -33.4622047
+        ]
+      },
+      "id": "node/3071846494"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3103083336",
+        "name": "PU Smart Locale-Green Capital",
+        "website": "http://www.greencapital.org.au"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1967543,
+          -33.8791911
+        ]
+      },
+      "id": "node/3103083336"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3232379041",
+        "name": "Green Head",
+        "natural": "cape"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.6787307,
+          -42.9349023
+        ]
+      },
+      "id": "node/3232379041"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3262789382",
+        "building": "hut",
+        "name": "The Green Hut",
+        "source": "survey",
+        "source:location": "gps"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.6744,
+          -35.1471119
+        ]
+      },
+      "id": "node/3262789382"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3335324522",
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "name": "Green House Trattoria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1300969,
+          -33.8676594
+        ]
+      },
+      "id": "node/3335324522"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3341808128",
+        "fixme": "Location Approx",
+        "historic": "ruins",
+        "name": "Green Opal Mine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.4524759,
+          -35.0337839
+        ]
+      },
+      "id": "node/3341808128"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3362750933",
+        "addr:housenumber": "3108",
+        "addr:postcode": "2867",
+        "addr:street": "Banjo Patterson Way",
+        "addr:town": "Cumnock",
+        "name": "Green Banks",
+        "place": "farm",
+        "source": "Bing",
+        "source:name": "sign at road"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.7268236,
+          -32.8553195
+        ]
+      },
+      "id": "node/3362750933"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3389023470",
+        "alt_name": "Kowat PM 28",
+        "ele": "767",
+        "man_made": "survey_point",
+        "name": "Fiddlers Green Cairn",
+        "note": "Horizontal uncertainty 0.144m"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.2333069,
+          -37.2143742
+        ]
+      },
+      "id": "node/3389023470"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3437078569",
+        "name": "Green Valley Farms",
+        "shop": "butcher"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.047576,
+          -37.7129957
+        ]
+      },
+      "id": "node/3437078569"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3501004435",
+        "name": "Green Point",
+        "natural": "point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.3613582,
+          -29.472625
+        ]
+      },
+      "id": "node/3501004435"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3501004789",
+        "addr:city": "Grafton",
+        "addr:country": "AU",
+        "addr:housenumber": "230",
+        "addr:postcode": "2460",
+        "addr:street": "Pound Street",
+        "amenity": "pub",
+        "name": "Village Green Hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.9260075,
+          -29.6837934
+        ]
+      },
+      "id": "node/3501004789"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3523581863",
+        "name": "Banksia Green Camping Area",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.3073003,
+          -32.5492471
+        ]
+      },
+      "id": "node/3523581863"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3529897683",
+        "addr:city": "Mount Gambier",
+        "addr:housenumber": "1",
+        "addr:postcode": "5290",
+        "addr:street": "Eucalypt Drive",
+        "name": "Green Triangle Recyclers"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.8037359,
+          -37.8460766
+        ]
+      },
+      "id": "node/3529897683"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3545977101",
+        "bus": "yes",
+        "name": "Green Island",
+        "public_transport": "platform",
+        "ref": "9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.4981405,
+          -32.01567
+        ]
+      },
+      "id": "node/3545977101"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3641963589",
+        "name": "Green Door",
+        "shop": "massage"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.4634796,
+          -24.8156449
+        ]
+      },
+      "id": "node/3641963589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3659749171",
+        "bus": "yes",
+        "gtfs_id": "2062",
+        "gtfs_stop_code": "002062",
+        "highway": "bus_stop",
+        "name": "Warrigal Road Green Link",
+        "network": "TransLink",
+        "public_transport": "platform",
+        "route_ref": "150;156;P157",
+        "shelter": "yes",
+        "tactile_paving": "yes",
+        "transport:zone": "2",
+        "url": "http://translink.com.au/stop/002062/gtfs/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.08957,
+          -27.57153
+        ]
+      },
+      "id": "node/3659749171"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3659749178",
+        "bus": "yes",
+        "gtfs_id": "2063",
+        "gtfs_stop_code": "002063",
+        "highway": "bus_stop",
+        "name": "Warrigal Road Green Link",
+        "network": "TransLink",
+        "public_transport": "platform",
+        "route_ref": "150;156;N154;P157",
+        "shelter": "no",
+        "tactile_paving": "yes",
+        "transport:zone": "2",
+        "url": "http://translink.com.au/stop/002063/gtfs/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.089084,
+          -27.57167
+        ]
+      },
+      "id": "node/3659749178"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3665668268",
+        "amenity": "cafe",
+        "diet:vegan": "only",
+        "internet_access": "wlan",
+        "name": "The Green Edge",
+        "organic": "yes",
+        "phone": "+61 7 3861 1132",
+        "website": "https://www.greenedgeonline.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.0319824,
+          -27.4352186
+        ]
+      },
+      "id": "node/3665668268"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3797764882",
+        "name": "Green Valley",
+        "natural": "valley"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0295982,
+          -34.1931346
+        ]
+      },
+      "id": "node/3797764882"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3877578944",
+        "ele": "19.4",
+        "man_made": "monitoring_station",
+        "monitoring:weather": "yes",
+        "name": "Green Cape",
+        "ref:wmo": "94934"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.0504291,
+          -37.2621899
+        ]
+      },
+      "id": "node/3877578944"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3909300732",
+        "name": "Green Point",
+        "place": "locality"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.3609226,
+          -29.4728746
+        ]
+      },
+      "id": "node/3909300732"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3972526525",
+        "ele": "27",
+        "name": "Green Hills",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.2305487,
+          -29.9752845
+        ]
+      },
+      "id": "node/3972526525"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3975068648",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Gretna Green Hotel",
+        "operator": "Phil & Colleen Sharpe",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "payment:visa_electron": "yes",
+        "smoking": "no",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.9377189,
+          -42.6815821
+        ]
+      },
+      "id": "node/3975068648"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3980826703",
+        "addr:housenumber": "1180",
+        "addr:postcode": "3928",
+        "addr:street": "Mornington - Flinders Road",
+        "amenity": "restaurant",
+        "email": "bookings@greenolive.com.au",
+        "name": "Green Olive on Red Hill",
+        "opening_hours": "Mo-Su 09:00-17:00",
+        "phone": "+61 3 5989 2992",
+        "website": "http://greenolive.com.au"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9913905,
+          -38.3819727
+        ]
+      },
+      "id": "node/3980826703"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4102394012",
+        "amenity": "cafe",
+        "name": "The Green Goose"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0283276,
+          -37.8648214
+        ]
+      },
+      "id": "node/4102394012"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4235392086",
+        "name": "Green Point",
+        "natural": "cape"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.6560356,
+          -40.9046461
+        ]
+      },
+      "id": "node/4235392086"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4265984317",
+        "name": "Green Point",
+        "natural": "cape",
+        "source": "survey",
+        "source:position": "NSW LPI Imagery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2764243,
+          -33.8406057
+        ]
+      },
+      "id": "node/4265984317"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4290718662",
+        "attribution": "© Commonwealth of Australia (Geoscience Australia) 2016",
+        "name": "Green Tier",
+        "place": "locality",
+        "source": "Tasmania South East 1:250 000 GIS Dataset: placenames."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.7311,
+          -42.25665
+        ]
+      },
+      "id": "node/4290718662"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4293045772",
+        "attribution": "© Commonwealth of Australia (Geoscience Australia) 2016",
+        "name": "Green Valley",
+        "place": "neighbourhood",
+        "source": "Tasmania South East 1:250 000 GIS Dataset: placenames."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.18179,
+          -42.60419
+        ]
+      },
+      "id": "node/4293045772"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4305503285",
+        "addr:housenumber": "17",
+        "addr:street": "Mitchell Drive",
+        "amenity": "post_office",
+        "brand": "Australia Post",
+        "name": "Green Hills Post Office",
+        "source": "NSW LPI Base Map",
+        "source:date": "2016-07"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.589853,
+          -32.761209
+        ]
+      },
+      "id": "node/4305503285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4310173573",
+        "amenity": "restaurant",
+        "cuisine": "asian",
+        "name": "Green Leaf Malay"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.4002848,
+          -27.9321287
+        ]
+      },
+      "id": "node/4310173573"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4313961978",
+        "addr:housenumber": "189",
+        "addr:street": "Wilson Road",
+        "amenity": "post_office",
+        "brand": "Australia Post",
+        "name": "Green Valley Post Office",
+        "source": "NSW LPI Base Map",
+        "source:date": "2016-07"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.867617,
+          -33.907526
+        ]
+      },
+      "id": "node/4313961978"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4343834892",
+        "alt_name": "O'Reilly's",
+        "name": "Green Mountains",
+        "place": "hamlet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.1335204,
+          -28.2305866
+        ]
+      },
+      "id": "node/4343834892"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4374907080",
+        "artist_name": "Charles GINNEVER",
+        "name": "Green Mountain Blue ii",
+        "source": "NSW LPI Base Map",
+        "source:date": "2016-08",
+        "tourism": "artwork",
+        "website": "https://nga.gov.au/international/Catalogue/Detail.cfm?IRN=33854&BioArtistIRN=13437&MnuID=SRCH&GalID=ALL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1416158,
+          -36.1072732
+        ]
+      },
+      "id": "node/4374907080"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4378692621",
+        "name": "East Metcalfe (Green Hill) Cemetery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.4549447,
+          -37.1438747
+        ]
+      },
+      "id": "node/4378692621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4415960408",
+        "bulk_purchase": "yes",
+        "name": "The Green Grocer",
+        "opening_hours:covid19": "open",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.0122526,
+          -27.4806403
+        ]
+      },
+      "id": "node/4415960408"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4478115483",
+        "name": "Green Hills Station",
+        "place": "farm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.2990464,
+          -18.455792
+        ]
+      },
+      "id": "node/4478115483"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4493349290",
+        "highway": "bus_stop",
+        "name": "Fiddlers Green Retirement Village/Gloucester Ave",
+        "network": "828/835/836/837/839 - Berwick Railway Station",
+        "operator": "Ventura Bus Lines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3452138,
+          -38.0372471
+        ]
+      },
+      "id": "node/4493349290"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4574486997",
+        "name": "Green Lotus Tattoo",
+        "name:en": "Green Lotus Tattoo",
+        "tourism": "artwork"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9616387,
+          -37.770703
+        ]
+      },
+      "id": "node/4574486997"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4580010586",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Green Poppy",
+        "opening_hours": "08:00-16:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.8691998,
+          -34.5784933
+        ]
+      },
+      "id": "node/4580010586"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4625262360",
+        "name": "Green Wattle Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.2685998,
+          -34.0179375
+        ]
+      },
+      "id": "node/4625262360"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4682522193",
+        "addr:street": "Cavill Avenue",
+        "amenity": "restaurant",
+        "cuisine": "austrian",
+        "name": "Fiddlers Green irish bar ＆ restaurant",
+        "opening_hours": "Mo-Su 10:00-21:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.4280507,
+          -28.0015289
+        ]
+      },
+      "id": "node/4682522193"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4828073294",
+        "addr:country": "AU",
+        "addr:housenumber": "133",
+        "addr:postcode": "4171",
+        "addr:state": "QLD",
+        "addr:street": "Oxford Street",
+        "addr:suburb": "Bulimba",
+        "name": "Green Grass Home & Body",
+        "phone": "+61 7 3399 1219",
+        "shop": "interior_decoration",
+        "website": "https://homeandbody.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.058514,
+          -27.4513275
+        ]
+      },
+      "id": "node/4828073294"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4852881779",
+        "name": "All Green Nursery",
+        "shop": "garden_centre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.7111157,
+          -37.8783903
+        ]
+      },
+      "id": "node/4852881779"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4858102524",
+        "highway": "bus_stop",
+        "name": "Green Point Christian College",
+        "name:en": "Green Point Christian College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.3631793,
+          -33.4625429
+        ]
+      },
+      "id": "node/4858102524"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4905647504",
+        "addr:city": "Yarraville",
+        "addr:housenumber": "71",
+        "addr:postcode": "3013",
+        "addr:street": "Anderson Street",
+        "name": "Green Collective",
+        "shop": "gift"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8891085,
+          -37.8165593
+        ]
+      },
+      "id": "node/4905647504"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4971920177",
+        "name": "Kevin Green Real Estate",
+        "office": "estate_agent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.7192087,
+          -32.5334611
+        ]
+      },
+      "id": "node/4971920177"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4999143530",
+        "name": "Green Ant Creek Picnic Area",
+        "tourism": "picnic_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.7006279,
+          -13.2009469
+        ]
+      },
+      "id": "node/4999143530"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5085190099",
+        "amenity": "restaurant",
+        "name": "Green bamboo",
+        "opening_hours": "Mo-Sa 17:30-21:00",
+        "phone": "+61 2 6286 4383"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0982632,
+          -35.3554254
+        ]
+      },
+      "id": "node/5085190099"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5085901744",
+        "amenity": "parking",
+        "name": "Green Car Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.4257561,
+          -28.0363519
+        ]
+      },
+      "id": "node/5085901744"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5172779625",
+        "attraction": "roller_coaster",
+        "name": "Green Lantern Coaster",
+        "operator": "Village Roadshow Theme Parks",
+        "source": "survey;local knowledge;website",
+        "website": "https://movieworld.com.au/attractions/green-lantern-coaster",
+        "wikidata": "Q3116098",
+        "wikipedia": "en:Green Lantern Coaster"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.313602,
+          -27.907329
+        ]
+      },
+      "id": "node/5172779625"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5173975844",
+        "addr:housenumber": "663",
+        "addr:postcode": "2642",
+        "addr:street": "Yerong Creek - Mangoplah Road",
+        "addr:village": "Yerong Creek",
+        "name": "Green Hills",
+        "place": "farm",
+        "source": "survey",
+        "source:name": "sign at road",
+        "source:postcode": "NSW_LPI_Address_Location_Service"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.1315721,
+          -35.4014296
+        ]
+      },
+      "id": "node/5173975844"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5203972834",
+        "highway": "bus_stop",
+        "name": "Green Point Dr opp Sugarglider Ct",
+        "public_transport": "platform",
+        "ref": "2280370"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6450267,
+          -33.0237154
+        ]
+      },
+      "id": "node/5203972834"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5203972835",
+        "highway": "bus_stop",
+        "name": "Belmont Hospital, Green Point Dr",
+        "public_transport": "platform",
+        "ref": "2280222"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6471772,
+          -33.0234062
+        ]
+      },
+      "id": "node/5203972835"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5207828482",
+        "addr:city": "Sydney",
+        "addr:housenumber": "263",
+        "addr:postcode": "2168",
+        "addr:province": "NSW",
+        "addr:street": "Green Valley Road, Green Valley",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Green Valley Dental",
+        "opening_hours": "Mo-Fr 09:00-18:30, Sa 09:00-15:00",
+        "operator": "Tofeh Hanna",
+        "payment:cards": "yes",
+        "phone": "+61 2 9825 0092",
+        "website": "https://www.greenvalleydental.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.8597925,
+          -33.9006381
+        ]
+      },
+      "id": "node/5207828482"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5213706386",
+        "addr:housenumber": "4-5/308",
+        "name": "Green Healthy Groceries Tân Hưng Phát",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1513053,
+          -37.9538978
+        ]
+      },
+      "id": "node/5213706386"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5325384315",
+        "name": "Green Pritchard & Co Accountants Pty Ltd",
+        "shop": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.47392,
+          -35.1390758
+        ]
+      },
+      "id": "node/5325384315"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5365007621",
+        "addr:housenumber": "360",
+        "addr:postcode": "2010",
+        "addr:state": "NSW",
+        "addr:street": "Victoria Street",
+        "addr:suburb": "Darlinghurst",
+        "amenity": "pub",
+        "name": "Green Park Hotel",
+        "opening_hours": "Mo-We 11:00-24:00, Th-Sa 11:00-02:00, Su 12:00-24:00",
+        "phone": "+61 2 9380 5311",
+        "source": "local knowledge",
+        "website": "https://www.greenparkhotel.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2215492,
+          -33.8784355
+        ]
+      },
+      "id": "node/5365007621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5419846470",
+        "amenity": "shelter",
+        "name": "Green Shed",
+        "shelter_type": "weather_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.2769556,
+          -41.2756413
+        ]
+      },
+      "id": "node/5419846470"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5474427404",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Gerry Green Reserve/Chandler St",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0846444,
+          -37.9902606
+        ]
+      },
+      "id": "node/5474427404"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5495580637",
+        "addr:city": "Byron Bay",
+        "addr:housenumber": "18-20",
+        "addr:street": "Marvell Street",
+        "amenity": "restaurant",
+        "cuisine": "pub",
+        "name": "The Green Bistro",
+        "opening_hours": "Tu-Su 11:30-14:30; 17:00-21:00",
+        "website": "thegreenbistrobyronbay.com.au"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.6151786,
+          -28.6462562
+        ]
+      },
+      "id": "node/5495580637"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5517730145",
+        "addr:city": "Belmont",
+        "addr:country": "AU",
+        "addr:state": "Victoria",
+        "addr:street": "Stephen Street",
+        "name": "Green Laundry",
+        "phone:AU": "1300 GOWASH",
+        "shop": "laundry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.3278321,
+          -38.1815539
+        ]
+      },
+      "id": "node/5517730145"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5583351292",
+        "addr:housenumber": "4",
+        "addr:street": "St Johns Avenue",
+        "amenity": "cafe",
+        "cuisine": "thai;vietnamese",
+        "name": "Pottery Green Bakers",
+        "opening_hours": "-16:00",
+        "opening_hours:kitchen": "-15:00",
+        "phone": "+61 2 9499 8799"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1538452,
+          -33.7563719
+        ]
+      },
+      "id": "node/5583351292"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5638787997",
+        "addr:city": "Preston",
+        "addr:postcode": "3072",
+        "addr:province": "VIC",
+        "addr:street": "The Centreway",
+        "name": "Green and Gold Flowers",
+        "note": "Shop K04",
+        "shop": "florist"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0017797,
+          -37.7388898
+        ]
+      },
+      "id": "node/5638787997"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5674778810",
+        "name": "Green Hills Range",
+        "place": "locality"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.8011488,
+          -35.1661475
+        ]
+      },
+      "id": "node/5674778810"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5676639833",
+        "addr:housenumber": "538",
+        "addr:street": "Pacific Highway",
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "diet:vegan": "only",
+        "name": "Green Gourmet",
+        "opening_hours": "Mo-Th 12:00-15:00,17:30-21:30;Fr 12:00-15:00,17:30-22:30;Sa 17:30-22:30",
+        "reservation": "yes",
+        "website": "https://www.greengourmet.com.au/pages/st-leonards-restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1958136,
+          -33.8234065
+        ]
+      },
+      "id": "node/5676639833"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5695791028",
+        "name": "The Green Door",
+        "shop": "hairdresser"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.282239,
+          -38.1105318
+        ]
+      },
+      "id": "node/5695791028"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5756525361",
+        "amenity": "place_of_worship",
+        "building": "no",
+        "name": "Green Cathedral",
+        "note": "outdoors",
+        "religion": "christian"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.5189394,
+          -32.3055201
+        ]
+      },
+      "id": "node/5756525361"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5757986707",
+        "addr:postcode": "2029",
+        "addr:state": "NSW",
+        "addr:street": "Collins Avenue",
+        "addr:suburb": "Rose Bay",
+        "addr:unit": "9",
+        "name": "The Green Fund",
+        "opening_hours": "24/7",
+        "phone": "+61 4 5002 0300",
+        "website": "https://thegreenfund.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2687393,
+          -33.8693736
+        ]
+      },
+      "id": "node/5757986707"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5775632954",
+        "addr:housenumber": "183",
+        "addr:street": "Bunda Street",
+        "amenity": "restaurant",
+        "cuisine": "mexican",
+        "name": "Green Ant Cantina",
+        "opening_hours": "We-Su 16:00-00:00",
+        "phone": "+61 401 431 514",
+        "website": "http://www.greenantcantina.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.7708019,
+          -16.9261072
+        ]
+      },
+      "id": "node/5775632954"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5776748420",
+        "addr:housenumber": "115",
+        "addr:postcode": "3056",
+        "addr:street": "Sydney Road",
+        "amenity": "cafe",
+        "name": "Green Refectory",
+        "phone": "+61 3 93871150",
+        "website": "https://www.greenrefectory.net/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9606604,
+          -37.7747918
+        ]
+      },
+      "id": "node/5776748420"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5777927876",
+        "name": "Green Health",
+        "shop": "health_food"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.106895,
+          -33.9674653
+        ]
+      },
+      "id": "node/5777927876"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5777927950",
+        "name": "Green Season Gift Shop",
+        "shop": "gift"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1050089,
+          -33.9677562
+        ]
+      },
+      "id": "node/5777927950"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5795788907",
+        "addr:housenumber": "3",
+        "addr:postcode": "2017",
+        "addr:state": "NSW",
+        "addr:street": "Defries Avenue",
+        "addr:suburb": "Zetland",
+        "addr:unit": "2",
+        "amenity": "doctors",
+        "healthcare": "doctor",
+        "healthcare:speciality": "general",
+        "level": "0",
+        "name": "Green Square Medical Practice",
+        "opening_hours": "Mo 08:00-18:00, Tu 09:00-18:00, We 08:00-17:00, Th 09:00-18:00, Fr 08:00-16:00, Sa 09:00-12:00",
+        "phone": "+61 2 8310 2004",
+        "source": "local knowledge",
+        "website": "https://greensquaremedical.com.au/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2123881,
+          -33.9069618
+        ]
+      },
+      "id": "node/5795788907"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5811615920",
+        "leisure": "park",
+        "name": "Northwood Green Reserve"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.5446757,
+          -35.1341692
+        ]
+      },
+      "id": "node/5811615920"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5824599124",
+        "amenity": "cafe",
+        "name": "The Green Door"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.832776,
+          -41.5280971
+        ]
+      },
+      "id": "node/5824599124"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5828314077",
+        "addr:housenumber": "2",
+        "addr:postcode": "7030",
+        "addr:state": "TAS",
+        "addr:street": "Green Point Road",
+        "addr:suburb": "Bridgewater",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Green Point Rd Stop 56 Out",
+        "network": "Metro Tasmania",
+        "network:wikidata": "Q6824728",
+        "network:wikipedia": "en:Metro Tasmania",
+        "operator": "Metro Tasmania",
+        "public_transport": "platform",
+        "ref": "0794"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.2388636,
+          -42.73476
+        ]
+      },
+      "id": "node/5828314077"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5828432394",
+        "addr:housenumber": "14",
+        "addr:postcode": "7030",
+        "addr:state": "TAS",
+        "addr:street": "Green Point Road",
+        "addr:suburb": "Bridgewater",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Green Point Rd Stop 57 Out",
+        "network": "Metro Tasmania",
+        "network:wikidata": "Q6824728",
+        "network:wikipedia": "en:Metro Tasmania",
+        "operator": "Metro Tasmania",
+        "public_transport": "platform",
+        "ref": "0793"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.2423592,
+          -42.7376099
+        ]
+      },
+      "id": "node/5828432394"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5828640318",
+        "addr:housenumber": "14",
+        "addr:postcode": "7030",
+        "addr:state": "TAS",
+        "addr:street": "Green Point Road",
+        "addr:suburb": "Bridgewater",
+        "addr:unit": "Opposite",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Green Point Rd Stop 57 In",
+        "network": "Metro Tasmania",
+        "network:wikidata": "Q6824728",
+        "network:wikipedia": "en:Metro Tasmania",
+        "operator": "Metro Tasmania",
+        "public_transport": "platform",
+        "ref": "1302"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.2421864,
+          -42.7375986
+        ]
+      },
+      "id": "node/5828640318"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5828640335",
+        "addr:housenumber": "1",
+        "addr:postcode": "7030",
+        "addr:state": "TAS",
+        "addr:street": "Green Point Road",
+        "addr:suburb": "Bridgewater",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Green Point Rd Stop 56 In",
+        "network": "Metro Tasmania",
+        "network:wikidata": "Q6824728",
+        "network:wikipedia": "en:Metro Tasmania",
+        "operator": "Metro Tasmania",
+        "public_transport": "platform",
+        "ref": "4438"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.2386317,
+          -42.7347659
+        ]
+      },
+      "id": "node/5828640335"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5828844166",
+        "amenity": "cafe",
+        "name": "Village Green Cafe",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1287299,
+          -33.8970697
+        ]
+      },
+      "id": "node/5828844166"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5892409772",
+        "amenity": "kindergarten",
+        "name": "Green Cottage"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1495805,
+          -38.1174702
+        ]
+      },
+      "id": "node/5892409772"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5893803902",
+        "description": "The best place for Chinese acupuncture massage",
+        "name": "Green Therapies Centre Massage",
+        "phone": "+61293145418",
+        "shop": "massage"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.240202,
+          -33.9161595
+        ]
+      },
+      "id": "node/5893803902"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5950335435",
+        "leisure": "fitness_centre",
+        "name": "Green Room Yoga & Wellness",
+        "sport": "yoga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.8873258,
+          -36.1234934
+        ]
+      },
+      "id": "node/5950335435"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5971306458",
+        "name": "Green Wall Healing Centre",
+        "opening_hours": "Mo-Fr 09:30-20:00, 09:00-18:00; Sa, Su 10:00-20:00",
+        "phone": "+61293986680",
+        "shop": "massage"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2396278,
+          -33.9130297
+        ]
+      },
+      "id": "node/5971306458"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5971956683",
+        "craft": "plumber",
+        "name": "Green Plumbing Energy and Gas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6494209,
+          -30.516079
+        ]
+      },
+      "id": "node/5971956683"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5982692321",
+        "landuse": "industrial",
+        "name": "Green Con"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.064236,
+          -38.3263824
+        ]
+      },
+      "id": "node/5982692321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6033569522",
+        "name": "Green Kiwi",
+        "shop": "clothes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8990197,
+          -37.8009663
+        ]
+      },
+      "id": "node/6033569522"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6035839142",
+        "gaz2012:ref": "QLD45587",
+        "name": "Green Hill",
+        "place": "locality",
+        "source": "Gazetteer of Australia 2012"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.8333282,
+          -17.023056
+        ]
+      },
+      "id": "node/6035839142"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6042482819",
+        "gaz2012:ref": "NSW21753",
+        "name": "Green Forest",
+        "place": "locality",
+        "source": "Gazetteer of Australia 2012"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.3512,
+          -28.9818
+        ]
+      },
+      "id": "node/6042482819"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6052072287",
+        "gaz2012:ref": "WA100015108",
+        "name": "Green Valley",
+        "place": "locality",
+        "source": "Gazetteer of Australia 2012"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.7818,
+          -34.89323
+        ]
+      },
+      "id": "node/6052072287"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6052074148",
+        "gaz2012:ref": "WA100188017",
+        "name": "Green Range",
+        "place": "locality",
+        "source": "Gazetteer of Australia 2012"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.4156,
+          -34.68306
+        ]
+      },
+      "id": "node/6052074148"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6052299806",
+        "addr:housenumber": "30",
+        "name": "The Green Scoop",
+        "shop": "health_food"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1120465,
+          -38.0377127
+        ]
+      },
+      "id": "node/6052299806"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6087270822",
+        "name": "Green Shack Bay",
+        "natural": "bay",
+        "source:name": "Conservation Commission of Western Australia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.005224,
+          -30.1591073
+        ]
+      },
+      "id": "node/6087270822"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6102133869",
+        "bus": "yes",
+        "name": "Tambo Court/Green Gully Road",
+        "network": "PTV - Metropolitan Buses",
+        "operator": "Kastoria Bus Lines",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8276458,
+          -37.720534
+        ]
+      },
+      "id": "node/6102133869"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6102133870",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Tambo Court/Green Gully Road",
+        "network": "PTV - Metropolitan Buses",
+        "operator": "Kastoria Bus Lines",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8277184,
+          -37.7205213
+        ]
+      },
+      "id": "node/6102133870"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6102133871",
+        "bus": "yes",
+        "name": "Tambo Court/Green Gully Road",
+        "network": "PTV - Metropolitan Buses",
+        "operator": "Kastoria Bus Lines",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8275404,
+          -37.7200712
+        ]
+      },
+      "id": "node/6102133871"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6102133872",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Tambo Court/Green Gully Road",
+        "network": "PTV - Metropolitan Buses",
+        "network:wikidata": "Q7257648",
+        "network:wikipedia": "en:Public Transport Victoria",
+        "operator": "Kastoria Bus Lines",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8274343,
+          -37.7200509
+        ]
+      },
+      "id": "node/6102133872"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6125935595",
+        "name": "Green Point",
+        "natural": "peninsula",
+        "source": "NSW LPI Dec 2018"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.5437996,
+          -33.2360457
+        ]
+      },
+      "id": "node/6125935595"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6126004974",
+        "name": "Green Point",
+        "natural": "peninsula",
+        "source": "NSW LPI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.3101524,
+          -33.5455761
+        ]
+      },
+      "id": "node/6126004974"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6126007291",
+        "name": "Green Point",
+        "natural": "cape",
+        "source": "NSW LPI Dec 2018"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.3536851,
+          -33.4595385
+        ]
+      },
+      "id": "node/6126007291"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6162846866",
+        "name": "Green Wattle Point",
+        "natural": "point",
+        "place": "locality",
+        "source": "LPI Base Map Dec 2018"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.3455508,
+          -34.146312
+        ]
+      },
+      "id": "node/6162846866"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6221607916",
+        "information": "board",
+        "name": "Green Island National Park",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.9738827,
+          -16.7586658
+        ]
+      },
+      "id": "node/6221607916"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6221607924",
+        "information": "board",
+        "name": "Welcome To Green Island",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.9714814,
+          -16.7590758
+        ]
+      },
+      "id": "node/6221607924"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6223009766",
+        "amenity": "fast_food",
+        "cuisine": "salad",
+        "name": "Green Dream"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2758062,
+          -33.8893124
+        ]
+      },
+      "id": "node/6223009766"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6251197885",
+        "amenity": "pharmacy",
+        "name": "Green Dispensary Pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.6622944,
+          -34.9255302
+        ]
+      },
+      "id": "node/6251197885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6275493130",
+        "addr:housenumber": "1",
+        "addr:postcode": "2036",
+        "addr:state": "NSW",
+        "addr:street": "Pine Avenue",
+        "addr:suburb": "Little Bay",
+        "amenity": "restaurant",
+        "contact:facebook": "https://m.facebook.com/pages/The-Green-Olive-Restaurant/393441190671519",
+        "name": "Green Olive Cafe Restaurant",
+        "opening_hours": "Mo-Su 06:30-16:00",
+        "outdoor_seating": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2456483,
+          -33.9803121
+        ]
+      },
+      "id": "node/6275493130"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6295264588",
+        "name": "The Green Massage and Waxing",
+        "shop": "beauty"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0524734,
+          -37.7532505
+        ]
+      },
+      "id": "node/6295264588"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6296994958",
+        "name": "The Green Underground Shed",
+        "shop": "clothes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1308478,
+          -35.2788305
+        ]
+      },
+      "id": "node/6296994958"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6296994972",
+        "name": "The Green Shed",
+        "shop": "gift"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1313973,
+          -35.2790168
+        ]
+      },
+      "id": "node/6296994972"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6309610019",
+        "name": "Green Been Espresso",
+        "shop": "coffee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2064947,
+          -33.8660153
+        ]
+      },
+      "id": "node/6309610019"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6320204652",
+        "name": "Green Hill Lookout",
+        "tourism": "attraction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.8544874,
+          -37.832603
+        ]
+      },
+      "id": "node/6320204652"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6336826486",
+        "addr:housenumber": "376-378",
+        "addr:postcode": "3056",
+        "addr:street": "Sydney Road",
+        "amenity": "restaurant",
+        "cuisine": "vietnamese;asian",
+        "diet:vegan": "yes",
+        "name": "Green field",
+        "opening_hours": "Mo-Sa 12:00-15:35, 17:00-22:15",
+        "phone": "+61 3 93808222"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9619538,
+          -37.7691239
+        ]
+      },
+      "id": "node/6336826486"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6357580037",
+        "bus": "yes",
+        "gtfs_id": "3297",
+        "name": "Caley Crescent after Green Street",
+        "network": "Transport Canberra",
+        "public_transport": "stop_position",
+        "ref": "3297"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.145426,
+          -35.3394943
+        ]
+      },
+      "id": "node/6357580037"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6357607649",
+        "gtfs_id": "3297",
+        "highway": "bus_stop",
+        "name": "Caley Crescent after Green Street",
+        "network": "Transport Canberra",
+        "public_transport": "platform",
+        "ref": "3297"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1454854,
+          -35.3394713
+        ]
+      },
+      "id": "node/6357607649"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6373785086",
+        "addr:housenumber": "26",
+        "addr:postcode": "4005",
+        "addr:state": "QLD",
+        "addr:street": "Helen Street",
+        "addr:suburb": "Teneriffe",
+        "name": "Green Beacon Brewing Company",
+        "phone": "+61 7 3252 8393",
+        "shop": "beverages",
+        "website": "https://www.greenbeacon.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.0464767,
+          -27.4528854
+        ]
+      },
+      "id": "node/6373785086"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6375305015",
+        "amenity": "kindergarten",
+        "name": "Green Leaves Early Learning"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.9774709,
+          -27.3480436
+        ]
+      },
+      "id": "node/6375305015"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6560169874",
+        "amenity": "restaurant",
+        "cuisine": "thai",
+        "name": "Green Paw Paw"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.9920342,
+          -27.4858011
+        ]
+      },
+      "id": "node/6560169874"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6560219240",
+        "local_ref": "2",
+        "name": "Green Square",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2017907,
+          -33.9067082
+        ]
+      },
+      "id": "node/6560219240"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6560219241",
+        "local_ref": "1",
+        "name": "Green Square",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2026871,
+          -33.9059285
+        ]
+      },
+      "id": "node/6560219241"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6581526556",
+        "amenity": "cafe",
+        "name": "Green Bean Espresso"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2064614,
+          -33.8667067
+        ]
+      },
+      "id": "node/6581526556"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6604415054",
+        "amenity": "fountain",
+        "name": "Village Green fountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.7309462,
+          -37.5802577
+        ]
+      },
+      "id": "node/6604415054"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6618029766",
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "departures_board": "timetable",
+        "highway": "bus_stop",
+        "lit": "no",
+        "name": "Woodbury Park Dr at Green Cl",
+        "network": "Transport for NSW",
+        "network:wikidata": "Q7834923",
+        "operator": "Red Bus Services",
+        "operator:wikidata": "Q16927444",
+        "public_transport": "platform",
+        "ref": "2259508",
+        "shelter": "no",
+        "source": "transportnsw.info",
+        "tactile_paving": "yes",
+        "website": "https://transportnsw.info/2259508"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.4140467,
+          -33.3047471
+        ]
+      },
+      "id": "node/6618029766"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6618029767",
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "departures_board": "timetable",
+        "highway": "bus_stop",
+        "lit": "no",
+        "name": "Woodbury Park Dr opp Green Cl",
+        "network": "Transport for NSW",
+        "network:wikidata": "Q7834923",
+        "operator": "Red Bus Services",
+        "operator:wikidata": "Q16927444",
+        "public_transport": "platform",
+        "ref": "2259511",
+        "shelter": "no",
+        "source": "transportnsw.info",
+        "tactile_paving": "yes",
+        "website": "https://transportnsw.info/2259511"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.413918,
+          -33.3046525
+        ]
+      },
+      "id": "node/6618029767"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6618281581",
+        "name": "Green Cape",
+        "natural": "cape"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.0507438,
+          -37.2626288
+        ]
+      },
+      "id": "node/6618281581"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6622307522",
+        "amenity": "cafe",
+        "level": "0",
+        "name": "Green Bowl Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2364283,
+          -33.8794141
+        ]
+      },
+      "id": "node/6622307522"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6639791587",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Osborne Street before Green Street",
+        "network": "Transperth",
+        "public_transport": "platform",
+        "ref": "16831"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8425455,
+          -31.9136797
+        ]
+      },
+      "id": "node/6639791587"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6639791609",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "London Street after Green Street",
+        "network": "Transperth",
+        "public_transport": "platform",
+        "ref": "12684"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8443391,
+          -31.9147255
+        ]
+      },
+      "id": "node/6639791609"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6639791649",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "London Street before Green Street",
+        "network": "Transperth",
+        "public_transport": "platform",
+        "ref": "12701"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8441758,
+          -31.9146757
+        ]
+      },
+      "id": "node/6639791649"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6643227476",
+        "name": "Ringwood Fresh Green Grocer",
+        "shop": "greengrocer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2228399,
+          -37.8157492
+        ]
+      },
+      "id": "node/6643227476"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6679989269",
+        "name": "Green Creek",
+        "note": "position approx",
+        "railway": "station",
+        "source": "https://nla.gov.au/nla.obj-234080104/view",
+        "train": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.0210393,
+          -18.0541201
+        ]
+      },
+      "id": "node/6679989269"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6679989270",
+        "name": "Green Creek",
+        "place": "locality"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.0214912,
+          -18.0532276
+        ]
+      },
+      "id": "node/6679989270"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6696041688",
+        "name": "Green Cliff Falls",
+        "waterway": "waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.8505465,
+          -17.3066345
+        ]
+      },
+      "id": "node/6696041688"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6699795692",
+        "amenity": "restaurant",
+        "name": "Go Green Raw Foods"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9447912,
+          -37.8197361
+        ]
+      },
+      "id": "node/6699795692"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6813461405",
+        "colour": "green",
+        "man_made": "street_cabinet",
+        "name": "Green Box"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.2118514,
+          -27.5981764
+        ]
+      },
+      "id": "node/6813461405"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6813461784",
+        "name": "Green Lagoon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.363927,
+          -29.4805763
+        ]
+      },
+      "id": "node/6813461784"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6824742895",
+        "beauty": "massage",
+        "name": "EverGreen Thai Message Studio",
+        "opening_hours": "Mo-Su 10:00-21:30",
+        "phone": "+61 458 13 19 19",
+        "shop": "beauty",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9314842,
+          -37.7885329
+        ]
+      },
+      "id": "node/6824742895"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6961281061",
+        "name": "The Green Depot",
+        "shop": "florist"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.6367868,
+          -33.3233941
+        ]
+      },
+      "id": "node/6961281061"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7021161088",
+        "name": "Walks around Green Patch",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.7243228,
+          -35.1374158
+        ]
+      },
+      "id": "node/7021161088"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7024804592",
+        "amenity": "cafe",
+        "name": "Green with NV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1207222,
+          -35.2775566
+        ]
+      },
+      "id": "node/7024804592"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7062932983",
+        "bus": "yes",
+        "name": "Green Street",
+        "network": "PTV – Metropolitan Buses",
+        "operator": "Transdev",
+        "public_transport": "stop_position",
+        "ref:ptv": "10340",
+        "website": "https://ptv.vic.gov.au/stop/13822"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0381437,
+          -37.6943359
+        ]
+      },
+      "id": "node/7062932983"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7090154875",
+        "name": "Green Thumb Nursery",
+        "shop": "garden_centre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.1969338,
+          -29.4553611
+        ]
+      },
+      "id": "node/7090154875"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7105927467",
+        "amenity": "restaurant",
+        "cuisine": "thai",
+        "name": "Green Thai Darby"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7724569,
+          -32.9304271
+        ]
+      },
+      "id": "node/7105927467"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7108039788",
+        "name": "The Green Altar",
+        "shop": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7845507,
+          -32.9269114
+        ]
+      },
+      "id": "node/7108039788"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7118249581",
+        "fixme": "node placement approximate",
+        "name": "Green Square",
+        "railway": "subway_entrance",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2026486,
+          -33.9060206
+        ]
+      },
+      "id": "node/7118249581"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7174281279",
+        "amenity": "cafe",
+        "level": "1",
+        "name": "Green house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1338955,
+          -35.279901
+        ]
+      },
+      "id": "node/7174281279"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7222384975",
+        "amenity": "car_wash",
+        "name": "Green and Gold Car Wash and Cafe",
+        "website": "http://greenandgoldcarwash.com.au"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.7127704,
+          -33.7553482
+        ]
+      },
+      "id": "node/7222384975"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271115804",
+        "name": "Green Ribbon Hill",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.0176151,
+          -33.8441457
+        ]
+      },
+      "id": "node/7271115804"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7278598925",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Green Street after Highlands Road",
+        "network": "Transperth",
+        "public_transport": "platform",
+        "ref": "27122"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8458011,
+          -31.9140171
+        ]
+      },
+      "id": "node/7278598925"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7278598931",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Green Street before Highlands Road",
+        "network": "Transperth",
+        "public_transport": "platform",
+        "ref": "27121"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8456259,
+          -31.9141775
+        ]
+      },
+      "id": "node/7278598931"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7358006747",
+        "bus": "yes",
+        "gtfs_id": "301949",
+        "gtfs_stop_code": "301949",
+        "highway": "bus_stop",
+        "name": "South Coolum Rd near Green Oaks Dr",
+        "network": "TransLink",
+        "public_transport": "platform",
+        "route_ref": "622",
+        "transport:zone": "7",
+        "url": "http://translink.com.au/stop/301949/gtfs/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.078033,
+          -26.538559
+        ]
+      },
+      "id": "node/7358006747"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7358012754",
+        "bus": "yes",
+        "gtfs_id": "301948",
+        "gtfs_stop_code": "301948",
+        "highway": "bus_stop",
+        "name": "South Coolum Rd near Green Oaks Dr",
+        "network": "TransLink",
+        "public_transport": "platform",
+        "route_ref": "622",
+        "transport:zone": "7",
+        "url": "http://translink.com.au/stop/301948/gtfs/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.077886,
+          -26.538437
+        ]
+      },
+      "id": "node/7358012754"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7524954631",
+        "amenity": "plant nursery",
+        "name": "All the Green Things",
+        "opening_hours": "Mo-Fr 10:00-16:00; Sa 09:00-16:00; Su 09:00-15:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.0076974,
+          -27.480654
+        ]
+      },
+      "id": "node/7524954631"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7567507717",
+        "addr:housenumber": "400",
+        "addr:street": "Galston Road",
+        "name": "Green E Roses",
+        "opening_hours": "Mo-Fr 07:30-16:00; Sa-Su 07:30-16:00; PH closed",
+        "phone": "+61 2 9653 1745",
+        "shop": "farm",
+        "website": "http://www.greeneroses.com.au"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0381325,
+          -33.6556507
+        ]
+      },
+      "id": "node/7567507717"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7650872855",
+        "camp_site": "basic",
+        "name": "Green Engine Camping Area 2",
+        "operator": "Parks Victoria",
+        "toilets": "no",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0788403,
+          -35.8276607
+        ]
+      },
+      "id": "node/7650872855"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7650872856",
+        "camp_site": "basic",
+        "name": "Green Engine Camping Area 1",
+        "operator": "Parks Victoria",
+        "toilets": "no",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0767267,
+          -35.8322883
+        ]
+      },
+      "id": "node/7650872856"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7650872857",
+        "name": "Green Engine",
+        "place": "locality",
+        "source:name": "VicNames Register of Geographic Names"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0774777,
+          -35.831836
+        ]
+      },
+      "id": "node/7650872857"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7697605647",
+        "addr:housenumber": "14",
+        "addr:street": "Hender Avenue",
+        "name": "Green Crash Repairs",
+        "shop": "car_repair"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.6817664,
+          -34.9101218
+        ]
+      },
+      "id": "node/7697605647"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7738540154",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Maroondah Highway/Green Street",
+        "public_transport": "platform",
+        "ref": "ID.8650",
+        "route_ref": "684;685;686;687;965",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.5168648,
+          -37.6543593
+        ]
+      },
+      "id": "node/7738540154"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7774632486",
+        "amenity": "fast_food",
+        "name": "Green Corner Kitchen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.7484169,
+          -34.5979476
+        ]
+      },
+      "id": "node/7774632486"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7818319587",
+        "direction": "180-360",
+        "name": "Green Point Lookout",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.5835612,
+          -33.7390285
+        ]
+      },
+      "id": "node/7818319587"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7821477611",
+        "addr:housenumber": "24-34",
+        "addr:street": "Elliott Street",
+        "amenity": "restaurant",
+        "name": "On The Green Bistro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.181988,
+          -33.4478821
+        ]
+      },
+      "id": "node/7821477611"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7838923423",
+        "bus": "yes",
+        "gtfs_id": "310925",
+        "gtfs_stop_code": "310925",
+        "highway": "bus_stop",
+        "name": "Emerald Dr at Green Rd",
+        "network": "TransLink",
+        "public_transport": "platform",
+        "route_ref": "542;560",
+        "transport:zone": "3",
+        "url": "http://translink.com.au/stop/310925/gtfs/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.034994,
+          -27.686552
+        ]
+      },
+      "id": "node/7838923423"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7838923433",
+        "bus": "yes",
+        "gtfs_id": "310918",
+        "gtfs_stop_code": "310918",
+        "highway": "bus_stop",
+        "name": "Emerald Dr at Green Road",
+        "network": "TransLink",
+        "public_transport": "platform",
+        "route_ref": "542;560",
+        "transport:zone": "3",
+        "url": "http://translink.com.au/stop/310918/gtfs/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.034944,
+          -27.686029
+        ]
+      },
+      "id": "node/7838923433"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7838924666",
+        "bus": "yes",
+        "gtfs_id": "312034",
+        "gtfs_stop_code": "312034",
+        "highway": "bus_stop",
+        "name": "Green Rd near Venture St",
+        "network": "TransLink",
+        "public_transport": "platform",
+        "route_ref": "560",
+        "transport:zone": "3",
+        "url": "http://translink.com.au/stop/312034/gtfs/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.07763,
+          -27.694837
+        ]
+      },
+      "id": "node/7838924666"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7838924710",
+        "bus": "yes",
+        "gtfs_id": "300078",
+        "gtfs_stop_code": "300078",
+        "highway": "bus_stop",
+        "name": "Currumburra Rd at Green Glen Road",
+        "network": "TransLink",
+        "public_transport": "platform",
+        "route_ref": "739;742",
+        "transport:zone": "5",
+        "url": "http://translink.com.au/stop/300078/gtfs/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.381297,
+          -27.978463
+        ]
+      },
+      "id": "node/7838924710"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7866596234",
+        "name": "Green Point Lookout",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.913635,
+          -32.549595
+        ]
+      },
+      "id": "node/7866596234"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7874204986",
+        "name": "Green Gully Hut",
+        "tourism": "wilderness_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.0972386,
+          -31.0176981
+        ]
+      },
+      "id": "node/7874204986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7874266815",
+        "amenity": "restaurant",
+        "cuisine": "japanese",
+        "level": "1",
+        "name": "Green Panda",
+        "takeaway": "only"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8169835,
+          -31.9685997
+        ]
+      },
+      "id": "node/7874266815"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7893156998",
+        "name": "The Green Dry Clean",
+        "shop": "dry_cleaning"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.5796006,
+          -33.4222932
+        ]
+      },
+      "id": "node/7893156998"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7919007545",
+        "name": "The Big Green Stick",
+        "proposed": "artwork"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9413396,
+          -37.7830532
+        ]
+      },
+      "id": "node/7919007545"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7930501015",
+        "name": "Green and Gold Nursery",
+        "shop": "garden_centre",
+        "website": "http://www.greengoldnursery.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0843242,
+          -35.1904905
+        ]
+      },
+      "id": "node/7930501015"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7965268950",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "name": "Green House"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.0157962,
+          -27.4775762
+        ]
+      },
+      "id": "node/7965268950"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8013559673",
+        "bus": "yes",
+        "gtfs_id": "2154371",
+        "highway": "bus_stop",
+        "name": "Showground Rd After Green Rd",
+        "public_transport": "platform",
+        "ref": "2154371"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9780735,
+          -33.724408
+        ]
+      },
+      "id": "node/8013559673"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8083983993",
+        "name": "Green Point",
+        "natural": "cape"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          158.7838879,
+          -54.7696056
+        ]
+      },
+      "id": "node/8083983993"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8086746124",
+        "name": "Green Hill",
+        "natural": "peak",
+        "source": "DCS NSW Topographic Map"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.8466815,
+          -35.6883937
+        ]
+      },
+      "id": "node/8086746124"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8166658720",
+        "bus": "yes",
+        "gtfs_id": "232252",
+        "highway": "bus_stop",
+        "name": "Frewin Av At Green Hills Av",
+        "public_transport": "platform",
+        "ref": "232252"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6636932,
+          -32.793206
+        ]
+      },
+      "id": "node/8166658720"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8201741842",
+        "addr:housenumber": "4",
+        "addr:postcode": "3401",
+        "addr:state": "VIC",
+        "addr:street": "Taylors Road",
+        "addr:suburb": "Bungalally",
+        "amenity": "fire_station",
+        "name": "Green Lake CFA",
+        "operator": "CFA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.3032344,
+          -36.7894349
+        ]
+      },
+      "id": "node/8201741842"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8223883138",
+        "bus": "yes",
+        "gtfs_id": "232346",
+        "highway": "bus_stop",
+        "name": "Stronach Av Opp Stockland Green Hills",
+        "public_transport": "platform",
+        "ref": "232346"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.5895017,
+          -32.7635215
+        ]
+      },
+      "id": "node/8223883138"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8223883146",
+        "bus": "yes",
+        "gtfs_id": "2323102",
+        "highway": "bus_stop",
+        "name": "Mitchell Dr Opp Stockland Green Hills",
+        "public_transport": "platform",
+        "ref": "2323102"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.5904716,
+          -32.7612337
+        ]
+      },
+      "id": "node/8223883146"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8223883185",
+        "bus": "yes",
+        "gtfs_id": "232319",
+        "highway": "bus_stop",
+        "name": "Stockland Green Hills, Stronach Av",
+        "public_transport": "platform",
+        "ref": "232319"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.5897877,
+          -32.763484
+        ]
+      },
+      "id": "node/8223883185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8223883218",
+        "bus": "yes",
+        "gtfs_id": "232318",
+        "highway": "bus_stop",
+        "name": "Stockland Green Hills, Mitchell Dr",
+        "public_transport": "platform",
+        "ref": "232318"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.5898599,
+          -32.7619859
+        ]
+      },
+      "id": "node/8223883218"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8223883234",
+        "bus": "yes",
+        "gtfs_id": "232317",
+        "highway": "bus_stop",
+        "name": "Stockland Green Hills, Mitchell Dr",
+        "public_transport": "platform",
+        "ref": "232317"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.5903439,
+          -32.7616528
+        ]
+      },
+      "id": "node/8223883234"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8247055971",
+        "bus": "yes",
+        "gtfs_id": "232150",
+        "highway": "bus_stop",
+        "name": "Swan St At Green St",
+        "public_transport": "platform",
+        "ref": "232150"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6242795,
+          -32.7251263
+        ]
+      },
+      "id": "node/8247055971"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8247055973",
+        "bus": "yes",
+        "gtfs_id": "232149",
+        "highway": "bus_stop",
+        "name": "High St At Green St",
+        "public_transport": "platform",
+        "ref": "232149"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6246289,
+          -32.7264789
+        ]
+      },
+      "id": "node/8247055973"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8251371135",
+        "name": "Green Gully Saddle",
+        "natural": "saddle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.2381862,
+          -33.7619282
+        ]
+      },
+      "id": "node/8251371135"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8276859545",
+        "addr:city": "Zetland",
+        "addr:country": "AU",
+        "addr:housenumber": "965",
+        "addr:postcode": "2017",
+        "addr:street": "Bourke Street",
+        "addr:unit": "Shop 4",
+        "amenity": "doctors",
+        "healthcare": "doctor",
+        "name": "Green Square Health",
+        "opening_hours": "Mo-Fr 08:00-19:00; Sa 09:00-13:00",
+        "phone": "+61 2 9699 8111",
+        "website": "https://gshealth.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2075846,
+          -33.9025383
+        ]
+      },
+      "id": "node/8276859545"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8276953821",
+        "addr:city": "Zetland",
+        "addr:country": "AU",
+        "addr:housenumber": "305a",
+        "addr:street": "Botany Road",
+        "addr:unit": "R127",
+        "amenity": "fast_food",
+        "brand": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "brand:wikipedia": "en:McDonald's",
+        "cuisine": "burger",
+        "name": "McDonald's Green Square",
+        "opening_hours": "Mo-Su 06:00-24:00",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2033549,
+          -33.9060425
+        ]
+      },
+      "id": "node/8276953821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8288988187",
+        "addr:city": "Waterloo",
+        "addr:country": "AU",
+        "addr:housenumber": "15",
+        "addr:postcode": "2017",
+        "addr:street": "Allen Street",
+        "amenity": "kindergarten",
+        "name": "The Green Elephant",
+        "opening_hours": "Mo-Fr 07:00-18:00",
+        "website": "https://www.thegreenelephant.com.au/our-centres/waterloo/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2040917,
+          -33.9023982
+        ]
+      },
+      "id": "node/8288988187"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8320399430",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Docker St/Green St",
+        "network": "PTV - Wangaratta Transit",
+        "operator": "PTV",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.3148363,
+          -36.3530232
+        ]
+      },
+      "id": "node/8320399430"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8320399431",
+        "bus": "yes",
+        "name": "Docker St/Green St",
+        "network": "PTV - Wangaratta Transit",
+        "operator": "PTV",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.3149469,
+          -36.3530309
+        ]
+      },
+      "id": "node/8320399431"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8320399434",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Templeton St/Green St",
+        "network": "PTV - Wangaratta Transit",
+        "operator": "PTV",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.3157888,
+          -36.3496443
+        ]
+      },
+      "id": "node/8320399434"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8362780824",
+        "garden:type": "community",
+        "leisure": "garden",
+        "name": "Green P Farm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.0556375,
+          -27.3202968
+        ]
+      },
+      "id": "node/8362780824"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8398822101",
+        "addr:housenumber": "20a",
+        "addr:postcode": "2017",
+        "addr:state": "NSW",
+        "addr:street": "Danks Street",
+        "addr:suburb": "Waterloo",
+        "addr:unit": "Suite 1.12",
+        "amenity": "doctors",
+        "healthcare": "doctor",
+        "healthcare:speciality": "dermatology",
+        "name": "Green Square Dermatology",
+        "website": "https://gsdermatology.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2124066,
+          -33.8975307
+        ]
+      },
+      "id": "node/8398822101"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8474694851",
+        "bus": "yes",
+        "gtfs_id": "2321145",
+        "highway": "bus_stop",
+        "name": "Green Wattle Creek opposite Jack James Close (Hail and Ride)",
+        "public_transport": "platform",
+        "ref": "2321145"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.640538,
+          -32.6572931
+        ]
+      },
+      "id": "node/8474694851"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8515680199",
+        "name": "Green Bluff",
+        "natural": "cape"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.1630606,
+          -30.2139375
+        ]
+      },
+      "id": "node/8515680199"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8708141843",
+        "amenity": "cafe",
+        "name": "Green Frog Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.2261126,
+          -28.5858915
+        ]
+      },
+      "id": "node/8708141843"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8772427191",
+        "highway": "rest_area",
+        "name": "Green Lake Rest Area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.2940475,
+          -36.7849951
+        ]
+      },
+      "id": "node/8772427191"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8778172598",
+        "addr:housenumber": "328",
+        "addr:street": "Victoria Street",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Green Acre PIzza Bar",
+        "phone": "+61 3 93815763",
+        "website": "https://www.greenacrepizza.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9611989,
+          -37.7670405
+        ]
+      },
+      "id": "node/8778172598"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8820377083",
+        "landuse": "farm",
+        "name": "Green Gables"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.6075825,
+          -29.4076145
+        ]
+      },
+      "id": "node/8820377083"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8841164545",
+        "name": "Green Valley",
+        "place": "isolated_dwelling"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.8487698,
+          -42.4924701
+        ]
+      },
+      "id": "node/8841164545"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8849847040",
+        "name": "Green Gully",
+        "place": "farm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.229057,
+          -33.7854397
+        ]
+      },
+      "id": "node/8849847040"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8924429414",
+        "name": "All the Green Things",
+        "shop": "florist"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.0117801,
+          -27.4775429
+        ]
+      },
+      "id": "node/8924429414"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9033695916",
+        "addr:state": "NSW",
+        "addr:street": "Green Square Community & Cultural Precinct",
+        "addr:suburb": "Green Square",
+        "addr:unit": "3",
+        "amenity": "townhall",
+        "name": "Green Square Community Hall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2069906,
+          -33.9082244
+        ]
+      },
+      "id": "node/9033695916"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9110933587",
+        "amenity": "bar",
+        "name": "Johnny's Green Room"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9670284,
+          -37.7982893
+        ]
+      },
+      "id": "node/9110933587"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9139961312",
+        "brand": "IGA",
+        "brand:wikidata": "Q5970945",
+        "brand:wikipedia": "en:IGA (Australian supermarket group)",
+        "name": "Green Square IGA plus Liquor",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.007512,
+          -37.8109903
+        ]
+      },
+      "id": "node/9139961312"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9192766172",
+        "addr:housenumber": "39",
+        "addr:street": "Cullen Street",
+        "addr:unit": "1",
+        "contact:facebook": "https://facebook.com/TheGreenBankNimbin",
+        "name": "The Green Bank",
+        "phone": "+61 2 6689 1881",
+        "shop": "health_food"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.2230548,
+          -28.5968644
+        ]
+      },
+      "id": "node/9192766172"
+    }
+  ]
