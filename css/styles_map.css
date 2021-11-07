@@ -203,12 +203,17 @@ footer p {
 /*chart elements*/
 
 
-.map_holder,
+.map_holder
+{
+    max-width: 900px;
+    position: relative;
+}
+
+
 .map_holder_colour {
     max-width: 1200px;
     position: relative;
 }
-
 
 
 .hex_map {
