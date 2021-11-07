@@ -263,7 +263,7 @@ path.SA3_map {
     fill: none;
     stroke: var(--background);
     stroke-width: .5px;
-    /*opacity: .9;
+    /*opacity: .9;*/
 }
 
 
@@ -281,7 +281,7 @@ path.SA2_map_poly {
     fill: none ;
     stroke: black;
     stroke-width: .25px;
-    /*opacity: .9;*/
+    opacity: .9;
 }
 
 path.AUS_RGB_map {
@@ -391,7 +391,7 @@ path.line_homes {
 
 
 
-/*media query */
+media query 
 
 @media (max-width: 1000px) {
 
@@ -423,7 +423,7 @@ path.line_homes {
 
     .axisX_text,
     .axisY_text {
-        /*font-family: dico-mono, mono;*/
+        font-family: dico-mono, mono;
         font-size: 24px;
     }
 
