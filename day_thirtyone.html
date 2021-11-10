@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles_map.css">
+    </link>
+    <link rel="stylesheet" href="https://use.typekit.net/qpl0nxr.css">
+    <title>Day Thirty-three</title>
+</head>
+
+<body class="mono_page">
+    <header>
+        <ul class="top_nav">
+            <li><a href="100_days.html">
+                    <p>back to home page</p>
+                </a></li>
+        </ul>
+    </header>
+    <h1> Day Thirty-three</h1>
+    <h2> 9 November 2021</h2>
+    <h2> #30DayMapChallenge | Day 9 | Monochrome</h2>
+    <h3>Streets of my town</h3>
+    <h2>The roads and streets and lanes of Marrickville. Data is sourced from OpenStreetMap</h2>
+    <div class="map_holder day9_map">
+        
+    </div>
+    <p class="OSM">© OpenStreetMap contributors</p>
+    <div class="description">
+        <h3>Log</h3>
+        <p>Data is yet again from OpenStreetMap <a href="https://overpass-turbo.eu/" target="_blank">overpass turbo</a>; it's such a great resource. </p>
+        <code>
+            [out:json];<br>
+            area[name = "Marrickville"];<br>
+            (way(area)["highway"~"^(motorway|trunk|primary|secondary|tertiary|residential)$"];>;);<br>
+            out;<br>
+        </code>
+        <p>I was worried that mapping streets would be different, but it wasn't! I discovered this looking through the tutorial posted on Observable by Florian Ledermann <a href="https://observablehq.com/@floledermann/drawing-maps-from-geodata-in-d3?collection=@floledermann/tutorials" target="_blank">here</a>. Florian pointed out that the data for his street map included a "w" property that could set the stroke width. My data didn;t include a "w" property (which indicates a street's relevance or weighting). The data I have includes a "width" variable which I guess is the literal width of the street. I used this to set the weight of each edge - it's not as good as a proper weight, but that's OK. I quite like the look of this map - it's not much but I like the simplicity of it. </p>
+        <p>As ever code can be found <a href="https://github.com/KellyTall/kellytall.github.io/blob/master/js/day_thirty.js" target="_blank">here</a></p>
+    </div>
+    <footer>
+        <div class="footer_nav">
+            <ul class="list_container">
+                <li><a href="not_ready_yet.html">
+                        <p>Go to Day 32</p>
+                    </a></li>
+                <li><a href="not_ready_yet.html">
+                        <p>Go to Day 34</p>
+                    </a></li>
+            </ul>
+        </div>
+    </footer>
+    <!-- NOTE: hexgrid has to come first!!-->
+    <script src="https://unpkg.com/d3-hexgrid"></script>
+    <script src="../js/d3.v6.js"></script>
+    <script src="https://unpkg.com/topojson@3"></script>
+    <script src="https://d3js.org/d3-hexbin.v0.2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.21.0/d3-legend.min.js"></script>
+    <script src="../js/day_thirtyone.js"></script>
+</body>
+
+</html>
