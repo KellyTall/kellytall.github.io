@@ -1,0 +1,580 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2021-11-15T07:33:44Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/145816009",
+        "amenity": "fast_food",
+        "brand": "Red Rooster",
+        "brand:wikidata": "Q376466",
+        "brand:wikipedia": "en:Red Rooster",
+        "cuisine": "chicken",
+        "name": "Red Rooster",
+        "takeaway": "yes",
+        "website": "https://www.redrooster.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.8811355,
+          -33.8024058
+        ]
+      },
+      "id": "node/145816009"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/452375134",
+        "amenity": "fast_food",
+        "brand": "Red Rooster",
+        "brand:wikidata": "Q376466",
+        "brand:wikipedia": "en:Red Rooster",
+        "cuisine": "chicken",
+        "name": "Red Rooster",
+        "takeaway": "yes",
+        "website": "https://www.redrooster.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.6761065,
+          -33.7699207
+        ]
+      },
+      "id": "node/452375134"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/458698853",
+        "amenity": "fast_food",
+        "brand": "Red Rooster",
+        "brand:wikidata": "Q376466",
+        "brand:wikipedia": "en:Red Rooster",
+        "cuisine": "chicken",
+        "name": "Red Rooster",
+        "takeaway": "yes",
+        "website": "https://www.redrooster.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.7072892,
+          -33.7549185
+        ]
+      },
+      "id": "node/458698853"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1616396566",
+        "amenity": "fast_food",
+        "brand": "Red Rooster",
+        "brand:wikidata": "Q376466",
+        "brand:wikipedia": "en:Red Rooster",
+        "cuisine": "chicken",
+        "name": "Red Rooster",
+        "takeaway": "yes",
+        "website": "https://www.redrooster.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.8095728,
+          -34.0713392
+        ]
+      },
+      "id": "node/1616396566"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1929943238",
+        "amenity": "fast_food",
+        "brand": "Red Rooster",
+        "brand:wikidata": "Q376466",
+        "brand:wikipedia": "en:Red Rooster",
+        "cuisine": "chicken",
+        "name": "Red Rooster",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.827128,
+          -34.0501704
+        ]
+      },
+      "id": "node/1929943238"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1974473847",
+        "amenity": "fast_food",
+        "brand": "Red Rooster",
+        "brand:wikidata": "Q376466",
+        "brand:wikipedia": "en:Red Rooster",
+        "cuisine": "chicken",
+        "name": "Red Rooster",
+        "takeaway": "yes",
+        "website": "https://www.redrooster.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9178057,
+          -33.6844541
+        ]
+      },
+      "id": "node/1974473847"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2131830393",
+        "amenity": "fast_food",
+        "brand": "Red Rooster",
+        "brand:wikidata": "Q376466",
+        "brand:wikipedia": "en:Red Rooster",
+        "cuisine": "chicken",
+        "name": "Red Rooster",
+        "operator": "Red Rooster",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.8942038,
+          -33.757527
+        ]
+      },
+      "id": "node/2131830393"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2573959554",
+        "amenity": "fast_food",
+        "brand": "Red Rooster",
+        "brand:wikidata": "Q376466",
+        "brand:wikipedia": "en:Red Rooster",
+        "cuisine": "chicken",
+        "name": "Red Rooster",
+        "takeaway": "yes",
+        "website": "https://www.redrooster.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0577726,
+          -33.8917755
+        ]
+      },
+      "id": "node/2573959554"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2699627861",
+        "amenity": "fast_food",
+        "brand": "Red Rooster",
+        "brand:wikidata": "Q376466",
+        "brand:wikipedia": "en:Red Rooster",
+        "cuisine": "chicken",
+        "name": "Red Rooster",
+        "source": "voice",
+        "takeaway": "yes",
+        "website": "https://www.redrooster.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.8197953,
+          -33.6088514
+        ]
+      },
+      "id": "node/2699627861"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2786901050",
+        "amenity": "fast_food",
+        "brand": "Red Rooster",
+        "brand:wikidata": "Q376466",
+        "brand:wikipedia": "en:Red Rooster",
+        "cuisine": "chicken",
+        "name": "Red Rooster",
+        "source": "survey",
+        "takeaway": "yes",
+        "website": "https://www.redrooster.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9215315,
+          -33.7296027
+        ]
+      },
+      "id": "node/2786901050"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2854455833",
+        "amenity": "fast_food",
+        "brand": "Red Rooster",
+        "brand:wikidata": "Q376466",
+        "brand:wikipedia": "en:Red Rooster",
+        "cuisine": "chicken",
+        "name": "Red Rooster",
+        "source": "survey",
+        "takeaway": "yes",
+        "website": "https://www.redrooster.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9998277,
+          -33.901729
+        ]
+      },
+      "id": "node/2854455833"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3039225306",
+        "amenity": "fast_food",
+        "brand": "Red Rooster",
+        "brand:wikidata": "Q376466",
+        "brand:wikipedia": "en:Red Rooster",
+        "cuisine": "chicken",
+        "name": "Red Rooster",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.7396121,
+          -33.7462794
+        ]
+      },
+      "id": "node/3039225306"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4242358913",
+        "amenity": "restaurant",
+        "name": "El Jannah"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9085569,
+          -33.7708938
+        ]
+      },
+      "id": "node/4242358913"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4265330836",
+        "amenity": "restaurant",
+        "cuisine": "chicken;portuguese",
+        "name": "Chargrill Charlie's",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2229319,
+          -33.830873
+        ]
+      },
+      "id": "node/4265330836"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4376997812",
+        "amenity": "fast_food",
+        "brand": "Red Rooster",
+        "brand:wikidata": "Q376466",
+        "brand:wikipedia": "en:Red Rooster",
+        "cuisine": "chicken",
+        "name": "Red Rooster",
+        "takeaway": "yes",
+        "website": "https://www.redrooster.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.8827556,
+          -33.9570001
+        ]
+      },
+      "id": "node/4376997812"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4546121289",
+        "amenity": "fast_food",
+        "brand": "Red Rooster",
+        "brand:wikidata": "Q376466",
+        "brand:wikipedia": "en:Red Rooster",
+        "cuisine": "chicken",
+        "name": "Red Rooster",
+        "name:en": "Red Rooster",
+        "takeaway": "yes",
+        "website": "https://www.redrooster.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.8967552,
+          -33.9269319
+        ]
+      },
+      "id": "node/4546121289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4925515286",
+        "amenity": "fast_food",
+        "cuisine": "chicken;burger;salad",
+        "name": "Chargrill Charlie's"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2689317,
+          -33.8704331
+        ]
+      },
+      "id": "node/4925515286"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5549461749",
+        "amenity": "fast_food",
+        "brand": "Red Rooster",
+        "brand:wikidata": "Q376466",
+        "brand:wikipedia": "en:Red Rooster",
+        "cuisine": "chicken",
+        "name": "Red Rooster",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.8259242,
+          -33.7654288
+        ]
+      },
+      "id": "node/5549461749"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6564149151",
+        "amenity": "fast_food",
+        "brand": "Red Rooster",
+        "brand:wikidata": "Q376466",
+        "brand:wikipedia": "en:Red Rooster",
+        "cuisine": "chicken",
+        "name": "Red Rooster",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1374633,
+          -33.8866214
+        ]
+      },
+      "id": "node/6564149151"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7041669323",
+        "addr:street": "Howard Avenue",
+        "amenity": "restaurant",
+        "cuisine": "chicken",
+        "name": "Chargrill Charlie's"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2879578,
+          -33.7525848
+        ]
+      },
+      "id": "node/7041669323"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7176946474",
+        "addr:housenumber": "535",
+        "addr:street": "High Street",
+        "addr:unit": "2",
+        "amenity": "restaurant",
+        "name": "El Jannah"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.694582,
+          -33.7527745
+        ]
+      },
+      "id": "node/7176946474"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7259776902",
+        "amenity": "fast_food",
+        "name": "El Jannah"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0556127,
+          -33.9244531
+        ]
+      },
+      "id": "node/7259776902"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7416146939",
+        "amenity": "fast_food",
+        "brand": "Red Rooster",
+        "brand:wikidata": "Q376466",
+        "brand:wikipedia": "en:Red Rooster",
+        "cuisine": "chicken",
+        "name": "Red Rooster",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9546596,
+          -33.7667397
+        ]
+      },
+      "id": "node/7416146939"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7416147092",
+        "amenity": "fast_food",
+        "brand": "Red Rooster",
+        "brand:wikidata": "Q376466",
+        "brand:wikipedia": "en:Red Rooster",
+        "cuisine": "chicken",
+        "name": "Red Rooster",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.8516993,
+          -33.7360683
+        ]
+      },
+      "id": "node/7416147092"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8897439644",
+        "addr:housenumber": "144-146",
+        "addr:street": "Curlewis Street",
+        "amenity": "fast_food",
+        "cuisine": "chicken",
+        "facebook": "ccbondi",
+        "name": "Chargrill Charlie's",
+        "opening_date": "2021",
+        "phone": "+61 499 889 956",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2748525,
+          -33.889168
+        ]
+      },
+      "id": "node/8897439644"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9014012012",
+        "addr:housenumber": "27",
+        "addr:postcode": "2066",
+        "addr:state": "NSW",
+        "addr:street": "Burns Bay Road",
+        "addr:suburb": "Lane Cove",
+        "amenity": "fast_food",
+        "cuisine": "chicken;burger",
+        "drive_through": "no",
+        "name": "Chargrill Charlie's",
+        "phone": "+61 2 8095 9761",
+        "website": "https://chargrillcharlies.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1689125,
+          -33.8145214
+        ]
+      },
+      "id": "node/9014012012"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9219972653",
+        "addr:housenumber": "177",
+        "addr:postcode": "2170",
+        "addr:state": "NSW",
+        "addr:street": "Meadows Road",
+        "addr:suburb": "Mount Pritchard",
+        "amenity": "fast_food",
+        "brand": "Red Rooster",
+        "brand:wikidata": "Q376466",
+        "brand:wikipedia": "en:Red Rooster",
+        "cuisine": "chicken",
+        "name": "Red Rooster",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.896125,
+          -33.902954
+        ]
+      },
+      "id": "node/9219972653"
+    }
+  ]
+}

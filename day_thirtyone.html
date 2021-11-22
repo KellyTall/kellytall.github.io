@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="css/styles_map.css">
     </link>
     <link rel="stylesheet" href="https://use.typekit.net/qpl0nxr.css">
-    <title>Day Thirty-three</title>
+    <title>Day Thirty-One</title>
 </head>
 
-<body class="mono_page">
+<body >
     <header>
         <ul class="top_nav">
             <li><a href="100_days.html">
@@ -18,12 +18,13 @@
                 </a></li>
         </ul>
     </header>
-    <h1> Day Thirty-three</h1>
-    <h2> 9 November 2021</h2>
-    <h2> #30DayMapChallenge | Day 9 | Monochrome</h2>
-    <h3>Streets of my town</h3>
-    <h2>The roads and streets and lanes of Marrickville. Data is sourced from OpenStreetMap</h2>
-    <div class="map_holder day9_map">
+    <h1> Day Thirty-One</h1>
+    <h2> 7 November 2021</h2>
+    <h2> #30DayMapChallenge | Day 7 | <strike>Green</strike> Red Bonus!</h2>
+    <h3>The Red Rooster Line</h3>
+    <h2>Red Rooster, El Jannah, Chargrill Charlie's...which chicken chain is your allegience with?</h2>
+    <h2>TBH mine is with Chickenville, Marrickille's own. Best chips. Don't argue!</h2>
+    <div class="map_holder day7_map">
         
     </div>
     <p class="OSM">© OpenStreetMap contributors</p>
@@ -31,22 +32,41 @@
         <h3>Log</h3>
         <p>Data is yet again from OpenStreetMap <a href="https://overpass-turbo.eu/" target="_blank">overpass turbo</a>; it's such a great resource. </p>
         <code>
-            [out:json];<br>
-            area[name = "Marrickville"];<br>
-            (way(area)["highway"~"^(motorway|trunk|primary|secondary|tertiary|residential)$"];>;);<br>
-            out;<br>
+            [out:json][timeout:25];<br>
+// fetch area “Sydney” to search in<br>
+{{geocodeArea:Sydney}}->.searchArea;<br>
+// gather results<br>
+(
+  // query part for: “name="El Jannah"”<br>
+  node["name"="El Jannah"](area.searchArea);<br>
+  way["name"="El Jannah"](area.searchArea);<br>
+  relation["name"="El Jannah"](area.searchArea);<br>
+  // query part for: “"Red Rooster"”<br>
+  node["brand:wikidata"="Q376466"]["amenity"="fast_food"]["cuisine"="chicken"](area.searchArea);<br>
+  way["brand:wikidata"="Q376466"]["amenity"="fast_food"]["cuisine"="chicken"](area.searchArea);<br>
+  relation["brand:wikidata"="Q376466"]["amenity"="fast_food"]["cuisine"="chicken"](area.searchArea);<br>
+  
+   // query part for: “"Chargrill Charlie's"”<br>
+  node["name"="Chargrill Charlie's"](area.searchArea);<br>
+  way["name"="Chargrill Charlie's"](area.searchArea);<br>
+  relation["name"="Chargrill Charlie's"](area.searchArea);<br>
+);<br>
+// print results<br>
+out body;<br>
+>;<br>
+out skel qt;<br>
         </code>
-        <p>I was worried that mapping streets would be different, but it wasn't! I discovered this looking through the tutorial posted on Observable by Florian Ledermann <a href="https://observablehq.com/@floledermann/drawing-maps-from-geodata-in-d3?collection=@floledermann/tutorials" target="_blank">here</a>. Florian pointed out that the data for his street map included a "w" property that could set the stroke width. My data didn;t include a "w" property (which indicates a street's relevance or weighting). The data I have includes a "width" variable which I guess is the literal width of the street. I used this to set the weight of each edge - it's not as good as a proper weight, but that's OK. I quite like the look of this map - it's not much but I like the simplicity of it. </p>
-        <p>As ever code can be found <a href="https://github.com/KellyTall/kellytall.github.io/blob/master/js/day_thirty.js" target="_blank">here</a></p>
+        <p>Can't quite beleive I am linking to <a href="http://honisoit.com/2017/09/food-fault-lines-mapping-class-division-through-food-chains/" target="_blank">Honi Soit</a>, but here we are. A few years ago there was talk about "The Red Rooster Line" - the divide between the west and the North/East. I am missing a few El Jannah's (and also there has been a few more open up including one on King Street in Newtown). And they seem to be missing a stack of Red Rooster's. It's an interesting way  to look at class and cultural background, <i>maybe</i>...It certainly set the ironic twitter crowd on fire. Anyhow, I'm here to map, not to critique some student's article in HS. </p>
+        <p>As ever code can be found <a href="https://github.com/KellyTall/kellytall.github.io/blob/master/js/day_thirtythree.js" target="_blank">here</a></p>
     </div>
     <footer>
         <div class="footer_nav">
             <ul class="list_container">
-                <li><a href="not_ready_yet.html">
-                        <p>Go to Day 32</p>
+                <li><a href="day_thirty.html">
+                        <p>Go to Day 30</p>
                     </a></li>
-                <li><a href="not_ready_yet.html">
-                        <p>Go to Day 34</p>
+                <li><a href="day_thirtytwo.html">
+                        <p>Go to Day 32</p>
                     </a></li>
             </ul>
         </div>

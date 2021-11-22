@@ -68,9 +68,9 @@ ul.top_nav a:hover {
 
 h1 {
     font-family: dico-mono-script, mono;
-    font-weight: 400;
+    font-weight: 800;
     font-style: normal;
-    font-size: 18px;
+    font-size: 24px;
     max-width: 1000px;
     margin-bottom: 48px;
     margin-top: 0px;
@@ -213,7 +213,7 @@ footer p {
 
 .map_holder
 {
-    max-width: 800px;
+    max-width: 1400px;
     position: relative;
 }
 
@@ -242,7 +242,7 @@ footer p {
 
 .legendTitle {
     fill: var(--dark_blue);
-    font-size: 14px;
+    font-size: 18px;
     font-family: franklin-gothic-condensed, sans-serif;
 }
 
@@ -252,12 +252,17 @@ footer p {
     font-weight: 700;
 }
 
-.legendSize text.label {
+.legendSize text.label,
+.legendOrdinal text.label,
+.legendLinear text.label
+{
     fill: var(--dark_blue);
     font-size: 14px;
     font-weight: 400;
     font-family: franklin-gothic-condensed, sans-serif;
 }
+
+
 
 
 .legendSize circle.swatch {
@@ -353,12 +358,26 @@ text.label_poly {
     text-transform: uppercase;
     font-size: 8px;
     font-style: italic;
-    fill: #FFF1F2;
+    
     letter-spacing: 3.5px;
     fill: var(--dark_blue);
     font-family: franklin-gothic-condensed, sans-serif;
 
 }
+
+
+text.label_chicken {
+    text-anchor: middle;
+    text-transform: uppercase;
+    font-size: 8px;
+    font-style: italic;
+    fill: darkgrey;
+    letter-spacing: 3.5px;
+    font-family: franklin-gothic-condensed, sans-serif;
+
+}
+
+
 
 text.label_home {
     text-anchor: middle;

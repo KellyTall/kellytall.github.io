@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles_map.css">
+    </link>
+    <link rel="stylesheet" href="https://use.typekit.net/qpl0nxr.css">
+    <title>Day Thirty-Two</title>
+</head>
+
+<body >
+    <header>
+        <ul class="top_nav">
+            <li><a href="100_days.html">
+                    <p>back to home page</p>
+                </a></li>
+        </ul>
+    </header>
+    <h1> Day Thirty-Two</h1>
+    <h2> 8 November 2021</h2>
+    <h2> #30DayMapChallenge | Day 8 | <strike>Blue</strike> Green (It's all mixed up, I know, but I am really trying to catch-up)</h2>
+    <h3>It's not easy being Green</h3>
+    <h2>Swings for and against The Greens in first preference votes for House of Representatives at the 2019 Federal Election. While the Greens hold 9 seats in the Senate, they only hold one seat in the House of Representatives.</h2>
+    <h2><sub>I hate that this phrase has been ruined for me by Boris Johnson. But I intend to get over it.</sub></h2>
+    
+    <div class="map_holder day8_map">
+        
+    </div>
+    
+    <div class="description">
+        <h3>Log</h3>
+        <p>Data is from <a href="https://results.aec.gov.au/24310/Website/HouseDownloadsMenu-24310-Csv.htm" target="_blank">AEC</a> <i>"First preferences by candidate by vote type"</i> which includes swing information</p>
+        <p>I chose a colour palette that was themed after Kermit and Miss Piggy. The very intense, hot-pink swings are in the city areas. Interestingly, the biggest swing against the Greens in the last election is in the Victorian seat of Cooper; a seat the Greens are targetting at the next election. the seat of Cooper used to be named after colonialist John Batman, but is now named after <a href="https://en.wikipedia.org/wiki/William_Cooper_(Aboriginal_Australian)" target="_blank">William Cooper</a>, a Yorta Yorta activist, after a campaign to change the name as Batman was inolved in the masacre of Aboriginal people in the Nineteenth century.</p>
+        <p>Choropleth maps really don't work that well in Australia due to the concentrations of seats in the city areas, and the vast areas with only one or two seats. Maps like this hide the extremes of the swings for and against the Greens. The greens had a small swing towards them in primary votes in Leichardt in Far North Queensland. This is a seat held by the LNP, ut eerythign we heard during the last election was how much they were coal loving, inner-city hating folk. It's nice to see the Greens holding on and growing their base a little. The biggest swing was in Griffith, Kevin Rudd's old seat and now held by Terri Butler. ALP held the seat, but the Greens saw a swing towards them of 6.7%. It's pretty close between the ALP and the NLP there too!</p>
+        
+        <!-- <p>Can't quite beleive I am linking to <a href="http://honisoit.com/2017/09/food-fault-lines-mapping-class-division-through-food-chains/" target="_blank">Honi Soit</a>, but here we are. A few years ago there was talk about "The Red Rooster Line" - the divide between the west and the North/East. I am missing a few El Jannah's (and also there has been a few more open up including one on King Street in Newtown). And they seem to be missing a stack of Red Rooster's. It's an interesting way  to look at class and cultural background, <i>maybe</i>...It certainly set the ironic twitter crowd on fire. Anyhow, I'm here to map, not to critique some student's article in HS. </p> -->
+        <p>As ever code can be found <a href="https://github.com/KellyTall/kellytall.github.io/blob/master/js/day_thirtytwo.js" target="_blank">here</a></p>
+    </div>
+    <footer>
+        <div class="footer_nav">
+            <ul class="list_container">
+                <li><a href="day_thirty.html">
+                        <p>Go to Day 31</p>
+                    </a></li>
+                <li><a href="day_thirtythree.html">
+                        <p>Go to Day 33</p>
+                    </a></li>
+            </ul>
+        </div>
+    </footer>
+    <!-- NOTE: hexgrid has to come first!!-->
+    <script src="https://unpkg.com/d3-hexgrid"></script>
+    <script src="../js/d3.v6.js"></script>
+    <script src="https://unpkg.com/topojson@3"></script>
+    <script src="https://d3js.org/d3-hexbin.v0.2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.21.0/d3-legend.min.js"></script>
+     <script src="../js/day_thirtytwo.js"></script>
+</body>
+
+</html>

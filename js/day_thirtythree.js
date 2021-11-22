@@ -6,84 +6,9 @@ async function drawMap_streets() {
 
 
 
-    console.log(streets)
+    // console.log(streets)
 
-    //     const home = await d3.csv("./../data/homes.csv", function(d) {
-    //         return {
-    //             lon: +d.x,
-    //             lat: +d.y,
-    //             location: d.location,
-    //             order: +d.order
-
-
-    //         }
-    //     })
-
-    //     const home_lines = await d3.csv("./../data/homes_line.csv", function(d) {
-    //         return {
-    //             lon1: +d.x1,
-    //             lon2: +d.x2,
-    //             lat1: +d.y1,
-    //             lat2: +d.y2,
-    //             location: d.location,
-    //             order: +d.order
-
-
-    //         }
-    //     })
-
-
-    //     // console.log(home_lines)
-
-    //     const link = []
-    //     home_lines.forEach(function(row) {
-    //         source = [+row.lon1, +row.lat1]
-    //         target = [+row.lon2, +row.lat2]
-    //         topush = { type: "LineString", coordinates: [source, target] }
-    //         link.push(topush)
-    //     })
-
-
-    // console.log(link)
-
-
-
-
-    //     // // //     // // wrap text function
-
-    //     function wrap(text, width) {
-    //         text.each(function() {
-    //             var text = d3.select(this),
-    //                 words = text.text().split(/\s+/).reverse(),
-    //                 word,
-    //                 line = [],
-    //                 lineNumber = 0,
-    //                 lineHeight = 1.1, // ems
-    //                 x = text.attr("x"),
-    //                 y = text.attr("y"),
-    //                 dy = 0, //parseFloat(text.attr("dy")),
-    //                 tspan = text.text(null)
-    //                 .append("tspan")
-    //                 .attr("x", x)
-    //                 .attr("y", y)
-    //                 .attr("dy", dy + "em");
-    //             while (word = words.pop()) {
-    //                 line.push(word);
-    //                 tspan.text(line.join(" "));
-    //                 if (tspan.node().getComputedTextLength() > width) {
-    //                     line.pop();
-    //                     tspan.text(line.join(" "));
-    //                     line = [word];
-    //                     tspan = text.append("tspan")
-    //                         .attr("x", x)
-    //                         .attr("y", y)
-    //                         .attr("dy", ++lineNumber * lineHeight + dy + "em")
-    //                         .text(word);
-    //                 }
-    //             }
-    //         });
-    //     }
-
+    
 
     const width = 800
     const height = 900

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles_map.css">
+    </link>
+    <link rel="stylesheet" href="https://use.typekit.net/qpl0nxr.css">
+    <title>Day Thirty-One</title>
+</head>
+
+<body class="mono_page">
+    <header>
+        <ul class="top_nav">
+            <li><a href="100_days.html">
+                    <p>back to home page</p>
+                </a></li>
+        </ul>
+    </header>
+    <h1> Day Thirty-One</h1>
+    <h2> 7 November 2021</h2>
+    <h2> #30DayMapChallenge | Day 7 | <strike>Green</strike> Red Bonus!</h2>
+    <h3>The Red Rooster Line</h3>
+    <h2>Red Rooster, El Jannah, Chargrill Charlie's...which chicken chain is your allegience with?</h2>
+    <h2>TBH mine is with Chickenville, Marrickille's own. Best chips. Don't argue!</h2>
+    <div class="map_holder day7_map">
+        
+    </div>
+    <p class="OSM">© OpenStreetMap contributors</p>
+    <div class="description">
+        <h3>Log</h3>
+        <p>Data is yet again from OpenStreetMap <a href="https://overpass-turbo.eu/" target="_blank">overpass turbo</a>; it's such a great resource. </p>
+        <code>
+            [out:json][timeout:25];<br>
+// fetch area “Sydney” to search in<br>
+{{geocodeArea:Sydney}}->.searchArea;<br>
+// gather results<br>
+(
+  // query part for: “name="El Jannah"”<br>
+  node["name"="El Jannah"](area.searchArea);<br>
+  way["name"="El Jannah"](area.searchArea);<br>
+  relation["name"="El Jannah"](area.searchArea);<br>
+  // query part for: “"Red Rooster"”<br>
+  node["brand:wikidata"="Q376466"]["amenity"="fast_food"]["cuisine"="chicken"](area.searchArea);<br>
+  way["brand:wikidata"="Q376466"]["amenity"="fast_food"]["cuisine"="chicken"](area.searchArea);<br>
+  relation["brand:wikidata"="Q376466"]["amenity"="fast_food"]["cuisine"="chicken"](area.searchArea);<br>
+  
+   // query part for: “"Chargrill Charlie's"”<br>
+  node["name"="Chargrill Charlie's"](area.searchArea);<br>
+  way["name"="Chargrill Charlie's"](area.searchArea);<br>
+  relation["name"="Chargrill Charlie's"](area.searchArea);<br>
+);<br>
+// print results<br>
+out body;<br>
+>;<br>
+out skel qt;<br>
+        </code>
+        <p>Can't quite beleive I am linking to <a href="http://honisoit.com/2017/09/food-fault-lines-mapping-class-division-through-food-chains/" target="_blank">Honi Soit</a>, but here we are</p>
+        <p>As ever code can be found <a href="https://github.com/KellyTall/kellytall.github.io/blob/master/js/day_thirtythree.js" target="_blank">here</a></p>
+    </div>
+    <footer>
+        <div class="footer_nav">
+            <ul class="list_container">
+                <li><a href="not_ready_yet.html">
+                        <p>Go to Day 32</p>
+                    </a></li>
+                <li><a href="not_ready_yet.html">
+                        <p>Go to Day 34</p>
+                    </a></li>
+            </ul>
+        </div>
+    </footer>
+    <!-- NOTE: hexgrid has to come first!!-->
+    <script src="https://unpkg.com/d3-hexgrid"></script>
+    <script src="../js/d3.v6.js"></script>
+    <script src="https://unpkg.com/topojson@3"></script>
+    <script src="https://d3js.org/d3-hexbin.v0.2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.21.0/d3-legend.min.js"></script>
+    <script src="../js/day_thirtythree.js"></script>
+</body>
+
+</html>
