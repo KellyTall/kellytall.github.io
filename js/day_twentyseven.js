@@ -73,18 +73,18 @@ async function drawMap_locations() {
 
 
     const width = 900
-    const height = 900
+    const height = 600
     const margin = { top: 40, right: 10, bottom: 10, left: 10 }
 
 
     const svg = d3.select(".day3_map")
         .append("svg")
-        .attr("viewBox", "0 0 900 900")
+        .attr("viewBox", [0, 0, width, height])
         .attr('transform', `translate(0,${margin.top})`)
 
 
     const projection_SA4 = d3.geoEquirectangular()
-        .fitWidth(width, SA4_topo)
+        .fitHeight(height, SA4_topo)
 
 
 

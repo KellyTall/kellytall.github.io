@@ -53,7 +53,7 @@ async function drawMap_locations() {
 
 
     const width = 900
-    const height = 900
+    const height = 700
     const margin = { top: 40, right: 10, bottom: 10, left: 10 }
     const radius = 4
 
@@ -69,7 +69,7 @@ async function drawMap_locations() {
 
 
     const projection_SA2 = d3.geoEquirectangular()
-        .fitWidth(width, SA2_topo)
+        .fitHeight(height, SA2_topo)
 
 
 
