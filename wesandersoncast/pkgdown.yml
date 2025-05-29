@@ -1,0 +1,8 @@
+pandoc: 3.7.0.1
+pkgdown: 2.1.3
+pkgdown_sha: ~
+articles: {}
+last_built: 2025-05-29T03:42Z
+urls:
+  reference: http://www.hellomister.com.au/wesandersoncast/reference
+  article: http://www.hellomister.com.au/wesandersoncast/articles
