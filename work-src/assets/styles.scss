@@ -5,12 +5,13 @@
   --olive: #B4B897;
 }
 
+/* Base body + typography */
 body {
   font-family: neue-haas-unica, sans-serif;
   font-weight: 300;
   font-style: normal;
-  color: var(--dark_blue);          /* text is dark blue */
-  background-color: var(--light_pink);  /* bg is light pink */
+  color: var(--dark_blue);                /* text in dark blue */
+  background-color: var(--light_pink);    /* background in light pink */
   margin: 56px;
   height: auto;
 }
@@ -44,18 +45,171 @@ h4, p {
   color: var(--dark_blue);
 }
 
-/* Navbar and links */
-header, footer {
+/* Navbar (mimic your landing page look) */
+.navbar {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 0;
   border-top: 1px solid var(--dark_blue);
-  border-bottom: 1px solid var(--dark_blue);
 }
 
-a {
+nav ul {
+  display: flex;
+  margin-top: 0;
+  padding-left: 0;
+}
+
+nav ul li {
+  list-style-type: none;
+  padding-left: 12px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: var(--dark_blue);
+  padding-top: 12px;
+}
+
+header nav ul li a:hover {
+  color: var(--olive);
+  border-bottom: 1px solid var(--olive);
+}
+
+/* Footer */
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  border-bottom: 1px solid var(--dark_blue);
+  flex: 1;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+footer a {
   color: var(--dark_blue);
   text-decoration: none;
 }
 
-a:hover {
+footer a:hover {
   color: var(--olive);
   border-bottom: 1px solid var(--olive);
+}
+
+/* Quarto listing cards (projects grid) */
+.listing-grid .card {
+  border: 0;
+  box-shadow: 0 6px 18px rgba(0,0,0,.06);
+  background-color: var(--light_pink);
+  color: var(--dark_blue);
+}
+
+.listing-grid .card-title,
+.listing-grid .card-text {
+  color: var(--dark_blue);
+}
+
+/* ---------- Project detail page layout ---------- */
+
+/* Comfortable reading width for text content */
+.page-columns .content,
+.quarto-container .page-columns .content {
+  max-width: 860px;         /* tune between 760–920 if you like */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Title block spacing */
+.quarto-title-block {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.quarto-title h1.title {
+  font-family: jaf-lapture-display, serif;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 1.2;
+  color: var(--dark_blue);
+  margin: 0 0 8px 0;
+}
+.quarto-title .description,
+.quarto-title .quarto-categories .quarto-category {
+  color: var(--dark_blue);
+  opacity: .85;
+}
+
+/* Section headings in the body */
+.content h2, .content h3, .content h4 {
+  margin-top: 28px;
+  margin-bottom: 12px;
+}
+
+/* Paragraph rhythm */
+.content p {
+  font-size: 20px;
+  line-height: 1.6;
+  margin: 0 0 14px 0;
+  color: var(--dark_blue);
+}
+
+/* Lists */
+.content ul, .content ol {
+  padding-left: 1.2rem;
+  margin: 0 0 14px 0;
+}
+
+/* Links */
+.content a {
+  color: var(--dark_blue);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+.content a:hover {
+  color: var(--olive);
+  border-bottom: 1px solid var(--olive);
+}
+
+/* Images / figures */
+.figure, figure, .content img {
+  display: block;
+  margin: 18px auto;
+  max-width: 100%;
+  height: auto;
+  border: 0;
+}
+.figure figcaption, figcaption {
+  font-size: 14px;
+  color: var(--dark_blue);
+  opacity: .8;
+  text-align: center;
+  margin-top: 6px;
+}
+
+/* Code blocks (if any) — keep minimal */
+div.sourceCode, pre code, code {
+  background: transparent;
+  border-radius: 8px;
+}
+
+/* Search/listing panel colors (Quarto adds these files) */
+#quarto-search, .quarto-search-results {
+  background: var(--light_pink);
+  color: var(--dark_blue);
+}
+
+/* Grid cards on Work index */
+.listing-grid .card {
+  background-color: var(--light_pink);
+  color: var(--dark_blue);
+}
+.listing-grid .card-title,
+.listing-grid .card-text {
+  color: var(--dark_blue);
+}
+
+/* Reduce extra Bootstrap padding around main container */
+.quarto-container.page-columns.page-full {
+  padding-left: 0;
+  padding-right: 0;
 }
