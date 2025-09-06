@@ -1,0 +1,12 @@
+---
+title: "Selected Work"
+listing:
+  contents: projects
+  sort: "date desc"
+  type: grid
+  image-height: 180px
+  fields: [title, description, date]
+page-layout: full
+---
+
+Welcome to my project archive. Each case study includes context, approach, results, and impact.

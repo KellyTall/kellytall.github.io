@@ -1,0 +1,16 @@
+project:
+  type: website
+  output-dir: ../work
+
+website:
+  title: "Work"
+  description: "Case studies and selected projects."
+  navbar:
+    left:
+      - text: "All Projects"
+        href: index.qmd
+
+format:
+  html:
+    theme: litera
+    css: assets/styles.scss

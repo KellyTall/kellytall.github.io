@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Selected Work",
+    "section": "",
+    "text": "Welcome to my project archive. Each case study includes context, approach, results, and impact.\n\n\n\n\n\n\n\n\n\n\n\nExample Project\n\n\nReplace this with your first real project.\n\n\n\nSep 6, 2025\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/example.html",
+    "href": "projects/example.html",
+    "title": "Example Project",
+    "section": "",
+    "text": "Short summary of the problem."
+  },
+  {
+    "objectID": "projects/example.html#context",
+    "href": "projects/example.html#context",
+    "title": "Example Project",
+    "section": "",
+    "text": "Short summary of the problem."
+  },
+  {
+    "objectID": "projects/example.html#approach",
+    "href": "projects/example.html#approach",
+    "title": "Example Project",
+    "section": "Approach",
+    "text": "Approach\nWhat you did, tools used, notable design choices."
+  },
+  {
+    "objectID": "projects/example.html#result",
+    "href": "projects/example.html#result",
+    "title": "Example Project",
+    "section": "Result",
+    "text": "Result\nA sentence or image showing the outcome."
+  },
+  {
+    "objectID": "projects/example.html#impact",
+    "href": "projects/example.html#impact",
+    "title": "Example Project",
+    "section": "Impact",
+    "text": "Impact\nWhat changed because of your work?"
+  }
+]

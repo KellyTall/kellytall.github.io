@@ -1,0 +1,18 @@
+---
+title: "Example Project"
+description: "Replace this with your first real project."
+date: 2025-09-06
+categories: ["Example"]
+---
+
+## Context
+Short summary of the problem.
+
+## Approach
+What you did, tools used, notable design choices.
+
+## Result
+A sentence or image showing the outcome.
+
+## Impact
+What changed because of your work?
