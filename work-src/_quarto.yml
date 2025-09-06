@@ -21,4 +21,13 @@ format:
     theme: default
     css: assets/styles.scss
     include-in-header: |
-      <link rel="stylesheet" href="https://use.typekit.net/rtn8uaf.css">
+      <link rel="stylesheet" href="https://use.typekit.net/rtn8uaf.css"> <!-- Adobe Fonts link -->
+      include-after-body: |
+      <script>
+        window.addEventListener('scroll', function () {
+          var nav = document.querySelector('.navbar');
+          if (!nav) return;
+          if (window.scrollY > 2) { nav.classList.add('is-scrolled'); }
+          else { nav.classList.remove('is-scrolled'); }
+        });
+      </script>

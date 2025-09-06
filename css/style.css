@@ -128,3 +128,22 @@ footer {
     border-bottom: 1px solid var(--light_pink);
     flex: 1;
 }
+
+/* ==== Sticky header with shadow on scroll ==== */
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: var(--dark_blue);
+    border-top: 1px solid var(--light_pink);
+    border-bottom: 1px solid var(--light_pink);
+    padding-top: 6px;
+    padding-bottom: 6px;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+/* Shadow only when scrolling */
+header.is-scrolled {
+    box-shadow: 0 6px 18px rgba(0,0,0,.3);
+}
