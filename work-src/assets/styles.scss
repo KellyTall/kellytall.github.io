@@ -213,3 +213,77 @@ div.sourceCode, pre code, code {
   padding-left: 0;
   padding-right: 0;
 }
+
+/* ==== NAVBAR: match landing/about look ==== */
+
+/* Reset Bootstrapy bits */
+.navbar,
+.navbar .container-fluid,
+.navbar .navbar-collapse {
+  background: transparent !important;
+  box-shadow: none !important;
+  padding-left: 0;
+  padding-right: 0;
+  border-top: 1px solid var(--dark_blue);
+  border-bottom: 1px solid var(--dark_blue);
+  margin-bottom: 16px;
+}
+
+/* Hide the default site title in the navbar (we don't use it in your HTML pages) */
+.navbar-brand {
+  display: none;
+}
+
+/* Keep tools (search, etc.) minimal */
+.quarto-navbar-tools {
+  display: none;
+}
+
+/* Horizontal list like your HTML nav */
+.navbar-nav {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;                /* spacing between items */
+  margin: 0;
+  padding-left: 0;
+}
+
+/* Individual links: same font + hover underline */
+.navbar-nav .nav-link {
+  font-family: neue-haas-unica, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: var(--dark_blue) !important;
+  padding: 12px 0;          /* remove side padding so underline sits snug */
+  border-bottom: 1px solid transparent;
+  text-decoration: none;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+  color: var(--olive) !important;
+  border-bottom-color: var(--olive);
+}
+
+/* Keep the "active" link subtle (no pill backgrounds) */
+.navbar-nav .nav-link.active,
+.navbar-nav .show > .nav-link {
+  color: var(--dark_blue) !important;
+  background: transparent !important;
+  border-bottom-color: var(--dark_blue);
+}
+
+/* Mobile: keep the toggler, ensure colors match */
+.navbar-toggler {
+  border: 1px solid var(--dark_blue);
+}
+.navbar-toggler-icon {
+  filter: invert(20%) sepia(10%) saturate(400%) hue-rotate(200deg) brightness(90%);
+}
+@media (max-width: 991.98px) {
+  .navbar,
+  .navbar .container-fluid,
+  .navbar .navbar-collapse {
+    border-top: none; /* optional on small screens */
+  }
+}
