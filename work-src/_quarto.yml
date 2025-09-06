@@ -7,8 +7,14 @@ website:
   description: "Case studies and selected projects."
   navbar:
     left:
-      - text: "All Projects"
+      - text: "home"
+        href: ../index.html
+      - text: "about"
+        href: ../about.html
+      - text: "work"
         href: index.qmd
+      - text: "things"
+        href: ../not_ready_yet2.html
 
 format:
   html:
