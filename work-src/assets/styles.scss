@@ -287,3 +287,10 @@ div.sourceCode, pre code, code {
     border-top: none; /* optional on small screens */
   }
 }
+
+/* Card titles in serif for a bit of brand flair */
+.listing-grid .card-title {
+  font-family: jaf-lapture-display, serif;
+  font-weight: 400;
+  font-size: 28px;
+}
