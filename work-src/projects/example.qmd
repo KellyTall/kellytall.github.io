@@ -1,6 +1,6 @@
 ---
 title: "Example Project"
-description: "Replace this with your first real project."
+description: "testing testing testing."
 date: 2025-09-06
 categories: ["Example"]
 ---
