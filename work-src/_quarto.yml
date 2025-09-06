@@ -12,5 +12,7 @@ website:
 
 format:
   html:
-    theme: litera
+    theme: default
     css: assets/styles.scss
+    include-in-header: |
+      <link rel="stylesheet" href="https://use.typekit.net/rtn8uaf.css">
