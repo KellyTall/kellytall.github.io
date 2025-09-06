@@ -411,6 +411,11 @@ header.navbar,
   max-width: none !important; /* let it flow full width but respect margins */
 }
 
+/* Optional: improve readability by limiting text width */
+.page-columns .content {
+  max-width: 860px;  /* adjust 800–900px as you like */
+}
+
 /* ==== Match main site header structure, but flipped colors ==== */
 
 .navbar,
