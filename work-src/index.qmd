@@ -1,5 +1,5 @@
 ---
-title: "Selected Work"
+title: "Projects and Work"
 listing:
   contents: projects
   sort: "date desc"
