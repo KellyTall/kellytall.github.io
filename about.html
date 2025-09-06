@@ -52,6 +52,19 @@ say hello 👋 </a></p>
     
     </div>
     </footer>
+
+    <script>
+  
+  window.addEventListener('scroll', function () {
+    var header = document.querySelector('header');
+    if (!header) return;
+    if (window.scrollY > 2) {
+      header.classList.add('is-scrolled');
+    } else {
+      header.classList.remove('is-scrolled');
+    }
+  });
+    </script>
     
 </body>
 </html>
