@@ -3,7 +3,7 @@ project:
   output-dir: ../work
 
 website:
-  title: "Work"
+  title: "hellomister"
   description: "Case studies and selected projects."
   navbar:
     left:
