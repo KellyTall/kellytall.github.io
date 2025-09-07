@@ -14,7 +14,7 @@ html, body { margin: 0; padding: 0; }
 body {
   font-family: "neue-haas-unica", -apple-system, BlinkMacSystemFont, "Segoe UI",
                Helvetica, Arial, sans-serif;
-  font-weight: 300;  /* valid weight in your kit */
+  font-weight: 300;                  /* valid in your kit */
   color: var(--dark_blue);
   background: var(--light_pink);
 }
@@ -29,41 +29,49 @@ body {
 }
 .page-columns .content { max-width: 860px; }
 
-/* ===== Navbar ===== */
-header.navbar {
-  background: var(--light_pink) !important;
-  color: var(--dark_blue) !important;
-  position: sticky; top: 0; z-index: 1000;
-  margin: 0;
-  padding-top: 6px;
-  padding-bottom: 6px;
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-
-  /* keep exactly one line above & below */
-  border-top: 1px solid var(--dark_blue) !important;
-  border-bottom: 1px solid var(--dark_blue) !important;
-  border-left: none !important;
-  border-right: none !important;
-  box-shadow: none !important;
-}
-
-/* strip all inner borders/lines */
-header.navbar * {
+/* ===== Header / Navbar ===== */
+/* 1) Nuke ALL inner borders/lines/shadows inside the navbar */
+header.navbar, header.navbar * {
   border: 0 !important;
   box-shadow: none !important;
+  outline: 0 !important;
   background-image: none !important;
 }
 
+/* 2) Build the header container itself */
+header.navbar {
+  position: sticky; top: 0; z-index: 1000;
+  background: var(--light_pink) !important;
+  color: var(--dark_blue) !important;
+  margin: 0;
+  padding: 6px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+/* 3) Draw EXACTLY ONE line above & below the header */
+header.navbar::before,
+header.navbar::after {
+  content: "";
+  position: absolute;
+  left: 56px;                    /* align with your page frame */
+  right: 56px;
+  height: 1px;
+  background: var(--dark_blue);
+  pointer-events: none;
+}
+header.navbar::before { top: 0; }
+header.navbar::after  { bottom: 0; }
+
+/* Brand + nav items (aligned to 56px gutters) */
 .navbar-brand {
   font-family: "neue-haas-unica", sans-serif;
   font-weight: 500;
-  font-size: 56px;  /* match your main site */
+  font-size: 56px;               /* match main site */
   color: var(--dark_blue) !important;
   margin-left: 56px;
 }
-
 .navbar-nav {
   display: flex;
   gap: 20px;
@@ -72,7 +80,7 @@ header.navbar * {
 }
 .navbar-nav .nav-link {
   font-family: "neue-haas-unica", sans-serif;
-  font-weight: 300;
+  font-weight: 300;              /* loaded in the kit */
   color: var(--dark_blue) !important;
   text-decoration: none;
   border-bottom: 1px solid transparent;
@@ -83,8 +91,10 @@ header.navbar * {
   border-bottom-color: var(--olive);
 }
 
-/* hide Quarto's search/tools */
-.quarto-navbar-tools { display: none !important; }
+/* Hide Quarto search/tools */
+.quarto-navbar-tools,
+.quarto-search,
+.quarto-search-button { display: none !important; }
 
 /* ===== Work listing cards ===== */
 .listing-grid .card {
@@ -95,7 +105,7 @@ header.navbar * {
 }
 .listing-grid .card-title {
   font-family: "jaf-lapture-display", serif;
-  font-weight: 400;
+  font-weight: 400;              /* 700 is also available if needed */
   font-size: 28px;
   color: var(--dark_blue);
 }
