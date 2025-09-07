@@ -9,17 +9,17 @@ $body-color: #464660;    // dark blue
   --olive: #B4B897;
 }
 
-/* Base */
+/* ===== Base ===== */
 html, body { margin: 0; padding: 0; }
 body {
   font-family: "neue-haas-unica", -apple-system, BlinkMacSystemFont, "Segoe UI",
                Helvetica, Arial, sans-serif;
-  font-weight: 300;  /* this weight exists in your kit */
+  font-weight: 300;  /* valid weight in your kit */
   color: var(--dark_blue);
   background: var(--light_pink);
 }
 
-/* Page frame (56px gutters) */
+/* ===== Page frame (56px gutters) ===== */
 .quarto-container,
 .page-columns,
 .page-columns .content {
@@ -29,30 +29,37 @@ body {
 }
 .page-columns .content { max-width: 860px; }
 
-/* Navbar (light bg / dark text, aligned to 56px) */
-.navbar,
-.navbar .container-fluid,
-.navbar .navbar-collapse {
+/* ===== Navbar ===== */
+header.navbar {
   background: var(--light_pink) !important;
   color: var(--dark_blue) !important;
   position: sticky; top: 0; z-index: 1000;
   margin: 0;
   padding-top: 6px;
   padding-bottom: 6px;
-  border-top: 1px solid var(--dark_blue) !important;
-  border-bottom: 1px solid var(--dark_blue) !important;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  box-shadow: none !important;
+
+  /* keep exactly one line above & below */
+  border-top: 1px solid var(--dark_blue) !important;
+  border-bottom: 1px solid var(--dark_blue) !important;
   border-left: none !important;
   border-right: none !important;
+  box-shadow: none !important;
+}
+
+/* strip all inner borders/lines */
+header.navbar * {
+  border: 0 !important;
+  box-shadow: none !important;
+  background-image: none !important;
 }
 
 .navbar-brand {
   font-family: "neue-haas-unica", sans-serif;
   font-weight: 500;
-  font-size: 56px;
+  font-size: 56px;  /* match your main site */
   color: var(--dark_blue) !important;
   margin-left: 56px;
 }
@@ -76,10 +83,16 @@ body {
   border-bottom-color: var(--olive);
 }
 
-.quarto-navbar-tools { display: none !important; } /* hide search/tools */
+/* hide Quarto's search/tools */
+.quarto-navbar-tools { display: none !important; }
 
-/* Listing (Work index) */
-.listing-grid .card { background: transparent; border: none; box-shadow: none; padding: 0; }
+/* ===== Work listing cards ===== */
+.listing-grid .card {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+}
 .listing-grid .card-title {
   font-family: "jaf-lapture-display", serif;
   font-weight: 400;
@@ -88,19 +101,3 @@ body {
 }
 .listing-grid .card-text,
 .listing-grid .card-date { color: var(--dark_blue); }
-
-/* Keep exactly one border on the outer header; remove all inner borders */
-header.navbar {
-  border-top: 1px solid var(--dark_blue) !important;
-  border-bottom: 1px solid var(--dark_blue) !important;
-  box-shadow: none !important;
-}
-
-header.navbar .container-fluid,
-header.navbar .navbar-collapse,
-header.navbar .navbar-nav,
-header.navbar .navbar-brand {
-  border: 0 !important;
-  box-shadow: none !important;
-  background-image: none !important;
-}
