@@ -80,7 +80,7 @@ body {
 .navbar .container-fluid,
 .navbar .navbar-collapse {
   background: var(--light_pink) !important;
-  border-top: 1px solid var(--light_pink);
+  border-top: 1px solid var(--dark_blue);
   border-bottom: 1px solid var(--dark_blue);
   margin: 0;
   padding-top: 6px;
@@ -94,7 +94,7 @@ body {
   font-family: neue-haas-unica, sans-serif;
   font-weight: 500;
   font-size: 36px;
-  color: var(--light_pink) !important;
+  color: var(--dark_blue) !important;
   margin-left: 56px;
 }
 
@@ -108,7 +108,7 @@ body {
 .navbar-nav .nav-link {
   font-family: neue-haas-unica, sans-serif;
   font-weight: 300;
-  color: var(--light_pink) !important;
+  color: var(--dark_blue) !important;
   text-decoration: none;
   border-bottom: 1px solid transparent;
   padding-top: 12px;
