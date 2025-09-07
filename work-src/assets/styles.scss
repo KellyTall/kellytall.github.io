@@ -540,3 +540,44 @@ header.navbar,
 .listing-grid .card-date {
   color: var(--light_pink);
 }
+
+/* Header — match your site layout */
+.navbar {
+  background: #F1E9E5 !important;   /* light bg */
+  color: #464660 !important;        /* dark text */
+  border-top: 1px solid #464660;
+  border-bottom: 1px solid #464660;
+  padding: 6px 56px;                /* align to your 56px frame */
+  margin: 0;
+}
+.navbar-brand {
+  font-family: neue-haas-unica, sans-serif;
+  font-weight: 500; font-size: 36px;
+  color: #464660 !important;
+}
+.navbar-nav { display: flex; gap: 20px; margin: 0; }
+.navbar-nav .nav-link {
+  font-family: neue-haas-unica, sans-serif;
+  font-weight: 300; font-size: 18px;
+  color: #464660 !important;
+  text-decoration: none; border-bottom: 1px solid transparent;
+  padding: 10px 0;
+}
+.navbar-nav .nav-link:hover { border-bottom-color: #368B85; color: #368B85 !important; }
+.quarto-navbar-tools { display: none !important; } /* hide search/tools */
+
+/* Align page content to the same 56px frame */
+.quarto-container, .page-columns, .page-columns .content {
+  margin-left: 56px !important;
+  margin-right: 56px !important;
+  max-width: none !important;
+}
+
+/* Listing “cards” → remove Bootstrap look */
+.listing-grid .card { background: transparent; border: none; box-shadow: none; padding: 0; }
+.listing-grid .card-title {
+  font-family: jaf-lapture-display, serif; font-weight: 400; font-size: 28px; color: #464660;
+}
+.listing-grid .card-text, .listing-grid .card-date { color: #464660; }
+
+/* Page title block already disabled via _quarto.yml */

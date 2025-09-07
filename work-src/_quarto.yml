@@ -17,7 +17,7 @@ website:
 
 format:
   html:
-    theme: null
+    theme: default
     css: assets/styles.scss
     include-in-header: |
       <link rel="stylesheet" href="https://use.typekit.net/rtn8uaf.css"> <!-- Adobe Fonts link -->
