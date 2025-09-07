@@ -3,12 +3,9 @@
     --light_pink: #F1E9E5;
     --green: #368B85;
     --olive: #B4B897;
-
 }
 
-
 body {
-
     font-family: neue-haas-unica, sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -16,7 +13,6 @@ body {
     background-color: var(--dark_blue);
     margin: 56px 56px;
     height: auto;
-
 }
 
 h1 {
@@ -40,85 +36,58 @@ h3 {
     font-weight: 400;
     font-style: normal;
     font-size: 56px;
-
     line-height: 1.2;
 }
 
 h4 {
     font-weight: 300;
-
 }
 
 p {
     font-size: 20px;
 }
 
-
 .navbar {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
-
 }
 
 .top_nav {
-    padding:  0;
-
+    padding: 0;
 }
 
 header {
     border-top: 1px solid var(--light_pink);
-
 }
 
-
-nav ul{
+nav ul {
     display: flex;
-
 }
 
-
-nav ul li{
-    
-
+nav ul li {
     list-style-type: none;
-
-
-
 }
 
-.navbar nav ul li{
-    
-
-    
+.navbar nav ul li {
     padding-left: 12px;
-
-
 }
-
-
-
 
 ul {
     margin-top: 0;
 }
-
 
 header nav ul li p a,
 .contact p a {
     text-decoration: none;
     color: var(--light_pink);
     padding-top: 12px;
-
 }
-
 
 header nav ul p a:hover,
 .contact p a:hover {
     color: var(--olive);
     border-bottom: 1px solid var(--olive);
-
-
 }
 
 footer {
@@ -130,7 +99,6 @@ footer {
 }
 
 /* ==== Sticky header with shadow on scroll ==== */
-
 header {
     position: sticky;
     top: 0;
@@ -145,98 +113,102 @@ header {
 
 /* Shadow only when scrolling */
 header.is-scrolled {
-    box-shadow: 0 6px 18px rgba(0,0,0,.3);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, .3);
 }
 
-/* ==== Work page ==== */
-
-/* Override the body for work.html */
-body.work {
-  background-color: var(--light_pink);
-  color: var(--dark_blue);
+/* ==== Work & Project pages: light theme ==== */
+body.work,
+body.project {
+    background-color: var(--light_pink) !important;
+    color: var(--dark_blue) !important;
 }
 
-/* Make sure all text inherits dark_blue */
+/* Header + footer background flip */
+body.work header,
+body.work footer,
+body.project header,
+body.project footer {
+    background-color: var(--light_pink) !important;
+    border-top: 1px solid var(--dark_blue) !important;
+    border-bottom: 1px solid var(--dark_blue) !important;
+}
+
+/* Nav + links inside header/footer */
+body.work header nav ul li p a,
+body.work footer .contact p a,
+body.project header nav ul li p a,
+body.project footer .contact p a {
+    color: var(--dark_blue) !important;
+}
+
+body.work header nav ul li p a:hover,
+body.work footer .contact p a:hover,
+body.project header nav ul li p a:hover,
+body.project footer .contact p a:hover {
+    color: var(--olive) !important;
+    border-bottom: 1px solid var(--olive) !important;
+}
+
+/* Ensure headings & paragraphs flip */
 body.work h1,
 body.work h2,
 body.work h3,
 body.work h4,
 body.work p,
-body.work a,
-body.work footer,
-body.work header {
-  color: var(--dark_blue);
+body.project h1,
+body.project h2,
+body.project h3,
+body.project h4,
+body.project p {
+    color: var(--dark_blue) !important;
 }
 
-/* Adjust header + footer borders on light background */
-body.work header,
-body.work footer {
-  background-color: var(--light_pink);
-  border-top: 1px solid var(--dark_blue);
-  border-bottom: 1px solid var(--dark_blue);
-}
-
-body.work header nav ul li p a,
-body.work .contact p a {
-  color: var(--dark_blue);
-}
-
-body.work header nav ul p a:hover,
-body.work .contact p a:hover {
-  color: var(--olive);
-  border-bottom: 1px solid var(--olive);
-}
-
-/* Work page layout */
+/* ==== Work grid styles ==== */
 .work-page {
-  padding: 80px 56px;
+    padding: 80px 56px;
 }
 
-.work-page h1 {
-  font-size: 48px;
-  margin: 0 0 40px;
-}
-
-/* Tile grid styles */
 .work-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 24px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
 }
 
 .work-tile {
-  background: #fff;
-  border: 2px solid var(--dark_blue);
-  border-radius: 12px;
-  text-decoration: none;
-  color: var(--dark_blue);
-  display: flex;
-  flex-direction: column;
-  transition: transform .2s ease, box-shadow .2s ease;
+    background: #fff;
+    border: 2px solid var(--dark_blue);
+    border-radius: 12px;
+    text-decoration: none;
+    color: var(--dark_blue);
+    display: flex;
+    flex-direction: column;
+    transition: transform .2s ease, box-shadow .2s ease;
 }
 
 .work-tile:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 6px 12px rgba(0,0,0,.12);
+    transform: translateY(-4px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .12);
 }
 
 .work-thumb {
-  aspect-ratio: 16/10;
-  background: var(--olive);
-  background-size: cover;
-  background-position: center;
-  border-bottom: 2px solid var(--dark_blue);
+    aspect-ratio: 16/10;
+    background: var(--olive);
+    background-size: cover;
+    background-position: center;
+    border-bottom: 2px solid var(--dark_blue);
 }
 
-.work-body { padding: 16px; }
+.work-body {
+    padding: 16px;
+}
 
 .work-body h3 {
-  margin: 0 0 6px;
-  font-size: 20px;
-  font-weight: 600;
+    margin: 0 0 6px;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .work-body .meta {
-  font-size: 16px;
-  opacity: .8;
+    font-size: 16px;
+    opacity: .8;
 }
