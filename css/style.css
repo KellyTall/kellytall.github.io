@@ -223,6 +223,9 @@ body.project h1 {
   margin-bottom: 12px;
 }
 
+body.project h2{
+font-size: 32px;}
+
 /* ==== Project page body text ==== */
 body.project p,
 body.project li {
