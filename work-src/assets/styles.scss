@@ -74,3 +74,50 @@ body {
   border: none !important;
   box-shadow: none !important;
 }
+
+/* ==== Match main site header/nav exactly ==== */
+.navbar,
+.navbar .container-fluid,
+.navbar .navbar-collapse {
+  background: var(--light_pink) !important;
+  border-top: 1px solid var(--light_pink);
+  border-bottom: 1px solid var(--dark_blue);
+  margin: 0;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.navbar-brand {
+  font-family: neue-haas-unica, sans-serif;
+  font-weight: 500;
+  font-size: 36px;
+  color: var(--light_pink) !important;
+  margin-left: 56px;
+}
+
+.navbar-nav {
+  display: flex;
+  gap: 20px;
+  margin-right: 56px;
+  font-size: 18px;
+}
+
+.navbar-nav .nav-link {
+  font-family: neue-haas-unica, sans-serif;
+  font-weight: 300;
+  color: var(--light_pink) !important;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  padding-top: 12px;
+}
+
+.navbar-nav .nav-link:hover {
+  color: var(--olive) !important;
+  border-bottom-color: var(--olive);
+}
+
+/* Hide Quarto’s search/tools */
+.quarto-navbar-tools { display: none !important; }
