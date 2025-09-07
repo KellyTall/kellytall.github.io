@@ -19,7 +19,7 @@ format:
   html:
     theme:
       - default            # base theme
-      - assets/styles.scss # your SCSS compiled & merged (no .scss link in HTML)
+      - assets/styles.scss # your SCSS compiled & merged (not linked as .scss)
     include-in-header: |
       <link rel="stylesheet" href="https://use.typekit.net/rtn8uaf.css">
     title-block-style: none
