@@ -52,7 +52,7 @@ body {
 .navbar-brand {
   font-family: "neue-haas-unica", sans-serif;
   font-weight: 500;
-  font-size: 36px;
+  font-size: 56px;
   color: var(--dark_blue) !important;
   margin-left: 56px;
 }
@@ -89,25 +89,18 @@ body {
 .listing-grid .card-text,
 .listing-grid .card-date { color: var(--dark_blue); }
 
-/* === Header line fix: force exactly one hairline, remove all others === */
-header.navbar, .navbar, .navbar * {
+/* Keep exactly one border on the outer header; remove all inner borders */
+header.navbar {
+  border-top: 1px solid var(--dark_blue) !important;
+  border-bottom: 1px solid var(--dark_blue) !important;
+  box-shadow: none !important;
+}
+
+header.navbar .container-fluid,
+header.navbar .navbar-collapse,
+header.navbar .navbar-nav,
+header.navbar .navbar-brand {
   border: 0 !important;
   box-shadow: none !important;
   background-image: none !important;
 }
-
-header.navbar { position: sticky; top: 0; z-index: 1000; }
-
-/* draw a single line inside the header using pseudo elements */
-header.navbar::before,
-header.navbar::after {
-  content: "";
-  position: absolute;
-  left: 56px;                 /* align with your page frame */
-  right: 56px;
-  height: 1px;
-  background: var(--dark_blue);
-  pointer-events: none;
-}
-header.navbar::before { top: 0; }
-header.navbar::after  { bottom: 0; }
