@@ -3,24 +3,15 @@ project:
   output-dir: ../work
 
 website:
-  title: "hellomister"
-  navbar:
-    left:
-      - text: "home"
-        href: ../index.html
-      - text: "about"
-        href: ../about.html
-      - text: "work"
-        href: index.qmd
-      - text: "things"
-        href: ../not_ready_yet2.html
+  title: false
+  navbar: false   # turn Quarto’s navbar OFF
 
 format:
   html:
-    theme:
-      - default            # base theme
-      - assets/styles.scss # your SCSS compiled & merged (not linked as .scss)
+    theme: default
     include-in-header: |
       <link rel="stylesheet" href="https://use.typekit.net/rtn8uaf.css">
+      <link rel="stylesheet" href="assets/header.css">
+    include-before-body: header.html
     title-block-style: none
     title-block-banner: false
