@@ -147,3 +147,63 @@ header {
 header.is-scrolled {
     box-shadow: 0 6px 18px rgba(0,0,0,.3);
 }
+
+/* ==== Work page ==== */
+
+.work-page {
+  background-color: var(--light_pink);
+  color: var(--dark_blue);
+  min-height: 100vh;
+  padding: 80px 56px;
+}
+
+.work-page h1 {
+  font-size: 48px;
+  margin: 0 0 40px;
+  color: var(--dark_blue);
+}
+
+.work-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.work-tile {
+  background: #fff;
+  border: 2px solid var(--dark_blue);
+  border-radius: 12px;
+  text-decoration: none;
+  color: var(--dark_blue);
+  display: flex;
+  flex-direction: column;
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.work-tile:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 12px rgba(0,0,0,.12);
+}
+
+.work-thumb {
+  aspect-ratio: 16/10;
+  background: var(--olive);
+  background-size: cover;
+  background-position: center;
+  border-bottom: 2px solid var(--dark_blue);
+}
+
+.work-body {
+  padding: 16px;
+}
+
+.work-body h3 {
+  margin: 0 0 6px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.work-body .meta {
+  font-size: 16px;
+  opacity: .8;
+}
