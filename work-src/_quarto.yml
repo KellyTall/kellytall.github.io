@@ -14,4 +14,4 @@ format:
       <link rel="stylesheet" href="assets/header.css">
     include-before-body: header.html
     title-block-style: none
-    title-block-banner: false
+    title-block-banner: false 
