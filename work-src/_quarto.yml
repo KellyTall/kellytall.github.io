@@ -3,7 +3,7 @@ project:
   output-dir: ../work
 
 website:
-  title: 
+  title: ""
   navbar: false   # turn Quarto’s navbar OFF
 
 format:
