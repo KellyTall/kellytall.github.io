@@ -17,19 +17,10 @@ website:
 
 format:
   html:
-    theme: default
-    css: assets/styles.scss
+    theme:
+      - default            # base theme
+      - assets/styles.scss # your SCSS compiled & merged (no .scss link in HTML)
     include-in-header: |
-      <link rel="stylesheet" href="https://use.typekit.net/rtn8uaf.css"> <!-- Adobe Fonts link -->
-    include-after-body: |
-      <script>
-        // optional: add shadow when scrolling
-        window.addEventListener('scroll', function () {
-          var nav = document.querySelector('.navbar');
-          if (!nav) return;
-          if (window.scrollY > 2) { nav.classList.add('is-scrolled'); }
-          else { nav.classList.remove('is-scrolled'); }
-        });
-      </script>
+      <link rel="stylesheet" href="https://use.typekit.net/rtn8uaf.css">
     title-block-style: none
     title-block-banner: false
