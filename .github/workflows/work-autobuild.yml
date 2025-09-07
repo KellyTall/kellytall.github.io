@@ -2,11 +2,12 @@ name: Build & Deploy Work (Quarto)
 
 on:
   push:
-    branches: [ main ]
-    paths:
-      - 'work-src/**'
-      - '.github/workflows/work-autobuild.yml'
-  workflow_dispatch:
+    branches: [ master ]   # trigger on either default name
+    # Remove 'paths:' to ensure it runs on ANY push while we debug
+    # paths:
+    #   - 'work-src/**'
+    #   - '.github/workflows/work-autobuild.yml'
+  workflow_dispatch: {}           # allow manual run
 
 permissions:
   contents: write  # allow committing back to the repo
