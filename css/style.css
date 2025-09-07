@@ -150,19 +150,54 @@ header.is-scrolled {
 
 /* ==== Work page ==== */
 
-.work-page {
+/* Override the body for work.html */
+body.work {
   background-color: var(--light_pink);
   color: var(--dark_blue);
-  min-height: 100vh;
+}
+
+/* Make sure all text inherits dark_blue */
+body.work h1,
+body.work h2,
+body.work h3,
+body.work h4,
+body.work p,
+body.work a,
+body.work footer,
+body.work header {
+  color: var(--dark_blue);
+}
+
+/* Adjust header + footer borders on light background */
+body.work header,
+body.work footer {
+  background-color: var(--light_pink);
+  border-top: 1px solid var(--dark_blue);
+  border-bottom: 1px solid var(--dark_blue);
+}
+
+body.work header nav ul li p a,
+body.work .contact p a {
+  color: var(--dark_blue);
+}
+
+body.work header nav ul p a:hover,
+body.work .contact p a:hover {
+  color: var(--olive);
+  border-bottom: 1px solid var(--olive);
+}
+
+/* Work page layout */
+.work-page {
   padding: 80px 56px;
 }
 
 .work-page h1 {
   font-size: 48px;
   margin: 0 0 40px;
-  color: var(--dark_blue);
 }
 
+/* Tile grid styles */
 .work-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -193,9 +228,7 @@ header.is-scrolled {
   border-bottom: 2px solid var(--dark_blue);
 }
 
-.work-body {
-  padding: 16px;
-}
+.work-body { padding: 16px; }
 
 .work-body h3 {
   margin: 0 0 6px;
