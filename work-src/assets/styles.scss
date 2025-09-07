@@ -1,3 +1,4 @@
+/* ======= Brand tokens ======= */
 :root {
   --dark_blue: #464660;
   --light_pink: #F1E9E5;
@@ -5,126 +6,147 @@
   --olive: #B4B897;
 }
 
-/* Base body + typography */
+/* ======= Base typography & page bg ======= */
+html, body { margin: 0; padding: 0; }
+
 body {
   font-family: neue-haas-unica, sans-serif;
   font-weight: 300;
   font-style: normal;
-  color: var(--dark_blue);                /* text in dark blue */
-  background-color: var(--light_pink);    /* background in light pink */
-  margin: 56px;
-  height: auto;
+  color: var(--dark_blue);             /* dark text */
+  background-color: var(--light_pink); /* light background */
 }
 
+/* Headings */
 h1 {
-  font-size: 56px;
   font-family: neue-haas-unica, sans-serif;
   font-weight: 500;
-  font-style: normal;
+  font-size: 56px;
+  line-height: 1.2;
   margin: 0;
   color: var(--dark_blue);
 }
-
-h2 {
-  font-size: 48px;
-  color: var(--dark_blue);
-}
-
+h2 { font-size: 48px; color: var(--dark_blue); }
 h3 {
   font-family: jaf-lapture-display, serif;
   font-weight: 400;
-  font-style: normal;
   font-size: 56px;
   line-height: 1.2;
   color: var(--dark_blue);
 }
+h4, p { font-weight: 300; font-size: 20px; color: var(--dark_blue); }
 
-h4, p {
-  font-weight: 300;
-  font-size: 20px;
-  color: var(--dark_blue);
+/* ======= Global page frame (match 56px gutters) ======= */
+.quarto-container,
+.page-columns,
+.page-columns .content {
+  margin-left: 56px !important;
+  margin-right: 56px !important;
+  max-width: none !important;   /* no clamp */
+}
+.page-columns .content { max-width: 860px; } /* readability */
+
+/* Reduce extra Bootstrap padding around full page layouts */
+.quarto-container.page-columns.page-full {
+  padding-left: 0;
+  padding-right: 0;
 }
 
-/* Navbar (mimic your landing page look) */
-.navbar {
+/* ======= NAVBAR (light bg / dark text, 56px frame) ======= */
+.navbar,
+.navbar .container-fluid,
+.navbar .navbar-collapse {
+  background: var(--light_pink) !important;
+  color: var(--dark_blue) !important;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  margin: 0;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-top: 1px solid var(--dark_blue);
+  border-bottom: 1px solid var(--dark_blue);
+  box-shadow: none;
+}
+
+/* Wordmark left, menu right; align to 56px gutters */
+.navbar-brand {
+  font-family: neue-haas-unica, sans-serif;
+  font-weight: 500;
+  font-size: 36px;
+  color: var(--dark_blue) !important;
+  margin-left: 56px;
+}
+.navbar-nav {
   display: flex;
   align-items: baseline;
-  justify-content: space-between;
-  padding: 0;
-  border-top: 1px solid var(--dark_blue);
+  gap: 20px;
+  margin-right: 56px;
+  font-size: 18px;
 }
+.quarto-navbar-tools { display: none !important; }  /* hide search/tools */
 
-nav ul {
-  display: flex;
-  margin-top: 0;
-  padding-left: 0;
-}
-
-nav ul li {
-  list-style-type: none;
-  padding-left: 12px;
-}
-
-header nav ul li a {
+/* Links: underline on hover, no pills */
+.navbar-nav .nav-link {
+  font-family: neue-haas-unica, sans-serif;
+  font-weight: 300;
+  color: var(--dark_blue) !important;
+  padding: 10px 0;
   text-decoration: none;
-  color: var(--dark_blue);
-  padding-top: 12px;
+  border-bottom: 1px solid transparent;
+}
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+  color: var(--olive) !important;
+  border-bottom-color: var(--olive);
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .show > .nav-link {
+  color: var(--dark_blue) !important;
+  background: transparent !important;
+  border-bottom-color: var(--dark_blue);
 }
 
-header nav ul li a:hover {
-  color: var(--olive);
-  border-bottom: 1px solid var(--olive);
+/* Mobile toggler */
+.navbar-toggler { border: 1px solid var(--dark_blue); }
+.navbar-toggler-icon {
+  filter: invert(20%) sepia(10%) saturate(400%) hue-rotate(200deg) brightness(90%);
 }
 
-/* Footer */
+/* Optional subtle shadow after scroll (JS toggles .is-scrolled) */
+.navbar.is-scrolled { box-shadow: 0 6px 18px rgba(0,0,0,.06); }
+
+/* ======= Footer ======= */
 footer {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   border-bottom: 1px solid var(--dark_blue);
-  flex: 1;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding: 12px 56px;
 }
+footer a { color: var(--dark_blue); text-decoration: none; }
+footer a:hover { color: var(--olive); border-bottom: 1px solid var(--olive); }
 
-footer a {
-  color: var(--dark_blue);
-  text-decoration: none;
-}
-
-footer a:hover {
-  color: var(--olive);
-  border-bottom: 1px solid var(--olive);
-}
-
-/* Quarto listing cards (projects grid) */
+/* ======= Listing (Work index) ======= */
 .listing-grid .card {
-  border: 0;
-  box-shadow: 0 6px 18px rgba(0,0,0,.06);
-  background-color: var(--light_pink);
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+}
+.listing-grid .card-title {
+  font-family: jaf-lapture-display, serif;
+  font-weight: 400;
+  font-size: 28px;
+  color: var(--dark_blue);
+}
+.listing-grid .card-text,
+.listing-grid .card-date {
   color: var(--dark_blue);
 }
 
-.listing-grid .card-title,
-.listing-grid .card-text {
-  color: var(--dark_blue);
-}
-
-/* ---------- Project detail page layout ---------- */
-
-/* Comfortable reading width for text content */
-.page-columns .content,
-.quarto-container .page-columns .content {
-  max-width: 860px;         /* tune between 760–920 if you like */
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* Title block spacing */
-.quarto-title-block {
-  margin-top: 24px;
-  margin-bottom: 24px;
-}
+/* ======= Project page niceties ======= */
+.quarto-title-block { margin: 24px 0; } /* the banner is disabled; this is harmless */
 .quarto-title h1.title {
   font-family: jaf-lapture-display, serif;
   font-weight: 400;
@@ -139,38 +161,23 @@ footer a:hover {
   opacity: .85;
 }
 
-/* Section headings in the body */
-.content h2, .content h3, .content h4 {
-  margin-top: 28px;
-  margin-bottom: 12px;
-}
-
-/* Paragraph rhythm */
+.content h2, .content h3, .content h4 { margin: 28px 0 12px; }
 .content p {
   font-size: 20px;
   line-height: 1.6;
   margin: 0 0 14px 0;
   color: var(--dark_blue);
 }
+.content ul, .content ol { padding-left: 1.2rem; margin: 0 0 14px 0; }
 
-/* Lists */
-.content ul, .content ol {
-  padding-left: 1.2rem;
-  margin: 0 0 14px 0;
-}
-
-/* Links */
 .content a {
   color: var(--dark_blue);
   text-decoration: none;
   border-bottom: 1px solid transparent;
 }
-.content a:hover {
-  color: var(--olive);
-  border-bottom: 1px solid var(--olive);
-}
+.content a:hover { color: var(--olive); border-bottom: 1px solid var(--olive); }
 
-/* Images / figures */
+/* Figures */
 .figure, figure, .content img {
   display: block;
   margin: 18px auto;
@@ -186,398 +193,31 @@ footer a:hover {
   margin-top: 6px;
 }
 
-/* Code blocks (if any) — keep minimal */
+/* Code blocks (keep minimal on light bg) */
 div.sourceCode, pre code, code {
   background: transparent;
   border-radius: 8px;
 }
 
-/* Search/listing panel colors (Quarto adds these files) */
+/* Search panel colors */
 #quarto-search, .quarto-search-results {
   background: var(--light_pink);
   color: var(--dark_blue);
 }
 
-/* Grid cards on Work index */
-.listing-grid .card {
-  background-color: var(--light_pink);
+/* ======= Plain <nav> styles (if used inside content) ======= */
+nav ul {
+  display: flex;
+  margin-top: 0;
+  padding-left: 0;
+}
+nav ul li { list-style: none; padding-left: 12px; }
+header nav ul li a {
+  text-decoration: none;
   color: var(--dark_blue);
+  padding-top: 12px;
 }
-.listing-grid .card-title,
-.listing-grid .card-text {
-  color: var(--dark_blue);
+header nav ul li a:hover {
+  color: var(--olive);
+  border-bottom: 1px solid var(--olive);
 }
-
-/* Reduce extra Bootstrap padding around main container */
-.quarto-container.page-columns.page-full {
-  padding-left: 0;
-  padding-right: 0;
-}
-
-/* ==== NAVBAR: match landing/about look ==== */
-
-/* Reset Bootstrapy bits */
-.navbar,
-.navbar .container-fluid,
-.navbar .navbar-collapse {
-  background: transparent !important;
-  box-shadow: none !important;
-  padding-left: 0;
-  padding-right: 0;
-  border-top: 1px solid var(--dark_blue);
-  border-bottom: 1px solid var(--dark_blue);
-  margin-bottom: 16px;
-}
-
-/* Hide the default site title in the navbar (we don't use it in your HTML pages) */
-.navbar-brand {
-  display: none;
-}
-
-/* Keep tools (search, etc.) minimal */
-.quarto-navbar-tools {
-  display: none;
-}
-
-/* Horizontal list like your HTML nav */
-.navbar-nav {
-  display: flex;
-  align-items: baseline;
-  gap: 12px;                /* spacing between items */
-  margin: 0;
-  padding-left: 0;
-}
-
-/* Individual links: same font + hover underline */
-.navbar-nav .nav-link {
-  font-family: neue-haas-unica, sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  color: var(--dark_blue) !important;
-  padding: 12px 0;          /* remove side padding so underline sits snug */
-  border-bottom: 1px solid transparent;
-  text-decoration: none;
-}
-
-.navbar-nav .nav-link:hover,
-.navbar-nav .nav-link:focus {
-  color: var(--olive) !important;
-  border-bottom-color: var(--olive);
-}
-
-/* Keep the "active" link subtle (no pill backgrounds) */
-.navbar-nav .nav-link.active,
-.navbar-nav .show > .nav-link {
-  color: var(--dark_blue) !important;
-  background: transparent !important;
-  border-bottom-color: var(--dark_blue);
-}
-
-/* Mobile: keep the toggler, ensure colors match */
-.navbar-toggler {
-  border: 1px solid var(--dark_blue);
-}
-.navbar-toggler-icon {
-  filter: invert(20%) sepia(10%) saturate(400%) hue-rotate(200deg) brightness(90%);
-}
-@media (max-width: 991.98px) {
-  .navbar,
-  .navbar .container-fluid,
-  .navbar .navbar-collapse {
-    border-top: none; /* optional on small screens */
-  }
-}
-
-/* Card titles in serif for a bit of brand flair */
-.listing-grid .card-title {
-  font-family: jaf-lapture-display, serif;
-  font-weight: 400;
-  font-size: 28px;
-}
-
-/* ==== COMPACT + STICKY HEADER FOR WORK ==== */
-
-/* Make the Quarto navbar compact and sticky */
-header.navbar,
-.navbar,
-.navbar .container-fluid,
-.navbar .navbar-collapse {
-  background: var(--light_pink) !important; /* match site bg */
-  position: sticky;         /* stick to top when scrolling */
-  top: 0;
-  z-index: 1000;
-  margin: 0;
-  padding-top: 6px;         /* compact height */
-  padding-bottom: 6px;
-  border-top: 1px solid var(--dark_blue);
-  border-bottom: 1px solid var(--dark_blue);
-  box-shadow: none;         /* shadow added on scroll via .is-scrolled */
-}
-
-/* Hide default brand text to match your HTML header */
-.navbar-brand { display: none !important; }
-
-/* Keep tools minimal */
-.quarto-navbar-tools { display: none; }
-
-/* Horizontal list, same spacing as your HTML */
-.navbar-nav {
-  display: flex;
-  align-items: baseline;
-  gap: 12px;
-  margin: 0;
-  padding-left: 0;
-}
-
-/* Links: same font + underline hover */
-.navbar-nav .nav-link {
-  font-family: neue-haas-unica, sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  color: var(--dark_blue) !important;
-  padding: 10px 0;       /* keep tight vertically */
-  border-bottom: 1px solid transparent;
-  text-decoration: none;
-}
-.navbar-nav .nav-link:hover,
-.navbar-nav .nav-link:focus {
-  color: var(--olive) !important;
-  border-bottom-color: var(--olive);
-}
-.navbar-nav .nav-link.active,
-.navbar-nav .show > .nav-link {
-  color: var(--dark_blue) !important;
-  background: transparent !important;
-  border-bottom-color: var(--dark_blue);
-}
-
-/* Mobile menu button in your colors */
-.navbar-toggler { border: 1px solid var(--dark_blue); }
-.navbar-toggler-icon {
-  filter: invert(20%) sepia(10%) saturate(400%) hue-rotate(200deg) brightness(90%);
-}
-
-/* Add a tiny shadow only after the page scrolls a bit */
-.navbar.is-scrolled {
-  box-shadow: 0 6px 18px rgba(0,0,0,.06);
-}
-
-/* Reduce extra container padding so header aligns nicely */
-.quarto-container.page-columns.page-full {
-  padding-left: 0;
-  padding-right: 0;
-}
-
-/* === Make Quarto nav match HTML pages’ width & positioning === */
-
-.navbar .container-fluid,
-.navbar .navbar-collapse {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-  margin-left: 56px !important;   /* match your HTML body margin */
-  margin-right: 56px !important;  /* match your HTML body margin */
-  max-width: none;
-}
-
-.navbar {
-  border-top: 1px solid var(--light_pink);
-  border-bottom: 1px solid var(--light_pink);
-  box-shadow: none;
-}
-
-.navbar-nav {
-  display: flex;
-  align-items: baseline;
-  gap: 12px;
-  margin: 0;
-  padding-left: 0;
-}
-.navbar-nav .nav-link {
-  padding: 10px 0;
-  border-bottom: 1px solid transparent;
-  text-decoration: none;
-}
-.navbar-nav .nav-link:hover,
-.navbar-nav .nav-link:focus {
-  border-bottom-color: currentColor;
-}
-
-/* === Align page content to same 56px frame as index/about === */
-.quarto-container,
-.page-columns,
-.page-columns .content {
-  margin-left: 56px !important;
-  margin-right: 56px !important;
-  max-width: none !important; /* let it flow full width but respect margins */
-}
-
-/* Optional: improve readability by limiting text width */
-.page-columns .content {
-  max-width: 860px;  /* adjust 800–900px as you like */
-}
-
-/* ==== Match main site header structure, but flipped colors ==== */
-
-.navbar,
-.navbar .container-fluid,
-.navbar .navbar-collapse {
-  background: #F1E9E5 !important;    /* light background */
-  color: #464660 !important;         /* dark text */
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  margin: 0;
-  padding-top: 6px;
-  padding-bottom: 6px;
-  border-top: 1px solid #464660;
-  border-bottom: 1px solid #464660;
-}
-
-/* Left wordmark */
-.navbar-brand {
-  font-family: neue-haas-unica, sans-serif;
-  font-weight: 500;
-  font-size: 36px;
-  color: #464660 !important;
-  margin-left: 56px;   /* align to same frame as main site */
-}
-
-/* Right nav list */
-.navbar-nav {
-  display: flex;
-  align-items: baseline;
-  gap: 20px;
-  margin-right: 56px;  /* match frame */
-  font-size: 18px;
-}
-.navbar-nav .nav-link {
-  font-family: neue-haas-unica, sans-serif;
-  font-weight: 300;
-  color: #464660 !important;
-  padding: 10px 0;
-  border-bottom: 1px solid transparent;
-  text-decoration: none;
-}
-.navbar-nav .nav-link:hover,
-.navbar-nav .nav-link:focus {
-  color: #368B85 !important;          /* optional accent (green) */
-  border-bottom-color: #368B85;
-}
-
-/* Active link */
-.navbar-nav .nav-link.active {
-  border-bottom-color: #464660;
-}
-
-/* Remove Quarto's search/tools to keep it clean */
-.quarto-navbar-tools { display: none; }
-
-/* Mobile toggler */
-.navbar-toggler {
-  border: 1px solid #464660;
-}
-.navbar-toggler-icon {
-  filter: invert(20%) sepia(10%) saturate(400%) hue-rotate(200deg) brightness(90%);
-}
-
-/* Reset Quarto/Bootstrap defaults */
-.navbar, .navbar .container-fluid {
-  all: unset;    /* strip Bootstrap rules */
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  width: 100%;
-}
-
-/* Rebuild your header to match main site */
-.navbar {
-  background: var(--dark_blue);   /* or light, if you want the flipped scheme */
-  border-top: 1px solid var(--light_pink);
-  border-bottom: 1px solid var(--light_pink);
-  margin: 0;
-  padding: 6px 56px;              /* matches your site margins */
-}
-
-.navbar-brand {
-  font-family: neue-haas-unica, sans-serif;
-  font-weight: 500;
-  font-size: 36px;
-  color: var(--light_pink);
-}
-
-.navbar-nav {
-  display: flex;
-  gap: 20px;
-}
-.navbar-nav .nav-link {
-  font-family: neue-haas-unica, sans-serif;
-  font-weight: 300;
-  font-size: 18px;
-  color: var(--light_pink);
-  text-decoration: none;
-  border-bottom: 1px solid transparent;
-}
-.navbar-nav .nav-link:hover {
-  border-bottom-color: var(--light_pink);
-}
-
-/* Project listing grid — remove “cards” */
-.listing-grid .card {
-  background: transparent;
-  border: none;
-  box-shadow: none;
-  padding: 0;
-}
-
-.listing-grid .card-title {
-  font-family: jaf-lapture-display, serif;
-  font-size: 28px;
-  font-weight: 400;
-  color: var(--light_pink);
-}
-
-.listing-grid .card-text,
-.listing-grid .card-date {
-  color: var(--light_pink);
-}
-
-/* Header — match your site layout */
-.navbar {
-  background: #F1E9E5 !important;   /* light bg */
-  color: #464660 !important;        /* dark text */
-  border-top: 1px solid #464660;
-  border-bottom: 1px solid #464660;
-  padding: 6px 56px;                /* align to your 56px frame */
-  margin: 0;
-}
-.navbar-brand {
-  font-family: neue-haas-unica, sans-serif;
-  font-weight: 500; font-size: 36px;
-  color: #464660 !important;
-}
-.navbar-nav { display: flex; gap: 20px; margin: 0; }
-.navbar-nav .nav-link {
-  font-family: neue-haas-unica, sans-serif;
-  font-weight: 300; font-size: 18px;
-  color: #464660 !important;
-  text-decoration: none; border-bottom: 1px solid transparent;
-  padding: 10px 0;
-}
-.navbar-nav .nav-link:hover { border-bottom-color: #368B85; color: #368B85 !important; }
-.quarto-navbar-tools { display: none !important; } /* hide search/tools */
-
-/* Align page content to the same 56px frame */
-.quarto-container, .page-columns, .page-columns .content {
-  margin-left: 56px !important;
-  margin-right: 56px !important;
-  max-width: none !important;
-}
-
-/* Listing “cards” → remove Bootstrap look */
-.listing-grid .card { background: transparent; border: none; box-shadow: none; padding: 0; }
-.listing-grid .card-title {
-  font-family: jaf-lapture-display, serif; font-weight: 400; font-size: 28px; color: #464660;
-}
-.listing-grid .card-text, .listing-grid .card-date { color: #464660; }
-
-/* Page title block already disabled via _quarto.yml */
