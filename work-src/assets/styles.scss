@@ -12,10 +12,12 @@ $body-color: #464660;    // dark blue
 /* Base */
 html, body { margin: 0; padding: 0; }
 body {
-  font-family: neue-haas-unica, sans-serif;
-  font-weight: 300;
+  font-family: "neue-haas-unica", -apple-system, BlinkMacSystemFont, "Segoe UI",
+               Helvetica, Arial, sans-serif;
+  font-weight: 300;  /* this weight exists in your kit */
   color: var(--dark_blue);
   background: var(--light_pink);
+  margin: 0;
 }
 
 /* Page frame (56px gutters) */
