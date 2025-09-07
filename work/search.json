@@ -2,23 +2,23 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Selected Work",
+    "title": "Projects and Work",
     "section": "",
-    "text": "Welcome to my project archive. Each case study includes context, approach, results, and impact.\n\n\n\n\n\n\n\n\n\n\n\nExample Project\n\n\ntesting testing testing.\n\n\n\nSep 6, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "Testing to see if this is working. \n\n\n\n\n\n\n\n\n\n\n\nExample Project\n\n\ntesting testing testing.\n\n\n\nSep 6, 2025\n\n\n\n\n\n\n\n\n\n\nGender and the invisibility of care on Wikipedia\n\n\nExploring the types of Australian biographies that are created on Wikipedia.\n\n\n\nJul 1, 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects/example.html",
     "href": "projects/example.html",
     "title": "Example Project",
     "section": "",
-    "text": "Short summary of the problem."
+    "text": "2025-09-06"
   },
   {
     "objectID": "projects/example.html#context",
     "href": "projects/example.html#context",
     "title": "Example Project",
-    "section": "",
-    "text": "Short summary of the problem."
+    "section": "Context",
+    "text": "Context\nShort summary of the problem."
   },
   {
     "objectID": "projects/example.html#approach",
@@ -40,5 +40,40 @@
     "title": "Example Project",
     "section": "Impact",
     "text": "Impact\nWhat changed because of your work?"
+  },
+  {
+    "objectID": "projects/gender_and_care.html",
+    "href": "projects/gender_and_care.html",
+    "title": "Gender and the invisibility of care on Wikipedia",
+    "section": "",
+    "text": "2023-07-01"
+  },
+  {
+    "objectID": "projects/gender_and_care.html#result",
+    "href": "projects/gender_and_care.html#result",
+    "title": "Gender and the invisibility of care on Wikipedia",
+    "section": "Result",
+    "text": "Result\n\nProduced a matched dataset linking Honours recipients with existing Wikipedia biographies.\n\nCreated a set of comparative charts highlighting differences in biography representation by gender and profession.\n\nIdentified strong patterns showing that women in caring professions (health, education, nursing) were less likely to have Wikipedia biographies than women in politics, the judiciary, or sport."
+  },
+  {
+    "objectID": "projects/gender_and_care.html#outcome",
+    "href": "projects/gender_and_care.html#outcome",
+    "title": "Gender and the invisibility of care on Wikipedia",
+    "section": "Outcome",
+    "text": "Outcome\n\nFindings were written up as a peer-reviewed article and published in Big Data & Society (July 2023).\n\nVisualisations (produced in R/ggplot2) were included in the final paper and presentation materials.\n\nThe project provided a reproducible workflow for linking government recognition systems (Australian Honours) with open knowledge sources (Wikipedia)."
+  },
+  {
+    "objectID": "projects/gender_and_care.html#impact",
+    "href": "projects/gender_and_care.html#impact",
+    "title": "Gender and the invisibility of care on Wikipedia",
+    "section": "Impact",
+    "text": "Impact\n\nHelped quantify and demonstrate the systemic invisibility of women in caring professions on Wikipedia.\n\nContributed to academic and public discussions on gender, recognition, and representation in digital knowledge platforms.\n\nPublication has been cited in ongoing research around data bias and visibility in open knowledge."
+  },
+  {
+    "objectID": "projects/gender_and_care.html#reflection",
+    "href": "projects/gender_and_care.html#reflection",
+    "title": "Gender and the invisibility of care on Wikipedia",
+    "section": "Reflection",
+    "text": "Reflection\n\nStrength: Data linking and visualisation made an abstract bias visible and easy to communicate.\n\nChallenge: Care-related roles often lack the “notability markers” Wikipedia uses, raising broader questions about how recognition is structured.\n\nCuriosity: While working alongside academic collaborators, I was the one who noticed the unexpected angle around caring professions. This discovery shaped the direction of the project, and I valued how my curiosity complemented the team’s expertise.\n\nCollaboration: Partnering with academics helped me translate this observation into publishable research, showing the value of combining different perspectives."
   }
 ]
