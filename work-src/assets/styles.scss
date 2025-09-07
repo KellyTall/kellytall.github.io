@@ -1,11 +1,17 @@
-/* ==== Tokens ==== */
+/*-- scss:defaults --*/
+/* (Optional) Map your colors to Bootstrap variables so components inherit them */
+$body-bg: #F1E9E5;       // light pink
+$body-color: #464660;    // dark blue
+
+/*-- scss:rules --*/
+/* Brand tokens for custom rules */
 :root {
   --dark_blue: #464660;
   --light_pink: #F1E9E5;
   --olive: #B4B897;
 }
 
-/* ==== Base ==== */
+/* Base */
 html, body { margin: 0; padding: 0; }
 body {
   font-family: neue-haas-unica, sans-serif;
@@ -14,18 +20,17 @@ body {
   background: var(--light_pink);
 }
 
-/* Headings */
-h1 { font-family: neue-haas-unica, sans-serif; font-weight: 500; font-size: 56px; line-height: 1.2; margin: 0; }
-h2 { font-size: 48px; }
-h3 { font-family: jaf-lapture-display, serif; font-weight: 400; font-size: 56px; line-height: 1.2; }
-
-/* ==== Page frame (56px gutters) ==== */
+/* Page frame (56px gutters) */
 .quarto-container,
 .page-columns,
-.page-columns .content { margin-left: 56px !important; margin-right: 56px !important; max-width: none !important; }
+.page-columns .content {
+  margin-left: 56px !important;
+  margin-right: 56px !important;
+  max-width: none !important;
+}
 .page-columns .content { max-width: 860px; } /* readability */
 
-/* ==== Navbar (light bg / dark text, 56px alignment) ==== */
+/* Navbar (light bg / dark text, aligned to 56px) */
 .navbar,
 .navbar .container-fluid,
 .navbar .navbar-collapse {
@@ -37,31 +42,27 @@ h3 { font-family: jaf-lapture-display, serif; font-weight: 400; font-size: 56px;
   border-bottom: 1px solid var(--dark_blue);
   box-shadow: none;
 }
-
-/* Wordmark left / menu right; align to 56px gutters */
-.navbar-brand { font-family: neue-haas-unica, sans-serif; font-weight: 500; font-size: 36px; color: var(--dark_blue) !important; margin-left: 56px; }
-.navbar-nav { display: flex; align-items: baseline; gap: 20px; margin-right: 56px; font-size: 18px; }
-.quarto-navbar-tools { display: none !important; } /* hide search/tools */
-
-/* Links: underline on hover, no pills */
-.navbar-nav .nav-link {
+.navbar-brand {
   font-family: neue-haas-unica, sans-serif;
-  font-weight: 300;
+  font-weight: 500; font-size: 36px;
   color: var(--dark_blue) !important;
-  padding: 10px 0;
-  text-decoration: none;
-  border-bottom: 1px solid transparent;
+  margin-left: 56px;
+}
+.navbar-nav {
+  display: flex; align-items: baseline; gap: 20px;
+  margin-right: 56px; font-size: 18px;
+}
+.quarto-navbar-tools { display: none !important; } /* hide search/tools */
+.navbar-nav .nav-link {
+  font-weight: 300; color: var(--dark_blue) !important;
+  padding: 10px 0; text-decoration: none; border-bottom: 1px solid transparent;
 }
 .navbar-nav .nav-link:hover,
-.navbar-nav .nav-link:focus {
-  color: var(--olive) !important;
-  border-bottom-color: var(--olive);
-}
+.navbar-nav .nav-link:focus { color: var(--olive) !important; border-bottom-color: var(--olive); }
 
-/* ==== Listing (Work index) — remove “cardy” look ==== */
+/* Listing (Work index) — remove “cardy” look */
 .listing-grid .card { background: transparent; border: none; box-shadow: none; padding: 0; }
-.listing-grid .card-title { font-family: jaf-lapture-display, serif; font-weight: 400; font-size: 28px; color: var(--dark_blue); }
+.listing-grid .card-title {
+  font-family: jaf-lapture-display, serif; font-weight: 400; font-size: 28px; color: var(--dark_blue);
+}
 .listing-grid .card-text, .listing-grid .card-date { color: var(--dark_blue); }
-
-/* Optional: temporary prove-it marker — remove after you see it working */
-body::after { content: "CSS ✓"; position: fixed; bottom: 10px; right: 14px; font-size: 12px; opacity: .35; }
