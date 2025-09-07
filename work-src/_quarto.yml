@@ -4,7 +4,6 @@ project:
 
 website:
   title: "hellomister"
-  description: "Case studies and selected projects."
   navbar:
     left:
       - text: "home"
@@ -18,12 +17,13 @@ website:
 
 format:
   html:
-    css: assets/styles_v2.scss
+    theme: default
+    css: assets/styles.scss
     include-in-header: |
       <link rel="stylesheet" href="https://use.typekit.net/rtn8uaf.css"> <!-- Adobe Fonts link -->
     include-after-body: |
       <script>
-        // shadow on scroll if you want to keep it
+        // optional: add shadow when scrolling
         window.addEventListener('scroll', function () {
           var nav = document.querySelector('.navbar');
           if (!nav) return;
@@ -33,3 +33,7 @@ format:
       </script>
     title-block-style: none
     title-block-banner: false
+
+
+
+          
