@@ -88,3 +88,26 @@ body {
 }
 .listing-grid .card-text,
 .listing-grid .card-date { color: var(--dark_blue); }
+
+/* === Header line fix: force exactly one hairline, remove all others === */
+header.navbar, .navbar, .navbar * {
+  border: 0 !important;
+  box-shadow: none !important;
+  background-image: none !important;
+}
+
+header.navbar { position: sticky; top: 0; z-index: 1000; }
+
+/* draw a single line inside the header using pseudo elements */
+header.navbar::before,
+header.navbar::after {
+  content: "";
+  position: absolute;
+  left: 56px;                 /* align with your page frame */
+  right: 56px;
+  height: 1px;
+  background: var(--dark_blue);
+  pointer-events: none;
+}
+header.navbar::before { top: 0; }
+header.navbar::after  { bottom: 0; }
