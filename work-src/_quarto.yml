@@ -17,7 +17,7 @@ website:
 
 format:
   html:
-    theme: default
+    theme: null
     css: assets/styles.scss
     include-in-header: |
       <link rel="stylesheet" href="https://use.typekit.net/rtn8uaf.css"> <!-- Adobe Fonts link -->
@@ -33,7 +33,3 @@ format:
       </script>
     title-block-style: none
     title-block-banner: false
-
-
-
-          
