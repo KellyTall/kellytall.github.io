@@ -25,7 +25,7 @@ body {
 }
 
 h2 {
-    font-size: 52px;
+    font-size: 48px;
 }
 
 .blurb {
@@ -36,7 +36,7 @@ h3 {
     font-family: alegreya, serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 56px;
+    font-size: 60px;
     line-height: 1.2;
 }
 
@@ -109,14 +109,14 @@ header {
     border-bottom: 1px solid var(--light_pink);
     padding-top: 6px;
     padding-bottom: 6px;
-    transition: box-shadow 0.2s ease-in-out;
+    /*transition: box-shadow 0.2s ease-in-out;*/
 }
 
 /* Shadow only when scrolling */
-header.is-scrolled {
+/*header.is-scrolled {
     box-shadow: 0 6px 18px rgba(0, 0, 0, .3);
 }
-
+*/
 /* ==== Work & Project pages: light theme ==== */
 body.work,
 body.project {
