@@ -5,13 +5,7 @@
     --olive: #B4B897;
 }
 
-/*.alegreya-<uniquifier> {
-  font-family: "Alegreya", serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-}
-*/
+
 body {
     font-family: neue-haas-unica, sans-serif;
     font-weight: 300;
@@ -31,7 +25,7 @@ body {
 }
 
 h2 {
-    font-size: 48px;
+    font-size: 52px;
 }
 
 .blurb {
