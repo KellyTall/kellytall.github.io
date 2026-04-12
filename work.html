@@ -1,85 +1,385 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <link rel="stylesheet" href="https://use.typekit.net/rtn8uaf.css" />
-  <link rel="stylesheet" href="css/style.css" />
-  <title>Work — hellomister</title>
-</head>
-<body class="work">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital@0;1&family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500&display=swap" rel="stylesheet">
+  <title>work — hellomister</title>
+  <style>
+    :root {
+      --dark_blue: #464660;
+      --light_pink: #F1E9E5;
+      --green: #368B85;
+      --olive: #B4B897;
+      --orange: #F16A4D;
+      --teal: #41C0CF;
+    }
 
-  <!-- existing header -->
+    *, *::before, *::after { box-sizing: border-box; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      font-weight: 300;
+      background: var(--light_pink);
+      color: var(--dark_blue);
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* ── Header ── */
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: var(--light_pink);
+      border-top: 1px solid var(--dark_blue);
+      border-bottom: 1px solid var(--dark_blue);
+      padding: 6px 56px;
+    }
+
+    .navbar {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      max-width: 1440px;
+      margin: 0 auto;
+    }
+
+    .navbar h1 {
+      font-family: 'Inter', sans-serif;
+      font-size: 56px;
+      font-weight: 500;
+      margin: 0;
+      line-height: 1;
+    }
+
+    .navbar h1 a {
+      text-decoration: none;
+      color: var(--dark_blue);
+    }
+
+    nav ul {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      gap: 12px;
+    }
+
+    nav ul li p {
+      margin: 0;
+    }
+
+    nav ul li p a {
+      text-decoration: none;
+      color: var(--dark_blue);
+      font-size: 20px;
+      font-weight: 300;
+    }
+
+    nav ul li p a:hover,
+    nav ul li p a.active {
+      color: var(--olive);
+      border-bottom: 1px solid var(--olive);
+    }
+
+    /* ── Main content ── */
+    main {
+      flex: 1;
+      max-width: 1440px;
+      margin: 0 auto;
+      padding: 64px 56px 80px;
+      width: 100%;
+    }
+
+    .page-heading {
+      font-family: 'Alegreya', serif;
+      font-size: 60px;
+      font-weight: 400;
+      line-height: 1.2;
+      margin: 0 0 8px;
+      color: var(--dark_blue);
+    }
+
+    .page-sub {
+      font-size: 18px;
+      font-weight: 300;
+      color: var(--dark_blue);
+      opacity: 0.7;
+      margin: 0 0 56px;
+    }
+
+    /* ── Work grid ── */
+    .work-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+      gap: 32px;
+    }
+
+    .work-tile {
+      display: flex;
+      flex-direction: column;
+      text-decoration: none;
+      color: var(--dark_blue);
+      border: 1px solid var(--dark_blue);
+      border-radius: 4px;
+      overflow: hidden;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      background: var(--light_pink);
+    }
+
+    .work-tile:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 24px rgba(70, 70, 96, 0.15);
+    }
+
+    /* ── Thumbnail ── */
+    .thumb {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      position: relative;
+      overflow: hidden;
+      border-bottom: 1px solid var(--dark_blue);
+    }
+
+    /* Democracy thumbnail — SVG illustration */
+    .thumb-democracy {
+      background: #F1E9E5;
+    }
+
+    .thumb svg {
+      width: 100%;
+      height: 100%;
+    }
+
+    /* ── Tile body ── */
+    .tile-body {
+      padding: 20px 24px 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      flex: 1;
+    }
+
+    .tile-tag {
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--green);
+    }
+
+    .tile-title {
+      font-family: 'Alegreya', serif;
+      font-size: 26px;
+      font-weight: 400;
+      line-height: 1.25;
+      margin: 0;
+      color: var(--dark_blue);
+    }
+
+    .tile-desc {
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 1.6;
+      color: var(--dark_blue);
+      opacity: 0.8;
+      margin: 0;
+      flex: 1;
+    }
+
+    .tile-meta {
+      font-size: 12px;
+      font-weight: 400;
+      color: var(--dark_blue);
+      opacity: 0.5;
+      margin-top: 8px;
+    }
+
+    /* ── Footer ── */
+    footer {
+      display: flex;
+      justify-content: flex-end;
+      border-bottom: 1px solid var(--dark_blue);
+      padding: 0 56px;
+    }
+
+    .contact p a {
+      text-decoration: none;
+      color: var(--dark_blue);
+      font-size: 20px;
+      padding-top: 12px;
+      display: inline-block;
+    }
+
+    .contact p a:hover {
+      color: var(--olive);
+      border-bottom: 1px solid var(--olive);
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 640px) {
+      header { padding: 6px 24px; }
+      .navbar h1 { font-size: 36px; }
+      main { padding: 40px 24px 64px; }
+      footer { padding: 0 24px; }
+      .page-heading { font-size: 42px; }
+      .work-grid { grid-template-columns: 1fr; gap: 24px; }
+    }
+  </style>
+</head>
+<body>
+
   <header>
     <div class="navbar">
-      <h1>hellomister</h1>
+      <h1><a href="index.html">hellomister</a></h1>
       <nav>
         <ul>
           <li><p><a href="index.html">home</a></p></li>
+          <li><p><a href="work.html" class="active">work</a></p></li>
           <li><p><a href="about.html">about</a></p></li>
-          <li><p><a href="work.html">work</a></p></li>
-          <li><p><a href="things.html">things</a></p></li>
         </ul>
       </nav>
     </div>
   </header>
 
-  <main class="work-page">
-    <h1>Selected work</h1>
+  <main>
+    <h2 class="page-heading">Work</h2>
+    <p class="page-sub">Projects in data visualisation, research and storytelling.</p>
+
     <div class="work-grid">
 
-      <!-- ggplot example -->
-      <a class="work-tile" href="projects/ggplot-1.html">
-        <div class="work-thumb" style="background-image:url('assets/thumbs/ggplot-1.jpg');"></div>
-        <div class="work-body">
-          <h3>GGPlot series</h3>
-          <div class="meta">R · ggplot2 · static PNG/SVG</div>
+      <!-- Democracy project tile -->
+      <a href="democracy.html" class="work-tile">
+        <div class="thumb thumb-democracy">
+          <svg viewBox="0 0 480 270" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+            <!-- Background -->
+            <rect width="480" height="270" fill="#F1E9E5"/>
+
+            <!-- Title text -->
+            <text x="24" y="40" font-family="Georgia, serif" font-size="18" font-weight="400" fill="#464660">The State of Democracy</text>
+            <line x1="24" y1="50" x2="456" y2="50" stroke="#464660" stroke-width="0.5" opacity="0.4"/>
+
+            <!-- Left panel label -->
+            <text x="24" y="72" font-family="Arial, sans-serif" font-size="9" font-weight="600" fill="#464660" opacity="0.7">Biggest increases</text>
+            <text x="24" y="83" font-family="Arial, sans-serif" font-size="8" font-weight="400" fill="#464660" opacity="0.5">Credible elections</text>
+
+            <!-- Right panel label -->
+            <text x="252" y="72" font-family="Arial, sans-serif" font-size="9" font-weight="600" fill="#464660" opacity="0.7">Largest decreases</text>
+            <text x="252" y="83" font-family="Arial, sans-serif" font-size="8" font-weight="400" fill="#464660" opacity="0.5">Credible elections</text>
+
+            <!-- Left bars (positive / teal) -->
+            <!-- Track -->
+            <rect x="24" y="97" width="204" height="3" rx="1.5" fill="#d4ccc8"/>
+            <rect x="64" y="97" width="80" height="3" rx="1.5" fill="#41C0CF"/>
+            <circle cx="64" cy="98.5" r="5" fill="#9a9098"/>
+            <circle cx="144" cy="98.5" r="5" fill="#41C0CF"/>
+            <text x="24" y="93" font-family="Arial, sans-serif" font-size="8" fill="#464660" opacity="0.7">The Gambia</text>
+
+            <rect x="24" y="115" width="204" height="3" rx="1.5" fill="#d4ccc8"/>
+            <rect x="90" y="115" width="60" height="3" rx="1.5" fill="#41C0CF"/>
+            <circle cx="90" cy="116.5" r="5" fill="#9a9098"/>
+            <circle cx="150" cy="116.5" r="5" fill="#41C0CF"/>
+            <text x="24" y="111" font-family="Arial, sans-serif" font-size="8" fill="#464660" opacity="0.7">Armenia</text>
+
+            <rect x="24" y="133" width="204" height="3" rx="1.5" fill="#d4ccc8"/>
+            <rect x="80" y="133" width="55" height="3" rx="1.5" fill="#41C0CF"/>
+            <circle cx="80" cy="134.5" r="5" fill="#9a9098"/>
+            <circle cx="135" cy="134.5" r="5" fill="#41C0CF"/>
+            <text x="24" y="129" font-family="Arial, sans-serif" font-size="8" fill="#464660" opacity="0.7">Zimbabwe</text>
+
+            <rect x="24" y="151" width="204" height="3" rx="1.5" fill="#d4ccc8"/>
+            <rect x="95" y="151" width="45" height="3" rx="1.5" fill="#41C0CF"/>
+            <circle cx="95" cy="152.5" r="5" fill="#9a9098"/>
+            <circle cx="140" cy="152.5" r="5" fill="#41C0CF"/>
+            <text x="24" y="147" font-family="Arial, sans-serif" font-size="8" fill="#464660" opacity="0.7">Angola</text>
+
+            <rect x="24" y="169" width="204" height="3" rx="1.5" fill="#d4ccc8"/>
+            <rect x="100" y="169" width="38" height="3" rx="1.5" fill="#41C0CF"/>
+            <circle cx="100" cy="170.5" r="5" fill="#9a9098"/>
+            <circle cx="138" cy="170.5" r="5" fill="#41C0CF"/>
+            <text x="24" y="165" font-family="Arial, sans-serif" font-size="8" fill="#464660" opacity="0.7">Kosovo</text>
+
+            <!-- Right bars (negative / orange) -->
+            <rect x="252" y="97" width="204" height="3" rx="1.5" fill="#d4ccc8"/>
+            <rect x="252" y="97" width="120" height="3" rx="1.5" fill="#F16A4D"/>
+            <circle cx="252" cy="98.5" r="5" fill="#F16A4D"/>
+            <circle cx="372" cy="98.5" r="5" fill="#9a9098"/>
+            <text x="252" y="93" font-family="Arial, sans-serif" font-size="8" fill="#464660" opacity="0.7">Haiti</text>
+
+            <rect x="252" y="115" width="204" height="3" rx="1.5" fill="#d4ccc8"/>
+            <rect x="252" y="115" width="100" height="3" rx="1.5" fill="#F16A4D"/>
+            <circle cx="252" cy="116.5" r="5" fill="#F16A4D"/>
+            <circle cx="352" cy="116.5" r="5" fill="#9a9098"/>
+            <text x="252" y="111" font-family="Arial, sans-serif" font-size="8" fill="#464660" opacity="0.7">Myanmar</text>
+
+            <rect x="252" y="133" width="204" height="3" rx="1.5" fill="#d4ccc8"/>
+            <rect x="252" y="133" width="90" height="3" rx="1.5" fill="#F16A4D"/>
+            <circle cx="252" cy="134.5" r="5" fill="#F16A4D"/>
+            <circle cx="342" cy="134.5" r="5" fill="#9a9098"/>
+            <text x="252" y="129" font-family="Arial, sans-serif" font-size="8" fill="#464660" opacity="0.7">Nicaragua</text>
+
+            <rect x="252" y="151" width="204" height="3" rx="1.5" fill="#d4ccc8"/>
+            <rect x="252" y="151" width="75" height="3" rx="1.5" fill="#F16A4D"/>
+            <circle cx="252" cy="152.5" r="5" fill="#F16A4D"/>
+            <circle cx="327" cy="152.5" r="5" fill="#9a9098"/>
+            <text x="252" y="147" font-family="Arial, sans-serif" font-size="8" fill="#464660" opacity="0.7">Niger</text>
+
+            <rect x="252" y="169" width="204" height="3" rx="1.5" fill="#d4ccc8"/>
+            <rect x="252" y="169" width="65" height="3" rx="1.5" fill="#F16A4D"/>
+            <circle cx="252" cy="170.5" r="5" fill="#F16A4D"/>
+            <circle cx="317" cy="170.5" r="5" fill="#9a9098"/>
+            <text x="252" y="165" font-family="Arial, sans-serif" font-size="8" fill="#464660" opacity="0.7">Guinea-Bissau</text>
+
+            <!-- Divider line -->
+            <line x1="238" y1="60" x2="238" y2="220" stroke="#464660" stroke-width="0.5" opacity="0.2"/>
+
+            <!-- Bottom sparklines hint -->
+            <text x="24" y="218" font-family="Arial, sans-serif" font-size="8" fill="#464660" opacity="0.4">1975 ————————— 2024</text>
+
+            <!-- Colour key dots -->
+            <circle cx="24" cy="240" r="4" fill="#41C0CF"/>
+            <text x="33" y="243" font-family="Arial, sans-serif" font-size="8" fill="#464660" opacity="0.6">increases</text>
+            <circle cx="90" cy="240" r="4" fill="#F16A4D"/>
+            <text x="99" y="243" font-family="Arial, sans-serif" font-size="8" fill="#464660" opacity="0.6">decreases</text>
+
+            <!-- IDEA credit -->
+            <text x="456" y="260" font-family="Arial, sans-serif" font-size="7" fill="#464660" opacity="0.35" text-anchor="end">Source: IDEA Global State of Democracy 2025</text>
+          </svg>
+        </div>
+        <div class="tile-body">
+          <span class="tile-tag">Data visualisation · 2025</span>
+          <h3 class="tile-title">The State of Democracy</h3>
+          <p class="tile-desc">An interactive exploration of how democracy has shifted across 203 countries from 1975 to 2024, using the International IDEA Global State of Democracy dataset.</p>
+          <p class="tile-meta">Interactive HTML · IDEA data · 16 measures</p>
         </div>
       </a>
 
-      <!-- static graphic -->
-      <a class="work-tile" href="projects/static-graphic-1.html">
-        <div class="work-thumb" style="background-image:url('assets/thumbs/static-1.jpg');"></div>
-        <div class="work-body">
-          <h3>Static graphic (print)</h3>
-          <div class="meta">Editorial layout · high-res</div>
+      <!-- Placeholder tile — easy to duplicate -->
+      <!--
+      <a href="#" class="work-tile">
+        <div class="thumb" style="background: var(--olive); opacity: 0.3;"></div>
+        <div class="tile-body">
+          <span class="tile-tag">Category · Year</span>
+          <h3 class="tile-title">Project title</h3>
+          <p class="tile-desc">Short description of the project.</p>
+          <p class="tile-meta">Tool · Data source</p>
         </div>
       </a>
-
-      <!-- D3 interactive -->
-      <a class="work-tile" href="projects/d3-1.html">
-        <div class="work-thumb" style="background-image:url('assets/thumbs/d3-1.jpg');"></div>
-        <div class="work-body">
-          <h3>D3 interactive</h3>
-          <div class="meta">JavaScript · D3.js</div>
-        </div>
-      </a>
-
-      <!-- dashboard -->
-      <a class="work-tile" href="projects/dashboard-1.html">
-        <div class="work-thumb" style="background-image:url('assets/thumbs/dashboard-1.jpg');"></div>
-        <div class="work-body">
-          <h3>Dashboard snapshot</h3>
-          <div class="meta">Power BI/Observable/HTML</div>
-        </div>
-      </a>
-
-      <!-- Wikipedia care project -->
-<a class="work-tile" href="projects/wikipedia-care.html">
-  <div class="work-thumb" style="background-image:url('assets/thumbs/wikipedia-care.jpg');"></div>
-  <div class="work-body">
-    <h3>Gender & the invisibility of care on Wikipedia</h3>
-    <div class="meta">R · ggplot2 · data linking · 2023</div>
-  </div>
-</a>
+      -->
 
     </div>
   </main>
 
   <footer>
     <div class="contact">
-      <p><a href="mailto:kelly@hellomister.com.au">say hello 👋</a></p>
+      <p><a href="mailto:&#107;&#101;&#108;&#108;&#121;&#064;&#104;&#101;&#108;&#108;&#111;&#109;&#105;&#115;&#116;&#101;&#114;&#046;&#099;&#111;&#109;&#046;&#097;&#117;?subject=Hello" target="_blank">say hello 👋</a></p>
     </div>
   </footer>
+
 </body>
 </html>
